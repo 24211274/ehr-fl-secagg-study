@@ -1,4 +1,4 @@
-# EHR federated anomaly-detection study — supervisor review
+# EHR federated anomaly-detection study —  review
 
 A post-experiment handover of the implementation and audited results for campaign `20260909T142009Z_2ad79bf6`. The Git history starts at handover; it is **not** a reconstructed or backdated development history.
 
