@@ -1,0 +1,20 @@
+{
+  "source_package": "EHR_FL_FullSize_BC_Pilot_Package_v1_0.zip",
+  "source_package_sha256": "2b4d8830b516afcde15ceae1eaa16265a7f8646df22c5090d0a1c530ce31e915",
+  "task_functions": {
+    "fit_one_client": "ef8354735dad6ad27a7a15a8d7dbd81e085aed1bb0d67c625923e201b135b960",
+    "local_eval": "cd3fb93fdd2d03c96505042702beaa95d8667bf89b3642a780dcb4b63fba3be6",
+    "setup_torch": "bc0a92aa5762bda8fbe86b83cc205af57a83b4f64c671f317c0dbad9514716cc",
+    "model_factory": "1be808bcf70954addd99720de8ff392176436b17be5ffc49a733b96808eb90a0",
+    "fresh_global": "99d37cd9a8ae0e81e7c1a282d5753b1e863e379fbc35032629f97b179229f23b"
+  },
+  "whole_files": {
+    "app/pilot_core/model.py": "6b5f60add681eabbed16255562cc0067acc0274ff1cdc34c2a1c4fef0b422141",
+    "app/pilot_core/core.py": "736409689b0417b7081c39c3515ddbeca6e730a8c36b4d9d1c9b8c20c0094e57",
+    "app/ehr_fedavg/math_checks.py": "58b5d12c4af500741ea291725c64b8068c52b68857886846c1aaae3b86d48484",
+    "app/mai_runtime_identity.py": "798e2f142cbb8ad471c0c2ca9f8f15c17a07c8cc89e39981d0db2748606c0497",
+    "app/ehr_secagg/policy.py": "5f863f27d9e08952cf122dc1713e0eb273932cdc236e4667a34c18a75d559256",
+    "app/ehr_secagg/wire.py": "e224589f53235d639ffbc845ae1482b96ffa93117a625d48c0da9c06b10d2e2d",
+    "validation_support/sources/backport_secaggplus_utils.py": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c"
+  }
+}

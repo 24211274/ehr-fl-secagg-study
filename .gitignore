@@ -1,0 +1,25 @@
+# Runtime outputs are not part of the handover.
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+venv/
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+# Root-level raw/private assets must be transferred separately.
+/private_assets/
+/raw_data/
+/campaigns/
+/final_evaluation/
+/publish_reports/
+# Archived reference CSVs and selected historical logs in executed/ are intentional.

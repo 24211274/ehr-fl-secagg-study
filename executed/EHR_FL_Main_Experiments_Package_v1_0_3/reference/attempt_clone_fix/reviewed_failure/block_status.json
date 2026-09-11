@@ -1,0 +1,31 @@
+{
+  "block_id": "MAIN-11-reference",
+  "attempt": 1,
+  "status": "FAILED",
+  "path": "attempts/MAIN-11-reference/attempt_1",
+  "error_type": "RuntimeError",
+  "message": "Worker exit 1; inspect B_probe.log",
+  "root_error_type": "FileExistsError",
+  "completed_cells": [
+    {
+      "status": "PASS",
+      "configuration": "A",
+      "condition": "reference",
+      "seed": 11,
+      "phase": "MAIN_CONTROLLED_COMPARISON",
+      "main_training_performed": true,
+      "inherited_pilot_freeze_flags_do_not_grant_campaign_authorisation": true,
+      "rounds": 30,
+      "selected_round": 30,
+      "initial_state_digest": "ae014b38520cbecd44e95ef0abfd869293802c434cf781e49f734fe58444b769",
+      "selected_checkpoint_sha256": "b588d7da98d1114b73775b896a249891883070fe6891222d391a36e3215e9522",
+      "calibration_sha256": "0f661c0f9d9191f58f7d7ffb7f0aa5ff41ec58380a44130857fdd9605c58190a",
+      "validation_scores_sha256": "8be2b3edee0dc0d47b97f28dc5d2e94ca515f8473f8b9d4d514f736a357bbc75",
+      "test_data_opened": false,
+      "final_test_authorised": false,
+      "privacy_certification": false
+    }
+  ],
+  "test_data_opened": false,
+  "privacy_claim_validated": false
+}

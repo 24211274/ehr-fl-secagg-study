@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "configuration": "A",
+  "condition": "reference",
+  "rounds_completed": 30,
+  "training_seed": 11,
+  "initial_state_digest": "ae014b38520cbecd44e95ef0abfd869293802c434cf781e49f734fe58444b769",
+  "selected_round": 30,
+  "selected_state_digest": "e1f64e20a3b10763885f1a63dc57ffce601cdd32290e3a870bf96dfa17da0981",
+  "final_validation_loss": 0.06338601357116884,
+  "selected_validation_loss": 0.06338601357116884,
+  "local_updates": 5100,
+  "fit_wall_ns_total": 416454086134,
+  "evaluation_wall_seconds_total": 202.9927331479999,
+  "elapsed_seconds": 630.301412292,
+  "sampled_process_tree_peak_rss_MiB": 840.421875,
+  "test_data_opened": false,
+  "optimizer_reset_each_epoch": true,
+  "partial_last_batch_sessions": 17,
+  "selected_checkpoint_sha256": "b588d7da98d1114b73775b896a249891883070fe6891222d391a36e3215e9522"
+}

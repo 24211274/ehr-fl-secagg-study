@@ -1,0 +1,4 @@
+Source: researcher-pasted traceback in this conversation (not a new remote read).
+ServerApp -> DefaultWorkflow -> measured_workflow -> default_fit_workflow -> BoundedGrid -> IdentityCheckedTransport -> ObservedRawGrid.send_and_receive -> mai_measurement.descriptor
+ValueError: Message outside fixed timing rounds/phases
+The traceback did not include the rejected round value.

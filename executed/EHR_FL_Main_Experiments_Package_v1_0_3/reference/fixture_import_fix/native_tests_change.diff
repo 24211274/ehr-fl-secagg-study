@@ -1,0 +1,45 @@
+--- v1.0.1/tests_main/test_attempt_staging.py
++++ v1.0.2/tests_main/test_attempt_staging.py
+@@ -103,10 +103,9 @@
+ @unittest.skipUnless(importlib.util.find_spec('flwr') is not None,'Native patched Flower mandatory on target')
+ class NativeCloneReprobeTests(unittest.TestCase):
+     def check(self, mode, condition):
+-        import importlib
+         from main_study.design import cell_config, bind_app
+-        from ehr_fedavg.host import local_environment, write_project
+-        module=importlib.import_module(('ehr_secagg' if mode=='C' else 'ehr_fedavg')+'.bundle_checks')
++        from ehr_fedavg.host import write_project
++        from tests_main._isolated_app_probe import run_isolated_probe
+         with tempfile.TemporaryDirectory(prefix='native template clone ') as t:
+             root=Path(t);template=make_template(root/'template',mode,condition)
+             shutil.rmtree(template/'apps');shutil.rmtree(template/'bundle_preflight')
+@@ -117,14 +116,21 @@
+             p=app/'pyproject.toml';s=p.read_text().replace('num-server-rounds = 6','num-server-rounds = 30')
+             if mode=='C':s=s.replace('ehr_fedavg.server_app','ehr_secagg.server_app').replace('ehr_fedavg.client_app','ehr_secagg.client_app')
+             p.write_text(s)
+-            real=module.probe_unpacked_fab
+-            def no_data(fab,appdir,work,runtime,env):
+-                return real(fab,appdir,work,None,env,require_flower=True)
+-            with patch.object(module,'probe_unpacked_fab',side_effect=no_data):
+-                first=module.preflight_native_fab(app,template,condition,template/'reports/first.json',local_environment(template/'probe_flower_home'))
+-                before=snapshot(template)
+-                attempt=stage_attempt_job(template,root/'attempt')
+-                second=module.preflight_native_fab(attempt/'apps'/condition,attempt,condition,attempt/'reports/second.json',local_environment(attempt/'probe_flower_home'))
++            # Each probe imports the resources from its own bound application,
++            # as scripts/job_worker.py does in the actual preparation workflow.
++            # The unittest process already loaded release-default resources.
++            first=run_isolated_probe(app,template,mode,condition,
++                                      template/'reports/first.json',native=True)
++            before=snapshot(template)
++            attempt=stage_attempt_job(template,root/'attempt')
++            second=run_isolated_probe(attempt/'apps'/condition,attempt,mode,condition,
++                                       attempt/'reports/second.json',native=True)
++            for result,target in ((first,app),(second,attempt/'apps'/condition)):
++                self.assertEqual(result['test_fixture_import']['config_sha256'],
++                                 sha(target/'ehr_fedavg/fixed_config.json'))
++                self.assertEqual(result['test_fixture_import']['training_seed'],11)
++                self.assertEqual(result['test_fixture_import']['rounds'],30)
++                self.assertEqual(result['test_fixture_import']['condition'],condition)
+             self.assertEqual(first['status'],'PASS');self.assertEqual(second['status'],'PASS')
+             self.assertEqual(before,snapshot(template))
+             self.assertTrue(second['native_flower_build_executed'])

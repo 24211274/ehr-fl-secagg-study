@@ -1,0 +1,22 @@
+{
+  "retrieved_on": "2026-09-08",
+  "framework_ref": "v1.22.0",
+  "counter": {
+    "url": "https://github.com/flwrlabs/flower/blob/v1.22.0/framework/py/flwr/common/record/configrecord.py",
+    "upstream_file_git_blob_sha": "c9b927c2b3d3180f6b063366f8cd5ae3bf8d6a33",
+    "evidence": "count_bytes accesses v[0] without checking list length; get_var_bytes also rejects a zero-length str or bytes; it adds len(k) for every key.",
+    "local_excerpt": "flower122_config_count_method.py",
+    "local_excerpt_sha256": "8c436360197787196997a96edd6708c7ffa542a9a033a37045ec2e83751ab448",
+    "local_excerpt_not_full_module": true
+  },
+  "unmask": {
+    "url": "https://github.com/flwrlabs/flower/blob/v1.22.0/framework/py/flwr/server/workflow/secure_aggregation/secaggplus_workflow.py",
+    "upstream_file_git_blob_sha": "604aba2e1b71a1af06f95521cf00d70b1435601a",
+    "evidence": "dead_nids = sampled_node_ids - active_nids; outgoing unmask ConfigRecord includes list(neighbours & dead_nids)."
+  },
+  "metric": {
+    "url": "https://github.com/flwrlabs/flower/blob/v1.22.0/framework/py/flwr/common/record/metricrecord.py",
+    "upstream_file_git_blob_sha": "d6aa54c6928949030c2c3deb465668f27bbdec19",
+    "evidence": "MetricRecord.count_bytes uses 8*len(v) for lists and is not affected by this indexing error."
+  }
+}

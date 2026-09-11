@@ -1,0 +1,27 @@
+{
+  "status": "AUDIT_ARITHMETIC_AND_OUTPUT_CHECKS_PASS",
+  "arithmetic_fixture_tests_passed": 12,
+  "arithmetic_fixture_tests_failed": 0,
+  "two_complete_real_score_audits_passed": true,
+  "shared_csv_outputs_byte_identical_across_runs": 10,
+  "new_second_run_table": "descriptive_AUROC_mixture_checks.csv",
+  "checks_on_actual_export": {
+    "score_file_count": 60,
+    "score_rows": 90270,
+    "unique_sessions": 3009,
+    "rank_computation_groups": 300,
+    "primary_and_secondary_AP_AUROC_values": 600,
+    "independent_formulas_compared_to_sklearn": true,
+    "report_metric_max_absolute_difference": 3.3306690738754696e-16,
+    "decision_metric_groups": 720,
+    "mismatches": 0
+  },
+  "audit_source_sha256": "bd952e00a3e125ba2f74af3054b98b765af5267dfdb9704194cc555ff92f33dc",
+  "fixture_source_sha256": "07de940341f5b04d1c9c60430985dff9121f6dbf3047d0a53388e9eafec0530d",
+  "models_loaded": false,
+  "new_scores_generated_by_models": false,
+  "new_training": false,
+  "thresholds_refitted": false,
+  "input_archives_unchanged": true,
+  "scope": "Local file/score arithmetic only; no remote device access, training, inference or cryptographic certification."
+}

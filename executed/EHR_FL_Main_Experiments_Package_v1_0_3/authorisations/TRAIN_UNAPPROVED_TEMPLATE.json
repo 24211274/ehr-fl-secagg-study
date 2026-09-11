@@ -1,0 +1,8 @@
+{
+  "approved": false,
+  "campaign_manifest_sha256": null,
+  "package_manifest_sha256": null,
+  "note": "Unapproved template. Populate only following review of this exact campaign; not authentication.",
+  "action": "TRAIN",
+  "test_data_authorised": false
+}

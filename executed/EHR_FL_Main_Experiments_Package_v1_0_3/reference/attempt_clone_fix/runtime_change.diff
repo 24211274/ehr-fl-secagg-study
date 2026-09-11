@@ -1,0 +1,458 @@
+--- v1.0/MAIN_IMPLEMENTATION.md
++++ v1.0.1/MAIN_IMPLEMENTATION.md
+@@ -40,3 +40,6 @@
+ Root timing configs exist for regression tests only. All main apps are copied and bound to explicit per-job resources, and native FABs are tested for every B/C seed-condition. Inherited engine reports retain their `main_experiments_frozen:false` guard because that engine never grants authority. Campaign receipts and new `cell_complete.json` phase fields record main authorisation/execution. Do not use the inherited pilot guard as a claim that an authorised main run did not occur.
+ 
+ The current release performs Prepare only. Its full-size A one-epoch engineering result is labelled separately and never included as a main run. Main training and real final scoring remain unexecuted until the corresponding release gates are met.
++
++## Release 1.0.1 execution-staging amendment
++CODE_REPAIR.md supersedes the v1.0 execution-copy/prepare description only. A completed in the parent first main block; B failed before training because a prepared FAB probe directory was copied. Only sealed input roots now enter attempts, and all three cells are probed before any cell trains. The exact template-Probe -> clone -> Probe lifecycle is checked in preparation for each B/C job. PrepareRepair preserves the parent, reuses its frozen inputs/initial states/draws byte-for-byte, and seals a new successor source before requesting a new training release. It does not repeat A's one-epoch engineering check or perform any new study-data training. Archived completed A remains disclosed as a partial main-block outcome and is not selected against later outcomes. This is a documented code repair, not a transient retry; final evaluator/selection/calibration, protocol decisions and all model/security source remain unchanged.
+--- v1.0/README.md
++++ v1.0.1/README.md
+@@ -1,28 +1,7 @@
+-# Main experiment runner and final evaluator — 1.0.0
++# EHR FL main experiments — code-repair release 1.0.1
+ 
+-**Current handoff: Prepare only.** Implements the adopted Decision Closure v1.1 without new models, frameworks, seeds or hyperparameter searches. Training and final-test evaluation are distinct, subsequently reviewed operations.
++This complete release corrects prepared-job cloning after the first main block's A cell completed and B's FAB probe failed. Use the Arabic README's **PrepareRepair** invocation for the specifically reviewed parent campaign. Do not re-run the old TrainNextBlock/RetryBlock or delete its diagnostic directories.
+ 
+-The environment is reused in place from the accepted patched B/C run: Python 3.12.3, CPU PyTorch 2.10.0+cpu and Flower 1.22.0+mai.prg7570.1. No installation or environment mutation is performed. A personal, trusted, single-host, loopback-only research deployment is assumed; there is no TLS, OS-level client isolation or privacy certification. The pinned PRG patch is neither changed nor represented as an upstream release.
++PrepareRepair creates a successor campaign, retains the parent as read-only evidence, copies the original frozen development inputs/initials/schedules byte-for-byte, and checks the full prepared-template/copy/native-reprobe lifecycle for every B/C job. It runs no new main training or final evaluation. An updated campaign-bound training receipt is required after review. The completed old A is preserved but no partial results or trained weights are imported into the successor's primary run set.
+ 
+-## Entry points
+-- `scripts/run_on_wsl.sh <package> Prepare <inference-run> <patched-run> <preprocessing-run>` creates a new campaign, validates development inputs, all native tests, five initial states, schedules and 20 native FABs, then executes one explicitly separate full-size A engineering epoch. It seals the campaign and stops; no main training or final test access.
+-- `... TrainNextBlock <campaign> <reviewed-training-receipt>` executes only the next adopted A/B/C block. A source- and campaign-bound receipt is mandatory. No automatic block loop, retries or seed replacement.
+-- `... RetryBlock <campaign> <reviewed-retry-receipt>` permits at most one entire-block repeat for an explicitly reviewed transient infrastructure cause. Code/security/numerical/unclassified worker failures cannot use this path. Partial and failed attempts remain in the record. A sudden machine crash can require manual failure review; there is no automatic resume.
+-- `... Evaluate <campaign> <reviewed-test-receipt> <original-benchmark-directory-or-ZIP>` verifies all 30 selected checkpoint/calibration identities before reading original final-test records. It refuses a pre-existing evaluation directory. A failed evaluation retains its test-exposure record; no rescore or retuning is automatic.
+-
+-Receipt examples in `authorisations/` are deliberately unapproved. They are workflow records, not digital signatures or authentication. The researcher has approved methodology and source preparation, not test access under the current handoff. See `README_AR.md` for exact current-machine commands.
+-
+-## Files and provenance
+-`protocol/decisions/` preserves the supplied closure documents. `main_study/` and `scripts/job_worker.py` add main orchestration, central training, calibration and evaluation. Proven model/client training/transport/PRG/measurement code is retained under `app/` and supporting directories. Original timing defaults remain in root `config/` solely for regression tests; every real job receives its own generated, hashed 30-round config in its isolated app tree.
+-
+-Known inputs are researcher-supplied synthetic linked tables. Public release and licence are not verified; the generator was not supplied. Original CSV hashes are preserved as a future final evaluator contract. The preparation reads only encoded routine training/validation and previously recorded structural metadata, not original final-test rows. Historical outside-of-record score exposure remains unconfirmed, not assumed absent.
+-
+-The final evaluator is exercised during development only on wholly fabricated numerical/event fixtures. Fixture AP values are not project findings. See `MAIN_IMPLEMENTATION.md` for exact metric, failure and measurement semantics, and `reports_preparation/` for the actual local tests and limitations.
+-
+-## Runtime and space
+-Use the existing non-root Linux venv; no pip/apt/Administrator or firewall changes. Preparation checks 4 GiB free; each main block checks 8 GiB. The new campaign contains private copies of development arrays, plus hard links within that campaign where supported. Job attempts are copied, never linked to original source data. Do not move the accepted venv or delete predecessor runs.
+-
+-All main rounds count towards reported total cost: the timing-pilot warm-up exclusion is not imported into main totals. Run-level fit, evaluation, startup, RSS and prepared-input inference scopes remain distinct. Application record-content bytes are not physical network traffic. Inherited B/C diagnostics differ, and timing is not pure cryptographic cost.
+-
+-## Local verification limits
+-Preparation-host Python is not the target Python version and Flower is unavailable here. Non-native tests and real routine-data A engineering checks were executed; native Flower/FAB/Deployment, all main training and real final test scoring require the target environment and appropriate later release. Successful preparation is not a claim that all 30 main jobs have run. No main-result checkpoint, test score or privacy certificate is included in this ZIP.
++See CODE_REPAIR.md for the execution-staging amendment and MAIN_IMPLEMENTATION.md for unchanged model, sampling, evaluation, privacy and authorisation boundaries. No dependencies are installed or upgraded. The existing accepted patched environment is reused. Existing destinations are not overwritten, original campaigns are not edited, final tests are not authorised, and the PRG patch itself is unchanged.
+--- v1.0/README_AR.md
++++ v1.0.1/README_AR.md
+@@ -1,73 +1,58 @@
+-# حزمة مشغّل التجارب الرئيسية ومقيّم النتائج
+-الإصدار 1.0.0 — 9 سبتمبر 2026
++# الإصدار 1.0.1 — تصحيح تجهيز محاولة التدريب الرئيسية
+ 
+-## ما الذي تنفّذه الآن؟
+-شغّل وضع **Prepare فقط**. هذا الوضع يبني حملة تجارب مرتبطة بالقرارات المعتمدة، ويختبر الكود وتطبيقات Flower في البيئة السابقة، ثم ينتج تقرير جاهزية. لا يبدأ التشغيلات الرئيسية الثلاثين، ولا يفتح صفوف الاختبار النهائي، ولا يحسب أداء الكشف عليها.
++## السبب والحدود
++توقفت المحاولة الأصلية MAIN-11-reference/attempt_1 بعد اكتمال A وقبل تدريب B. كان المشغّل ينسخ مجلد `bundle_preflight` الناتج من فحص قالب التطبيق إلى المحاولة الجديدة؛ رفض فحص FAB إعادة استخدام هذا المجلد كما ينبغي. التصحيح ينسخ مدخلات المهمة المختومة فقط، ولا ينسخ مخرجات الفحص السابقة. لا يُغيَّر `exist_ok=False` ولا تُحذف أدلة المحاولة.
+ 
+-تتضمن الحزمة أيضاً مشغّل التدريب ومقيّم النتائج، لكن تشغيلهما يحتاج سجلاً لاحقاً خاصاً بهذه الحملة وبصمات كودها ونماذجها. لا تعدّل قوالب الموافقة يدوياً لإجبار التنفيذ. هذه ضوابط سير عمل على جهاز موثوق، وليست مصادقة أو حماية من مدير الجهاز.
++هذه مشكلة كود وليست عطلاً عابراً في الشبكة؛ لا تستخدم RetryBlock، ولا تعدّل إذن التدريب القديم أو ملفات الحملة القديمة. تبقى A نتيجة تدريب رئيسي مكتملة في كتلة غير مكتملة، وليست تجربة pilot. تُحفظ النتيجة والتقارير ولا تُدمج مع خلايا من محاولة أخرى. بعد قبول تحضير النسخة المصححة، يُعاد تنفيذ الكتلة A/B/C كاملةً من البداية الثابتة، لا انتقاء أفضل نتيجة A بين المحاولتين.
+ 
+-لا تثبيت أو تنزيل للمكتبات. تبقى Python وFlower المعدّلة وPyTorch كما نجحت سابقاً. معلومات النشر والترخيص غير المتوفرة تبقى غير موثّقة. لا يدّعي الكود أن البيانات عامة، أو أن الإذن باستخدامها يمنح حق إعادة توزيعها.
++## ما يفعله PrepareRepair
++يتحقق من الحملة الأصلية وبصمات المصدر والتقريرين المقبولين، ومن أن حالة التقدم ما زالت محاولة واحدة فاشلة وA مكتملة. يتحقق من بقاء أوزان A ومعايرتها وملف درجات التحقق محلياً دون تغيير باستخدام البصمات فقط. لا يرسل الأوزان أو الدرجات.
+ 
+-## التشغيل في PowerShell عادية
+-احفظ ZIP في Downloads، ثم نفّذ:
++ينشئ حملة جديدة بالمصدر المصحح. تُنسخ مصفوفات التطوير والحالات الابتدائية الخمس وقوائم السحب المجمدة من الحملة الأصلية، مطابقةً بالبايت؛ لا تُعاد تهيئتها أو توليدها أو ملاءمة المعالجة. تُجهّز المهام الثلاثون من المدخلات نفسها.
++
++تعمل الاختبارات كلها دون تجاوز على البيئة المعتمدة. يُفحص كل قالب B/C، ثم تُنسخ مدخلاته إلى محاولة تجريبية جديدة بالطريقة نفسها المستخدمة في التدريب، ويُعاد فحص FAB في المكان الجديد. مجموع فحوص المهام 50: القوالب الثلاثون + النسخ العشرون لـB/C. لا يبدأ PrepareRepair خدمات التدريب، ولا يحدث أوزان النموذج على بيانات الدراسة، ولا يكرر دورة A الهندسية. يحتفظ بدليل نجاحها السابق لأن كود التدريب العددي لم يتغير.
++
++الحملة الأصلية لا تُعدّل. تُختم الحملة الجديدة بسجل تعديل موثّق. ملف إطلاق التدريب القديم لا يجيز تدريب الحملة الجديدة. التحضير ليس إطلاقاً للتدريب أو إذناً للاختبار.
++
++## التشغيل
++احفظ ZIP في Downloads وافتح PowerShell عادية دون Administrator. لا تشغّل تجربة أخرى بالتزامن. يلزم وجود مجلد الحملة الأصلية والبيئات السابقة، و4 GiB مساحة حرة داخل Linux. لا تثبيت أو تنزيل مكتبات.
+ 
+ ```powershell
+-Expand-Archive -LiteralPath "$env:USERPROFILE\Downloads\EHR_FL_Main_Experiments_Package_v1_0.zip" -DestinationPath "$env:USERPROFILE\EHR_FL_Main_Experiments_v1_0"
++Expand-Archive -LiteralPath "$env:USERPROFILE\Downloads\EHR_FL_Main_Experiments_Package_v1_0_1.zip" -DestinationPath "$env:USERPROFILE\EHR_FL_Main_Experiments_v1_0_1"
+ ```
+ 
+-إذا فشل فك الضغط توقف. ثم انسخ الأسطر الستة:
++بعد نجاح فك الضغط:
+ 
+ ```powershell
+ $WslExe = "$env:WINDIR\System32\wsl.exe"
+-$Package = "/mnt/c/Users/RNO/EHR_FL_Main_Experiments_v1_0/EHR_FL_Main_Experiments_Package_v1_0"
+-$InferenceRun = "/home/mai/EHR_FL_Inference_Seed_v1/runs/20260908T164243Z_526bf9b5"
+-$PatchedRun = "/home/mai/EHR_FL_Patched_BC_v1/runs/20260908T051118Z_5aa99ec3"
+-$PreRun = "/home/mai/EHR_FL_Pilot_Host_v1/preprocessing_runs/20260907T052916Z_328"
+-& $WslExe -d Ubuntu-24.04 --exec /bin/bash "$Package/scripts/run_on_wsl.sh" "$Package" Prepare "$InferenceRun" "$PatchedRun" "$PreRun"
++$Package = "/mnt/c/Users/RNO/EHR_FL_Main_Experiments_v1_0_1/EHR_FL_Main_Experiments_Package_v1_0_1"
++$ParentCampaign = "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d"
++& $WslExe -d Ubuntu-24.04 --exec /bin/bash "$Package/scripts/run_on_wsl.sh" "$Package" PrepareRepair "$ParentCampaign"
+ ```
+ 
+-لا تستخدم Administrator أو sudo. وصّل الشاحن وشغّل نسخة واحدة فقط، دون تجربة Flower أخرى. تحتاج مرحلة التحضير 4 GiB مساحة حرة على الأقل داخل Linux؛ يفضّل إبقاء 8 GiB أو أكثر لخطوة التدريب التالية ولنسخة Windows من التقارير. لا تحذف مجلدات التشغيل السابقة.
++المشغّل يقرأ مسارات البيئة ونتائج المعالجة والاستدلال السابقة من `origins.json` بالحملة المقبولة؛ لا تحتاج كتابة تلك المسارات مجدداً.
+ 
+-## مراحل Prepare
+-1. التحقق من الحزمة ومن تقرير الاستدلال والبذرة الإضافية ومن البيئة المعدّلة، والجرد قبل/بعد.
+-2. نسخ مصفوفات التدريب والتحقق إلى الحملة الجديدة، دون إعادة حساب الترميز أو معاملات المعالجة. مراجعة الأقسام التدريبية وقوائم الجلسات.
+-3. تشغيل الاختبارات الأصلية والجديدة؛ جميعها يجب أن تعمل دون فشل أو تجاوز في البيئة المستهدفة. حالات المقاييس النهائية داخل الاختبارات رقمية مصطنعة فقط.
+-4. اختبار SecAgg+ على متجهات عامة باستخدام البناء المعدّل.
+-5. تهيئة خمس حالات بداية جديدة للبذور 11 و29 و47 و71 و97، وإنشاء قوائم السحب الثلاثين جولة لكل حالة وبذرة قبل التدريب.
+-6. إعداد ملفات الحالات الثلاثين. بناء وفك وفحص عشرين FAB حقيقية لحالتي B وC، مع فحص تحميل بيانات الحالات الثلاثين.
+-7. تشغيل **دورة مركزية هندسية واحدة** بالحجم الكامل: 10,833 جلسة، 170 تحديثاً، وآخر دفعة 17 جلسة؛ للتحقق من مشغّل A الكامل في بيئتك. هذه ليست من التجارب الرئيسية، ولا تُستخدم أوزانها فيها. تتضمن إعادة تحميل النموذج ومعايرة تحقق واختبار استدلال هندسيين؛ لا درجات اختبار نهائي.
+-8. تثبيت بصمات المدخلات والتهيئات والكود وترتيب التجارب وإصدار التقرير. لا يبدأ تدريب B/C الفعلي في Prepare؛ بناء FAB وفحص استيرادها ليس تشغيل جولات Deployment.
+-
+-نجاح النهاية:
++رسائل التقدم المهمة:
+ 
+ ```text
++REVIEWED_FAILED_CAMPAIGN_CHECK_PASS_NO_MUTATION
++PARENT_FROZEN_INPUTS_INITIALS_AND_SCHEDULES_REUSED_BYTE_IDENTICAL
++ALL_20_PREPARED_TEMPLATE_COPY_AND_NATIVE_REPROBE_CHECKS_PASS
++UNCHANGED_A_ENGINEERING_GATE_RETAINED_NO_TRAINING_REPEATED
+ MAIN_PREPARATION_PASS_NOT_MAIN_TRAINING_OR_TEST
+ ```
+ 
+-يسبقها عدد من رسائل نجاح الفحوص؛ لا تعني رسالة واحدة اكتمال المرحلة. بعض الفحوص وتغليف عشرين تطبيقاً قد لا تنتج سطوراً مباشرةً، فلا تبدأ نسخة أخرى بسبب الانتظار.
++رسالة النجاح الأخيرة تخص تحضير الحملة الجديدة فقط. لا تشغّل TrainNextBlock أو PrepareRepair ثانيةً بعد النجاح دون مراجعة التقرير؛ لا حاجة إلى محاولات متكررة للحصول على أرقام مختلفة.
+ 
+-## التقرير
+-يُنشأ مجلد الحملة في:
++افتح مجلد التقرير:
+ 
+-```text
+-/home/mai/EHR_FL_Main_v1/campaigns/<run-id>
++```powershell
++explorer.exe "$env:USERPROFILE\EHR_FL_Main_Experiments_v1_0_1\EHR_FL_Main_Experiments_Package_v1_0_1"
+ ```
+ 
+-وتُنسخ نسخة التقرير إلى مجلد الحزمة على Windows باسم:
++ارفع أحدث `Main_Preparation_Report_....zip` في المحادثة، سواء نجح التحضير أم توقف. يحتفظ Ubuntu بالحملة الجديدة ويطبع مسارها. لا تعدّل المكتبات أو الأذونات أو Firewall أو بيانات الترميز.
+ 
+-```text
+-Main_Preparation_Report_<run-id>_<suffix>.zip
+-```
++## الثوابت
++كل ملفات `app` و`config` و`protocol` و`validation_support` وكل وظائف التدريب والمعايرة والتقييم وتفسير المقاييس السابقة لم تتغير. التعديل محصور في تجهيز المحاولة وترتيب الفحوص وسجل انتقال النسخة. الحملة الجديدة تبدأ دون خلايا مكتملة، ولا تعيد استخدام أوزان A المدرّبة. لا اختيار إعدادات استناداً إلى خسارة A التي ظهرت، ولا اطلاع جديد على الاختبار النهائي، ولا ادعاء شهادة خصوصية.
+ 
+-لفتحه:
+-
+-```powershell
+-explorer.exe "$env:USERPROFILE\EHR_FL_Main_Experiments_v1_0\EHR_FL_Main_Experiments_Package_v1_0"
+-```
+-
+-ارفع تقرير ZIP فقط هنا في المحادثة. لا ترسل مصفوفات النموذج أو المفاتيح أو الأقنعة أو الملفات الفردية المسماة LOCAL_ONLY. عند STOP احتفظ بالمحاولة ولا تغيّر الإصدار أو البذرة أو المهلة أو الإعدادات لتجاوز الفحص.
+-
+-## ما يأتي بعد مراجعته؟
+-تُربط موافقة تشغيل رئيسي ببصمة هذه الحملة والكود. ينفّذ `TrainNextBlock` كتلة واحدة متطابقة A/B/C حسب ترتيب القرارات، ثم يتوقف ويصدر تقريراً؛ لا توجد حلقة تلقائية تطلق جميع الكتل. توجد عشر كتل، كل منها بذرة واحدة وحالة توزيع واحدة. لا تؤخذ أوزان من الـpilot كنقطة بداية.
+-
+-بعد اكتمال الثلاثين نموذجاً تُثبت بصمات النماذج المختارة ومعايرات التحقق؛ يحتاج `Evaluate` إذناً منفصلاً يحدد هذه البصمات ومصدر الـbenchmark المطابق. الاختباران منفصلان، ولا يعاد ضبط النموذج أو العتبة بعد النتائج. لا تبدأ هذين الوضعين بالأوامر السابقة؛ المرحلة الحالية Prepare فقط.
++قبل تدريب أية كتلة لاحقاً، يجهّز المشغّل ويفحص A وB وC كلها أولاً، ثم يبدأ التدريب؛ فلا تستهلك A كامل ميزانيتها قبل اكتشاف عطل فحص B/C.
+--- v1.0/main_study/campaign.py
++++ v1.0.1/main_study/campaign.py
+@@ -5,6 +5,7 @@
+ from .common import *
+ from .design import (plan,ordered_blocks,department_rows,make_draws,distribution_audit,
+                      cell_config,stage_cell,decisions,DRAW_FIELDS)
++from .staging import stage_attempt_job
+ from central_smoke.identity import verify_manifest
+ from fullsize_support.integrity import check_report,package_report,copy_exclusive
+ 
+@@ -93,14 +94,23 @@
+     print('MAIN_UNIT_AND_EVALUATOR_FIXTURE_CHECKS_PASS',flush=True)
+ 
+ 
+-def prepare(campaign:Path,inference:Path,prior:Path,pre:Path):
++def prepare(campaign:Path,inference:Path,prior:Path,pre:Path,*,repair_parent:Path|None=None):
+     reports=campaign/'prepare_reports';reports.mkdir(parents=True,exist_ok=False)
+     status={'status':'MAIN_PREPARATION_STOP_REVIEW_REQUIRED','stage':'environment','main_training_performed':False,
+         'test_data_opened':False,'test_metrics_computed':False,'privacy_claim_validated':False,
+         'main_experiments_frozen':False,'training_authorised':False,'main_evaluation_authorised':False}
+-    before=original=None;rc=1
++    before=original=None;rc=1;parent_audit=None
+     try:
+         package_hash=package_integrity()
++        if repair_parent is not None:
++            from .repair import verify_repair_parent, copy_parent_frozen
++            parent_audit=verify_repair_parent(repair_parent,campaign)
++            status.update(code_repair_preparation=True,historical_main_training_occurred_in_parent=True)
++            expected_origins=read(repair_parent/'origins.json')
++            if expected_origins!={'inference_run':str(inference),'accepted_run':str(prior),'preprocessing_run':str(pre)}:
++                raise ValueError('Successor must use the original accepted run paths')
++            write(reports/'parent_campaign_review.json',parent_audit)
++            print('REVIEWED_FAILED_CAMPAIGN_CHECK_PASS_NO_MUTATION',flush=True)
+         expected_hash=sha(ROOT/'reference/accepted_inference_seed/report_files.json')
+         previous=check_report(Path(inference)/'results',expected_hash)
+         if read(Path(inference)/'results/stage_status.json')['status']!='INFERENCE_SEED_PILOT_PASS_NOT_MAIN_OR_PRIVACY_CERTIFICATION':raise ValueError('Prior gate not passed')
+@@ -109,34 +119,53 @@
+         print('ACCEPTED_MAIN_ENVIRONMENT_CHECK_PASS_NO_INSTALL',flush=True)
+         if shutil.disk_usage(campaign).free<4*1024**3:raise RuntimeError('At least 4 GiB free required for preparation')
+         status['stage']='development';write(reports/'development_audit.json',verify_development(pre))
+-        frozen=campaign/'frozen';frozen.mkdir(exist_ok=False)
+-        shutil.copytree(Path(pre)/'package/prepared_trainval',frozen/'development')
+-        shutil.copyfile(ROOT/'protocol/decisions/config/main_run_order.csv',frozen/'main_run_order.csv')
+-        write(frozen/'provenance_limits.json',decisions()['data'])
+-        write(campaign/'origins.json',{'inference_run':str(inference),'accepted_run':str(prior),'preprocessing_run':str(pre)})
+-        run_tests(reports)
+-        status['stage']='public_protocol'
+-        from prg_validation.public_protocol import run_oracle
+-        write(reports/'public_protocol.json',run_oracle('candidate'))
+-        from ehr_fedavg.task import setup_torch,model_factory
+-        from pilot_core.model import set_training_seed,state_digest
+-        import torch
+-        setup_torch();initials={}
+-        for seed in SEEDS:
+-            set_training_seed(seed);model=model_factory();p=frozen/'initials'/f'seed_{seed}.pt';p.parent.mkdir(exist_ok=True)
+-            torch.save(model.state_dict(),p);initials[str(seed)]={'state_digest':state_digest(model),'sha256':sha(p)}
+-            second=model_factory();second.load_state_dict(torch.load(p,map_location='cpu',weights_only=True),strict=True)
+-            if state_digest(second)!=initials[str(seed)]['state_digest']:raise ValueError('Initial checkpoint reload')
+-        if len({r['state_digest'] for r in initials.values()})!=5:raise ValueError('Main initial seeds not distinct')
+-        write(frozen/'initial_states.json',initials)
+-        ds=department_rows();schedules={};audits=[]
+-        for seed in SEEDS:
+-            nr=make_draws(seed,'noniid',30,ds);audit=distribution_audit(ds,nr);audit['seed']=seed;audits.append(audit)
+-            for co in ('reference','noniid'):
+-                rows=make_draws(seed,co,30,ds) if co=='reference' else nr
+-                p=frozen/'schedules'/f'{seed}_{co}.csv';csv_write(p,rows,DRAW_FIELDS);schedules[(seed,co)]=p
+-        write(reports/'sampling_audits.json',{'audits':audits,'exact_occurrences':10833*30*10,'test_data_used':False})
+-        print('FIVE_MAIN_INITIAL_STATES_AND_30_ROUND_SCHEDULES_PASS',flush=True)
++        frozen=campaign/'frozen'
++        if repair_parent is not None:
++            reuse=copy_parent_frozen(repair_parent,campaign,parent_audit)
++            write(reports/'frozen_input_reuse.json',reuse)
++            initials=read(frozen/'initial_states.json')
++            if set(initials)!={str(seed) for seed in SEEDS}:
++                raise ValueError('Frozen initial state inventory differs')
++            schedules={(seed,co):frozen/'schedules'/f'{seed}_{co}.csv'
++                       for seed in SEEDS for co in ('reference','noniid')}
++            for seed in SEEDS:
++                if sha(frozen/'initials'/f'seed_{seed}.pt')!=initials[str(seed)]['sha256']:
++                    raise ValueError('Frozen initial checkpoint changed')
++            shutil.copyfile(repair_parent/'prepare_reports/sampling_audits.json',reports/'sampling_audits.json')
++            run_tests(reports)
++            status['stage']='public_protocol'
++            from prg_validation.public_protocol import run_oracle
++            write(reports/'public_protocol.json',run_oracle('candidate'))
++            print('PARENT_FROZEN_INPUTS_INITIALS_AND_SCHEDULES_REUSED_BYTE_IDENTICAL',flush=True)
++        else:
++            frozen=campaign/'frozen';frozen.mkdir(exist_ok=False)
++            shutil.copytree(Path(pre)/'package/prepared_trainval',frozen/'development')
++            shutil.copyfile(ROOT/'protocol/decisions/config/main_run_order.csv',frozen/'main_run_order.csv')
++            write(frozen/'provenance_limits.json',decisions()['data'])
++            write(campaign/'origins.json',{'inference_run':str(inference),'accepted_run':str(prior),'preprocessing_run':str(pre)})
++            run_tests(reports)
++            status['stage']='public_protocol'
++            from prg_validation.public_protocol import run_oracle
++            write(reports/'public_protocol.json',run_oracle('candidate'))
++            from ehr_fedavg.task import setup_torch,model_factory
++            from pilot_core.model import set_training_seed,state_digest
++            import torch
++            setup_torch();initials={}
++            for seed in SEEDS:
++                set_training_seed(seed);model=model_factory();p=frozen/'initials'/f'seed_{seed}.pt';p.parent.mkdir(exist_ok=True)
++                torch.save(model.state_dict(),p);initials[str(seed)]={'state_digest':state_digest(model),'sha256':sha(p)}
++                second=model_factory();second.load_state_dict(torch.load(p,map_location='cpu',weights_only=True),strict=True)
++                if state_digest(second)!=initials[str(seed)]['state_digest']:raise ValueError('Initial checkpoint reload')
++            if len({r['state_digest'] for r in initials.values()})!=5:raise ValueError('Main initial seeds not distinct')
++            write(frozen/'initial_states.json',initials)
++            ds=department_rows();schedules={};audits=[]
++            for seed in SEEDS:
++                nr=make_draws(seed,'noniid',30,ds);audit=distribution_audit(ds,nr);audit['seed']=seed;audits.append(audit)
++                for co in ('reference','noniid'):
++                    rows=make_draws(seed,co,30,ds) if co=='reference' else nr
++                    p=frozen/'schedules'/f'{seed}_{co}.csv';csv_write(p,rows,DRAW_FIELDS);schedules[(seed,co)]=p
++            write(reports/'sampling_audits.json',{'audits':audits,'exact_occurrences':10833*30*10,'test_data_used':False})
++            print('FIVE_MAIN_INITIAL_STATES_AND_30_ROUND_SCHEDULES_PASS',flush=True)
+         status['stage']='job_materialisation_and_native_FAB'
+         for row in plan():
+             seed=int(row['training_seed']);co=row['condition'];mode=row['configuration'];conf=cell_config(seed,co,30)
+@@ -145,20 +174,41 @@
+             stage_cell(campaign,job,conf,schedule,initials[str(seed)]['state_digest'],mode)
+             command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Probe'],reports/'native_probes'/f'{job.name}.log',600)
+             shutil.copyfile(job/'reports/job_preflight.json',reports/'native_probes'/f'{job.name}.json')
++            if mode in ('B','C'):
++                # Reproduce the failing lifecycle: successful template Probe -> copy -> Probe.
++                # Use the identical staging helper called by execute_block, no special cleanup.
++                clone=stage_attempt_job(job,campaign/'attempt_clone_probes'/job.name)
++                command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',clone,'Probe'],
++                        reports/'native_clone_probes'/f'{job.name}.log',600)
++                shutil.copyfile(clone/'reports/job_preflight.json',reports/'native_clone_probes'/f'{job.name}.json')
++        print('ALL_20_PREPARED_TEMPLATE_COPY_AND_NATIVE_REPROBE_CHECKS_PASS',flush=True)
+         print('ALL_30_JOB_CONFIGURATIONS_AND_20_NATIVE_FABS_PASS',flush=True)
+-        # Previously untested full-size A in the pinned environment: one fixed engineering epoch, not a main run.
+-        status['stage']='central_fullsize_engineering_epoch'
+-        seed=20260906;set_training_seed(seed);expected=state_digest(model_factory())
+-        schedule=campaign/'engineering_draws.csv';csv_write(schedule,make_draws(seed,'reference',1,ds),DRAW_FIELDS)
+-        conf=cell_config(seed,'reference',1,engineering=True);conf['schedule_sha256']=sha(schedule)
+-        job=stage_cell(campaign,campaign/'engineering_A',conf,schedule,expected,'A')
+-        command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Probe'],reports/'engineering_A_probe.log',600)
+-        command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Train'],reports/'engineering_A.log',4000,True)
+-        result=read(job/'central_results/result.json')
+-        if result['local_updates']!=170 or result['partial_last_batch_sessions']!=17:raise ValueError('Full-size A epoch accounting')
+-        shutil.copyfile(job/'central_results/result.json',reports/'engineering_A_summary.json')
+-        print('FULLSIZE_A_ONE_EPOCH_COMPATIBILITY_PASS_NOT_MAIN',flush=True)
+-        status['engineering_updates']=170
++        if repair_parent is not None:
++            # Numerical A implementation is unchanged; preserve its accepted engineering gate.
++            # Do not repeat main A or mix the partial failed block into the successor.
++            summary=read(repair_parent/'prepare_reports/engineering_A_summary.json')
++            if summary['status']!='PASS' or summary['rounds_completed']!=1 or summary['local_updates']!=170:
++                raise ValueError('Inherited A compatibility evidence not as expected')
++            write(reports/'engineering_A_summary.json',summary)
++            write(reports/'engineering_A_evidence_scope.json',{
++                'inherited_from_parent':True,'executed_in_this_preparation':False,
++                'main_A_old_result_archived_not_selected':True})
++            status['engineering_updates_this_preparation']=0
++            print('UNCHANGED_A_ENGINEERING_GATE_RETAINED_NO_TRAINING_REPEATED',flush=True)
++        else:
++            # Previously untested full-size A in the pinned environment: one fixed engineering epoch, not a main run.
++            status['stage']='central_fullsize_engineering_epoch'
++            seed=20260906;set_training_seed(seed);expected=state_digest(model_factory())
++            schedule=campaign/'engineering_draws.csv';csv_write(schedule,make_draws(seed,'reference',1,ds),DRAW_FIELDS)
++            conf=cell_config(seed,'reference',1,engineering=True);conf['schedule_sha256']=sha(schedule)
++            job=stage_cell(campaign,campaign/'engineering_A',conf,schedule,expected,'A')
++            command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Probe'],reports/'engineering_A_probe.log',600)
++            command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Train'],reports/'engineering_A.log',4000,True)
++            result=read(job/'central_results/result.json')
++            if result['local_updates']!=170 or result['partial_last_batch_sessions']!=17:raise ValueError('Full-size A epoch accounting')
++            shutil.copyfile(job/'central_results/result.json',reports/'engineering_A_summary.json')
++            print('FULLSIZE_A_ONE_EPOCH_COMPATIBILITY_PASS_NOT_MAIN',flush=True)
++            status['engineering_updates']=170
+         status['stage']='seal_campaign'
+         files=inventory(frozen)
+         for row in plan():
+@@ -172,7 +222,19 @@
+         n=len(inventory(frozen))
+         for r in files[:n]:r['path']=prefix+r['path']
+         files.append(file_record(campaign/'origins.json',campaign))
+-        write(campaign/'campaign_manifest.json',{'version':'1.0.0','package_manifest_sha256':package_hash,
++        if repair_parent is not None:
++            from .repair import repair_policy
++            amendment={**repair_policy(),'successor_campaign':str(campaign),
++                       'new_package_manifest_sha256':package_hash,
++                       'inherited_frozen_input_files':len(parent_audit['frozen_rows']),
++                       'repaired_source_before_new_training':True,
++                       'historical_main_training_occurred_in_parent':True,
++                       'successor_training_authorised':False,
++                       'old_A_not_a_candidate_for_primary_selection':True}
++            write(campaign/'code_repair_amendment.json',amendment,exclusive=True)
++            files.append(file_record(campaign/'code_repair_amendment.json',campaign))
++            write(reports/'code_repair_amendment.json',amendment)
++        write(campaign/'campaign_manifest.json',{'version':'1.0.1','package_manifest_sha256':package_hash,
+             'decision_sha256':sha(ROOT/'protocol/decisions/config/main_protocol_decisions.json'),
+             'files':files,'training_authorised':False,'test_authorised':False,
+             'public_availability_verified':False,'licence_verified':False},exclusive=True)
+@@ -191,6 +253,10 @@
+             if before is not None and environment(prior,reports/'environment_after.json')!=before:raise ValueError('Accepted environment changed')
+             if original is not None and original_snapshot(reports/'original_environment_after.json')!=original:raise ValueError('Original environment changed')
+             package_integrity()
++            if parent_audit is not None:
++                if verify_repair_parent(repair_parent,campaign)!=parent_audit:
++                    raise ValueError('Parent campaign evidence changed during repair preparation')
++                write(reports/'parent_postcheck.json',{'status':'PASS','checked_parent_unchanged':True})
+         except BaseException as e:rc=1;status['postcheck_error']=str(e)
+         if rc==0:status.update(status='MAIN_PREPARATION_PASS_NOT_MAIN_TRAINING_OR_TEST',stage='prepared')
+         write(reports/'stage_status.json',status)
+@@ -254,20 +320,17 @@
+     try:
+         if shutil.disk_usage(campaign).free<8*1024**3:raise RuntimeError('At least 8 GiB free required before a main block')
+         before=environment(prior,reports/'environment_before.json');original=original_snapshot(reports/'original_environment_before.json')
+-        for r in [r for r in plan() if r['block_id']==block]:
++        rows=[r for r in plan() if r['block_id']==block]
++        staged=[]
++        for r in rows:
+             verify_campaign(campaign)
+             template=campaign/'jobs'/r['planned_run_id'];job=out/r['configuration']
+-            shutil.copytree(template,job,ignore=shutil.ignore_patterns('probe_flower_home','reports','*.fab','__pycache__'))
+-            runtime=read(job/'runtime.json');runtime['run_token']=uuid.uuid4().hex
+-            write(job/'runtime.json',runtime)
+-            # Relocate the runtime root in TOML and rebuild the native FAB; no trained checkpoint reused.
+-            from ehr_fedavg.host import write_project
+-            conf=read(job/'apps'/r['condition']/'ehr_fedavg/fixed_config.json')
+-            project=job/'apps'/r['condition']/'pyproject.toml';write_project(project,job,r['condition'],conf['ports']['control'])
+-            text=project.read_text().replace('num-server-rounds = 6','num-server-rounds = 30')
+-            if r['configuration']=='C':text=text.replace('ehr_fedavg.server_app:app','ehr_secagg.server_app:app').replace('ehr_fedavg.client_app:app','ehr_secagg.client_app:app')
+-            project.write_text(text)
++            stage_attempt_job(template,job)
+             command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Probe'],reports/(r['configuration']+'_probe.log'),600)
++            staged.append((r,job))
++        print('ALL_THREE_BLOCK_PREFLIGHTS_PASS_BEFORE_ANY_TRAINING '+block,flush=True)
++        for r,job in staged:
++            verify_campaign(campaign)
+             print('MAIN_RUN_START '+r['planned_run_id'],flush=True)
+             command([sys.executable,'-I','-B',ROOT/'scripts/job_worker.py',job,'Train'],reports/(r['configuration']+'_train.log'),22200,True)
+             s=validate_finished_job(job);done.append(s)
+--- v1.0/scripts/main_cli.py
++++ v1.0.1/scripts/main_cli.py
+@@ -9,9 +9,10 @@
+ from main_study.common import read
+ 
+ def main():
+-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['Prepare','TrainNextBlock','RetryBlock','Evaluate'])
++    p=argparse.ArgumentParser(description=__doc__);p.add_argument('action',choices=['Prepare','PrepareRepair','TrainNextBlock','RetryBlock','Evaluate'])
+     p.add_argument('--campaign',type=Path,required=True);p.add_argument('--inference-run',type=Path)
+     p.add_argument('--accepted-run',type=Path);p.add_argument('--preprocessing-run',type=Path)
++    p.add_argument('--parent-campaign',type=Path)
+     p.add_argument('--authorisation',type=Path);p.add_argument('--benchmark-source',type=Path)
+     a=p.parse_args();c=a.campaign.expanduser().resolve()
+     if os.geteuid()==0 or sys.version_info[:2]!=(3,12):raise ValueError('Use original accepted non-root Linux Python 3.12; no installation')
+@@ -23,9 +24,12 @@
+             try:fcntl.flock(f,fcntl.LOCK_EX|fcntl.LOCK_NB)
+             except BaseException:f.close();raise RuntimeError('Another protected workload is active; no process stopped')
+             locks.append(f)
+-        if a.action=='Prepare':
++        if a.action in ('Prepare','PrepareRepair'):
+             if not all([a.inference_run,a.accepted_run,a.preprocessing_run]):raise ValueError('Three accepted run paths required')
+-            return prepare(c,a.inference_run.resolve(),a.accepted_run.resolve(),a.preprocessing_run.resolve())
++            if a.action=='PrepareRepair' and a.parent_campaign is None:
++                raise ValueError('Reviewed parent campaign is required for code repair')
++            return prepare(c,a.inference_run.resolve(),a.accepted_run.resolve(),a.preprocessing_run.resolve(),
++                           repair_parent=a.parent_campaign.resolve() if a.action=='PrepareRepair' else None)
+         if a.authorisation is None:raise PermissionError('A run-specific reviewed authorisation file is required')
+         if a.action=='TrainNextBlock':return train_next(c,a.authorisation)
+         if a.action=='RetryBlock':return retry_block(c,a.authorisation)
+--- v1.0/scripts/run_on_wsl.sh
++++ v1.0.1/scripts/run_on_wsl.sh
+@@ -4,9 +4,20 @@
+ PACKAGE=$(realpath -- "$1")
+ MODE=${2:-}
+ if [[ $(id -u) == 0 ]]; then echo 'STOP: do not use root/sudo.' >&2; exit 1; fi
+-if [[ "$MODE" == Prepare ]]; then
++if [[ "$MODE" == Prepare || "$MODE" == PrepareRepair ]]; then
++  EXTRA=()
++  if [[ "$MODE" == PrepareRepair ]]; then
++    [[ $# -eq 3 ]] || { echo 'Usage: package PrepareRepair reviewed-parent-campaign'; exit 2; }
++    PARENT=$(realpath -- "$3")
++    [[ -f "$PARENT/origins.json" ]] || { echo 'STOP: parent origins unavailable'; exit 1; }
++    mapfile -t ORIGINS < <(python3 -I -B -c 'import json,sys; v=json.load(open(sys.argv[1])); print(v["inference_run"]); print(v["accepted_run"]); print(v["preprocessing_run"])' "$PARENT/origins.json")
++    [[ ${#ORIGINS[@]} -eq 3 ]] || { echo 'STOP: parent origins are incomplete'; exit 1; }
++    INFERENCE=$(realpath -- "${ORIGINS[0]}"); PATCHED=$(realpath -- "${ORIGINS[1]}"); PRE=$(realpath -- "${ORIGINS[2]}")
++    EXTRA=(--parent-campaign "$PARENT")
++  else
+   [[ $# -eq 5 ]] || { echo 'Usage: package Prepare inference-run patched-run preprocessing-run'; exit 2; }
+   INFERENCE=$(realpath -- "$3"); PATCHED=$(realpath -- "$4"); PRE=$(realpath -- "$5")
++  fi
+   PY="$PATCHED/.venv_full_candidate/bin/python"
+   [[ -x "$PY" ]] || { echo 'STOP: accepted Python does not exist; no installation or fallback.'; exit 1; }
+   RID=$(date -u +%Y%m%dT%H%M%SZ)_$("$PY" -c 'import uuid; print(uuid.uuid4().hex[:8])')
+@@ -20,7 +31,7 @@
+ PY
+   SOURCE="$CAMPAIGN/source"
+   set +e
+-  "$PY" -I -B "$SOURCE/scripts/main_cli.py" Prepare --campaign "$CAMPAIGN" --inference-run "$INFERENCE" --accepted-run "$PATCHED" --preprocessing-run "$PRE"
++  "$PY" -I -B "$SOURCE/scripts/main_cli.py" "$MODE" --campaign "$CAMPAIGN" --inference-run "$INFERENCE" --accepted-run "$PATCHED" --preprocessing-run "$PRE" "${EXTRA[@]}"
+   RC=$?
+   set -e
+ elif [[ "$MODE" == TrainNextBlock || "$MODE" == RetryBlock || "$MODE" == Evaluate ]]; then
+@@ -37,7 +48,7 @@
+   RC=$?
+   set -e
+ else
+-  echo 'STOP: choose Prepare, TrainNextBlock, RetryBlock, or Evaluate explicitly.' >&2; exit 2
++  echo 'STOP: choose Prepare, PrepareRepair, TrainNextBlock, RetryBlock, or Evaluate explicitly.' >&2; exit 2
+ fi
+ # Share reports only. Never overwrite a prior Windows report or export checkpoints/secrets.
+ "$PY" -I -B - "$CAMPAIGN" "$PACKAGE" <<'PY'

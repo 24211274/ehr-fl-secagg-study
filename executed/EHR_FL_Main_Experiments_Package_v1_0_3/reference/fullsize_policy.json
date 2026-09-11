@@ -1,0 +1,54 @@
+{
+  "stage": "FULLSIZE_PATCHED_BC_ENGINEERING_PILOT",
+  "version": "1.0.0",
+  "accepted_bc_run_id": "20260908T051118Z_5aa99ec3",
+  "accepted_bc_manifest_sha256": "eed4c3af434c5a5e3419009b724a13a1322ab73cbbc13fa19ccd090277670f38",
+  "accepted_bc_archive_sha256": "dcb05a5e444f3ca024ffc69ebc4834cfa8218053a508b0ef1bb4b9fea982a567",
+  "base_package_sha256": "b8ab63b1e2813755ab9576590ed6a342815104b41304f99439535aef96281eaa",
+  "base_package_manifest_sha256": "d9bc315bd829ac5459d3c976434d17cca9c067837f45163ba609a160fe66458a",
+  "preprocessing_session_manifest_sha256": "826ddc3fe905f5ab0e38cadeae21275d7fb6aab2198a7aa8e938ad8d23fedcb5",
+  "cells": [
+    "B/reference",
+    "B/noniid",
+    "C/reference",
+    "C/noniid"
+  ],
+  "rounds": 5,
+  "training_counts": {
+    "C1": 3609,
+    "C2": 3548,
+    "C3": 3676
+  },
+  "validation_counts": {
+    "C1": 1214,
+    "C2": 1198,
+    "C3": 1210
+  },
+  "batches_per_round": {
+    "C1": 57,
+    "C2": 56,
+    "C3": 58
+  },
+  "last_training_batches": {
+    "C1": 25,
+    "C2": 28,
+    "C3": 28
+  },
+  "local_updates_per_cell": 855,
+  "local_updates_all_cells": 3420,
+  "aggregations_all_cells": 20,
+  "fresh_environment_created": false,
+  "existing_environment_name": ".venv_full_candidate",
+  "scope_approval_inherited": true,
+  "read_only_input_sources": true,
+  "test_data_opened": false,
+  "main_experiments_frozen": false,
+  "privacy_claim_validated": false,
+  "required_free_GiB": 2,
+  "new_acceptance_rules": [
+    "All fullsize draw lists must reproduce the previously frozen five-round manifests.",
+    "Dataset-based checks restrict evaluation to previously encoded routine train/validation partitions.",
+    "Actual counts/partial batches and their weighted metrics replace smoke-only constants; algorithm parameters unchanged.",
+    "Whole-run exclusive lock and fail-closed report packaging; no automatic retry."
+  ]
+}

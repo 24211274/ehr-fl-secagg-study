@@ -1,0 +1,89 @@
+{
+  "review_id": "MAIN-FIXTURE-IMPORT-002",
+  "review_date": "2026-09-09",
+  "failed_campaign": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a",
+  "original_parent_campaign": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d",
+  "uploaded_report": {
+    "file": "43332684-4fc4-496d-abd2-dfbd72f2cc8e.zip",
+    "sha256": "bcdfbcef287395c0f300aba5f790078d13408a2053677d427d62be9f9a8827c5",
+    "listed_payload_files": 18,
+    "manifest_sha256": "161dfe64235ffdb7be76cd7ea137441e5ea1311667c6eaaf3f1e606407f455d6",
+    "all_sizes_and_hashes_verified": true,
+    "unlisted_files": []
+  },
+  "unit_tests": {
+    "status": "FAIL",
+    "tests_run": 488,
+    "failures": 0,
+    "errors": 4,
+    "skipped": 0,
+    "skipped_tests": [],
+    "final_test_data_read": false,
+    "passed": 484,
+    "error_test_names": [
+      "test_native_B_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_B_noniid)",
+      "test_native_B_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_B_reference)",
+      "test_native_C_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_C_noniid)",
+      "test_native_C_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_C_reference)"
+    ]
+  },
+  "stage_status": {
+    "status": "MAIN_PREPARATION_STOP_REVIEW_REQUIRED",
+    "stage": "development",
+    "main_training_performed": false,
+    "test_data_opened": false,
+    "test_metrics_computed": false,
+    "privacy_claim_validated": false,
+    "main_experiments_frozen": false,
+    "training_authorised": false,
+    "main_evaluation_authorised": false,
+    "code_repair_preparation": true,
+    "historical_main_training_occurred_in_parent": true,
+    "error_type": "RuntimeError",
+    "message": "Worker exit 1; inspect unit_checks.log",
+    "failed_stage": "development"
+  },
+  "environments": {
+    "accepted": {
+      "snapshots_byte_identical": true,
+      "sha256_before": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "sha256_after": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "packages_count": 48,
+      "flower_files_count": 424
+    },
+    "original": {
+      "snapshots_byte_identical": true,
+      "sha256_before": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "sha256_after": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "packages_count": 48,
+      "flower_files_count": 424
+    }
+  },
+  "parent_postcheck_recorded": {
+    "status": "PASS",
+    "checked_parent_unchanged": true
+  },
+  "frozen_reuse_recorded": {
+    "status": "PASS",
+    "copied_files": 60,
+    "all_sha256_identical": true,
+    "initial_states_regenerated": false,
+    "sampling_regenerated": false,
+    "preprocessing_refitted": false,
+    "trained_checkpoints_reused": false,
+    "shared_inodes_with_parent": 0,
+    "test_data_opened": false
+  },
+  "diagnosis": {
+    "direct_error": "Original JSON and bundled representation differ: fixed_config.json",
+    "source_location": "tests_main/test_attempt_staging.py: NativeCloneReprobeTests.check",
+    "cause": "Native tests import the release bundle checker in the shared unittest process, then bind a different main-job config into a temporary app. The checker retains release-default resource_bytes through cached imports. It compares the temporary JSON to the wrong in-memory embedded resource. The strict resource check correctly rejects that mismatched context.",
+    "production_worker": "scripts/job_worker.py already uses a fresh Python process and job-specific sys.path; no change required to this worker.",
+    "not_evidence_of": "This error is not evidence that benchmark data or the approved encoding schema were changed."
+  },
+  "patch_scope": "Only the regression test harness/import context changes, plus new regression tests, evidence and release documentation. Production application, training, staging, evaluation, security and authorisation code remain byte-identical to v1.0.1.",
+  "limitations": [
+    "The parent campaign and local wheels/checkpoints are not available in this container; parent invariance is a recorded target-host check.",
+    "No main training, test-set evaluation or target-host command is executed by this report review."
+  ]
+}

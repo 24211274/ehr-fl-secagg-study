@@ -1,0 +1,99 @@
+{
+  "stage": "TIMING_AND_APPLICATION_PAYLOAD_REPEATED_PILOT",
+  "version": "1.0.0",
+  "accepted_fullsize_run_id": "20260908T102557Z_d05f791a",
+  "accepted_fullsize_manifest_sha256": "922e6ea9446510fbc8a51ad4d15364d75d8fb9e290542c642e58398ecae22c3f",
+  "accepted_fullsize_archive_sha256": "0ffbbfe478325a09f7375a88c553f8448f62c0cbff835d667c12b6eb18501ad7",
+  "accepted_patched_run_id": "20260908T051118Z_5aa99ec3",
+  "accepted_patched_manifest_sha256": "eed4c3af434c5a5e3419009b724a13a1322ab73cbbc13fa19ccd090277670f38",
+  "preprocessing_session_manifest_sha256": "826ddc3fe905f5ab0e38cadeae21275d7fb6aab2198a7aa8e938ad8d23fedcb5",
+  "base_package_sha256": "2b4d8830b516afcde15ceae1eaa16265a7f8646df22c5090d0a1c530ce31e915",
+  "original_protocol_sha256": "f12ae9aae26738fd62b43fd66f712517a01df1b17f07a38a2cabfef48abb7d9f",
+  "plan": [
+    {
+      "run_id": "TIMING-1-B",
+      "pair": 1,
+      "within_pair_order": 1,
+      "configuration": "B",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    },
+    {
+      "run_id": "TIMING-1-C",
+      "pair": 1,
+      "within_pair_order": 2,
+      "configuration": "C",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    },
+    {
+      "run_id": "TIMING-2-C",
+      "pair": 2,
+      "within_pair_order": 1,
+      "configuration": "C",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    },
+    {
+      "run_id": "TIMING-2-B",
+      "pair": 2,
+      "within_pair_order": 2,
+      "configuration": "B",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    },
+    {
+      "run_id": "TIMING-3-B",
+      "pair": 3,
+      "within_pair_order": 1,
+      "configuration": "B",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    },
+    {
+      "run_id": "TIMING-3-C",
+      "pair": 3,
+      "within_pair_order": 2,
+      "configuration": "C",
+      "condition": "reference",
+      "rounds": 6,
+      "training_seed": 20260906
+    }
+  ],
+  "warmup_rounds": [
+    1
+  ],
+  "measured_rounds": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "repetitions": 3,
+  "primary_statistic": "per-run median fit_workflow_wall_ns over rounds 2-6; three paired contrasts",
+  "timing_unit": "integer nanoseconds, wall time from perf_counter_ns, local process CPU separately",
+  "communication_unit": "sum Flower record.count_bytes at client boundary, both directions, NOT wire/network bytes",
+  "rss_sampling_seconds": 0.05,
+  "required_free_GiB": 2,
+  "test_data_opened": false,
+  "model_tuning_allowed": false,
+  "main_experiments_frozen": false,
+  "privacy_claim_validated": false,
+  "wire_traffic_measured": false,
+  "inference_microbenchmark_included": false,
+  "extra_seed_sanity_included": false,
+  "automatic_retry": false,
+  "instrumentation_timing_claim": "instrumented pipeline; numerical safeguards and some small metadata/file overhead retained and disclosed; not a pure cryptography benchmark",
+  "new_measurement_decisions": [
+    "Record-content byte counter on outermost client modifier; server duplicate counter for exact cross-check only.",
+    "Keep warm-up raw rows but exclude only round 1 from primary summaries, not from training.",
+    "Median within each run, descriptive paired differences across three run pairs; no CI/p-value or independence claim over rounds.",
+    "Workload stages are timed using nanosecond clocks. Same-source kernel checks compare original/instrumented training on training data before the target timing runs."
+  ]
+}

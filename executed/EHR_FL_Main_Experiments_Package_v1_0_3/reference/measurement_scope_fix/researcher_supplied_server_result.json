@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "configuration": "B",
+  "condition": "reference",
+  "exception": "ValueError",
+  "message": "Message outside fixed timing rounds/phases",
+  "secagg_protocol_executed": false,
+  "main_experiments_frozen": false
+}

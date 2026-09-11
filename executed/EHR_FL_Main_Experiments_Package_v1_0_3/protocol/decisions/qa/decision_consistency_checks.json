@@ -1,0 +1,28 @@
+{
+  "status": "DOCUMENT_CONSISTENCY_PASS_NOT_RUNNER_VALIDATION",
+  "date": "2026-09-09",
+  "prior_archive_manifest_entries_verified": 52,
+  "prior_archive_unchanged_sha256": "ae8d57fb76e1c7d35c1b9d2c3581814e2a3c4471676d10a2d94219e33301213d",
+  "training_settings_unchanged": true,
+  "schema_and_scaler_reused": true,
+  "source_sections_equal": [
+    "research_questions_as_in_source",
+    "scope",
+    "representation",
+    "model",
+    "sampling_inherited_candidate",
+    "secagg_observed_candidate",
+    "calibration_rule_inherited",
+    "observed_environment",
+    "derived_compute_accounting"
+  ],
+  "planned_run_groups": 30,
+  "matched_seed_condition_blocks": 10,
+  "publication_fields_kept_null": true,
+  "unreported_test_exposure_kept_unknown": true,
+  "no_training_or_final_scoring_or_environment_change": true,
+  "limitations": "Checks concern document consistency and source snapshot integrity, not statistical coverage, cryptographic certification or execution on the user host.",
+  "docx_pages_rendered_and_visually_reviewed": 3,
+  "final_schema_scaler_hash_checks": true,
+  "run_matrix_cardinality_and_unique_order_checks": true
+}

@@ -1,0 +1,1152 @@
+{
+  "files": [
+    {
+      "path": "cli_preflight/flower-superexec_help.txt",
+      "sha256": "ed2d214a1caa05b472a16b88379cb6f22d50fe4526a37c4fc6f521207a2e1e3a",
+      "bytes": 1578
+    },
+    {
+      "path": "cli_preflight/flower-superlink_help.txt",
+      "sha256": "43c944146b80c2c079e337cc3fe118b1913fe1a99b23bcd84fca51ac96d748a3",
+      "bytes": 6130
+    },
+    {
+      "path": "cli_preflight/flower-supernode_help.txt",
+      "sha256": "7131883d73cb58568855d8511d95dee061af0b79941ce28ed77f949274270ba5",
+      "bytes": 4215
+    },
+    {
+      "path": "cli_preflight/flower_api_preflight.json",
+      "sha256": "c6be2ed62fc2edd81d25d321f21da42c672fbd551767372ad1fc0f6d3c5df08c",
+      "bytes": 479
+    },
+    {
+      "path": "cli_preflight/flower_command_path.json",
+      "sha256": "0d2c405e95349b1c29247d6c5c79cdb19bf02117f0b9c9031178ba6a2fb07a47",
+      "bytes": 1126
+    },
+    {
+      "path": "cli_preflight/flwr_help.txt",
+      "sha256": "bf8f5f0ec43b004268f93ef943602cd59bc3b3ad63e6c324c3f210330a4f76d7",
+      "bytes": 3640
+    },
+    {
+      "path": "disk_preflight.json",
+      "sha256": "35c3151947b562d31d71ca001b44b3502235cc713179738376ffa7c33d02110b",
+      "bytes": 76
+    },
+    {
+      "path": "environment_after.json",
+      "sha256": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "bytes": 47826
+    },
+    {
+      "path": "environment_before.json",
+      "sha256": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "bytes": 47826
+    },
+    {
+      "path": "inference/B/inference_result.json",
+      "sha256": "e475b347f0a59f5e1ee842e73ea1ea09a69530b7ccb2de3348b483b28a136242",
+      "bytes": 2878
+    },
+    {
+      "path": "inference/B/latency_measured.csv",
+      "sha256": "9a1d786e7df476d2f84bede59e9a6597e8198ae41b564d370c3fc960010840c8",
+      "bytes": 12244
+    },
+    {
+      "path": "inference/B/latency_warmup.csv",
+      "sha256": "d47195511120c3563a0fcd75e760323c4cc8c6e3062fe7a9751779186755fb84",
+      "bytes": 1231
+    },
+    {
+      "path": "inference/B/throughput_batches.csv",
+      "sha256": "fdcc56f196188add6b8e236eb56796f08d4968ed89398b07232ed29f2f6812a8",
+      "bytes": 272
+    },
+    {
+      "path": "inference/C/inference_result.json",
+      "sha256": "bc7e85749d303f71f9c3976c9e3cf5f27186170184924acb17cb0e734b70f322",
+      "bytes": 2892
+    },
+    {
+      "path": "inference/C/latency_measured.csv",
+      "sha256": "f2580a28b876a20ceead31f598f27746d6254aa873b9fcbe7c7160d5d0fcd39e",
+      "bytes": 12248
+    },
+    {
+      "path": "inference/C/latency_warmup.csv",
+      "sha256": "1c8f105937ae7f8b32f0655f9afd01466177c6e0f30bca89cbce18604e402ec2",
+      "bytes": 1229
+    },
+    {
+      "path": "inference/C/throughput_batches.csv",
+      "sha256": "8424c6eb699a6d99d8bb2033aa277423c2e9532a3f53f26da5dcfb189d185e1f",
+      "bytes": 274
+    },
+    {
+      "path": "inference/inference_summary.json",
+      "sha256": "ece456b56806eb30a2e9f397e8caabd89f04c595ec7e31dcf81d00487c6326ec",
+      "bytes": 6927
+    },
+    {
+      "path": "inference_checkpoints.json",
+      "sha256": "82141b37ffd7af8b95ac9e3f63339decba85ea259969805d0b5f702b951416ba",
+      "bytes": 773
+    },
+    {
+      "path": "inference_selection.csv",
+      "sha256": "301ff27dfcde0ecda526b54a85133591ada440cf09dccde69724816222e306d0",
+      "bytes": 12404
+    },
+    {
+      "path": "inherited_unit_checks.json",
+      "sha256": "f8e1cc8f0c6d40d2d0b48d20ff99bf1e6452273ec3ba101691bd64b3c93dcbe6",
+      "bytes": 114
+    },
+    {
+      "path": "inherited_unit_checks.log",
+      "sha256": "814375bf07f237fd8820ba270b7f6864c9ceabd70da92b86f80b380a57f7b32a",
+      "bytes": 47724
+    },
+    {
+      "path": "input_replay.json",
+      "sha256": "0e41a08ec580083d8f4b3a2f3b3af91b53a0a7920cc5a80fb2d0182ff67287cc",
+      "bytes": 476
+    },
+    {
+      "path": "measurement_host.json",
+      "sha256": "81ea34f1dcc542f563b6ce65754f4884b551b6f5c9613518a461de47e2fcf2d6",
+      "bytes": 503
+    },
+    {
+      "path": "original_environment_after.json",
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "bytes": 47897
+    },
+    {
+      "path": "original_environment_before.json",
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "bytes": 47897
+    },
+    {
+      "path": "prior_evidence.json",
+      "sha256": "7ce2c71d5730916575edcbe5691291c0305b5f6af117031f9511c624aa0ec135",
+      "bytes": 477
+    },
+    {
+      "path": "public_protocol_oracle.json",
+      "sha256": "9e01576c5aa5f1c43a4ad82aec65373818d03384e72bfef8df29d93ca720493e",
+      "bytes": 4582
+    },
+    {
+      "path": "sanity/B/client_staging.json",
+      "sha256": "8201dc6c45ca1dbd5b322efc72e687b34bc4ecc330bd9ce3c308e64e35b2f160",
+      "bytes": 8344
+    },
+    {
+      "path": "sanity/B/reference/app_bundle_preflight.json",
+      "sha256": "b5b32e6bcb456a30e0b95852464dde5ebc3d7ee01f3eba45cdd2cf8c5bbb25e1",
+      "bytes": 5221
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/evaluate_initial_00.json",
+      "sha256": "57b20774cd6b6d1af6177a616606b45e33a80e0b5edf59a4befdb17bbf0ad869",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/evaluate_round_01.json",
+      "sha256": "27b46ab92296ee9300dcd9a4c97212aa911c6abfba14da47e0e4dd1c3a5d1154",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/evaluate_round_02.json",
+      "sha256": "94e61912c12a6a12b7e0a454ef61caf10b777c82dcac2c07f4fee23a3cfa0b80",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/evaluate_round_03.json",
+      "sha256": "2f69fb1f240a01f47a7a46a6fe554a82cbb501291e82a39fab1da630cb8203cc",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/evaluate_selected_03.json",
+      "sha256": "1650f71772270e0ec8f5107e99b12a0309e8bd360b24cb6372c6f95217e9c34d",
+      "bytes": 470
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/fit_round_01.json",
+      "sha256": "7f0e224979f19a3b97c808417d2a049af7a9225d4ceae72fb8c3f31e1a05e39d",
+      "bytes": 1326
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/fit_round_02.json",
+      "sha256": "56a239fb40b39ac0afc025e2970371d145bd0d6b31c534be8b202108f93b13af",
+      "bytes": 1328
+    },
+    {
+      "path": "sanity/B/reference/clients/C1/fit_round_03.json",
+      "sha256": "96d97beab54a5d7c33c5371f3b0a3f8d38353a88461025c79249ef640abeb47e",
+      "bytes": 1327
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/evaluate_initial_00.json",
+      "sha256": "e23bc98a6b8ccaf9cc69570280e5e221f0b7c2d116caa4c296697cfeaa72edef",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/evaluate_round_01.json",
+      "sha256": "e264b70ed4565d14dfd933d72c705b7ce032336448b2fbc88bbcb0e5dc6fef10",
+      "bytes": 466
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/evaluate_round_02.json",
+      "sha256": "751c7d1ec0764ed6163938295f4861f6488ca326d2de66dc27358baed39abb53",
+      "bytes": 466
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/evaluate_round_03.json",
+      "sha256": "ad8674c3e7b70993ab8e10b05752994b4b8312c78ec2573bc7265a986c299d38",
+      "bytes": 466
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/evaluate_selected_03.json",
+      "sha256": "6df85f8610ace16cdc572c67df4485a35280629a29eba74a1d6612f9546f11af",
+      "bytes": 469
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/fit_round_01.json",
+      "sha256": "7cf92d4d0c445d673f535d15c6f79e69e4537bdb85f057d0b798e00bf8d65d94",
+      "bytes": 1324
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/fit_round_02.json",
+      "sha256": "33053d5cdda8ae3130c3671ec65b95ffd4b898fe2c5fd35272a58a635877c40c",
+      "bytes": 1324
+    },
+    {
+      "path": "sanity/B/reference/clients/C2/fit_round_03.json",
+      "sha256": "1ec59e6289ecb0b10ef1fb3aa119287031fd771740b4f8b962e2712b37bf3877",
+      "bytes": 1326
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/evaluate_initial_00.json",
+      "sha256": "8f1d1fd0145a57ebb62b3267517be829de637496e637bd1d4f20cc38c9e813fd",
+      "bytes": 468
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/evaluate_round_01.json",
+      "sha256": "93d6f772583665e7c2b6943a8716b22337c5a1821751f689684dce6dba52591c",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/evaluate_round_02.json",
+      "sha256": "354736b7690386225ed1133ebd03690aa827f2056f562635f775a7a65b3b5708",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/evaluate_round_03.json",
+      "sha256": "d5b7a1fb82d16a197993367ff158cc754e5fb9c8034e050370ab7644be3c1627",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/evaluate_selected_03.json",
+      "sha256": "dc850e7400f95c4883e1277cdc36fdea7ef7e6d4e05fe29693a62357bde79e6d",
+      "bytes": 470
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/fit_round_01.json",
+      "sha256": "6b4fecfeff5fa7de7837f69bba83bca153828bacb071bdb1ba5b6aba97768533",
+      "bytes": 1326
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/fit_round_02.json",
+      "sha256": "0f841aeb2b3f56645a87db2d299754b5ed6a6cfaabfee14b9c035c5ed5fb11df",
+      "bytes": 1327
+    },
+    {
+      "path": "sanity/B/reference/clients/C3/fit_round_03.json",
+      "sha256": "08540725e7fc20bcb8f1895651faaf27e7196787bb1c72f0d46707cf1fbb3a65",
+      "bytes": 1315
+    },
+    {
+      "path": "sanity/B/reference/condition_gate.json",
+      "sha256": "012276b4d26a54910f9aa595cc39b606c245a967ce9a30d06b31c30817255b14",
+      "bytes": 235
+    },
+    {
+      "path": "sanity/B/reference/deployment_started.json",
+      "sha256": "b67832cb3af6b07b4c4d27afae01db899d5e68977cbca84632c34ac74938acf0",
+      "bytes": 242
+    },
+    {
+      "path": "sanity/B/reference/host_measurements.json",
+      "sha256": "29ebe771eef97a702098c17e9f44fdb5ca424f9003428d2062e5bd471917c512",
+      "bytes": 282
+    },
+    {
+      "path": "sanity/B/reference/host_phase_timings.json",
+      "sha256": "e94094eea19636ba6d26c1adb9bc074934fc94108c368e1109a1023bd1bfea30",
+      "bytes": 233
+    },
+    {
+      "path": "sanity/B/reference/listeners.json",
+      "sha256": "9862877910bea3bdbc9db69bd95645ed569ce6f3b3229f3184f6d77bc56ddd2b",
+      "bytes": 8317
+    },
+    {
+      "path": "sanity/B/reference/listeners_final.json",
+      "sha256": "9862877910bea3bdbc9db69bd95645ed569ce6f3b3229f3184f6d77bc56ddd2b",
+      "bytes": 8317
+    },
+    {
+      "path": "sanity/B/reference/listeners_history.jsonl",
+      "sha256": "14925b8d8b27ea3d063916d97189a1c485221516abbed594e69abf142a3c2810",
+      "bytes": 126270
+    },
+    {
+      "path": "sanity/B/reference/listeners_startup.json",
+      "sha256": "2dee84d419103ddb93e74f227b834fcd7f656594872a048a2b5e591e6c70a9d6",
+      "bytes": 6118
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/264d4423ffcafd3923bfd8ce5412856cf343eccfacd5b379af63e81e685866e1.json",
+      "sha256": "1a9db520df6e5c3d50331c92a7d54bc7be62a662c1a48117ef8a40d7d4ef5119",
+      "bytes": 819
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/2c9ead7fef6204724264de701a57e2edaa85b420235d1fa0e607dbb5ca9a602f.json",
+      "sha256": "b0235c9af66426987972e1a49d3c3243dff8532ad920dc72a234457523051d8c",
+      "bytes": 1220
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/86afce126ebc41217c6184787e6d96ed5aaabdedaa20b1df18c685d53e087653.json",
+      "sha256": "0eb695bf099fd2f7f88f8ddfa0439f6c191932e114b36aed2554fe3c6fbc157f",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/8ed09a14e3ac23f63deb2c011de351fa53fb2c8ad3ea87ec78088a657ce8a07e.json",
+      "sha256": "427753f95383d4ab96223d7db5085c420f0bbaada3b4506f09ef4abdd942b709",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/9f05a7b3594ea197deb07d65738050415faaf858cd3a53f1868b16032353a9cf.json",
+      "sha256": "4f50950df2643ebc725584a0a44579c82bc7886a52c6297e0bbf88fc09e28e18",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/9f9014893a96f2dc6656138b32d3e44fa4907f8e109f1bc8fc3fc710c95bb8fb.json",
+      "sha256": "ecf66f43bcd666f2896cd5b58d52c58870a68f673dc159828a43a3de9b400380",
+      "bytes": 1219
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/ec75de5b77de548e49a43f50a94f5377b4eb9e9b6a1a8843c7d3ffa2c2be8e9b.json",
+      "sha256": "23b7bca51719dcfa1e24703bb0ae4c864daf81b46f9489001a288a0430a48f5a",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/effc69f9f76c4e6f013d2b3ae4ed5caeecb0d6b3fc8b21ad51258ae1dc5fde00.json",
+      "sha256": "02f13bae0a1da9ecaf79f152860acf5c0f4c7e85e03fa6bd1b26da64e47b3bae",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/fdc791de94e8dcdb1f6e39a3407e07ee5f76203fa29b972d37e1b22ea49215f9.json",
+      "sha256": "15611da82d4237af6fa89e0d5e22bf95eda5747ef2f48ac79d92632c45f69372",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C1/fe6edf85cd0e7b2119368449f2f7803389c12cac85e1dbab1652c39b50d6d373.json",
+      "sha256": "9ebc1b1ea5402d2646aed399dd514520ae814a51da9cfb93f8d3e75f36258f17",
+      "bytes": 817
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/0179db675514af0e15ba36000ba63b3f58d54ade9d6510b57316868349391f4a.json",
+      "sha256": "c4842ef82187520b0dff94c06cf41a3d923a004da44033ce2fd70c3dbffc293b",
+      "bytes": 819
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/3a0523049cfa50343d55d874e220234e39fd0c556e0363bd3a8caadb9849a974.json",
+      "sha256": "4436e13d457c91fc44c3c6807a6746ab446a780e077e4fe18f3951200dcecf43",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/4b0e637cb97f5104a50db7b615e3d693a8926b110a17b39d70b145581f415499.json",
+      "sha256": "0853afdb1423d0fc43159c110370e6688d8bbaeeab0972276a1ce3d70310d486",
+      "bytes": 1219
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/4b79807c877d0c26417b39cb82f8556c01f4dff99003237cb8e4d527f762cbab.json",
+      "sha256": "db51dbeedc1704a3b9acc4ab166b246c968024caa9658865a4dad10ee65afa88",
+      "bytes": 1218
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/4cdb191be9613ea5e9e9d4c57bdbf3d758d6394e10ef824f09b8ed5a8602d4eb.json",
+      "sha256": "1fc8973d1ed915a8453e2b1d1c8c641cd2db43fdb24c01374c734bbe3097d7e9",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/51b564a0406804426bc49447ed1b9019cfb26a4f92c6a3bf6381037977e95c88.json",
+      "sha256": "e6dc878bae171578e0d44e3e7ba711699121f12fe28741527eb614cd676e11a4",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/524a3297c4958b5c30a54d8e0213bbe5c864080dcf4d3121cbc68346e79c57ac.json",
+      "sha256": "33c517bb63dd72391ad13ef0166cee5b7f592fd329ba93a9c33286c056d2634c",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/8dff73ed139e6296aff3e6241c8572b6dd15d78d2d6351a279741414430e2076.json",
+      "sha256": "da4b444e434a08fd79706d572219b0a4289718f31e0dc8287fa50d6328c1ef5c",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/e3acd672847a3a3a70a7a9b6f360ab0cfbfa5f0f2fb85c928dde862756620140.json",
+      "sha256": "83e8b2321a13f5e180f28bcb5444adfbf48319ba31b649a20205bfff751d8d80",
+      "bytes": 817
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C2/f901e098478dded0f0edda731f84b5e53a86f4d3fc52fb9f42e64b0f434e4665.json",
+      "sha256": "c2281b0ece0dbeb504033463ed12b59d0023fff4e5dce6320e822ab28e004343",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/0c933dd05e71bb4ecad28450f1fbcdb2511c7fcb53b568f5fe996c0d35cf9ac2.json",
+      "sha256": "c0925c390ba4035f0c54893cabe1879a8ee02f9b750940c22838be9ce57080dd",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/0f5f89387696a9f7239f8ca5731a4d2aaeabb3cfb74b4c570de8b21ef419205f.json",
+      "sha256": "1c1263783f1fa86268558f01a3fd79d91fd9ffeb5d5b26cd707315e80b779519",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/108aa8924fbbfce83ae0ff1b2c1bb5f7783d0a15d79e214fa586f13715f091fb.json",
+      "sha256": "af7d43bd50a99e4ad3fc91d1063a5ce8d9d3b2aa9e705f85ad7011e80ab95a56",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/44464ef6425d5ae75faa1295a4cc0a35a9fd561daddbe7e98e20adc62ac1fd24.json",
+      "sha256": "3f399a2deb2973ef54fd67f13ef2c7b3daee3a837405cad9979b8d447f9afc66",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/561bcf53772f0c389bc42461f223893acd44dc05d35b20a30ff9dc794f479305.json",
+      "sha256": "b9c4cede6fa6e610ae011bb3d1627ba0c9124d530a5055e71937db7347439bf0",
+      "bytes": 1220
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/730e56bae9cb8edb79951c37c62f211bd37deb96f0e2160c5d729e04ae61427b.json",
+      "sha256": "ada866123f76596f9f608a9f024540ecd3d9930bfdcbb7345338dac1b83e6690",
+      "bytes": 1095
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/9a3f59abab93ba5449f1ca97abc9497e721fde127aa20a47d621a53409b42503.json",
+      "sha256": "560884572ff3365aa3f1373f71140b8e75e481811263db2be5e975c154251844",
+      "bytes": 819
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/beb95eb42cdb4d2e12055c3cd8cda186893e3e04f1edf7a2a271dd266106b8bd.json",
+      "sha256": "e34b82afccc458bd7d519dd1c2332fee24bd9f0786bf6fbc3e3097d1e9a87dc8",
+      "bytes": 1219
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/cf8366803abf19cbff62f2135261457804a159cbac54978c5338ec0f36fd1fb2.json",
+      "sha256": "4686bada3283e9daad19a9e0d0bc9a0403f44130ebc20c9ce4bd32fccb7fd040",
+      "bytes": 817
+    },
+    {
+      "path": "sanity/B/reference/measurement_clients/C3/ffb7110808574a37d598da5574ea7c2a79fdca609f0b2f1a393e41b2d7e98c95.json",
+      "sha256": "610404192ea319ebe80c998dd9819023f8aec67cc57418ee24b3fd0a75128d3f",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/B/reference/ports_after_cleanup.json",
+      "sha256": "f76a7f65cf34fbece2bce32b1ca4a85b0d066621143f3f08d54b558be26ae3f8",
+      "bytes": 4848
+    },
+    {
+      "path": "sanity/B/reference/ports_before_start.json",
+      "sha256": "75161a8399879592fe6a9d769ddd560e1b976b7e1879cd8e17cfb9c94aa7a430",
+      "bytes": 3236
+    },
+    {
+      "path": "sanity/B/reference/process_cleanup.json",
+      "sha256": "4061a0f506bde3231f9389b0c0a82b51a8c05c53b332302f86ce4471fa626e8f",
+      "bytes": 462
+    },
+    {
+      "path": "sanity/B/reference/server/aggregate_round_01.json",
+      "sha256": "15e6dc74f7257e282dbdc36f6ae4b972da7aae8fe634d0a6f2c134d609d42b45",
+      "bytes": 881
+    },
+    {
+      "path": "sanity/B/reference/server/aggregate_round_02.json",
+      "sha256": "086cfddcca286c34127e10162cb41411903adad175b68ec3f766358428789fe4",
+      "bytes": 882
+    },
+    {
+      "path": "sanity/B/reference/server/aggregate_round_03.json",
+      "sha256": "422e88939f0a2907df79c65b09fcf677e713ac71dfaeff889ddfcf2087b611a7",
+      "bytes": 881
+    },
+    {
+      "path": "sanity/B/reference/server/evaluation_initial_00.json",
+      "sha256": "49e2a0c551dc4ce69da0da11ea19074d41c7b53ac86a9e90935455a715a4485f",
+      "bytes": 761
+    },
+    {
+      "path": "sanity/B/reference/server/evaluation_round_01.json",
+      "sha256": "5e9897c57ef55821de817a9922aaae8cbddc48c71229e75705c6c65b9f79b24f",
+      "bytes": 760
+    },
+    {
+      "path": "sanity/B/reference/server/evaluation_round_02.json",
+      "sha256": "8a09eaa095cd6a5cd0c6297772a3c85955477aa1bd48efda7de88668bd7e9bcb",
+      "bytes": 759
+    },
+    {
+      "path": "sanity/B/reference/server/evaluation_round_03.json",
+      "sha256": "c1e8d3c0e73346b58c12e81b5309ace3fcc5923fa0d932d69a372895aa6a5a97",
+      "bytes": 760
+    },
+    {
+      "path": "sanity/B/reference/server/evaluation_selected_03.json",
+      "sha256": "0571e2f8000fa970ffc07b27ec12d9ada2caee63900a3bbe584569c17a91bb70",
+      "bytes": 763
+    },
+    {
+      "path": "sanity/B/reference/server/grid_exchanges.json",
+      "sha256": "75843b3034d8692d1d41a893ab49fceac6578afa6b5f72c41518469ff41ff7cc",
+      "bytes": 1390
+    },
+    {
+      "path": "sanity/B/reference/server/history.json",
+      "sha256": "5d04d84769f1fa1f097a2687acf258211870b39af3b98a60c4cc263b2b3a6f1a",
+      "bytes": 3530
+    },
+    {
+      "path": "sanity/B/reference/server/implementation_handshake.json",
+      "sha256": "581a9f30d190ae0ea5179a254724213d65a36230c8bcfbaf11a35b7ffd867527",
+      "bytes": 635
+    },
+    {
+      "path": "sanity/B/reference/server/measurement_server.json",
+      "sha256": "5ac87dd44cbaad367d6e526c812f5d1e8325836c459ab5f19f2d85a093f8e5e6",
+      "bytes": 25752
+    },
+    {
+      "path": "sanity/B/reference/server/server_result.json",
+      "sha256": "47c65df9e3612f0d4866606881c521b62022cc2d3bc53a4ef16b97225d8b0f2e",
+      "bytes": 5921
+    },
+    {
+      "path": "sanity/B/reference/training_completion.json",
+      "sha256": "c55dcf5b80edbf9d366a8c7dbaf7ebe5c76ace52747bd35f84513e3500ba01a1",
+      "bytes": 305
+    },
+    {
+      "path": "sanity/C/client_staging.json",
+      "sha256": "8201dc6c45ca1dbd5b322efc72e687b34bc4ecc330bd9ce3c308e64e35b2f160",
+      "bytes": 8344
+    },
+    {
+      "path": "sanity/C/reference/app_bundle_preflight.json",
+      "sha256": "757060cb25137c5f601ddd1a7650f58b2ea36499c44796f12e2f9c01b6a06b6f",
+      "bytes": 5372
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/evaluate_initial_00.json",
+      "sha256": "b83f4db6e7f66823777989ed1ee9cdda245f41acdb4c053e4a52b57b0246b1b0",
+      "bytes": 468
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/evaluate_round_01.json",
+      "sha256": "10502ed388628c96e24dad1784a10c65e5ac4edeeec6255a53feecffd4f77e4a",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/evaluate_round_02.json",
+      "sha256": "7adfa5b8b83186931a8af9b1b39020d7292d77ce77c835d95c80258556f65f45",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/evaluate_round_03.json",
+      "sha256": "0dc6f6f2de1cb209186cddad59d0cc000689dac31345b3de7ec42cec607252bd",
+      "bytes": 465
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/evaluate_selected_03.json",
+      "sha256": "3f40086f586a18cbd990ad230ef122894d6cb937dad616842a4c6e5efb417baf",
+      "bytes": 469
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/fit_round_01.json",
+      "sha256": "ec5e85a6b84aa76f206c376783640d49a9efe67a97ab4b461b11fcfe5929621a",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/fit_round_02.json",
+      "sha256": "b65910545fdaf9ab21adf35230111b483cd8abbc0f430c0e84ee31441bfc2ee9",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/clients/C1/fit_round_03.json",
+      "sha256": "a3934af44f4de34312062b1a401ac36be5dd1d6c9b047896e0900dc3fea81ad2",
+      "bytes": 477
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/evaluate_initial_00.json",
+      "sha256": "fd73bc5cd10938e8ec3e79d22fe38b00cea3317b19448b823f6ea2e55e603e1c",
+      "bytes": 469
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/evaluate_round_01.json",
+      "sha256": "b087620f050084193f5143e60aefd002b499cef98af2bacfd0aae46a2feb9ce7",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/evaluate_round_02.json",
+      "sha256": "0d167dcff00a3f19487e92946f11e90701fb934985b0b60e02fde4aaaad7a68a",
+      "bytes": 466
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/evaluate_round_03.json",
+      "sha256": "8abf2a0277be168278da0aecac1bc5e9c128a7c421d40c6f9b960d1702de36b9",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/evaluate_selected_03.json",
+      "sha256": "666737790f978cd362bd6293ce2c7defae278a28856079139b7bc3acf4a029bd",
+      "bytes": 470
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/fit_round_01.json",
+      "sha256": "ca071ad8854b3f48c31f2d98fc18d7de57827a72d7c53d54556b8eae096e8777",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/fit_round_02.json",
+      "sha256": "eeea290530ce2b21864cba46d0203605c9e98fef1cd804e1b3b9f975415923e0",
+      "bytes": 475
+    },
+    {
+      "path": "sanity/C/reference/clients/C2/fit_round_03.json",
+      "sha256": "32f5bac7a315c83dc4272dd20dcb0bde86ab623d05265191be6c56bbca3d967d",
+      "bytes": 475
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/evaluate_initial_00.json",
+      "sha256": "65b8492c831607075ce0390f44ed0a73289c806ae2c8d0a91a1b94cb70797231",
+      "bytes": 469
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/evaluate_round_01.json",
+      "sha256": "1dcd0907e83c8558911dda049af37843f39c9cfc5ee32ab5a4818014b32bd2e6",
+      "bytes": 466
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/evaluate_round_02.json",
+      "sha256": "48514a968fdd57ced3892dc76dc57891aab4a16d2f105b97b047f15f790b2d61",
+      "bytes": 465
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/evaluate_round_03.json",
+      "sha256": "b80c180d12dc5738db0133777474d5f3de17c7188c217a817924b9075891e1f3",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/evaluate_selected_03.json",
+      "sha256": "7f3c845c66ed799fd22e0ff6e14d04b6e97254ba57efc029821d19fbffd2e065",
+      "bytes": 469
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/fit_round_01.json",
+      "sha256": "1af7bf5734670c67f9681a56a0c8a2cfc4f5c71f0b17c56ee3066be6e14f66c2",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/fit_round_02.json",
+      "sha256": "409b3c953eb13d112d176996494611f4b4c6a77a874e6cfd97723582fd354380",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/clients/C3/fit_round_03.json",
+      "sha256": "03015b5cc1d3a7b759009c4355ca27547cc1e902729c5579568cee1ef7d7180b",
+      "bytes": 476
+    },
+    {
+      "path": "sanity/C/reference/condition_gate.json",
+      "sha256": "012276b4d26a54910f9aa595cc39b606c245a967ce9a30d06b31c30817255b14",
+      "bytes": 235
+    },
+    {
+      "path": "sanity/C/reference/deployment_started.json",
+      "sha256": "ce9e92e756df52d0739ed4bb5bfd6b37ce88ae964a6bef9cdfd792cba2f05ec0",
+      "bytes": 241
+    },
+    {
+      "path": "sanity/C/reference/host_measurements.json",
+      "sha256": "7fc9ffabe152152096745a869ebe5a56050a983e4f2ea40d43e66fb75f09583f",
+      "bytes": 285
+    },
+    {
+      "path": "sanity/C/reference/host_phase_timings.json",
+      "sha256": "1f8d215cee232d2ece144ad9f7d3039c758a41f93d3cbe6821c37fbba00913d2",
+      "bytes": 233
+    },
+    {
+      "path": "sanity/C/reference/listeners.json",
+      "sha256": "752bb21a3c738d0dc41d8eeb3b7baf41a3532925934ddb4c4d335399702dafcd",
+      "bytes": 8539
+    },
+    {
+      "path": "sanity/C/reference/listeners_final.json",
+      "sha256": "752bb21a3c738d0dc41d8eeb3b7baf41a3532925934ddb4c4d335399702dafcd",
+      "bytes": 8539
+    },
+    {
+      "path": "sanity/C/reference/listeners_history.jsonl",
+      "sha256": "00ed9e47ccd108959ae89fe760788d9dbfe6a84e930ee1ccb1812de7023bab47",
+      "bytes": 217951
+    },
+    {
+      "path": "sanity/C/reference/listeners_startup.json",
+      "sha256": "cd2591994f8b35f9ebb263008ca522786444272c6844f47ce091808ac61444a4",
+      "bytes": 6139
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/190416f93113ae611a9182d4b56d157ac0afd9b53ea447cde751ebf2b8ab8968.json",
+      "sha256": "bf23941ee7d51774308beee7f15cc9eadc7544051d63039a66e84908d437f582",
+      "bytes": 809
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/1990d09ea7041d98880406e6e40c7f6e3f5cffac88c56e2dc7919906a9f92cd6.json",
+      "sha256": "b8f3ecaa4c1e65c4ad15b326a6fe1727974acae8d87ccf17c52740de1da99149",
+      "bytes": 1214
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/3bb67e9df2ed547fd152539cbf1d3fabeeb4910b56a57a37aa5b26b148362b2f.json",
+      "sha256": "b6bc09ff53dc00a2af4efdd8edadddf72675e9014799d7ae7cce74e6735188b6",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/41ba09ac3c6c53672516869134def1de84958d764e5acd45a4de1fd89569b405.json",
+      "sha256": "d5b6fcb209d66ef60ca44b9fa1618be88696a2c3bf5cc10fe4cc661f81499f9c",
+      "bytes": 809
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/4346d21c3d5168ba33268ae8f0278348f5fd1c93a035f024fa5c05c98414508f.json",
+      "sha256": "f424e61ce5f51f9a9f7be5cd275c9241f36dd4c124c8d3b2ef45b4230aee419f",
+      "bytes": 818
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/4b6eaa10013e98b26a96c1662f298f3e83c6a9bd000390707223b1cc0fe430e3.json",
+      "sha256": "6cf7a5b02b251bf31d80c5517dbf86847b6f50ea4483ca25b021233ae3e2fff6",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/55a22b3ca2c20d3ea9f1db415e617ff4ce85eceb1e0164ed9cc5612e12df2d81.json",
+      "sha256": "94dcf6d43681d41e1d9d89dd23eb96848640eb7cb4282e2dd86ca9c6398a9630",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/56777e0a4e4bf118ed6127b5fb5a594b9c4cef8783e03fb78d82e8dbb47f6a0f.json",
+      "sha256": "51d9030578be896de738660fa71b646ea3e91d291b878968d966ed40bbfb1548",
+      "bytes": 1216
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/572af5778c40663b8b15ce9d8d5e2d5645224780deae5a01f5b807dc2f38f342.json",
+      "sha256": "8c55b9598010cc8da9eace2448bbfe7f0db136f03e2bfe68e17ff5fe1751d83a",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/5eed0188e6d7c2e6f687aa4775d8e88a5727f19c63c6e0bbc5e7e717671fa224.json",
+      "sha256": "218f636d65cb7d4b262f9a95dda744fe41124251f762c123a1569e4ebce55e22",
+      "bytes": 1214
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/68e4a2cc941df1c1cb0616998b99ac1d35f7fad2d72071570c45bf6203a35861.json",
+      "sha256": "51443b5ede94fcf1ab8fc9bce21b9378c551029857eb4cfbb5f341b0a26796e5",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/6fc219b01289163c7b678976c2346f4174acfe9b7af54576367e87352d61dc4f.json",
+      "sha256": "363fef44dfee99feead602021e97fcda3613f258190f547fb335c927b913c6a8",
+      "bytes": 1217
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/759109bab49d0af3c3b8c86884f426ef0dd9924db5e2046b2d557ad5ac907cd7.json",
+      "sha256": "e39385a81d2546d4a938451595443cf606f6b86fe14216bd6fb0b43d22a20679",
+      "bytes": 1212
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/75b7250744927544ba325d224ffe37d478e661c467969e40167828d2caf00e66.json",
+      "sha256": "661a62bd6a009ea0a15c62d4387dc16ce866ccb7932f41c789cc5cd2892ade24",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/77068007cb84071bd9a1194433cb722359db671eb9e69d29bfb1fa5d3be0bc19.json",
+      "sha256": "c91ab5f69d22765234d8a3f4078c2482502027d97707bba7dcf666b1dff23e1f",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/89bb87b2dfca34f55b518a26dd2e5aba69907b7b25049025bf4980e20c50afd6.json",
+      "sha256": "58ca50b3e091918f142823d2b1feb3213bee49719fb24f8b68665c537ca89354",
+      "bytes": 809
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/a6ac9e24e6497e29cc8cb22dbe38e4e579c7429a2c9aa62ad8fd95412afd5dbb.json",
+      "sha256": "b399bee5b46446e4c9f53efefb6a27e0af549ef48ab0ef8e493b33353fa3042a",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/cf87ce952b341a8df0eefdb052d71df62cd5f1206e4364783e4fb4220044b1f3.json",
+      "sha256": "f2d7c435b07b34f303ca43f634ec160061e8275f4b0e844de880eef473d00758",
+      "bytes": 816
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C1/db0997405102fbdeb3679bdb78947639a7a283d99945d4cd3f200eedec24fad6.json",
+      "sha256": "38521dc4487332a71d5639c699aff1f07774288fd4e59698557f260133e46a56",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/0ea3e156430786685f2180c8d257d336656f3b39aa6482c0a61b12bf6f019ce6.json",
+      "sha256": "1bbf3f501db95e133249cbeb97a9a9fcfceee4c23f599d09c35bc20d41208e26",
+      "bytes": 1214
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/176ca3005327eb1689f4e7e6e5e794c207205287b626c1c3619e521234321f82.json",
+      "sha256": "7b6b638778bf2ad0784444f246f196e1eda14d5328ee97892f1b60305340ce5b",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/260d557870ff44232d12c6913de9a38a0c817c20081a3d04374608131ddc0278.json",
+      "sha256": "ae8aa5ea999786a10c195808d92cc0973deec4137cde55d87a74aebaf6e01b48",
+      "bytes": 818
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/2a64e9bafb410d140b805cab657f0f9ea5c7d8794fa0af3d9664104fcee585b5.json",
+      "sha256": "ab1766aa3dfde1379505cf003f1dc36cb7bfdc02bbd430e355c207173a496c76",
+      "bytes": 812
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/3fe46d7a50a6a17d0d2e73c4cb7ad767153d3bb2e3be694e82236a6d11de07bc.json",
+      "sha256": "2231b4f39a729be34f53dcabb2e7093bdf9e750012a60b64965a1b958233d01e",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/60bfa883114b1b1d1f2bbcc4dc0550c9c8feabcb738a84ee7e06b67e039eea0e.json",
+      "sha256": "fa3e296fb83fb716534cf8d0e75e18ff134c8d03b0235eaff5202668f8b1ed97",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/63dc952b775b4e7a09be324f2eadb3fdecd53c631a5ff0eeacee649bcd4ed7dc.json",
+      "sha256": "68fea60da0d9ca43c39b91a6094f719303af9799dcbad05497ffdd2d3987382f",
+      "bytes": 809
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/81a4b140666dbc8658f8775069205842d82608a96e0e594483ef56425c2a623c.json",
+      "sha256": "c1d1f948457373bff9f75567bc2f55b82d022c5916d413cb3b4e30ad0882d7bf",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/8a88dcee93063d6393172f604f2e4dd40ea51fb2572014d37b444155409277d3.json",
+      "sha256": "b872c4cb26a4a555a46c2957293971c474e4c95759c7bd3aca28c727a6e4c753",
+      "bytes": 811
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/8ed6c2b6f6792e9f96d5d466246e1536d5b93ddf31f45f2f1a715a652fb3245f.json",
+      "sha256": "817bbb0a1ac80d0004e2a6874fd7c19ee40a9e7e5c56d3afa8359385a321b7da",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/97419bcbdf45782d7a8a10cabb020f88033264ab43b30094829ca2afcf7691e2.json",
+      "sha256": "4dc3ff7269a921fabf316712bf97d4c4d8adee4e44bc53c1e28aa17f4b6924a2",
+      "bytes": 816
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/98a5a59b9ec1cf9473f576a99a6c86f1da2d152c747b2abf3f5c9ac3fa91889e.json",
+      "sha256": "a01e100273ecfb76be8d9453b4bac7c4429e7021d3b4de35a6d736bc3c5acf1b",
+      "bytes": 820
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/b1c371074a9cd36214c77f4a3b35bba9c342fba5308987e5695932a17f660cd6.json",
+      "sha256": "a334060b91c6dfe4987e57e7f868778104f64977caaed9eb86cdbcbdc6f448c8",
+      "bytes": 809
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/b77bc667aac8d4f5f9fcaff26b5a46e2e9a4623a01d3885b0551d66d85818009.json",
+      "sha256": "d91eb14dd6b31a7081f895603efb7c355433690d93e3cb78f602020d15b34750",
+      "bytes": 1214
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/cdb7364630021aa968e5a7de7afa2b726cebe43802deeeef8d16902f4b441f80.json",
+      "sha256": "20c81e74e7c94e248150c25f121e0b8e76ca1ea2da74f8df6eaa1a7ebd69ed9a",
+      "bytes": 1112
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/d189a887583c9a3520b633419ee338b4fe8e18ab375f7ae04112fda5745bb1bb.json",
+      "sha256": "35b021d4b2a1f7eee8ef549dcc4aa1f9bf368530b233c7353f99635081cffce2",
+      "bytes": 1217
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/ee17de678e701ed3276c10d7eac7700e8047fb464d5653af6cd95b1ad64e9a24.json",
+      "sha256": "34eda13cb9ffa802b409c4aa17c1f9c7d8cc425695b97335eb4354c16a787ed0",
+      "bytes": 1214
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/f8937ec9d4baf6dbb1e502ab7e9354797ced8aaf48bcdfee432960238ccbbce7.json",
+      "sha256": "f6e4bd20ac70abec00f8f421f42960b7d4eea7ebe01724118df5ce02b24b852f",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C2/f8cbdf3685b3c407bbec3eaba1a0c6c0fef58e8bfb41c3d148c3f9970efb2284.json",
+      "sha256": "e1ed3b8766b89d8cd25e10ad50cb7fa68965904e6d8c686eaaa567b1d5bbcbf2",
+      "bytes": 1216
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/15a795baf53bf9f4050ab57ac11ab168649e93d456689f818e9d4380311a1d75.json",
+      "sha256": "ce246a05352169f79a831e90f1d2c3ea29c8c0dd268f0a9ce3e2d59fc1dacd25",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/2cc469c6449f47a1a011e9fee3ef577ef7d1078117582b3f551903932f0753d5.json",
+      "sha256": "1163768c64a8c4fdfa07cbcf96e9845fedef4e5c0977c843ee10d4eecc7bbf2f",
+      "bytes": 819
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/4b7a2ac842ac07184f7b9a3097e86508ece7d13b886ccec119d0d1591d10f00c.json",
+      "sha256": "56ce6a997c5cd2465881302ad5195011b23a1466da2435579070e9f5e510bfc2",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/500a3f710c95c2f0c3e323177d88816ad5c772fb7644db0169e9d8c9b08c7696.json",
+      "sha256": "cb4dc077e955f46cdb459f9b4569ecb07cc31f5576d4174269000575023c508e",
+      "bytes": 1113
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/5324ac3b8209b510b699c950ebd505c5b80be3f5a30a8ec2a0406cfcd200ef12.json",
+      "sha256": "f41db398a767e1ebd92f90e6692be7d7c1fdc1368037b69f0f6dfa32a6f67da5",
+      "bytes": 821
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/6cb5e407c051f0388588b2344fbd588efd31ecce98ced939b551102eedc6f49b.json",
+      "sha256": "f8ebe02f49830111c1edc6679dba776e844abd82b3a7c788039ac78a07c86a45",
+      "bytes": 811
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/6ffce5a12e66877eb51fac8bd20e993db74eb7e6e4872a279437b10778facb82.json",
+      "sha256": "1f984adf070f21a73497676330a54fe4647c4cce7deb53c8d29d8ca18e53c1f4",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/7704ac6afd07621bd96232436f3a8a3b1661207d7c775b39914e92ea334e5295.json",
+      "sha256": "d2fbfc8cacf8946a98ee14502501faf4499f89d077f92468fadfb673372e6562",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/9d77b971f36edc7748586d14f7fb7d2bbed0284c8f32638c53bd5128db30b1f4.json",
+      "sha256": "fcbe86388d473800206df50b22f5b542929b6ed59f13a24906fab9c46f94a73c",
+      "bytes": 1113
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/a274e54553e556829f2046589ff7bc3aef025f54026ed0974e390c8e975c3ab2.json",
+      "sha256": "e37c47a01993c8618bcc3e1499c244eea431e7a0b8d6dcf261e97fc43e333155",
+      "bytes": 821
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/a7e3d98763d9469d2381cc8145ad0099696a33651a6c29a23975c1c5cf0b7134.json",
+      "sha256": "57bceb6fd09dd3cd9544d2e23b33dec046f69296f5d7999e1303ae6f7581ab41",
+      "bytes": 1113
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/ae04d600870bb90e5fa684d5774b55b465d08bb9895363b29e1c538c56c2163e.json",
+      "sha256": "a4dc6b3234c8f2c1057846e00a2d2615ff79e10bfd3a18c31d3b3e7c468e98be",
+      "bytes": 811
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/bc4893be00c0add65c972e3fe14894b3782d68cdc703092880b7c7543198b544.json",
+      "sha256": "2fbe65b76a343b0a02a2ce6c81fbec581e8ca75a73fdc0ea12860d82f03c0c2f",
+      "bytes": 811
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/bc51bb0908cd3524441a6ebcf191089b6e0b2f22a34a1258eadc200e23f12ae4.json",
+      "sha256": "d8f1dc647ac411fa4ef4cca949f0fd5bd8159a3bcdb0a6b1022bf2e21d4811d9",
+      "bytes": 1218
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/ce224d26682a08b6dd8273aa75a6b1e5ce26a296eccc34dc0fde96954d898093.json",
+      "sha256": "80e2e197f4a4fc3c2fe04f8a4841949d40743d9d5293d650162c161120e256fd",
+      "bytes": 817
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/d0be0aee1d3022e1336be9257a6c4a5632fb69ed276a7c64ddb33e90d222cf2d.json",
+      "sha256": "4654558f8e80fcdbf951fa1f135d9efabcb5d29806f8c82e272f81d03a2bd69f",
+      "bytes": 1217
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/de1c84522481f2af6b8b887f5b1a726a7b675de1847d6ff5b60806dba3812089.json",
+      "sha256": "f00d341c730f744344e1288c87f6a2b56a640e01c71bda6feed9655f05790254",
+      "bytes": 810
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/e2aecd6c8d1affa1b28ccfd3ea19784b976dceba188160f671bb9eb779a77817.json",
+      "sha256": "1496885ee7233f908234b7800e997ee461a5707ddb1a404ef94986470d97fdd3",
+      "bytes": 821
+    },
+    {
+      "path": "sanity/C/reference/measurement_clients/C3/e8c573320a0b0570c3203dcb75c7fa13ce08015333cef6198eb1e274bebd4673.json",
+      "sha256": "471ed1d08de03d50fd726ca1c69dd94dae9dda5c4e74d12384475ebd5d12efce",
+      "bytes": 1215
+    },
+    {
+      "path": "sanity/C/reference/ports_after_cleanup.json",
+      "sha256": "caec8a4b8b248705e092d7b79adcc74e72167da87ac1a822689439e77ccd842d",
+      "bytes": 3894
+    },
+    {
+      "path": "sanity/C/reference/ports_before_start.json",
+      "sha256": "de556c48eb77aa053be24feda41d669653afd27d94b9d7a6a92766656c4c77a0",
+      "bytes": 4843
+    },
+    {
+      "path": "sanity/C/reference/process_cleanup.json",
+      "sha256": "f82c72c9851cc01e80ae5badc52ec70dd1d987962b3ff390d034195d64920d33",
+      "bytes": 467
+    },
+    {
+      "path": "sanity/C/reference/server/aggregate_round_01.json",
+      "sha256": "22b623ad69789bfc503fe4facc5ef85b645cd2ae9bc82820dbf360d35581cc68",
+      "bytes": 848
+    },
+    {
+      "path": "sanity/C/reference/server/aggregate_round_02.json",
+      "sha256": "910027ba353629e335f21290b16ee936990bfce61517caa2241b3739424e410c",
+      "bytes": 848
+    },
+    {
+      "path": "sanity/C/reference/server/aggregate_round_03.json",
+      "sha256": "2f5e3d6dd7ae8885eb8380fce619d8e63276c5f0b4c352c4ee0304feaded0f63",
+      "bytes": 848
+    },
+    {
+      "path": "sanity/C/reference/server/evaluation_initial_00.json",
+      "sha256": "49e2a0c551dc4ce69da0da11ea19074d41c7b53ac86a9e90935455a715a4485f",
+      "bytes": 761
+    },
+    {
+      "path": "sanity/C/reference/server/evaluation_round_01.json",
+      "sha256": "b3b0aaa85a93cf5693c61bd5b5f835509327f45f17a057b50c26e8ef6c0a7fc5",
+      "bytes": 759
+    },
+    {
+      "path": "sanity/C/reference/server/evaluation_round_02.json",
+      "sha256": "d25a5abd53a44963c49916bf9047f86dfa687ab6b128870307291d328c51c598",
+      "bytes": 757
+    },
+    {
+      "path": "sanity/C/reference/server/evaluation_round_03.json",
+      "sha256": "738f161bcbc07ce299b55d9f3eac164bb096808206ad1c77777575508d656678",
+      "bytes": 757
+    },
+    {
+      "path": "sanity/C/reference/server/evaluation_selected_03.json",
+      "sha256": "0778e81d128b870105b37d931bb65f5163b7bdf15bf8212e576e16a1ed1bfe0d",
+      "bytes": 760
+    },
+    {
+      "path": "sanity/C/reference/server/grid_exchanges.json",
+      "sha256": "6e975e81a2bd56c4121a73723cb0a4d8a35e83c02bdaff10270b3b1d9a722b1e",
+      "bytes": 6949
+    },
+    {
+      "path": "sanity/C/reference/server/history.json",
+      "sha256": "4d20b01c69cd467145bba28dc04ce7faa336fcde07e9736926248709c025c947",
+      "bytes": 3524
+    },
+    {
+      "path": "sanity/C/reference/server/implementation_handshake.json",
+      "sha256": "02f65cf744f206ab1b139987e33a07724c5033201598ce4cc49389f2bb6987e2",
+      "bytes": 633
+    },
+    {
+      "path": "sanity/C/reference/server/measurement_server.json",
+      "sha256": "3b6ce7affd3b8e40dd7436c8aa4fea5fb9122c0db466d8814aa3453b7f1c1c33",
+      "bytes": 46268
+    },
+    {
+      "path": "sanity/C/reference/server/protocol_stages.json",
+      "sha256": "5962f43173ca216e78bff00fb417001bc3682e6adcebf797fe0299673153108e",
+      "bytes": 2473
+    },
+    {
+      "path": "sanity/C/reference/server/server_result.json",
+      "sha256": "129d540ccfb55c6534b5be0a5afade8894b73b6638bc0837df89eae49ebeb5ec",
+      "bytes": 6005
+    },
+    {
+      "path": "sanity/C/reference/training_completion.json",
+      "sha256": "c55dcf5b80edbf9d366a8c7dbaf7ebe5c76ace52747bd35f84513e3500ba01a1",
+      "bytes": 305
+    },
+    {
+      "path": "sanity_B.json",
+      "sha256": "749ed0678abe23091aee1d9dcf46513a9fb3e4cee27bf6f89bee74600839eef1",
+      "bytes": 3557
+    },
+    {
+      "path": "sanity_C.json",
+      "sha256": "436ae4aeb52cbfb01a9b97bd469087ff5a175ae3c790f49ba4b2376dd1295ae0",
+      "bytes": 2660
+    },
+    {
+      "path": "sanity_draws_three_rounds.csv",
+      "sha256": "db2460f13aacf711303606e5e6414d508a8de83e1764d3677c928ad46bd6cf7e",
+      "bytes": 164535
+    },
+    {
+      "path": "sanity_initial_state.json",
+      "sha256": "e239d04b40dd1bf27b94d77c4faf579b6337f152040eb3766b320f72e1805297",
+      "bytes": 402
+    },
+    {
+      "path": "sanity_membership.csv",
+      "sha256": "2af0b7e0d8a67f4315aa77f975c2e50a5cedb8bde801c2403f0eb82564e82c16",
+      "bytes": 159025
+    },
+    {
+      "path": "sanity_pair_review.json",
+      "sha256": "76c1029700915e5ccc1a6d98a6c559134456ba06194a70db2a4bbc552c66f257",
+      "bytes": 1766
+    },
+    {
+      "path": "stage_policy.json",
+      "sha256": "e06a9b1a8f0900a29c0a0a002b130247eb1d9e80585a47eca39d1ca511708735",
+      "bytes": 4049
+    },
+    {
+      "path": "stage_status.json",
+      "sha256": "899f2c81b3b9e297f727e4412b9d3d5cdd0784e952fc33568d0eb5f246f6f236",
+      "bytes": 967
+    },
+    {
+      "path": "stage_unit_checks.json",
+      "sha256": "2664b24451bbfd281b4a6a56bca60506d87b383bbc517d341b569243ee3588f8",
+      "bytes": 113
+    },
+    {
+      "path": "stage_unit_checks.log",
+      "sha256": "5263a9ab624e49b4d83839c6b77fa92223b8707e622a0f689e7df99f9a758489",
+      "bytes": 7390
+    }
+  ],
+  "excluded": [
+    "checkpoints",
+    "client arrays",
+    "per-session evaluation rows",
+    "protocol secrets/shares/masks",
+    "Flower stores and full process logs",
+    "wheel files and environments"
+  ]
+}

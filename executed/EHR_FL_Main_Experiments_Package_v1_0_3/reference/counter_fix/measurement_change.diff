@@ -1,0 +1,86 @@
+--- v1.0.1/app/mai_measurement.py
++++ v1.0.2/app/mai_measurement.py
+@@ -2,8 +2,8 @@
+ 
+ Only numeric counts, public phase labels and durations are exported. Record values,
+ model arrays, update fingerprints, keys, masks and shares are never written here.
+-Byte counts follow Flower's message_size_mod record-content convention, not TCP or
+-protobuf wire bytes. Both-end counters are cross-checked; only client totals count.
++Byte counts follow Flower's message_size_mod record-content convention with a
++read-only zero-length ConfigRecord value repair, not TCP or protobuf wire bytes. Both-end counters are cross-checked; only client totals count.
+ """
+ from __future__ import annotations
+ import hashlib
+@@ -18,14 +18,50 @@
+ _SERVER_ROUND_START: dict[int,int] = {}
+ _SERVER_PHASE = ContextVar('mai_timing_server_phase', default=None)
+ 
++BYTE_COUNTING_RULE_ID = 'flower122_record_content_zero_length_v1'
++
++
++def _config_record_bytes(record) -> int:
++    """Count config content without changing the Message or the installed library.
++
++    Flower 1.22 indexes v[0] for a list, even when it is empty. It also rejects
++    a zero-length scalar str/bytes in get_var_bytes. These are valid ConfigRecord
++    values. For these cases only, count a temporary projection of the non-empty
++    entries with the native method and add ALL omitted key lengths. A zero-length
++    value has no element bytes under this logical-content convention.
++
++    The live record keeps all its keys/values, including protocol lists. Native
++    counting remains responsible for every non-empty value and every non-config
++    record. Unrelated exceptions are deliberately NOT caught. This is not a
++    protobuf/TCP counter; the native len(str)/len(key) convention is retained.
++    """
++    zero_keys = [key for key, value in record.items()
++                 if isinstance(value, (list, str, bytes)) and len(value) == 0]
++    if not zero_keys:
++        return record.count_bytes()
++
++    from flwr.common import ConfigRecord
++    if not isinstance(record, ConfigRecord):
++        raise TypeError('Zero-length config repair requires a Flower ConfigRecord')
++    omitted = set(zero_keys)
++    projection = ConfigRecord(
++        {key: value for key, value in record.items() if key not in omitted},
++        keep_input=True,
++    )
++    native_size = projection.count_bytes()
++    if type(native_size) is not int or native_size < 0:
++        raise ValueError('Config counter must yield a nonnegative Python integer')
++    return native_size + sum(len(key) for key in zero_keys)
++
+ 
+ def record_bytes(content):
+-    """Same counting definition as Flower 1.22 message_size_mod. No serialisation."""
++    """Flower 1.22 logical record-content count, with zero-length config repair."""
+     groups = [('array', content.array_records), ('metric', content.metric_records),
+               ('config', content.config_records)]
+     result = {}
+     for kind, records in groups:
+-        sizes = [record.count_bytes() for record in records.values()]
++        sizes = [(_config_record_bytes(record) if kind == 'config'
++                  else record.count_bytes()) for record in records.values()]
+         if any(type(n) is not int or n < 0 for n in sizes):
+             raise ValueError('Record counter must yield nonnegative Python integers')
+         result[kind+'_bytes'] = sum(sizes)
+@@ -118,7 +154,8 @@
+              'callback_wall_ns':end-start,'callback_cpu_ns':cpu_ns,
+              'byte_counter_wall_ns':counter_ns,'local_spans':local,'error_type':error_type,
+              'record_values_written':False,'wire_bytes_measured':False,
+-             'local_export_not_message_payload':True}
++             'local_export_not_message_payload':True,
++             'byte_counting_rule_id':BYTE_COUNTING_RULE_ID}
+         # exclusive creation; numeric reports only, strict JSON
+         with path.open('x',encoding='utf-8') as f:
+             json.dump(row,f,indent=2,allow_nan=False);f.write('\n')
+@@ -200,7 +237,8 @@
+             'clock':'perf_counter_ns','cpu_clock':'process_time_ns',
+             'clock_info':{'resolution_seconds':time.get_clock_info('perf_counter').resolution,
+                           'monotonic':time.get_clock_info('perf_counter').monotonic},
+-            'byte_definition':'Flower Record content count_bytes; not protobuf/TCP bytes',
++            'byte_definition':'Flower 1.22 logical Record content count; zero-length config values contribute zero value bytes and retain key lengths; not protobuf/TCP bytes',
++            'byte_counting_rule_id':BYTE_COUNTING_RULE_ID,
+             'wire_bytes_measured':False,'server_bytes_for_crosscheck_only':True,
+             'instrumented_pipeline_not_uninstrumented_crypto_benchmark':True,
+             'record_values_written':False}

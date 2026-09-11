@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "filename": "EHR_FL_Main_Experiments_Package_v1_0_3.zip",
+      "bytes": 2772700,
+      "sha256": "433a26789afd362dad4316c96379017d2808969925fa5df1d61e332d94cb6c84"
+    },
+    {
+      "filename": "EHR_FL_Supervisor_Handover_Guide_v1_0.zip",
+      "bytes": 21365,
+      "sha256": "4dfa3321b1ca763ea94384a7298f040dad471fd7751a6688bd68547273394f25"
+    },
+    {
+      "filename": "EHR_FL_Final_Score_Audit_Review_v1_0.zip",
+      "bytes": 136875,
+      "sha256": "2ea958f6a2abc6518309c2eab777339cffba604902e696723ae3fa7aa1f90e91"
+    },
+    {
+      "filename": "EHR_FL_Results_and_Discussion_v1_0.zip",
+      "bytes": 1175661,
+      "sha256": "aa3901dab3f46fddbe44e6380093caabd01e4b2d41f221dd10eb511567895daf"
+    }
+  ],
+  "purpose": "post-experiment private supervisor code review",
+  "new_experiments_run": false,
+  "github_repository_created_by_preparation": false
+}

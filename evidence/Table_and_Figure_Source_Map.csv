@@ -1,0 +1,20 @@
+﻿type,number,title,source,data_or_definition
+Table,4.1,Executed experimental comparison,E2; E3,evidence/presentation_tables.json
+Table,4.2,Composition of the two fixed test sets,E1: test_composition.csv,evidence/presentation_tables.json
+Table,4.3,Selected routine-validation loss across the five seeds,E2; E6: selected_models_and_validation_loss.csv,evidence/presentation_tables.json
+Table,4.4,Primary held-out test: global ranking performance,E1: global_results_table.csv,evidence/presentation_tables.json
+Table,4.5,Primary held-out test: decision performance at q = 0.99,E1: global_results_table.csv,evidence/presentation_tables.json
+Table,4.6,Secondary known-scenario test: global ranking performance,E1: global_results_table.csv,evidence/presentation_tables.json
+Table,4.7,Secondary known-scenario test: decision performance at q = 0.99,E1: global_results_table.csv,evidence/presentation_tables.json
+Table,4.8,Primary-test AP by client and at the worst client,"E1, derived summary: per_client_rank_summary.csv",evidence/presentation_tables.json
+Table,4.9,Paired global-AP differences across the five seeds,E1: paired_contrasts.csv,evidence/presentation_tables.json
+Table,4.10,Post-test descriptive false-positive analysis for C,E1: descriptive_class_error_summary.csv,evidence/presentation_tables.json
+Table,4.11,Prespecified threshold sensitivity for C,"E1, derived summary: threshold_sensitivity_all_methods.csv",evidence/presentation_tables.json
+Table,4.12,Recorded training-path cost across the five seeds,E2: system_cost_analysis.json,evidence/presentation_tables.json
+Table,4.13,Paired overhead of C relative to B,E2: system_cost_analysis.json,evidence/presentation_tables.json
+Table,4.14,Prepared-input inference for the selected main models,E2: system_cost_analysis.json; E3,evidence/presentation_tables.json
+Table,5.1,Supported contribution and boundaries of the evidence,E1–E3; synthesis of Chapters 4 and 5,evidence/presentation_tables.json
+Figure,4.1,Primary held-out global AP for all five training seeds.,"Each point represents a preselected seed. Squares and error bars show the mean and sample standard deviation, not confidence intervals. Source: E1, recomputed_rank_metrics.csv.",figures/Figure_4_1_Held_Out_AP.svg
+Figure,4.2,Paired global AP differences between C and B.,"Points are mean paired differences across five seeds. Bars reproduce the exploratory 95% Student-t intervals; the dashed line denotes zero. These are not equivalence tests. Source: E1, paired_contrasts.csv.",figures/Figure_4_2_Paired_AP_Differences.svg
+Figure,4.3,False-positive rates by legitimate behaviour type for C.,"Means and sample standard deviations across five seeds at the frozen q = 0.99 threshold. This is a post-test descriptive analysis. Group sizes are distinct sessions per model. Source: E1, descriptive_class_error_summary.csv.",figures/Figure_4_3_Legitimate_Subgroup_FPR.svg
+Figure,4.4,Complete-run B/C fit-path time for each matched seed.,"Lines join matched B and C runs within a distribution condition. Every run includes 30 rounds. The measure includes instrumentation and is not isolated cryptographic time. Source: E2, system_cost_analysis.json.",figures/Figure_4_4_Paired_Training_Time.svg

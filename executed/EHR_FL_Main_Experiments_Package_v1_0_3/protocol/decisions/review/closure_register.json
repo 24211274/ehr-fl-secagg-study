@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-09",
+  "status": "METHODOLOGICAL_DECISIONS_SET__LIMITATIONS_RECORDED__EXECUTION_RELEASE_PENDING",
+  "basis": "researcher explicitly delegated the remaining methodological decisions",
+  "decisions_P1_to_P5": "set in the updated protocol; P2 simplified explicitly, not silently retained from v1.0",
+  "data_publication": {
+    "status": "UNVERIFIED_RECORDED_LIMITATION",
+    "blocking_runner_preparation": false,
+    "satisfies_public_dataset_requirement": false,
+    "authorises_redistribution": false
+  },
+  "generator": {
+    "status": "FILE_BASED_REPRODUCIBILITY_LIMITATION_ADOPTED",
+    "original_code_supplied_in_this_step": false,
+    "regeneration_verified": false
+  },
+  "test_exposure": {
+    "status": "LIMITED_RECORDS_PLUS_UNKNOWN_EXTERNAL_HISTORY_DISCLOSED",
+    "no_prior_performance_use_declaration_inferred": true,
+    "prospective_test_lock_required": true
+  },
+  "pilot_evidence": "inherited accepted historical reports; not rerun in this task",
+  "bounded_security_wording": "adopted under researcher delegation; no certification and no claim of new supervisor sign-off",
+  "main_runner_preparation": "READY",
+  "main_launch": "NOT_AUTHORISED_BY_THIS_ADDENDUM",
+  "test_access": "NOT_AUTHORISED_BY_THIS_ADDENDUM",
+  "public_data_requirement_note": "The researcher-reported benchmark approval is preserved. Public availability and licence are not verified; do not silently treat delegation as an academic waiver of the advisor public-data requirement.",
+  "next_action": "Prepare and verify the runnable main release against these decisions. Do not request the same P1-P5 form again."
+}

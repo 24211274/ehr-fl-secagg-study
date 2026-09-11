@@ -1,0 +1,570 @@
+{
+  "document_version": "1.1.0-decisions",
+  "review_date": "2026-09-09",
+  "status": "METHODOLOGICAL_DECISIONS_SET__LIMITATIONS_RECORDED__EXECUTION_RELEASE_PENDING",
+  "authorised_to_launch_main": false,
+  "authorised_to_open_test_data": false,
+  "main_experiments_frozen": false,
+  "privacy_claim_validated": false,
+  "notice": "P1-P5 are set under researcher delegation. P2 is explicitly simplified to conditional paired seed-level analysis. Publication, rights and unreported external test use remain unverified. This is not a runnable config, public-release authorisation, or security certification.",
+  "source_status_layers": {
+    "inherited": "Scientific settings retained from the previous review; no claim of completed main execution.",
+    "observed": "Historical evidence as recorded and reviewed in the source package; not re-executed here.",
+    "adopted_by_delegation": "Methodological and reporting choices selected now under explicit researcher delegation.",
+    "unverified": "Facts not provided or not established remain null/unknown; reporting treatment does not verify them."
+  },
+  "research_questions_as_in_source": {
+    "RQ1": "How effectively does a federated learning model detect abnormal behaviour across distributed simulated clients compared to a pooled centralised model?",
+    "RQ2": "What is the effect of applying Secure Aggregation to federated model updates on the detection performance and system overhead of the federated anomaly-detection system?"
+  },
+  "scope": {
+    "source": "S10/S24 plus researcher-reported approval of the bounded PRG backport",
+    "configurations": {
+      "A": "pooled_centralised",
+      "B": "flower_fedavg",
+      "C": "flower_fedavg_secagg_plus"
+    },
+    "conditions": [
+      "reference",
+      "noniid"
+    ],
+    "clients": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "client_status": "simulated clients of one synthetic benchmark, not independent real hospitals",
+    "excluded": [
+      "Local-only",
+      "TLS",
+      "differential_privacy",
+      "FedProx",
+      "personalisation",
+      "new_crypto_protocol"
+    ],
+    "exception_to_unmodified_crypto": "Previously approved bounded local PRG backport; no new protocol or new research question."
+  },
+  "data": {
+    "source": "S01/S02/S03/S07/S14/S24",
+    "dataset_characterisation": "Researcher-supplied synthetic eleven-table EHR access-log benchmark; repository/public availability not verified. Do not attribute its production to the earlier Kaggle uploader.",
+    "source_profile_version": "2.0.0-full-reference_seed_01",
+    "source_hash_manifest": "evidence/S02_source_file_manifest.csv",
+    "partitions_preserved": true,
+    "routine_training_sessions": 10833,
+    "routine_validation_sessions": 3622,
+    "training_sessions_per_client": {
+      "C1": 3609,
+      "C2": 3548,
+      "C3": 3676
+    },
+    "validation_sessions_per_client": {
+      "C1": 1214,
+      "C2": 1198,
+      "C3": 1210
+    },
+    "primary_test": "test_held_out",
+    "secondary_test": "test_known",
+    "public_release": {
+      "proposed_title": "Synthetic EHR Access Logs for Federated Learning",
+      "package_version": "1.0",
+      "package_status": "release_candidate; not publicly uploaded by this task",
+      "package_preparation_date": "2026-09-06",
+      "source_profile_name": "full_reference_balanced",
+      "source_profile_version": "2.0.0-full-reference_seed_01",
+      "source": "eleven researcher-supplied synthetic benchmark CSV files",
+      "source_relationship_to_mudliar_kaggle_dataset": "not established; no derivation claim is made",
+      "supervisor_approval": "reported explicitly by the researcher in the project conversation; approval date not supplied",
+      "creator_public_credit": null,
+      "kaggle_owner": null,
+      "kaggle_slug": "synthetic-ehr-access-logs-federated-learning",
+      "kaggle_url": null,
+      "kaggle_version": null,
+      "publication_date": null,
+      "repository_access_date": null,
+      "dataset_licence": null,
+      "doi": null,
+      "generator_code_status": "not supplied; regeneration from the original generator is not demonstrated",
+      "source_changes": "logical filenames only; all eleven CSV byte streams are unchanged",
+      "model_training_performed_in_this_task": false,
+      "source_hashes": "source_file_manifest.csv",
+      "exclusions_by_reported_supervisor_approval": [
+        "Local-only",
+        "TLS"
+      ],
+      "audit": "../audit/structural_audit.json",
+      "publication_metadata_status": "UNAVAILABLE_AS_REPORTED_BY_RESEARCHER",
+      "actual_publication_status": "UNKNOWN_NOT_VERIFIED",
+      "dataset_licence_status": "NOT_ESTABLISHED_IN_PROVIDED_RECORDS",
+      "redistribution_authority_status": "NOT_ESTABLISHED_IN_PROVIDED_RECORDS",
+      "public_release_authorised_by_this_addendum": false,
+      "historical_generator_code_status": "not supplied in reviewed materials; no new claim of availability or loss"
+    },
+    "prior_structural_exposure_documented": true,
+    "prior_performance_exposure_user_declaration": null,
+    "generator_regeneration_demonstrated": false,
+    "public_dataset_requirement_verified": false,
+    "reported_benchmark_approval_is_not_public_availability_evidence": true,
+    "reproducibility_claim": "Repeat processing/training from the preserved byte-identical snapshot, conditional on access to it. Original generation and unrestricted public reproduction are not demonstrated.",
+    "test_exposure_treatment": {
+      "structural_exposure": "Known prior inspection of scenario names, labels, counts and relationships.",
+      "reviewed_pilot_metrics": "The reviewed pilot reports state that final-test detection scores were not computed; this is limited to their recorded executions.",
+      "external_or_unreported_performance_use": "UNKNOWN; researcher delegation is not evidence of absence.",
+      "prospective_rule": "Freeze development choices before final test scoring; no subsequent model/threshold selection using either test.",
+      "reporting": "A prospectively locked comparison on a fixed synthetic benchmark, with incomplete retrospective exposure documentation; not described as blind, pristine or fully independent external validation.",
+      "if_prior_test_driven_selection_is_later_identified": "Disclose the specific use and label affected results exploratory. Do not silently reshuffle or rename a test split as unseen."
+    }
+  },
+  "representation": {
+    "source": "S13/S14/S26",
+    "schema_version": "1.0.0",
+    "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+    "input_dim": 119,
+    "categorical_dimensions": 110,
+    "binary_dimensions": 3,
+    "temporal_dimensions": 6,
+    "scaler_sha256": "9c21672699ca2bf5daa3ab1cf74f615ce7a488fa3623a7247b629723a1cb8413",
+    "scaler_reused_without_refit": true,
+    "preprocessing": {
+      "timestamp_parse": "UTC; errors raise",
+      "calendar_timezone": "Asia/Kuala_Lumpur",
+      "hour_feature": "fractional hour including minute, second and fractional second",
+      "weekday": "Monday=0, local calendar",
+      "relative_time": "log1p(nonnegative elapsed seconds in UTC); first previous-gap=0",
+      "negative_gap_policy": "FAIL, not silent clipping",
+      "scaler_fit": "all original routine training events only; identical in both distributions and A/B/C",
+      "scaler_dtype": "float64",
+      "scaler_variance": "population (ddof=0)",
+      "constant_scale": 1.0,
+      "invalid_numeric_policy": "FAIL",
+      "summary_transfer": "training count, mean and M2 combined; plaintext summaries outside SecAgg protection claim",
+      "no_imputation_fitting_on_validation_test": true,
+      "unknown_missing_loss_policy": "map inputs according to approved schema; exclude unknown/missing or training-unseen categorical targets from CE; renormalise categorical mean over valid fields; if none, average binary and temporal groups only; report coverage"
+    }
+  },
+  "model": {
+    "family": "LSTM_autoencoder",
+    "input_dim": 119,
+    "encoder_hidden": 64,
+    "bottleneck": 32,
+    "bottleneck_activation": "tanh",
+    "decoder_input": 32,
+    "decoder_hidden": 64,
+    "decoder_initial_h_c": "separate linear projections without extra activation",
+    "teacher_forcing": false,
+    "decoder_output_dropout": 0.1,
+    "categorical_heads": 13,
+    "binary_head": 3,
+    "temporal_head": 6,
+    "loss": "mean of mean categorical CE, binary BCEWithLogits and temporal SmoothL1; then mean across valid events/session; mean across sessions/batch",
+    "score": "mean valid-event reconstruction loss",
+    "variable_length": true,
+    "batch_padding_mask": true,
+    "dtype": "float32",
+    "encoder_batch_first": true,
+    "encoder_bidirectional": false,
+    "encoder_recurrent_dropout": 0.0,
+    "encoder_initial_h_c": "zeros per session",
+    "packing": "pack_padded_sequence; final valid hidden state",
+    "categorical_label_smoothing": 0.0,
+    "binary_pos_weight": null,
+    "temporal_smooth_l1_beta": 1.0,
+    "loss_group_weights": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "initialisation": "PyTorch module defaults, explicit stable construction order; LSTM U(-1/sqrt(64),1/sqrt(64)); Linear U(-1/sqrt(fan_in),1/sqrt(fan_in)); no custom forget-gate bias",
+    "source": "S10 architecture + S14 observed input dimension/parameter count",
+    "parameter_count": 86487
+  },
+  "training_inherited_candidate": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_sessions": 64,
+    "local_epochs": 1,
+    "fl_rounds": 30,
+    "centralised_epochs": 30,
+    "gradient_clip_global_l2": 1.0,
+    "clients": 3,
+    "participation_per_round": 3,
+    "seeds": [
+      11,
+      29,
+      47,
+      71,
+      97
+    ],
+    "lr_scheduler": null,
+    "checkpoint": "minimum session-count-weighted routine validation loss",
+    "initial_state": "one checkpoint per seed reused A/B/C",
+    "initialisation_algorithm": "module defaults in fixed constructor order; save one state per seed/schema; reuse A/B/C",
+    "optimizer_state_between_rounds": "reset before each client fit in B/C; reset before each pooled outer epoch in A; retain within each epoch",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "partial_last_batch_policy": "keep; drop_last=False",
+    "amsgrad": false,
+    "foreach": false,
+    "fused": false,
+    "data_loader_workers": 0,
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "deterministic_algorithms": true,
+    "mixed_precision": false,
+    "device": "cpu",
+    "tensor_order": "ordered state_dict keys, checked on every client",
+    "client_num_examples": "number of scheduled complete sessions consumed in this local epoch, including replacement draws; never event count",
+    "main_seed_list": [
+      11,
+      29,
+      47,
+      71,
+      97
+    ],
+    "source": "Retained from S10 and observed S14/S16; adopted under delegation, main 30-round/epoch execution not performed."
+  },
+  "sampling_inherited_candidate": {
+    "reference": "seeded permutation, no replacement, N_k draws",
+    "noniid": "N_k draws with replacement; dominant group mass 0.60; remainder 0.40",
+    "dominant_departments": {
+      "C1": [
+        "emergency"
+      ],
+      "C2": [
+        "internal_medicine"
+      ],
+      "C3": [
+        "surgery"
+      ]
+    },
+    "mapping_status": "new controlled experimental choice, not a claim of medically validated hospital profiles",
+    "session_department": "modal recorded event department; lexical tie break",
+    "within_group": "uniform across sessions; residual department probabilities follow local session counts",
+    "seed_derivation": "first 8 SHA256 bytes, little-endian, modulo 2**32 of seed|condition|client|outer_epoch",
+    "same_draws_across_A_B_C": true,
+    "centralised_pool": "union of the exact client draws, then deterministic global batch order",
+    "JSD": "mean pairwise Jensen-Shannon divergence, log base 2, not square-root distance",
+    "JSD_expected_min_bits": 0.1,
+    "JSD_increase_min_bits": 0.05,
+    "observed_acceptance": "both criteria on five-round pooled draw distributions; each dominant mass within 0.05 of 0.60",
+    "failure": "stop and document, not search mappings for better test scores"
+  },
+  "secagg_observed_candidate": {
+    "source": "S15/S16",
+    "parameters": {
+      "num_shares": 3,
+      "reconstruction_threshold": 2,
+      "max_weight": 4096.0,
+      "clipping_range": 8.0,
+      "quantization_range": 4194304,
+      "modulus_range": 2147483648,
+      "timeout": 600.0
+    },
+    "all_clients_required_every_stage": 3,
+    "transmitted_object": "full post-local-training model parameters, not gradients",
+    "raw_parameter_guard_absolute_limit": 8.0,
+    "build": {
+      "status": "PASS",
+      "build_id": "flwr:1.22.0+mai.prg7570.1:prg:2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+      "version": "1.22.0+mai.prg7570.1",
+      "function_sha256": "2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+      "helper_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "client_server_bindings_match": true,
+      "official_release": false,
+      "remote_attestation": false,
+      "privacy_claim_validated": false
+    },
+    "scope_approval_evidence": "Researcher explicitly reported supervisor approval in conversation; not a cryptographic assurance certificate.",
+    "threat_model_candidate": "Honest-but-curious aggregation service following the prescribed protocol; honest non-colluding clients; trusted operating system/endpoints; no hostile network adversary; logical application-boundary claims only.",
+    "release_of_individual_unmasked_update_in_server_diagnostics": false,
+    "public_fixed_counts_and_routine_scalar_metrics_visible": true,
+    "transport_tls": false,
+    "diagnostic_identity_handshake_is_not_authentication": true,
+    "no_differential_privacy_or_poisoning_or_final_model_privacy_claim": true
+  },
+  "calibration_rule_inherited": {
+    "fit_partition": "routine validation only; full validation for final calibration",
+    "median": "np.median",
+    "robust_scale": "1.482602218505602 * median(abs(score-median))",
+    "fallback": "(q75-q25)/1.3489795003921634",
+    "degenerate_scale": 1.0,
+    "degenerate_policy": "record flag; report raw scores as well; do not claim nominal FPR guarantee",
+    "epsilon": 1e-12,
+    "quantile_method": "linear",
+    "primary_quantile": 0.99,
+    "sensitivity_quantiles": [
+      0.98,
+      0.995
+    ],
+    "alert_operator": ">",
+    "checkpoint": "minimum session-count-weighted routine validation loss; earliest epoch/round if difference <=1e-12",
+    "score_output": "raw and calibrated scores retained; same validation recipe A/B/C; no fit on tests"
+  },
+  "evaluation_inherited": {
+    "source": "S05/S10/S24",
+    "primary": "session-level Average Precision (AP), threat positive, sklearn.metrics.average_precision_score",
+    "secondary": [
+      "AUROC",
+      "precision",
+      "recall",
+      "F1",
+      "FPR",
+      "FNR",
+      "confusion_matrix",
+      "false_alerts_per_1000_legitimate"
+    ],
+    "reporting": [
+      "pooled global",
+      "per-client",
+      "weakest-client"
+    ],
+    "test_sets_separate": true,
+    "practical_AP_reference_margin": 0.02,
+    "formal_noninferiority_claim": false,
+    "statistical_recipe_in_sources": "Historical proposal only: hierarchical bootstrap. Superseded prospectively by the adopted seed-level plan in review/Evaluation_and_Analysis_Plan.md."
+  },
+  "observed_environment": {
+    "source": "S16/S17",
+    "python": "3.12.3",
+    "packages": {
+      "scipy": "1.18.1",
+      "cryptography": "44.0.3",
+      "requests": "2.34.2",
+      "pyyaml": "6.0.3",
+      "urllib3": "2.7.0",
+      "cloudpickle": "3.1.2",
+      "rich": "13.9.4",
+      "filelock": "3.32.3",
+      "jinja2": "3.1.6",
+      "flwr": "1.22.0+mai.prg7570.1",
+      "pytz": "2026.3.post1",
+      "protobuf": "4.25.9",
+      "joblib": "1.6.0",
+      "pip": "24.0",
+      "python-dateutil": "2.9.0.post0",
+      "tomli-w": "1.2.0",
+      "mdurl": "0.1.2",
+      "typing-extensions": "4.16.0",
+      "markdown-it-py": "4.2.0",
+      "shellingham": "1.5.4",
+      "markupsafe": "3.0.3",
+      "certifi": "2026.7.22",
+      "pycparser": "3.0",
+      "typer": "0.12.5",
+      "pygments": "2.21.0",
+      "numpy": "2.3.5",
+      "charset-normalizer": "3.5.1",
+      "networkx": "3.6.1",
+      "tzdata": "2026.3",
+      "pathspec": "0.12.1",
+      "six": "1.17.0",
+      "threadpoolctl": "3.6.0",
+      "pycryptodome": "3.23.0",
+      "setuptools": "78.1.0",
+      "mpmath": "1.3.0",
+      "click": "8.1.8",
+      "grpcio-health-checking": "1.62.3",
+      "tomli": "2.4.1",
+      "psutil": "7.2.2",
+      "iterators": "0.0.2",
+      "torch": "2.10.0+cpu",
+      "fsspec": "2026.7.0",
+      "pandas": "2.2.3",
+      "sympy": "1.14.0",
+      "idna": "3.19",
+      "grpcio": "1.83.1",
+      "cffi": "2.1.1",
+      "scikit-learn": "1.8.0"
+    },
+    "identity": {
+      "status": "PASS",
+      "build_id": "flwr:1.22.0+mai.prg7570.1:prg:2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+      "version": "1.22.0+mai.prg7570.1",
+      "function_sha256": "2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+      "helper_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "client_server_bindings_match": true,
+      "official_release": false,
+      "remote_attestation": false,
+      "privacy_claim_validated": false
+    },
+    "full_inventory": "evidence/S16_environment_after.json",
+    "measurement_host": "evidence/S17_measurement_host.json",
+    "reporting_note": "WSL memory visible to workload differs from physical Windows RAM; record both without substituting one for the other."
+  },
+  "main_run_matrix": {
+    "status": "PLANNED_NOT_EXECUTED",
+    "source": "S08/S10",
+    "configurations": 3,
+    "conditions": 2,
+    "training_seeds": [
+      11,
+      29,
+      47,
+      71,
+      97
+    ],
+    "run_groups": 30,
+    "rounds_or_epochs_per_run": 30,
+    "execution_order": "config/main_run_order.csv; deterministic cyclic A/B/C order by seed with alternating condition order; not randomised, not perfectly balanced",
+    "runner_manifest_sha256": null,
+    "evaluation_runner_manifest_sha256": null,
+    "training_initial_state_hashes_by_seed": null,
+    "thirty_round_sampling_manifests": null,
+    "execution_order_status": "ADOPTED_BEFORE_MAIN_EXECUTION_UNDER_RESEARCHER_DELEGATION"
+  },
+  "derived_compute_accounting": {
+    "not_new_hyperparameters": true,
+    "centralised_batches_per_epoch_if_global_pooled_batches_keep_last": 170,
+    "centralised_final_batch_sessions": 17,
+    "federated_local_batches_per_round": 171,
+    "federated_batch_counts": {
+      "C1": 57,
+      "C2": 56,
+      "C3": 58
+    },
+    "note": "A: 170 pooled steps per epoch; B/C: 171 local steps summed across clients per round. Equal data exposures are not identical optimisation trajectories or equal effective global updates. Do not silently alter last batches to force step equality."
+  },
+  "untested_main_stage": {
+    "thirty_round_training": true,
+    "A_fullsize_in_accepted_environment": true,
+    "calibration_and_final_scoring_program": true,
+    "operational_execution_order_and_watchdogs": true,
+    "paired_seed_statistics_program": true
+  },
+  "execution_this_review": {
+    "new_training": false,
+    "test_rows_opened": false,
+    "test_scores_computed": false,
+    "new_thresholds_fitted": false,
+    "environment_modified": false,
+    "methodology_documents_updated": true,
+    "main_runner_preparation_authorised": true,
+    "main_runner_built_or_executed": false
+  },
+  "authorised_to_prepare_main_runner": true,
+  "methodology_decisions_resolved_under_researcher_delegation": true,
+  "all_external_facts_verified": false,
+  "authority_record": "review/authority_and_provenance.json",
+  "external_reference_resolution": {
+    "source_ids": "S01-S26 and R01-R10 refer to the unchanged EHR_FL_Freeze_Readiness_Review_v1_0.zip, pinned in the authority record. Only five evidence files are copied here.",
+    "legacy_paths": "Paths inherited from the source candidate that are not present here resolve inside that source archive, not on the user computer."
+  },
+  "adopted_evaluation_details": {
+    "calibration_unit": "configuration x condition x seed x client, using that client full routine validation only",
+    "primary_score_global": "calibrated z-score",
+    "primary_score_per_client": "raw score",
+    "threshold_application": "raw score > per-client 0.99 routine-validation quantile; affine-equivalent calibrated threshold retained for audit",
+    "sensitivity_quantiles": [
+      0.98,
+      0.995
+    ],
+    "primary_test": "test_held_out",
+    "secondary_test": "test_known",
+    "undefined_metrics": "Explicit NA and denominators, not silent perfect/zero replacements. Absent-class AP/AUROC omitted. F1=0 when positives are present but none detected; undefined precision recorded separately.",
+    "subgroups": "Only label-supported scenario/error summaries. No new anomaly mechanism, new RQ or threat-only AUROC. Report the legitimate comparison set for any subgroup ranking metric.",
+    "no_test_rebalancing": true,
+    "no_test_threshold_search": true
+  },
+  "adopted_closures": {
+    "P1_tuning": {
+      "status": "ADOPTED_BY_DELEGATION",
+      "additional_hyperparameter_search_budget": 0,
+      "retain_model_optimizer_rounds_seeds": true,
+      "checkpoint_and_calibration_rules": "unchanged; see inherited recipe; do not promise detection improvement"
+    },
+    "P2_statistics": {
+      "status": "ADOPTED_BY_RESEARCHER_DELEGATION_PENDING_CODE_VERIFICATION",
+      "document": "review/Evaluation_and_Analysis_Plan.md",
+      "change_from_v1_0": "Supersedes the unaccepted 2,000-replicate actor/campaign hierarchical bootstrap proposal with paired seed-level summaries. This narrows the uncertainty target; it does not certify session independence.",
+      "data_resampling": "none; no event, session, actor, campaign or client resampling",
+      "estimand": "Run-to-run algorithmic variability conditional on this fixed benchmark, splits, preprocessing, checkpoint rule and calibration recipe; not sampling variability across datasets or hospitals.",
+      "matched_seeds": [
+        11,
+        29,
+        47,
+        71,
+        97
+      ],
+      "primary_contrasts": [
+        "B_minus_A",
+        "C_minus_B"
+      ],
+      "conditions_analyzed_separately": true,
+      "tests_analyzed_separately": true,
+      "global_AP_score": "client-calibrated scores using the inherited validation-only affine recipe",
+      "secondary_global_AP_score": "raw scores; never selected because its final test result is better",
+      "per_client_AP_score": "raw scores; preserve matched clients and report the worst-client identity",
+      "worst_client_contrast": "min_k(AP_C_k)-min_k(AP_B_k), and analogously B-A; report matched per-client deltas too",
+      "point_summaries": [
+        "all five values",
+        "mean",
+        "sample SD ddof=1",
+        "median",
+        "minimum",
+        "maximum",
+        "all paired differences"
+      ],
+      "confidence_interval": {
+        "scope": "primary global and worst-client mean AP contrasts only; other metrics descriptive",
+        "level": 0.95,
+        "method": "two-sided Student-t interval for the mean of five paired differences",
+        "formula": "mean(d) +/- t.ppf(0.975,4)*sd(d,ddof=1)/sqrt(5)",
+        "label": "Exploratory, model-based conditional interval; nominal coverage not established by these five runs.",
+        "assumptions": "Run differences treated as independent realisations of the training-randomness procedure and approximately normally distributed. Five preselected seeds cannot substantiate normality or broad coverage.",
+        "require_all_five_complete_finite_pairs": true,
+        "if_missing_or_undefined": "Report the available values, missing counts/reasons and descriptive summaries; suppress the nominal interval and mark the planned block incomplete.",
+        "if_zero_sample_SD": "Report zero observed variability; suppress a misleading degenerate interval rather than claiming certainty.",
+        "clip_interval_to_feasible_metric_range": false,
+        "adjusted_simultaneous_intervals": false
+      },
+      "hypothesis_testing": "No confirmatory p-value, equivalence or non-inferiority test; no significance-based pass/fail.",
+      "practical_AP_reference_margin": 0.02,
+      "multiple_comparisons": "Named planned contrasts only; no superiority claim from whether an exploratory interval excludes zero; all conditions and all seeds shown.",
+      "statistical_software": "Use the pinned environment. No dependency upgrade is authorised by use of documentation."
+    },
+    "P3_measurement": {
+      "status": "ADOPTED_BY_DELEGATION",
+      "primary_communication": "application record-content bytes, both directions counted once at client boundary; server count is an audit not an extra copy",
+      "full_network_bytes_measured": false,
+      "add_packet_capture_experiment": false,
+      "time": "instrumented fit path; evaluation/startup/end-to-end wall time separate; not pure cryptography",
+      "inference": "prepared-input forward pass plus session score, not raw-event-to-alert latency",
+      "main_cost_summary": "one run-level summary per seed and condition, then paired C-B differences and 100*(C-B)/B for positive denominators; show slow runs and startup separately",
+      "pilot_scope": "Prior three timing pairs concern small Reference workload, not main full-data costs."
+    },
+    "P4_security_claim": {
+      "status": "BOUNDED_WORDING_ADOPTED_BY_DELEGATION_NOT_CERTIFICATION",
+      "document": "review/Security_and_Reporting_Limits.md",
+      "new_supervisor_signature_claimed": false,
+      "historical_flags_unchanged": true,
+      "privacy_claim_validated": false
+    },
+    "P5_failure_policy": {
+      "status": "ADOPTED_BY_DELEGATION",
+      "automatic_retry": false,
+      "maximum_manual_retries_per_seed_condition_block": 1,
+      "eligible_cause": "documented transient infrastructure fault only; not a slow but completed result, unfavourable metric, numerical failure, code failure or security-guard failure",
+      "retry_unit": "entire matched A/B/C seed-condition block from fresh initialisation, no checkpoint resume; preserve the first attempt and log why the retry is primary",
+      "selection": "first complete fault-free block under the rule, never best performance or fastest time",
+      "if_retry_fails": "mark incomplete and report; no substitute seed",
+      "code_or_security_failure": "stop; diagnose, version and revalidate affected work before resuming; no ad hoc bypass"
+    }
+  },
+  "operational_release_tasks": [
+    "Build and verify the main A/B/C runner, including full-size A in the pinned patched environment.",
+    "Prepare main-seed initial states and 30-round train-only sampling manifests; preserve all inherited rules.",
+    "Fixture-test the calibration, score/label joins, missing-class metrics, paired summaries and execution-order/retry handling without final-test results.",
+    "Fix operational watchdogs using existing pilot evidence before launch; distinguish them from epoch/round budgets.",
+    "Pin runnable source and configuration manifests; issue training authorisation separately from final-test authorisation.",
+    "After training, select and hash checkpoints and validation-only calibration values before test evaluation; no pilot warm-start."
+  ],
+  "fact_limitations_not_resolved_by_delegation": [
+    "public repository and licence",
+    "authority to redistribute",
+    "original generator regeneration",
+    "full historical external test-score exposure"
+  ]
+}

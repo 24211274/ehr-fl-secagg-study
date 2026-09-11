@@ -1,0 +1,366 @@
+{
+  "pilot_specification_version": "1.1",
+  "date": "2026-09-06",
+  "status": "PILOT_SETTINGS_DEFINED_NOT_MAIN_FROZEN",
+  "basis": "Benchmark and Experimental Specification v1.0; new settings below are explicit pilot decisions, not recovered historical practice.",
+  "scope": {
+    "configurations": {
+      "A": "pooled_centralised",
+      "B": "flower_fedavg",
+      "C": "flower_fedavg_secagg_plus"
+    },
+    "exclude": [
+      "Local-only",
+      "TLS",
+      "differential_privacy",
+      "FedProx",
+      "personalisation",
+      "new_crypto_protocol"
+    ]
+  },
+  "user_owned_pending": [
+    "Kaggle publication identity",
+    "rights and licence",
+    "approved ordered categorical schema and input dimension"
+  ],
+  "schema": {
+    "path": null,
+    "sha256": null,
+    "input_dim": null,
+    "categorical_sizes": null,
+    "categorical_field_order": [
+      "action",
+      "event_category",
+      "department",
+      "role",
+      "resource_type",
+      "source_application",
+      "device_type",
+      "network_zone",
+      "location_type",
+      "purpose_of_use",
+      "relationship_type",
+      "outcome",
+      "ward_or_location"
+    ],
+    "binary_fields": [
+      "assigned_patient",
+      "break_glass",
+      "on_shift"
+    ],
+    "temporal_fields": [
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos",
+      "log1p_seconds_since_previous_event",
+      "log1p_seconds_since_session_start"
+    ],
+    "required_contract": "config/SCHEMA_CONTRACT.md"
+  },
+  "preprocessing": {
+    "timestamp_parse": "UTC; errors raise",
+    "calendar_timezone": "Asia/Kuala_Lumpur",
+    "hour_feature": "fractional hour including minute, second and fractional second",
+    "weekday": "Monday=0, local calendar",
+    "relative_time": "log1p(nonnegative elapsed seconds in UTC); first previous-gap=0",
+    "negative_gap_policy": "FAIL, not silent clipping",
+    "scaler_fit": "all original routine training events only; identical in both distributions and A/B/C",
+    "scaler_dtype": "float64",
+    "scaler_variance": "population (ddof=0)",
+    "constant_scale": 1.0,
+    "invalid_numeric_policy": "FAIL",
+    "summary_transfer": "training count, mean and M2 combined; plaintext summaries outside SecAgg protection claim",
+    "no_imputation_fitting_on_validation_test": true,
+    "unknown_missing_loss_policy": "map inputs according to approved schema; exclude unknown/missing or training-unseen categorical targets from CE; renormalise categorical mean over valid fields; if none, average binary and temporal groups only; report coverage"
+  },
+  "model": {
+    "family": "LSTM_autoencoder",
+    "input_dim": null,
+    "encoder_hidden": 64,
+    "bottleneck": 32,
+    "bottleneck_activation": "tanh",
+    "decoder_input": 32,
+    "decoder_hidden": 64,
+    "decoder_initial_h_c": "separate linear projections without extra activation",
+    "teacher_forcing": false,
+    "decoder_output_dropout": 0.1,
+    "categorical_heads": 13,
+    "binary_head": 3,
+    "temporal_head": 6,
+    "loss": "mean of mean categorical CE, binary BCEWithLogits and temporal SmoothL1; then mean across valid events/session; mean across sessions/batch",
+    "score": "mean valid-event reconstruction loss",
+    "variable_length": true,
+    "batch_padding_mask": true,
+    "dtype": "float32",
+    "encoder_batch_first": true,
+    "encoder_bidirectional": false,
+    "encoder_recurrent_dropout": 0.0,
+    "encoder_initial_h_c": "zeros per session",
+    "packing": "pack_padded_sequence; final valid hidden state",
+    "categorical_label_smoothing": 0.0,
+    "binary_pos_weight": null,
+    "temporal_smooth_l1_beta": 1.0,
+    "loss_group_weights": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "initialisation": "PyTorch module defaults, explicit stable construction order; LSTM U(-1/sqrt(64),1/sqrt(64)); Linear U(-1/sqrt(fan_in),1/sqrt(fan_in)); no custom forget-gate bias"
+  },
+  "training": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_sessions": 64,
+    "local_epochs": 1,
+    "fl_rounds": 30,
+    "centralised_epochs": 30,
+    "gradient_clip_global_l2": 1.0,
+    "clients": 3,
+    "participation_per_round": 3,
+    "seeds": [
+      11,
+      29,
+      47,
+      71,
+      97
+    ],
+    "lr_scheduler": null,
+    "checkpoint": "minimum session-count-weighted routine validation loss",
+    "initial_state": "one checkpoint per seed reused A/B/C",
+    "initialisation_algorithm": "module defaults in fixed constructor order; save one state per seed/schema; reuse A/B/C",
+    "optimizer_state_between_rounds": "reset before each client fit in B/C; reset before each pooled outer epoch in A; retain within each epoch",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "partial_last_batch_policy": "keep; drop_last=False",
+    "amsgrad": false,
+    "foreach": false,
+    "fused": false,
+    "data_loader_workers": 0,
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "deterministic_algorithms": true,
+    "mixed_precision": false,
+    "device": "cpu",
+    "tensor_order": "ordered state_dict keys, checked on every client",
+    "client_num_examples": "number of scheduled complete sessions consumed in this local epoch, including replacement draws; never event count",
+    "main_seed_list": [
+      11,
+      29,
+      47,
+      71,
+      97
+    ]
+  },
+  "pilot": {
+    "selection_seed": 20260906,
+    "sanity_seed": 20260907,
+    "sample_selection": "sort sessions by SHA256(seed|purpose|client|session_id), take first N; labels never rank selection",
+    "overfit_sessions_total": 32,
+    "overfit_steps": 100,
+    "overfit_min_relative_loss_drop": 0.2,
+    "overfit_failure": "inspect implementation, not optimise threat performance; no automatic parameter sweep",
+    "smoke_training_sessions_per_client": 256,
+    "smoke_validation_sessions_per_client": 128,
+    "smoke_rounds": 3,
+    "full_training_rounds": 5,
+    "timing_repetitions": 3,
+    "timing_order": [
+      "B_then_C",
+      "C_then_B",
+      "B_then_C"
+    ],
+    "timing_rounds_per_run": 6,
+    "timing_warmup_rounds": 1,
+    "per_stage_timeout_seconds": 600.0,
+    "outer_round_watchdog_seconds": 2700,
+    "fault_tests": "public numeric fixtures only, not a new attack study",
+    "forbidden_partitions": [
+      "test_known",
+      "test_held_out"
+    ],
+    "metrics_forbidden_in_pilot": [
+      "test_AP",
+      "test_AUROC",
+      "test_recall",
+      "test_F1"
+    ],
+    "subset_model_outputs": "engineering artefacts only; never main result checkpoints"
+  },
+  "clients": {
+    "C1": "community_and_emergency_hospital",
+    "C2": "large_tertiary_general_hospital",
+    "C3": "specialist_referral_hospital"
+  },
+  "sampling": {
+    "reference": "seeded permutation, no replacement, N_k draws",
+    "noniid": "N_k draws with replacement; dominant group mass 0.60; remainder 0.40",
+    "dominant_departments": {
+      "C1": [
+        "emergency"
+      ],
+      "C2": [
+        "internal_medicine"
+      ],
+      "C3": [
+        "surgery"
+      ]
+    },
+    "mapping_status": "new controlled experimental choice, not a claim of medically validated hospital profiles",
+    "session_department": "modal recorded event department; lexical tie break",
+    "within_group": "uniform across sessions; residual department probabilities follow local session counts",
+    "seed_derivation": "first 8 SHA256 bytes, little-endian, modulo 2**32 of seed|condition|client|outer_epoch",
+    "same_draws_across_A_B_C": true,
+    "centralised_pool": "union of the exact client draws, then deterministic global batch order",
+    "JSD": "mean pairwise Jensen-Shannon divergence, log base 2, not square-root distance",
+    "JSD_expected_min_bits": 0.1,
+    "JSD_increase_min_bits": 0.05,
+    "observed_acceptance": "both criteria on five-round pooled draw distributions; each dominant mass within 0.05 of 0.60",
+    "failure": "stop and document, not search mappings for better test scores"
+  },
+  "secagg": {
+    "flower_target": "1.22.0",
+    "workflow": "flwr.server.workflow.SecAggPlusWorkflow",
+    "mod": "flwr.client.mod.secaggplus_mod",
+    "api_family": "legacy flwr.server.strategy + LegacyContext + workflow; do not mix new serverapp strategy API",
+    "num_shares": 3,
+    "reconstruction_threshold": 2,
+    "max_weight": 4096.0,
+    "clipping_range": 8.0,
+    "clipping_candidates_only_if_saturated": [
+      8.0,
+      16.0,
+      32.0
+    ],
+    "quantization_range": 4194304,
+    "modulus_range": 2147483648,
+    "timeout": 600.0,
+    "minimum_cohort_before_each_release": 3,
+    "max_weight_rationale": "exceeds maximum full-training session weight 3676; Q/4096 is integral",
+    "payload": "full post-local-training model parameters from FitRes, not gradient tensors or an undocumented delta substitution",
+    "saturation_rule": "zero coordinates outside clipping range on the actual weighted pre-quantisation vectors; warning above 80% of range",
+    "numeric_oracles": "ordinary float64 FedAvg; separately same weighted/quantised integer sum; actual protocol replay still required",
+    "float_aggregate_atol": 1e-06,
+    "float_aggregate_rtol": 1e-05,
+    "quantised_sum_integer_tolerance": 0,
+    "dequantised_atol": 1e-07,
+    "dequantised_rtol": 1e-06,
+    "quantisation_bound": "K*2*C/(Q-1)/(sum(n_k)/max_weight) + 2e-6 + 1e-5*max(abs(float_reference)); assumes zero saturation and exact ratio quantisation",
+    "full_weight_abs_error_ceiling": 2e-05,
+    "randomness": "fresh OS-backed protocol secrets and masks; never fix cryptographic seeds",
+    "is_demo": false,
+    "client_array_logs": false,
+    "strict_round_completion": "wrapper must abort before cohort shrinks at any stage and confirm a fresh aggregate; no stale model after workflow early return",
+    "claims": "direct individual-update observation only; honest-but-curious server, trusted endpoints, no client-server collusion; isolated network, no TLS/DP/poisoning/final-model privacy claim",
+    "modulus_rationale": "power of two below 2**32; 3*Q < M; int64 arithmetic required; verify against pinned runtime"
+  },
+  "calibration": {
+    "fit_partition": "routine validation only; full validation for final calibration",
+    "median": "np.median",
+    "robust_scale": "1.482602218505602 * median(abs(score-median))",
+    "fallback": "(q75-q25)/1.3489795003921634",
+    "degenerate_scale": 1.0,
+    "degenerate_policy": "record flag; report raw scores as well; do not claim nominal FPR guarantee",
+    "epsilon": 1e-12,
+    "quantile_method": "linear",
+    "primary_quantile": 0.99,
+    "sensitivity_quantiles": [
+      0.98,
+      0.995
+    ],
+    "alert_operator": ">",
+    "checkpoint": "minimum session-count-weighted routine validation loss; earliest epoch/round if difference <=1e-12",
+    "score_output": "raw and calibrated scores retained; same validation recipe A/B/C; no fit on tests"
+  },
+  "measurement": {
+    "topology": "one SuperLink, three SuperNodes; same Deployment Runtime for B/C",
+    "host_policy": "same dedicated host allocation; proposed CPU-only Linux; >=4 logical CPUs and 16 GiB RAM recommended; actual host unconfirmed",
+    "per_training_process": "1 thread; same affinity/cgroup limits B/C; 3 clients concurrent",
+    "primary_timer": "perf_counter_ns",
+    "clock_comparison": "server wall time for round latency; do not sum overlapping client times",
+    "timer_boundaries": [
+      "startup separately",
+      "data load separately",
+      "setup",
+      "share keys",
+      "masked-vector collection including local fit",
+      "unmask",
+      "validation separately",
+      "outer round",
+      "whole run"
+    ],
+    "communication": "count outgoing plus incoming at client boundary only across 3 clients; do not also add server totals; report application payload separately from network bytes",
+    "memory": "process-tree RSS sampled every 0.05 s; approximate sampled peak, not exact hardware high-water mark",
+    "inference": "batch size 1, eval mode, no_grad; 20 warmup plus 200 timed validation sessions, then throughput batch 64; final device explicitly recorded",
+    "ratios": "100*(C-B)/B; mark undefined when denominator <=0",
+    "overhead_threshold": "none invented; resource failures are engineering stops, measured overhead is an outcome, not a reason to delete a run"
+  },
+  "failures": {
+    "fail_closed": [
+      "source/schema mismatch",
+      "NaN/Inf",
+      "invalid head or tensor shape",
+      "test partition requested",
+      "unexplained wrong session count",
+      "wrong aggregate",
+      "saturation",
+      "fewer than 3 clients",
+      "stale aggregate after abort",
+      "individual arrays leaked in protected server logs"
+    ],
+    "retry": "one complete matched B/C pair retry only for documented transient infrastructure failure; preserve both attempts",
+    "bug_change": "new code/config version, rerun affected pilot cells; no selective seed replacement",
+    "main_authorisation": false
+  },
+  "environment_target": {
+    "python": "3.13.5",
+    "flwr": "1.22.0",
+    "torch": "2.10.0 (CPU wheel)",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "psutil": "7.2.2",
+    "status": "candidate pins; complete dependency resolution and Flower execution not verified in current runtime; actual experiment-host lock required"
+  },
+  "inherited_main_evaluation": {
+    "primary_metric": "average_precision_score at session level, positive=threat",
+    "secondary": [
+      "AUROC",
+      "precision",
+      "recall",
+      "F1",
+      "FPR",
+      "FNR",
+      "confusion_matrix",
+      "false_alerts_per_1000_legitimate"
+    ],
+    "reporting": [
+      "global",
+      "per_client",
+      "weakest_client"
+    ],
+    "threshold_quantile": 0.99,
+    "sensitivity_quantiles": [
+      0.98,
+      0.995
+    ],
+    "quantile_interpolation": null,
+    "score_calibration": "validation median/MAD with IQR fallback",
+    "zero_IQR_fallback": null,
+    "uncertainty": "paired seed comparisons; clustered resampling to be specified",
+    "practical_AP_reference_margin": 0.02,
+    "formal_noninferiority_claim": false,
+    "localisation": "secondary only; after main session evaluation"
+  },
+  "remaining_freeze_blocks": [
+    "approved encoding schema",
+    "actual experiment-host environment lock",
+    "actual Flower/SecAgg protocol and deployment pilot",
+    "source/publication rights and version",
+    "final clustered statistical protocol and prior test-exposure disclosure"
+  ]
+}

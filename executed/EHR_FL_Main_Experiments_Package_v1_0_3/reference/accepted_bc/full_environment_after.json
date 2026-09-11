@@ -1,0 +1,101 @@
+{
+  "benchmark_data_read": false,
+  "benchmark_training_performed": false,
+  "deployment_engine_used": false,
+  "identity": {
+    "build_id": "flwr:1.22.0+mai.prg7570.1:prg:2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+    "client_server_bindings_match": true,
+    "function_sha256": "2513f6c64f83c4ca6cd69800a517426b701e3e41e8e349f001542b1a7144c230",
+    "helper_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+    "official_release": false,
+    "privacy_claim_validated": false,
+    "remote_attestation": false,
+    "status": "PASS",
+    "version": "1.22.0+mai.prg7570.1"
+  },
+  "imports": {
+    "flwr": {
+      "version": "1.22.0+mai.prg7570.1",
+      "within_candidate_venv": true
+    },
+    "numpy": {
+      "version": "2.3.5",
+      "within_candidate_venv": true
+    },
+    "pandas": {
+      "version": "2.2.3",
+      "within_candidate_venv": true
+    },
+    "psutil": {
+      "version": "7.2.2",
+      "within_candidate_venv": true
+    },
+    "sklearn": {
+      "version": "1.8.0",
+      "within_candidate_venv": true
+    },
+    "torch": {
+      "version": "2.10.0+cpu",
+      "within_candidate_venv": true
+    }
+  },
+  "installed_wheel": {
+    "flower_runtime_files_checked": 424,
+    "outside_venv_paths": false,
+    "status": "PASS"
+  },
+  "main_experiments_frozen": false,
+  "packages": {
+    "certifi": "2026.7.22",
+    "cffi": "2.1.1",
+    "charset-normalizer": "3.5.1",
+    "click": "8.1.8",
+    "cloudpickle": "3.1.2",
+    "cryptography": "44.0.3",
+    "filelock": "3.32.3",
+    "flwr": "1.22.0+mai.prg7570.1",
+    "fsspec": "2026.7.0",
+    "grpcio": "1.83.1",
+    "grpcio-health-checking": "1.62.3",
+    "idna": "3.19",
+    "iterators": "0.0.2",
+    "jinja2": "3.1.6",
+    "joblib": "1.6.0",
+    "markdown-it-py": "4.2.0",
+    "markupsafe": "3.0.3",
+    "mdurl": "0.1.2",
+    "mpmath": "1.3.0",
+    "networkx": "3.6.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pathspec": "0.12.1",
+    "pip": "24.0",
+    "protobuf": "4.25.9",
+    "psutil": "7.2.2",
+    "pycparser": "3.0",
+    "pycryptodome": "3.23.0",
+    "pygments": "2.21.0",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2",
+    "rich": "13.9.4",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.18.1",
+    "setuptools": "78.1.0",
+    "shellingham": "1.5.4",
+    "six": "1.17.0",
+    "sympy": "1.14.0",
+    "threadpoolctl": "3.6.0",
+    "tomli": "2.4.1",
+    "tomli-w": "1.2.0",
+    "torch": "2.10.0+cpu",
+    "typer": "0.12.5",
+    "typing-extensions": "4.16.0",
+    "tzdata": "2026.3",
+    "urllib3": "2.7.0"
+  },
+  "privacy_claim_validated": false,
+  "python": "3.12.3",
+  "status": "PASS"
+}

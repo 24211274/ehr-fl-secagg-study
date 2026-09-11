@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "configuration": "B",
+      "condition": "reference",
+      "release_default_config_sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147",
+      "bound_fixture_config_sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6",
+      "old_in_process_error": "Original JSON and bundled representation differ: fixed_config.json",
+      "fresh_process_resource_verification": {
+        "status": "PASS",
+        "source_resource_identity": {
+          "status": "PASS",
+          "resources": [
+            {
+              "name": "fixed_config.json",
+              "bytes": 4840,
+              "sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6"
+            },
+            {
+              "name": "encoding_schema.json",
+              "bytes": 9580,
+              "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+            }
+          ],
+          "original_bytes_preserved": true
+        },
+        "native_flower_build_executed": false,
+        "services_started_by_this_gate": false,
+        "training_or_validation_metrics_computed": false,
+        "test_data_opened": false,
+        "test_fixture_import": {
+          "app_directory": "/tmp/actual resource reader repro 4ry0jmwq/B_reference/apps/reference",
+          "resources_module": "/tmp/actual resource reader repro 4ry0jmwq/B_reference/apps/reference/ehr_fedavg/resources.py",
+          "carrier_module": "/tmp/actual resource reader repro 4ry0jmwq/B_reference/apps/reference/ehr_fedavg/_embedded_resources.py",
+          "config_sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6",
+          "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+          "training_seed": 11,
+          "rounds": 30,
+          "condition": "reference",
+          "configuration": "B",
+          "isolated_interpreter": true,
+          "bytecode_writes_disabled": true,
+          "pid": 2414
+        }
+      },
+      "native_fab_build_executed": false
+    },
+    {
+      "configuration": "B",
+      "condition": "noniid",
+      "release_default_config_sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147",
+      "bound_fixture_config_sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10",
+      "old_in_process_error": "Original JSON and bundled representation differ: fixed_config.json",
+      "fresh_process_resource_verification": {
+        "status": "PASS",
+        "source_resource_identity": {
+          "status": "PASS",
+          "resources": [
+            {
+              "name": "fixed_config.json",
+              "bytes": 4837,
+              "sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10"
+            },
+            {
+              "name": "encoding_schema.json",
+              "bytes": 9580,
+              "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+            }
+          ],
+          "original_bytes_preserved": true
+        },
+        "native_flower_build_executed": false,
+        "services_started_by_this_gate": false,
+        "training_or_validation_metrics_computed": false,
+        "test_data_opened": false,
+        "test_fixture_import": {
+          "app_directory": "/tmp/actual resource reader repro 4ry0jmwq/B_noniid/apps/noniid",
+          "resources_module": "/tmp/actual resource reader repro 4ry0jmwq/B_noniid/apps/noniid/ehr_fedavg/resources.py",
+          "carrier_module": "/tmp/actual resource reader repro 4ry0jmwq/B_noniid/apps/noniid/ehr_fedavg/_embedded_resources.py",
+          "config_sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10",
+          "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+          "training_seed": 11,
+          "rounds": 30,
+          "condition": "noniid",
+          "configuration": "B",
+          "isolated_interpreter": true,
+          "bytecode_writes_disabled": true,
+          "pid": 2424
+        }
+      },
+      "native_fab_build_executed": false
+    },
+    {
+      "configuration": "C",
+      "condition": "reference",
+      "release_default_config_sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147",
+      "bound_fixture_config_sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6",
+      "old_in_process_error": "Original JSON and bundled representation differ: fixed_config.json",
+      "fresh_process_resource_verification": {
+        "status": "PASS",
+        "source_resource_identity": {
+          "status": "PASS",
+          "resources": [
+            {
+              "name": "fixed_config.json",
+              "bytes": 4840,
+              "sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6"
+            },
+            {
+              "name": "encoding_schema.json",
+              "bytes": 9580,
+              "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+            }
+          ],
+          "original_bytes_preserved": true
+        },
+        "native_flower_build_executed": false,
+        "services_started_by_this_gate": false,
+        "training_or_validation_metrics_computed": false,
+        "test_data_opened": false,
+        "test_fixture_import": {
+          "app_directory": "/tmp/actual resource reader repro 4ry0jmwq/C_reference/apps/reference",
+          "resources_module": "/tmp/actual resource reader repro 4ry0jmwq/C_reference/apps/reference/ehr_fedavg/resources.py",
+          "carrier_module": "/tmp/actual resource reader repro 4ry0jmwq/C_reference/apps/reference/ehr_fedavg/_embedded_resources.py",
+          "config_sha256": "e1e63cd768e0d4753803e3f76c8a21e7350a2b6650f5ca925b9a9b481bdccfe6",
+          "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+          "training_seed": 11,
+          "rounds": 30,
+          "condition": "reference",
+          "configuration": "C",
+          "isolated_interpreter": true,
+          "bytecode_writes_disabled": true,
+          "pid": 2434
+        }
+      },
+      "native_fab_build_executed": false
+    },
+    {
+      "configuration": "C",
+      "condition": "noniid",
+      "release_default_config_sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147",
+      "bound_fixture_config_sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10",
+      "old_in_process_error": "Original JSON and bundled representation differ: fixed_config.json",
+      "fresh_process_resource_verification": {
+        "status": "PASS",
+        "source_resource_identity": {
+          "status": "PASS",
+          "resources": [
+            {
+              "name": "fixed_config.json",
+              "bytes": 4837,
+              "sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10"
+            },
+            {
+              "name": "encoding_schema.json",
+              "bytes": 9580,
+              "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+            }
+          ],
+          "original_bytes_preserved": true
+        },
+        "native_flower_build_executed": false,
+        "services_started_by_this_gate": false,
+        "training_or_validation_metrics_computed": false,
+        "test_data_opened": false,
+        "test_fixture_import": {
+          "app_directory": "/tmp/actual resource reader repro 4ry0jmwq/C_noniid/apps/noniid",
+          "resources_module": "/tmp/actual resource reader repro 4ry0jmwq/C_noniid/apps/noniid/ehr_fedavg/resources.py",
+          "carrier_module": "/tmp/actual resource reader repro 4ry0jmwq/C_noniid/apps/noniid/ehr_fedavg/_embedded_resources.py",
+          "config_sha256": "e6254059483197c8baa38bf6b4f114e384290e27be0688b26639321db818ad10",
+          "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+          "training_seed": 11,
+          "rounds": 30,
+          "condition": "noniid",
+          "configuration": "C",
+          "isolated_interpreter": true,
+          "bytecode_writes_disabled": true,
+          "pid": 2444
+        }
+      },
+      "native_fab_build_executed": false
+    }
+  ],
+  "method": "Unchanged production resource verifier, release-default cached import versus bound main-fixture import in a fresh process",
+  "benchmark_data_used": false,
+  "Flower_build_or_training_performed": false
+}

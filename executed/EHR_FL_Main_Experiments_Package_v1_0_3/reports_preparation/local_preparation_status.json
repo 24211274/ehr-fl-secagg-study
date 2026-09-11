@@ -1,0 +1,27 @@
+{
+  "status": "LOCAL_CHECKS_COMPLETE_TARGET_NATIVE_VALIDATION_PENDING",
+  "version": "1.0.0",
+  "preparation_python": "3.13.5",
+  "native_flower_installed": false,
+  "local_tests": {
+    "total": 447,
+    "passed": 391,
+    "skipped_native_Flower": 56,
+    "failures": 0,
+    "errors": 0,
+    "nonroot_uid": 65534
+  },
+  "inherited_test_cases": 363,
+  "new_main_test_cases": 84,
+  "ast_modules_checked": 99,
+  "bash_syntax_checked": true,
+  "functional_final_evaluator_fixture": "All60 planned metric identities scored end-to-end with fabricated CSV events/labels and dummy checkpoint, mocked environment/source provenance; not real final data.",
+  "full_main_30_run_loop_executed": false,
+  "native_main_FAB_built": false,
+  "main_Deployment_executed": false,
+  "new_encoding_vocabulary_or_scaler_fitted": false,
+  "actual_final_test_data_opened": false,
+  "privacy_certification": false,
+  "user_machine_modified": false,
+  "Flower_download_attempt": "Failed to retrieve matching wheel in this environment; no successful installation; native execution not claimed."
+}

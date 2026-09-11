@@ -1,0 +1,30 @@
+{
+  "repair_id": "MAIN-MEASUREMENT-SCOPE-003",
+  "version": "1.0.3",
+  "classification": "CODE_DEFECT_NOT_TRANSIENT_INFRASTRUCTURE",
+  "parent_campaign": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T071824Z_83a874db",
+  "parent_campaign_manifest_sha256": "b3ed0208080faa6774e7b234e3ab0fdecf28bb6653c8f0e60317511899074031",
+  "parent_source_manifest_sha256": "7012b16a10c5bde679f561742e4021241b0a9a09dd397ab460d7cf3c5a39ea11",
+  "block": "MAIN-11-reference",
+  "attempt": 1,
+  "failure_report_relative": "attempts/MAIN-11-reference/attempt_1/reports",
+  "failure_report_manifest_sha256": "156d53b030f0dd511d008ade80499f7d627129addbc77cd0ba7cbb8f7aebc564",
+  "failure_block_status_sha256": "8391436b8558f570e7bf6cb28e3845ee4835ad433fcc0f3b71acaf6bd6881988",
+  "old_complete_cell_sha256": "ca39b4d08f107580df489b496d8d79c44cfdd121f71add21db5d00c6ee3dc028",
+  "primary_result_policy": "Archive completed A and partial B in the reviewed parent; no primary result mixing. New campaign reuses frozen inputs only; restart the complete first block after separate training-release review.",
+  "no_new_training_in_repair_preparation": true,
+  "test_data_authorised": false,
+  "frozen_inputs_policy": "Copy parent frozen inputs, initial checkpoints and schedules byte-for-byte; do not regenerate or retune.",
+  "parent_preparation_report_manifest_sha256": "d89b9fbdbc844154f0dd604e68c52ec83c5aeceda138af496cdc14836837d8bb",
+  "expected_wrapper_error_type": "RuntimeError",
+  "expected_server_failure": {
+    "status": "FAIL",
+    "configuration": "B",
+    "condition": "reference",
+    "exception": "ValueError",
+    "message": "Message outside fixed timing rounds/phases"
+  },
+  "user_supplied_traceback": true,
+  "previous_repair_id": "MAIN-ATTEMPT-CLONE-001",
+  "additional_scope": "Bind observers to each sealed job, exercise every round and both distribution conditions, and export only sanitised failure frames."
+}

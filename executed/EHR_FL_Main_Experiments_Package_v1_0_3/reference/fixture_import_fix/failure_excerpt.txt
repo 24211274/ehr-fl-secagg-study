@@ -1,0 +1,73 @@
+======================================================================
+ERROR: test_native_B_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_B_noniid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 134, in test_native_B_noniid
+    def test_native_B_noniid(self):self.check('B','noniid')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 124, in check
+    first=module.preflight_native_fab(app,template,condition,template/'reports/first.json',local_environment(template/'probe_flower_home'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/bundle_checks.py", line 181, in preflight_native_fab
+    source_resource_identity=verify_source_resources(app_directory))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/resources.py", line 45, in verify_source_resources
+    raise ValueError('Original JSON and bundled representation differ: ' + name)
+ValueError: Original JSON and bundled representation differ: fixed_config.json
+
+======================================================================
+ERROR: test_native_B_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_B_reference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 133, in test_native_B_reference
+    def test_native_B_reference(self):self.check('B','reference')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 124, in check
+    first=module.preflight_native_fab(app,template,condition,template/'reports/first.json',local_environment(template/'probe_flower_home'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/bundle_checks.py", line 181, in preflight_native_fab
+    source_resource_identity=verify_source_resources(app_directory))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/resources.py", line 45, in verify_source_resources
+    raise ValueError('Original JSON and bundled representation differ: ' + name)
+ValueError: Original JSON and bundled representation differ: fixed_config.json
+
+======================================================================
+ERROR: test_native_C_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_C_noniid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 136, in test_native_C_noniid
+    def test_native_C_noniid(self):self.check('C','noniid')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 124, in check
+    first=module.preflight_native_fab(app,template,condition,template/'reports/first.json',local_environment(template/'probe_flower_home'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_secagg/bundle_checks.py", line 187, in preflight_native_fab
+    source_resource_identity=verify_source_resources(app_directory))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/resources.py", line 45, in verify_source_resources
+    raise ValueError('Original JSON and bundled representation differ: ' + name)
+ValueError: Original JSON and bundled representation differ: fixed_config.json
+
+======================================================================
+ERROR: test_native_C_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_C_reference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 135, in test_native_C_reference
+    def test_native_C_reference(self):self.check('C','reference')
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/tests_main/test_attempt_staging.py", line 124, in check
+    first=module.preflight_native_fab(app,template,condition,template/'reports/first.json',local_environment(template/'probe_flower_home'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_secagg/bundle_checks.py", line 187, in preflight_native_fab
+    source_resource_identity=verify_source_resources(app_directory))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mai/EHR_FL_Main_v1/campaigns/20260909T060409Z_1b57116a/source/app/ehr_fedavg/resources.py", line 45, in verify_source_resources
+    raise ValueError('Original JSON and bundled representation differ: ' + name)
+ValueError: Original JSON and bundled representation differ: fixed_config.json
+
+----------------------------------------------------------------------
+Ran 488 tests in 45.390s
+
+FAILED (errors=4)
+{"status": "FAIL", "tests_run": 488, "failures": 0, "errors": 4, "skipped": 0, "skipped_tests": [], "final_test_data_read": false}

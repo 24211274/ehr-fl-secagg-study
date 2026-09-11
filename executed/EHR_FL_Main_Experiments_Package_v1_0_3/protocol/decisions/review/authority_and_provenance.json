@@ -1,0 +1,16 @@
+{
+  "decision_record_date": "2026-09-09",
+  "authority": "Assistant methodological decisions under explicit researcher delegation in the current message; not a new supervisor signature.",
+  "researcher_message": "نغلق البنود ، بالنسبة لبيانات النشر غير متوفر، اما بالباقي قم بممارسة أفضل حل بدون تعقيد",
+  "publication_metadata_reported": "unavailable",
+  "historical_test_performance_exposure_declaration": "not supplied; no negative declaration inferred",
+  "original_generator_new_evidence": "none supplied",
+  "licence_and_public_redistribution_authority": "not established in the supplied records",
+  "previous_scope_approvals": "Reported earlier by the researcher: eleven-table benchmark; removal of Local-only/TLS; bounded PRG backport. No new approval or waiver is inferred.",
+  "source_archive": {
+    "filename": "EHR_FL_Freeze_Readiness_Review_v1_0.zip",
+    "sha256": "ae8d57fb76e1c7d35c1b9d2c3581814e2a3c4471676d10a2d94219e33301213d",
+    "manifest_entries_verified": 52
+  },
+  "this_package_is": "A decision and reporting addendum, not executable training code or an execution freeze."
+}

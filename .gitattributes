@@ -1,0 +1,4 @@
+# Preserve original source and evidence bytes; do not normalise EOLs or apply filters.
+* -text -filter -ident -working-tree-encoding
+*.png binary
+*.docx binary

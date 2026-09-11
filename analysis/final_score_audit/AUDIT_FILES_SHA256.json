@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "AUDITED_RESULTS.md",
+      "bytes": 13436,
+      "sha256": "55fabb1fd83ee4cee110bd5cfae5e7dcd22d90f1ef657e68d04146d0ced762dd"
+    },
+    {
+      "path": "AUDIT_QA.json",
+      "bytes": 1166,
+      "sha256": "29f66e705c36be8bedc9b7696a390a7193efda466b62ca6069e28d0f88eeaad3"
+    },
+    {
+      "path": "Final_Score_Arithmetic_Audit.json",
+      "bytes": 54845,
+      "sha256": "1ad38c1dd0b636142d53171bf4e298702bae08536e4e99c7b26b24597ff9c216"
+    },
+    {
+      "path": "README_AR.md",
+      "bytes": 3617,
+      "sha256": "343f13da8bc32a739f2225def66f7515b23dd0249cf56d108aff2292a385d724"
+    },
+    {
+      "path": "REPRODUCE_AUDIT.md",
+      "bytes": 1712,
+      "sha256": "2d92d7249c87260059ec59a265745c3d62abfcac0ddc27ae694e135ac89bb908"
+    },
+    {
+      "path": "audit_scores.py",
+      "bytes": 29066,
+      "sha256": "bd952e00a3e125ba2f74af3054b98b765af5267dfdb9704194cc555ff92f33dc"
+    },
+    {
+      "path": "descriptive_AUROC_mixture_checks.csv",
+      "bytes": 4330,
+      "sha256": "febf7b469b58243e40a340bfec033d725a583ad8697687b1c3ae671a641ba440"
+    },
+    {
+      "path": "descriptive_class_error_summary.csv",
+      "bytes": 25310,
+      "sha256": "bab740d98c69b0baa427bc1ef83d2ceb3f0fd2353fea0b54a55daaef8417e402"
+    },
+    {
+      "path": "descriptive_class_score_summary.csv",
+      "bytes": 117285,
+      "sha256": "3fbd89a4f9faa4359a3bf42323681f074cd60cbf281b7a1dadb4bd5dd8532a6a"
+    },
+    {
+      "path": "descriptive_pairwise_ordering.csv",
+      "bytes": 21492,
+      "sha256": "c437486e8a0e2fb92d79e83f732b18605b7f2f63ba4b879803e6c7cba8d1c926"
+    },
+    {
+      "path": "descriptive_pairwise_ordering_summary.csv",
+      "bytes": 5127,
+      "sha256": "6039914ea820c2d882d1c83babef7a3d2b3ee8947e029b001047e612e10d6078"
+    },
+    {
+      "path": "global_results_table.csv",
+      "bytes": 4904,
+      "sha256": "5202352d84a975bdaadf4aaa40af739add92fd6ff891970ce6d2f30c3c910508"
+    },
+    {
+      "path": "metrics_fixture_tests.log",
+      "bytes": 1177,
+      "sha256": "0fa2d90ce54ffcaef7174934837ad12f924e1e88043295d15880aa3817ba6801"
+    },
+    {
+      "path": "paired_contrasts.csv",
+      "bytes": 25563,
+      "sha256": "db822c79f059d3f55b1f510b6572d3e878fe2ba16077261579fc73f0dcc55509"
+    },
+    {
+      "path": "recomputed_decision_metrics.csv",
+      "bytes": 156030,
+      "sha256": "8b4e7f7636a9f5e03cf66e3712efa47e9839cba91ec60e87baa957a1d0c08729"
+    },
+    {
+      "path": "recomputed_rank_metrics.csv",
+      "bytes": 25872,
+      "sha256": "909f2bfc0e21e8e10027d80c834f6ee1af6503fe5f9728be65577621fb8c3e62"
+    },
+    {
+      "path": "seed_summary.csv",
+      "bytes": 19557,
+      "sha256": "1d4fdd508a9dc6638e50a3da4ed8145b38c0c88d893018d8283e3b29571b365b"
+    },
+    {
+      "path": "test_audit_metrics.py",
+      "bytes": 2242,
+      "sha256": "07de940341f5b04d1c9c60430985dff9121f6dbf3047d0a53388e9eafec0530d"
+    },
+    {
+      "path": "test_composition.csv",
+      "bytes": 2516,
+      "sha256": "e3ca103973dbec0382c28f06cddf81b4f5ceef20e4f1833eb96517f20fb5413c"
+    }
+  ],
+  "excludes_manifest_itself": true
+}

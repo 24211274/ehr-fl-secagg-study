@@ -1,0 +1,18 @@
+{
+  "B_completed": true,
+  "C_completed": true,
+  "deployment_engine_may_have_started": true,
+  "full_ml_environment_prepared": true,
+  "installer_patch_version": "1.0.2",
+  "main_experiments_frozen": false,
+  "no_automatic_retry_or_fallback": true,
+  "original_environment_unchanged_verified": true,
+  "prior_validation_evidence_unchanged_verified": true,
+  "privacy_claim_validated": false,
+  "reviewed_wheel_cache_unchanged_verified": true,
+  "scope_approval_reported": true,
+  "stage": "completed",
+  "status": "PATCHED_BC_DEPLOYMENT_REVALIDATION_PASS_NOT_MAIN_OR_PRIVACY_CERTIFICATION",
+  "test_data_opened": false,
+  "test_metrics_computed": false
+}

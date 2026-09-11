@@ -1,0 +1,35 @@
+{
+  "status": "FAIL",
+  "action": "Probe",
+  "exception": "FileExistsError",
+  "message": "[Errno 17] File exists: '/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d/attempts/MAIN-11-reference/attempt_1/B/bundle_preflight/reference'",
+  "frames": [
+    {
+      "file": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d/source/scripts/job_worker.py",
+      "line": 70,
+      "function": "<module>"
+    },
+    {
+      "file": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d/source/scripts/job_worker.py",
+      "line": 27,
+      "function": "main"
+    },
+    {
+      "file": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d/attempts/MAIN-11-reference/attempt_1/B/apps/reference/ehr_fedavg/bundle_checks.py",
+      "line": 187,
+      "function": "preflight_native_fab"
+    },
+    {
+      "file": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d/attempts/MAIN-11-reference/attempt_1/B/apps/reference/ehr_fedavg/bundle_checks.py",
+      "line": 145,
+      "function": "probe_unpacked_fab"
+    },
+    {
+      "file": "/usr/lib/python3.12/pathlib.py",
+      "line": 1313,
+      "function": "mkdir"
+    }
+  ],
+  "locals_exported": false,
+  "test_data_opened": false
+}

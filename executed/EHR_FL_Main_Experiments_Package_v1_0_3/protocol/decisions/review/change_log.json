@@ -1,0 +1,25 @@
+{
+  "source_archive_sha256": "ae8d57fb76e1c7d35c1b9d2c3581814e2a3c4471676d10a2d94219e33301213d",
+  "source_candidate_sha256": "6353dc0b97e037e13ee7e615807d17faaa0580d738a8e63aaa3bb825abca22cf",
+  "scientific_sections_identical_to_source": [
+    "research_questions_as_in_source",
+    "scope",
+    "representation",
+    "model",
+    "sampling_inherited_candidate",
+    "secagg_observed_candidate",
+    "calibration_rule_inherited",
+    "observed_environment",
+    "derived_compute_accounting"
+  ],
+  "all_training_values_identical_except_explanatory_source_note": true,
+  "intentional_changes": [
+    "Record researcher delegation and unavailable publication metadata without filling nulls.",
+    "Accept file-based reproducibility limitation; do not claim generation or public redistribution permission.",
+    "Record structural test exposure and unknown external performance exposure; adopt prospective lock, not invented history.",
+    "Adopt P1/P3/P4/P5 and explicitly replace the unaccepted hierarchical bootstrap proposal with conditional seed-level P2.",
+    "Set a deterministic rotating run order prospectively; runtime verification still pending.",
+    "Authorise preparation only; preserve no-launch, no-test and no-certification states."
+  ],
+  "this_step_did_not": "Train, score tests, calibrate, install, change runtime code, alter CSVs, or rewrite past reports."
+}

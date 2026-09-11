@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "audits": [
+    {
+      "status": "PASS",
+      "mean_pairwise_JSD_bits": {
+        "reference": 0.003764955030347165,
+        "expected": 0.3306152922326251,
+        "observed_first_five": 0.3313241481257523
+      },
+      "dominant_masses": {
+        "C1": 0.6044887780548629,
+        "C2": 0.5962232243517475,
+        "C3": 0.6009249183895539
+      },
+      "gate_rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clinical_validation_claim": false,
+      "mapping_changed": false,
+      "seed": 11
+    },
+    {
+      "status": "PASS",
+      "mean_pairwise_JSD_bits": {
+        "reference": 0.003764955030347165,
+        "expected": 0.3306152922326251,
+        "observed_first_five": 0.33400542683609286
+      },
+      "dominant_masses": {
+        "C1": 0.601052923247437,
+        "C2": 0.596674182638106,
+        "C3": 0.6041349292709467
+      },
+      "gate_rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clinical_validation_claim": false,
+      "mapping_changed": false,
+      "seed": 29
+    },
+    {
+      "status": "PASS",
+      "mean_pairwise_JSD_bits": {
+        "reference": 0.003764955030347165,
+        "expected": 0.3306152922326251,
+        "observed_first_five": 0.33262042264632696
+      },
+      "dominant_masses": {
+        "C1": 0.600831255195345,
+        "C2": 0.6002254791431793,
+        "C3": 0.6009793253536453
+      },
+      "gate_rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clinical_validation_claim": false,
+      "mapping_changed": false,
+      "seed": 47
+    },
+    {
+      "status": "PASS",
+      "mean_pairwise_JSD_bits": {
+        "reference": 0.003764955030347165,
+        "expected": 0.3306152922326251,
+        "observed_first_five": 0.33071434050527804
+      },
+      "dominant_masses": {
+        "C1": 0.5971183153228041,
+        "C2": 0.5965050732807216,
+        "C3": 0.6038628944504897
+      },
+      "gate_rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clinical_validation_claim": false,
+      "mapping_changed": false,
+      "seed": 71
+    },
+    {
+      "status": "PASS",
+      "mean_pairwise_JSD_bits": {
+        "reference": 0.003764955030347165,
+        "expected": 0.3306152922326251,
+        "observed_first_five": 0.334338146974515
+      },
+      "dominant_masses": {
+        "C1": 0.6036575228595179,
+        "C2": 0.6020293122886133,
+        "C3": 0.6017410228509249
+      },
+      "gate_rounds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clinical_validation_claim": false,
+      "mapping_changed": false,
+      "seed": 97
+    }
+  ],
+  "training_modes_only": true,
+  "main_training_performed": false,
+  "initial_digests_preparation_environment": {
+    "11": "ae014b38520cbecd44e95ef0abfd869293802c434cf781e49f734fe58444b769",
+    "29": "1e85467d25b785c596396ab00e23397bfc1344467ecac722158b96a36dd0f227",
+    "47": "6a03479d80858fe842e7ae39e38ef583f4d03dfa67fe556070d7b656729f21f9",
+    "71": "72bd52815330dc1742c0a0bbdad76c89c466ab52ad72ef90b9ef898f20b866c4",
+    "97": "83fc347b22a31493b33c7e9cdd6dcb1063d2d8ac543e91b80d68e2bc4ab4e03d"
+  }
+}

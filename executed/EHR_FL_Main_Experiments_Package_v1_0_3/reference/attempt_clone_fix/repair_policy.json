@@ -1,0 +1,28 @@
+{
+  "repair_id": "MAIN-ATTEMPT-CLONE-001",
+  "version": "1.0.1",
+  "classification": "CODE_DEFECT_NOT_TRANSIENT_INFRASTRUCTURE",
+  "parent_campaign": "/home/mai/EHR_FL_Main_v1/campaigns/20260909T040230Z_5ecc549d",
+  "parent_campaign_manifest_sha256": "0de1caee822150c8dc1c642c46ec56b6b2263bcd037201183a5603c92b7d3b7a",
+  "parent_source_manifest_sha256": "d2aeb816261456f7205d3db041d1c55f1aa851ef795df067af5f21a3c6163979",
+  "block": "MAIN-11-reference",
+  "attempt": 1,
+  "failure_report_relative": "attempts/MAIN-11-reference/attempt_1/reports",
+  "failure_report_manifest_sha256": "ef5d757dd1cf9ea22fdd65bcdc6bb2f1f08f2db073e79082b467fafa2ee63f44",
+  "failure_block_status_sha256": "e0420365ccb229dad6ea019ea04d3075dfbc6dae1d14f65ad61c9afdab36f87d",
+  "old_complete_cell_sha256": "ca39b4d08f107580df489b496d8d79c44cfdd121f71add21db5d00c6ee3dc028",
+  "primary_result_policy": "Preserve old failed block and completed A as archived execution evidence; do not combine partial cells across campaigns. Re-run all three cells from original initial states only after successor preparation review.",
+  "no_new_training_in_repair_preparation": true,
+  "test_data_authorised": false,
+  "frozen_inputs_policy": "Copy parent frozen inputs, initial checkpoints and schedules byte-for-byte; do not regenerate or retune.",
+  "parent_preparation_report_manifest_sha256": "98ae89935758224cbb15bd832a6fbc47e0008787d090b9a1b4e800937627c046",
+  "test_harness_amendment": {
+    "amendment_id": "MAIN-FIXTURE-IMPORT-002",
+    "source_release": "1.0.2",
+    "preceding_repair_preparation": "20260909T060409Z_1b57116a",
+    "preceding_failure_report_sha256": "bcdfbcef287395c0f300aba5f790078d13408a2053677d427d62be9f9a8827c5",
+    "scope": "Test-fixture import isolation only; production code unchanged from v1.0.1.",
+    "reuses_original_parent_not_incomplete_repair_campaign": true,
+    "no_training_authorisation_granted": true
+  }
+}

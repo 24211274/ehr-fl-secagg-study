@@ -1,0 +1,22 @@
+{
+  "source_sha256": "4489e2d1f7c96ab7ecc6405fcb9659c8f3b0bca3d8500441192f2a20c219378c",
+  "round_checks": [
+    {
+      "round": 6,
+      "old_status": "PASS"
+    },
+    {
+      "round": 7,
+      "old_status": "REFUSED",
+      "error": "Message outside fixed timing rounds/phases"
+    },
+    {
+      "round": 30,
+      "old_status": "REFUSED",
+      "error": "Message outside fixed timing rounds/phases"
+    }
+  ],
+  "noniid_refusal": "Timing protocol permits Reference only",
+  "local_standins_only": true,
+  "deployment_executed": false
+}

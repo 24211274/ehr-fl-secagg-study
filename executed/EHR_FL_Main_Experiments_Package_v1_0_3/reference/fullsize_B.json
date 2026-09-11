@@ -1,0 +1,112 @@
+{
+  "schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+  "scaler_sha256": "9c21672699ca2bf5daa3ab1cf74f615ce7a488fa3623a7247b629723a1cb8413",
+  "artefact_manifest_sha256": "bcf1ae13b47a365540d69f92678dad603793c27d269f3a944440ba45889b44ab",
+  "base_release_manifest_sha256": "f65910bf9efc890b8d4e3eafedf1e7f4bf977a341c40631c08f50616e3dfc329",
+  "inherited_protocol_sha256": "6f23642761ee9482b3b0b3d3a18f89e850d69671beeadca0e4957e0e8e0c8475",
+  "input_dim": 119,
+  "model_parameter_count": 86487,
+  "device": "cpu",
+  "dtype": "float32",
+  "torch_threads": 1,
+  "torch_interop_threads": 1,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "epsilon": 1e-08,
+  "gradient_clip_global_l2": 1.0,
+  "post_clip_tolerance": 1e-06,
+  "model_dropout_during_training": 0.1,
+  "foreach": false,
+  "fused": false,
+  "training_seed": 20260906,
+  "selection_seed": 20260906,
+  "clients": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "training_sessions_per_client": {
+    "C1": 3609,
+    "C2": 3548,
+    "C3": 3676
+  },
+  "validation_sessions_per_client": {
+    "C1": 1214,
+    "C2": 1198,
+    "C3": 1210
+  },
+  "batch_sessions": 64,
+  "membership_sha256": "d98b97e24ece19323b944e768cc0fa7d68fd60ce59927c937bae7cd950bcbec5",
+  "dominant_departments": {
+    "C1": [
+      "emergency"
+    ],
+    "C2": [
+      "internal_medicine"
+    ],
+    "C3": [
+      "surgery"
+    ]
+  },
+  "checkpoint_tie_tolerance": 1e-12,
+  "stage": "FULLSIZE_BC_FIVE_ROUND_ENGINEERING_PILOT",
+  "version": "1.0.0",
+  "configuration": "B",
+  "conditions": [
+    "reference",
+    "noniid"
+  ],
+  "rounds": 5,
+  "local_epochs": 1,
+  "local_updates_per_round": {
+    "C1": 57,
+    "C2": 56,
+    "C3": 58
+  },
+  "expected_total_updates": 1710,
+  "required_packages": {
+    "torch": "2.10.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "psutil": "7.2.2",
+    "flwr": "1.22.0+mai.prg7570.1"
+  },
+  "python_policy": "Target: accepted non-root Linux Python 3.12 venv in place; exact package identities checked; no installations",
+  "schedule_sha256": "a6b2d28912994047d9306b8cb0ddf4c3d627b5fac46cab1a177288a103b3de1f",
+  "aggregation_atol": 1e-06,
+  "aggregation_rtol": 1e-05,
+  "node_wait_seconds": 120,
+  "exchange_timeout_seconds": 600,
+  "condition_watchdog_seconds": 3600,
+  "service_start_seconds": 120,
+  "service_stop_seconds": 10,
+  "resource_sample_seconds": 0.1,
+  "ports": {
+    "serverappio": 19091,
+    "fleet": 19092,
+    "control": 19093,
+    "C1": 19094,
+    "C2": 19095,
+    "C3": 19096
+  },
+  "secagg_protocol_enabled": false,
+  "transport_tls_enabled": false,
+  "loopback_only": true,
+  "implementation_decisions": [
+    "Five-round full-size cells from the previously specified pilot matrix, not main experiments or timing repeats.",
+    "All 10833 routine training sessions and all 3622 routine validation sessions. Original per-client five-round manifests are retained byte for byte; no draws regenerated from scores.",
+    "Reference visits every training session once per round. Non-IID uses the original with-replacement 60/40 department schedule. Weights count draw occurrences, not unique sampled sessions or events.",
+    "Client counts 3609/3548/3676 require 57/56/58 batches with final batch sizes 25/28/28. Last batches are retained; their losses are means over actual sessions, with unchanged masking.",
+    "Same original model, optimiser, dropout, gradient clipping, local epoch and per-client/round RNG mapping as the accepted patched smoke run. Fresh global state, fresh AdamW each fit.",
+    "Weighted global routine losses use actual per-client counts, not an unweighted mean across clients. No threshold, test score, AP, AUROC or threat-label analysis.",
+    "Reuse the accepted .venv_full_candidate without pip or installations. Original and accepted environment source inventories are checked before/after.",
+    "Unchanged loopback endpoints, command PATH, process lifecycle, port release, FAB resource carrier and PRG identity controls.",
+    "Stock Flower FedAvg plus independent float64 check in B. C reuses the approved PRG backport and stock SecAggPlusWorkflow; no individual update or output digest diagnostic channel in C.",
+    "Runtime timings/RSS/message payload sizes are engineering diagnostics, not a final network-byte or secure aggregation overhead result.",
+    "All 3 clients required throughout; no automatic retry, plain fallback, resumption or weakened acceptance to force success."
+  ]
+}

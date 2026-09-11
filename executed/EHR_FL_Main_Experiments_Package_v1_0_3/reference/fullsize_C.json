@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0-fullsize",
+  "configuration": "C",
+  "stage": "FULLSIZE_PATCHED_SECAGG_ENGINEERING_PILOT",
+  "base_fedavg_config_sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+  "base_package_sha256": "b8ab63b1e2813755ab9576590ed6a342815104b41304f99439535aef96281eaa",
+  "base_success_run": "20260908T051118Z_5aa99ec3",
+  "secagg": {
+    "num_shares": 3,
+    "reconstruction_threshold": 2,
+    "max_weight": 4096.0,
+    "clipping_range": 8.0,
+    "quantization_range": 4194304,
+    "modulus_range": 2147483648,
+    "timeout": 600.0
+  },
+  "rounds": 5,
+  "conditions": [
+    "reference",
+    "noniid"
+  ],
+  "all_clients_required": 3,
+  "unweighted_parameter_absolute_limit": 8.0,
+  "fit_metrics_allowlist": [
+    "client",
+    "input_digest",
+    "steps",
+    "draws"
+  ],
+  "fit_counts_are_public_fixed_by_design": true,
+  "scalar_routine_evaluation_metrics_are_unprotected": true,
+  "security_claim_gate": "CANDIDATE_PRG_REVALIDATION_NOT_PRIVACY_CERTIFICATION",
+  "security_issue_url": "https://github.com/flwrlabs/flower/issues/7522",
+  "pinned_crypto_unchanged": false,
+  "known_limitation": "Approved local PRG backport is installed. Functional integration is not cryptographic certification; trusted host and honest protocol parties, no hostile transport or host compromise protection.",
+  "no_main_experiment_freeze": true,
+  "new_engineering_decisions": [
+    "Reuse full-size model/training configuration and original full-size manifests without changing PRG/quantisation.",
+    "Use the upstream SecAggPlusWorkflow and secaggplus_mod with approved pinned PRG backport, wrapped only with guards; do not change further cryptography or dependencies inside the training runner.",
+    "Require exactly three participants at all four protocol stages; abort on missing reply or aborted workflow, with no plaintext fallback.",
+    "Only public cohort identifiers, counts, global-input fingerprints and completed-step acknowledgements accompany masked training replies. No client output fingerprints, losses, gradients or update summaries are forwarded.",
+    "Raw parameter range guard is local and reports only success/failure. It is stricter than the stock weighted-parameter quantizer and rejects clipping.",
+    "Stock secure workflow passes the same recovered aggregate in each legacy FitRes. Check equality, then cast this one already-weighted aggregate to float32 for the unchanged model; do not FedAvg individual updates again.",
+    "Numerical oracle is a separate in-memory protocol run on public small toy tensors. No benchmark data, reused secrets or update inspection are allowed in this oracle.",
+    "Routine evaluation scalar metrics remain explicitly outside aggregation protection; per-session losses remain in client-local files, not the exported report.",
+    "The matched live C run has no independent plaintext-update oracle on the server. Its numeric correctness evidence is the separate toy protocol oracle plus live boundary/cohort/finite checks.",
+    "Engineering success never sets privacy/security approval to true; local backport requires documented security review and full-size checks before main-study freeze.",
+    "Existing B runtime patches 1.0.1 through 1.0.5 are retained. No new loopback ports or elevated privileges."
+  ],
+  "local_candidate_version": "1.22.0+mai.prg7570.1",
+  "candidate_commit": "e87804ad00c46bff6dc3f058b73de81529e50bc0",
+  "approved_prg_unchanged_since_predecessor": true,
+  "pinned_crypto_unchanged_note": "The inherited false value refers to changes from stock Flower1.22.0; this full-size release does not change the already accepted local backport."
+}

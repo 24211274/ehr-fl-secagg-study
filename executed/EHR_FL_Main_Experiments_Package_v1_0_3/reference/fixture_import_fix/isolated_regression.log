@@ -1,0 +1,19 @@
+test_B_noniid_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_B_noniid_has_correct_resources) ... ok
+test_B_reference_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_B_reference_has_correct_resources) ... ok
+test_C_noniid_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_C_noniid_has_correct_resources) ... ok
+test_C_reference_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_C_reference_has_correct_resources) ... ok
+test_altered_carrier_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_altered_carrier_still_rejected) ... ok
+test_altered_json_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_altered_json_still_rejected) ... ok
+test_existing_test_report_not_overwritten (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_existing_test_report_not_overwritten) ... ok
+test_helper_is_test_only_and_native_tests_remain (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_helper_is_test_only_and_native_tests_remain) ... ok
+test_isolation_survives_poisoned_pythonpath (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_isolation_survives_poisoned_pythonpath) ... ok
+test_mismatched_schema_link_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_mismatched_schema_link_still_rejected) ... ok
+test_missing_carrier_has_no_fallback (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_missing_carrier_has_no_fallback) ... ok
+test_multiple_seeds_do_not_reuse_parent_module (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_multiple_seeds_do_not_reuse_parent_module) ... ok
+test_old_in_process_comparison_reproduces_reported_failure (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_old_in_process_comparison_reproduces_reported_failure) ... ok
+test_template_and_attempt_resources_stay_identical (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_template_and_attempt_resources_stay_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 16.551s
+
+OK

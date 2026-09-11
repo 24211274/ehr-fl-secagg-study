@@ -1,0 +1,80 @@
+{
+  "purpose": "Decision addendum file integrity; not an authenticity signature, execution authorisation or certification",
+  "files": [
+    {
+      "path": "Decision_Closure_Record.docx",
+      "bytes": 43133,
+      "sha256": "b2d7d59249bbc3b9993b2ddc019bed89a1f59e342989c79b66bb609537f1fda8"
+    },
+    {
+      "path": "README_AR.md",
+      "bytes": 7303,
+      "sha256": "a1062d60065deb0637ca0f80f2fee7366964aaf3740d8acf947d547a0dc5140e"
+    },
+    {
+      "path": "config/main_protocol_decisions.json",
+      "bytes": 27769,
+      "sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a"
+    },
+    {
+      "path": "config/main_run_order.csv",
+      "bytes": 2531,
+      "sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5"
+    },
+    {
+      "path": "evidence/S02_source_file_manifest.csv",
+      "bytes": 1346,
+      "sha256": "4a388fae660ae699dea96c2f7a29e90fc7979c2be7185a6d848c867fbc714f13"
+    },
+    {
+      "path": "evidence/S03_generation_notes.md",
+      "bytes": 2154,
+      "sha256": "5ef7e49509ed82509c93043dd2995292752e48cd16645531dc9c1679842c7877"
+    },
+    {
+      "path": "evidence/S04_licence_status.md",
+      "bytes": 729,
+      "sha256": "4eed86e74a2cbfdd751610eee18c22a73745f388e1e22ef25243d06869e4cc69"
+    },
+    {
+      "path": "evidence/S13_encoding_schema.json",
+      "bytes": 9580,
+      "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+    },
+    {
+      "path": "evidence/S26_relative_time_scaler.json",
+      "bytes": 2414,
+      "sha256": "9c21672699ca2bf5daa3ab1cf74f615ce7a488fa3623a7247b629723a1cb8413"
+    },
+    {
+      "path": "qa/decision_consistency_checks.json",
+      "bytes": 1144,
+      "sha256": "f694f614141a32b439cd5663dbc26da495b383b8bf1144280d2b4d1beb31f884"
+    },
+    {
+      "path": "review/Evaluation_and_Analysis_Plan.md",
+      "bytes": 7429,
+      "sha256": "0d163eb595260de2d14bd3f3d6d65a127f1798effcd0061001f84a496a9fd8da"
+    },
+    {
+      "path": "review/Security_and_Reporting_Limits.md",
+      "bytes": 4665,
+      "sha256": "a3277ae21d34511233060cae4f5750e1e0ee66c4d47e7d2bf1c371fc6aa2838c"
+    },
+    {
+      "path": "review/authority_and_provenance.json",
+      "bytes": 1175,
+      "sha256": "4ac2b229a69e9b87d03e02006161c72b3aba87df60a6cdae8c74da03a0a3e270"
+    },
+    {
+      "path": "review/change_log.json",
+      "bytes": 1379,
+      "sha256": "46703f4ec1834cf6f449487e24120ba3b6d695ec01676b974f57c23e9400827d"
+    },
+    {
+      "path": "review/closure_register.json",
+      "bytes": 1624,
+      "sha256": "f37ce7f4adc9f228412c75fda4fffb42b6773b75c6f3f1572ad1c5d21de1aeae"
+    }
+  ]
+}

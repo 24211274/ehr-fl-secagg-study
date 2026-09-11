@@ -1,0 +1,350 @@
+{
+  "approved": true,
+  "schema_version": "1.0.0",
+  "approval_date": "2026-09-06",
+  "status": "ENCODING_RULES_APPROVED_PIPELINE_VALIDATION_PENDING",
+  "training_source_hashes": {
+    "events.csv": "ba24538f362a86c1b4dab25a438fb11da6dd0fbed7cd20057161e32b851b8ba0",
+    "labels.csv": "74279f47f44439677e7fe296db1c22b4db84e9b6728062fc7df8fc5407ff0678"
+  },
+  "training_selection": {
+    "join_key": "session_id",
+    "partition": "training",
+    "training_sessions": 10833,
+    "training_events": 108005,
+    "session_id_set_sha256": "7f12c2bb2b11eb4f2c46b5cbc13007aa010268ad8e2787844e2064b7aeb28365",
+    "validation_test_features_used_for_vocabulary": false
+  },
+  "categorical_fields": [
+    {
+      "name": "action",
+      "categories": [
+        "C",
+        "E",
+        "R",
+        "U",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 0,
+      "one_hot_stop_exclusive": 6
+    },
+    {
+      "name": "event_category",
+      "categories": [
+        "access",
+        "authentication",
+        "operations",
+        "security",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 6,
+      "one_hot_stop_exclusive": 12
+    },
+    {
+      "name": "department",
+      "categories": [
+        "emergency",
+        "health_information_management",
+        "internal_medicine",
+        "laboratory",
+        "outpatient",
+        "pharmacy",
+        "radiology",
+        "surgery",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        8,
+        9
+      ],
+      "unknown_index": 8,
+      "missing_index": 9,
+      "one_hot_start_inclusive": 12,
+      "one_hot_stop_exclusive": 22
+    },
+    {
+      "name": "role",
+      "categories": [
+        "it_support",
+        "laboratory_technologist",
+        "nurse",
+        "pharmacist",
+        "physician",
+        "privacy_auditor",
+        "radiology_technologist",
+        "receptionist",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        8,
+        9
+      ],
+      "unknown_index": 8,
+      "missing_index": 9,
+      "one_hot_start_inclusive": 22,
+      "one_hot_stop_exclusive": 32
+    },
+    {
+      "name": "resource_type",
+      "categories": [
+        "Appointment",
+        "AuditEvent",
+        "CarePlan",
+        "Device",
+        "DiagnosticReport",
+        "DocumentReference",
+        "Encounter",
+        "ImagingStudy",
+        "MedicationAdministration",
+        "MedicationDispense",
+        "MedicationRequest",
+        "Observation",
+        "Patient",
+        "ServiceRequest",
+        "Task",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        15,
+        16
+      ],
+      "unknown_index": 15,
+      "missing_index": 16,
+      "one_hot_start_inclusive": 32,
+      "one_hot_stop_exclusive": 49
+    },
+    {
+      "name": "source_application",
+      "categories": [
+        "appointment_module",
+        "audit_console",
+        "clinical_notes",
+        "ehr_core",
+        "emergency_module",
+        "laboratory_module",
+        "medication_admin",
+        "nursing_module",
+        "order_entry",
+        "pharmacy_module",
+        "radiology_module",
+        "registration_portal",
+        "reporting_portal",
+        "support_console",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        14,
+        15
+      ],
+      "unknown_index": 14,
+      "missing_index": 15,
+      "one_hot_start_inclusive": 49,
+      "one_hot_stop_exclusive": 65
+    },
+    {
+      "name": "device_type",
+      "categories": [
+        "approved_laptop",
+        "mobile_workstation",
+        "shared_terminal",
+        "workstation",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 65,
+      "one_hot_stop_exclusive": 71
+    },
+    {
+      "name": "network_zone",
+      "categories": [
+        "internal_admin",
+        "internal_clinical",
+        "service_network",
+        "vpn",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 71,
+      "one_hot_stop_exclusive": 77
+    },
+    {
+      "name": "location_type",
+      "categories": [
+        "clinic",
+        "department_office",
+        "remote_approved",
+        "ward",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 77,
+      "one_hot_stop_exclusive": 83
+    },
+    {
+      "name": "purpose_of_use",
+      "categories": [
+        "audit",
+        "operations",
+        "treatment",
+        "unknown",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 83,
+      "one_hot_stop_exclusive": 89
+    },
+    {
+      "name": "relationship_type",
+      "categories": [
+        "assignment",
+        "audit_operations",
+        "no_relationship",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        3,
+        4
+      ],
+      "unknown_index": 3,
+      "missing_index": 4,
+      "one_hot_start_inclusive": 89,
+      "one_hot_stop_exclusive": 94
+    },
+    {
+      "name": "outcome",
+      "categories": [
+        "denial",
+        "error",
+        "success",
+        "warning",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        4,
+        5
+      ],
+      "unknown_index": 4,
+      "missing_index": 5,
+      "one_hot_start_inclusive": 94,
+      "one_hot_stop_exclusive": 100
+    },
+    {
+      "name": "ward_or_location",
+      "categories": [
+        "emergency",
+        "health_information_management",
+        "internal_medicine",
+        "laboratory",
+        "outpatient",
+        "pharmacy",
+        "radiology",
+        "surgery",
+        "__UNK__",
+        "__MISSING__"
+      ],
+      "masked_target_indices": [
+        8,
+        9
+      ],
+      "unknown_index": 8,
+      "missing_index": 9,
+      "one_hot_start_inclusive": 100,
+      "one_hot_stop_exclusive": 110
+    }
+  ],
+  "binary_fields": [
+    "assigned_patient",
+    "break_glass",
+    "on_shift"
+  ],
+  "temporal_fields": [
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "log1p_seconds_since_previous_event",
+    "log1p_seconds_since_session_start"
+  ],
+  "input_dim": 119,
+  "encoding_policy": {
+    "categorical_encoding": "one_hot",
+    "category_order": "sorted literal training strings, then __UNK__, then __MISSING__",
+    "reserved_unknown": "__UNK__",
+    "reserved_missing": "__MISSING__",
+    "source_literal_unknown_is_reserved_token": false,
+    "unknown_missing_targets": "exclude these target indices from categorical CE; follow pilot v1.1 normalisation and report coverage",
+    "client_policy": "same ordered schema for all three clients and A/B/C"
+  },
+  "preprocessing_policy_reference": {
+    "timestamp_parse": "UTC; errors raise",
+    "calendar_timezone": "Asia/Kuala_Lumpur",
+    "hour_feature": "fractional hour including minute, second and fractional second",
+    "weekday": "Monday=0, local calendar",
+    "relative_time": "log1p(nonnegative elapsed seconds in UTC); first previous-gap=0",
+    "negative_gap_policy": "FAIL, not silent clipping",
+    "scaler_fit": "all original routine training events only; identical in both distributions and A/B/C",
+    "scaler_dtype": "float64",
+    "scaler_variance": "population (ddof=0)",
+    "constant_scale": 1.0,
+    "invalid_numeric_policy": "FAIL",
+    "summary_transfer": "training count, mean and M2 combined; plaintext summaries outside SecAgg protection claim",
+    "no_imputation_fitting_on_validation_test": true,
+    "unknown_missing_loss_policy": "map inputs according to approved schema; exclude unknown/missing or training-unseen categorical targets from CE; renormalise categorical mean over valid fields; if none, average binary and temporal groups only; report coverage"
+  },
+  "numeric_scaler": {
+    "fitted": false,
+    "note": "Fit and serialise the two relative-time scalers using training data only in the future preprocessing implementation."
+  },
+  "limits": [
+    "Encoding rules approved by the project researcher in this conversation on 2026-09-06; the original candidate is retained in reference/.",
+    "The approved mapping has 110 categorical dimensions, 3 binary dimensions and 6 temporal dimensions: 119 in total; the earlier unsupported 98/107 counts are superseded.",
+    "Approval fixes the encoding rules only. It is not evidence of independent clinical validation, supervisor signature, or completed Flower/SecAgg+ execution.",
+    "Relative-time scaler values have not been fitted. CSV-to-tensor integration, real-data model acceptance tests and the actual Flower/SecAgg+ pilot remain pending.",
+    "Source CSVs and the earlier pilot/specification documents are not modified by this release.",
+    "Main experimental settings, publication rights/licence and dataset publication status are not frozen or approved by this schema record."
+  ]
+}

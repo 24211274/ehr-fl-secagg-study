@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "campaign_manifest_sha256": null,
+  "package_manifest_sha256": null,
+  "note": "Unapproved template. Populate only following review of this exact campaign; not authentication.",
+  "action": "RETRY_TRANSIENT_BLOCK",
+  "block_id": null,
+  "fault_class": null,
+  "reason": null,
+  "test_data_authorised": false
+}

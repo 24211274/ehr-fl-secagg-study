@@ -1,0 +1,112 @@
+{
+  "files": [
+    {
+      "path": "A/calibration.json",
+      "sha256": "0f661c0f9d9191f58f7d7ffb7f0aa5ff41ec58380a44130857fdd9605c58190a",
+      "bytes": 2161
+    },
+    {
+      "path": "A/cell_complete.json",
+      "sha256": "ca39b4d08f107580df489b496d8d79c44cfdd121f71add21db5d00c6ee3dc028",
+      "bytes": 762
+    },
+    {
+      "path": "A/central_history.json",
+      "sha256": "d009713173ad505847f944a5ab99e4844931200d8d9e6c32ee7b687388bafb5e",
+      "bytes": 24332
+    },
+    {
+      "path": "A/central_summary.json",
+      "sha256": "ce7e7b8559d2501dd996e6887ca4c565687b2f1f5a3c1cf8ad83783faaad480d",
+      "bytes": 843
+    },
+    {
+      "path": "A/job_preflight.json",
+      "sha256": "c7a4dad6576e96b105dbbba29135755d1349ea0fa9ab7b46fde9a3e181fbb747",
+      "bytes": 163
+    },
+    {
+      "path": "A/selected_model_inference.json",
+      "sha256": "f3f3596e3fb7759cf84316bd4f770f875dd4dbe2ba79107c1a30f7bbf9c62d84",
+      "bytes": 466
+    },
+    {
+      "path": "A_probe.log",
+      "sha256": "52af67e85cda748b44fe769c51a28c4140b24dff3ac3315aa7618ae2eb3cf9a9",
+      "bytes": 26
+    },
+    {
+      "path": "A_train.log",
+      "sha256": "6bdd3ecd8fd75139ee34900c2f2b51129b4dc6d0bafc3a42588a01106cbcf55b",
+      "bytes": 2558
+    },
+    {
+      "path": "B_probe.log",
+      "sha256": "5ca0fae5f0f9ef5d17810fd27d7abaa8425ab4ff5f82e5b465699224923103af",
+      "bytes": 1476
+    },
+    {
+      "path": "block_status.json",
+      "sha256": "e0420365ccb229dad6ea019ea04d3075dfbc6dae1d14f65ad61c9afdab36f87d",
+      "bytes": 1176
+    },
+    {
+      "path": "environment_after.json",
+      "sha256": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "bytes": 47826
+    },
+    {
+      "path": "environment_after.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "environment_before.json",
+      "sha256": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d",
+      "bytes": 47826
+    },
+    {
+      "path": "environment_before.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failure_trace.txt",
+      "sha256": "465dea4349615cf42f31d0db4ebf330610216cff1488b4db1c1e37c897837365",
+      "bytes": 640
+    },
+    {
+      "path": "original_environment_after.json",
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "bytes": 47897
+    },
+    {
+      "path": "original_environment_after.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "original_environment_before.json",
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd",
+      "bytes": 47897
+    },
+    {
+      "path": "original_environment_before.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "worker_failure.json",
+      "sha256": "0e6beb89531862a281bb2b5c8cb3a5b6bb392dc37d7e13f2ccb6468d491cd4b4",
+      "bytes": 1223
+    }
+  ],
+  "excluded": [
+    "checkpoints",
+    "client arrays",
+    "per-session evaluation rows",
+    "protocol secrets/shares/masks",
+    "Flower stores and full process logs",
+    "wheel files and environments"
+  ]
+}

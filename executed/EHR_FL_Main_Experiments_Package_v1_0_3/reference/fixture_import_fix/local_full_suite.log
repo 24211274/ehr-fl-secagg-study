@@ -1,0 +1,557 @@
+test_absolute_path_rejected (test_bundle_resources.BundleTests.test_absolute_path_rejected) ... ok
+test_backslash_path_rejected (test_bundle_resources.BundleTests.test_backslash_path_rejected) ... ok
+test_content_ledger_corruption_rejected (test_bundle_resources.BundleTests.test_content_ledger_corruption_rejected) ... ok
+test_content_ledger_missing_rejected (test_bundle_resources.BundleTests.test_content_ledger_missing_rejected) ... ok
+test_data_arrays_not_present (test_bundle_resources.BundleTests.test_data_arrays_not_present) ... ok
+test_extra_dataset_rejected (test_bundle_resources.BundleTests.test_extra_dataset_rejected) ... ok
+test_isolated_unpacked_model_without_json (test_bundle_resources.BundleTests.test_isolated_unpacked_model_without_json) ... ok
+test_missing_carrier_rejected (test_bundle_resources.BundleTests.test_missing_carrier_rejected) ... ok
+test_missing_model_rejected (test_bundle_resources.BundleTests.test_missing_model_rejected) ... ok
+test_path_traversal_rejected (test_bundle_resources.BundleTests.test_path_traversal_rejected) ... ok
+test_probe_refuses_existing_work_directory (test_bundle_resources.BundleTests.test_probe_refuses_existing_work_directory) ... ok
+test_source_checkout_cannot_mask_missing_embedded_module (test_bundle_resources.BundleTests.test_source_checkout_cannot_mask_missing_embedded_module) ... ok
+test_source_forbidden_json_is_not_needed_by_model (test_bundle_resources.BundleTests.test_source_forbidden_json_is_not_needed_by_model) ... ok
+test_staged_changed_python_rejected (test_bundle_resources.BundleTests.test_staged_changed_python_rejected) ... ok
+test_supported_code_carrier_survives_filter (test_bundle_resources.BundleTests.test_supported_code_carrier_survives_filter) ... ok
+test_symlink_rejected (test_bundle_resources.BundleTests.test_symlink_rejected) ... ok
+test_tampered_carrier_rejected (test_bundle_resources.BundleTests.test_tampered_carrier_rejected) ... ok
+test_toml_changes_rejected (test_bundle_resources.BundleTests.test_toml_changes_rejected) ... ok
+test_native_builder_and_unpacked_callback_imports (test_bundle_resources.NativeFlowerBundleTests.test_native_builder_and_unpacked_callback_imports) ... skipped 'Native Flower builder not installed in preparation environment'
+test_native_builder_supported_extensions_pinned (test_bundle_resources.NativeFlowerBundleTests.test_native_builder_supported_extensions_pinned) ... skipped 'Native Flower builder not installed in preparation environment'
+test_changed_bytes_rejected (test_bundle_resources.ResourceTests.test_changed_bytes_rejected) ... ok
+test_changed_original_source_rejected (test_bundle_resources.ResourceTests.test_changed_original_source_rejected) ... ok
+test_config_exact_original_bytes (test_bundle_resources.ResourceTests.test_config_exact_original_bytes) ... ok
+test_config_semantics_unchanged (test_bundle_resources.ResourceTests.test_config_semantics_unchanged) ... ok
+test_consumers_no_adjacent_json_dependency (test_bundle_resources.ResourceTests.test_consumers_no_adjacent_json_dependency) ... ok
+test_generator_is_reproducible (test_bundle_resources.ResourceTests.test_generator_is_reproducible) ... ok
+test_no_mutation_shared_between_reads (test_bundle_resources.ResourceTests.test_no_mutation_shared_between_reads) ... ok
+test_pinned_schema_digest (test_bundle_resources.ResourceTests.test_pinned_schema_digest) ... ok
+test_schema_exact_original_bytes (test_bundle_resources.ResourceTests.test_schema_exact_original_bytes) ... ok
+test_schema_semantics_unchanged (test_bundle_resources.ResourceTests.test_schema_semantics_unchanged) ... ok
+test_source_resources_checked (test_bundle_resources.ResourceTests.test_source_resources_checked) ... ok
+test_unknown_resource_rejected (test_bundle_resources.ResourceTests.test_unknown_resource_rejected) ... ok
+test_B_two_boundaries_reconcile_with_empty_status (test_empty_config_counter.NativeBoundaryTests.test_B_two_boundaries_reconcile_with_empty_status) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_deflated_config_record_and_message_stay_unchanged (test_empty_config_counter.NativeBoundaryTests.test_deflated_config_record_and_message_stay_unchanged) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_installed_count_method_is_unchanged (test_empty_config_counter.NativeBoundaryTests.test_installed_count_method_is_unchanged) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_metric_empty_list_delegates_native (test_empty_config_counter.NativeBoundaryTests.test_metric_empty_list_delegates_native) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_off_lattice_public_protocol_observed_at_all_stages (test_empty_config_counter.NativeBoundaryTests.test_off_lattice_public_protocol_observed_at_all_stages) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_unmask_two_boundaries_reconcile_with_empty_list (test_empty_config_counter.NativeBoundaryTests.test_unmask_two_boundaries_reconcile_with_empty_list) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_all_empty_fields_and_empty_key (test_empty_config_counter.NativeCounterTests.test_all_empty_fields_and_empty_key) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_array_metric_count_delegation_unchanged (test_empty_config_counter.NativeCounterTests.test_array_metric_count_delegation_unchanged) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_config_repair_does_not_swallow_metric_errors (test_empty_config_counter.NativeCounterTests.test_config_repair_does_not_swallow_metric_errors) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_empty_list_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_empty_list_keeps_key_length) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_empty_record_is_zero (test_empty_config_counter.NativeCounterTests.test_empty_record_is_zero) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_invalid_native_return_is_rejected (test_empty_config_counter.NativeCounterTests.test_invalid_native_return_is_rejected) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_legacy_unicode_length_convention_retained (test_empty_config_counter.NativeCounterTests.test_legacy_unicode_length_convention_retained) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_mixed_config_retains_all_nonempty_values (test_empty_config_counter.NativeCounterTests.test_mixed_config_retains_all_nonempty_values) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_multiple_records_keep_all_keys_once (test_empty_config_counter.NativeCounterTests.test_multiple_records_keep_all_keys_once) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_no_record_mutation_or_list_identity_change (test_empty_config_counter.NativeCounterTests.test_no_record_mutation_or_list_identity_change) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_nonempty_lists_of_empty_text_or_bytes_still_count_keys (test_empty_config_counter.NativeCounterTests.test_nonempty_lists_of_empty_text_or_bytes_still_count_keys) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_nonempty_scalars_and_homogeneous_lists_match_native (test_empty_config_counter.NativeCounterTests.test_nonempty_scalars_and_homogeneous_lists_match_native) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_projection_requires_a_configrecord (test_empty_config_counter.NativeCounterTests.test_projection_requires_a_configrecord) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_repeated_count_is_identical (test_empty_config_counter.NativeCounterTests.test_repeated_count_is_identical) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_report_remains_strict_numeric_and_does_not_export_values (test_empty_config_counter.NativeCounterTests.test_report_remains_strict_numeric_and_does_not_export_values) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_reproduce_original_empty_list_error (test_empty_config_counter.NativeCounterTests.test_reproduce_original_empty_list_error) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_reproduce_original_empty_scalar_error (test_empty_config_counter.NativeCounterTests.test_reproduce_original_empty_scalar_error) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_scalar_empty_bytes_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_scalar_empty_bytes_keeps_key_length) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_scalar_empty_text_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_scalar_empty_text_keeps_key_length) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_unmask_full_participation_record (test_empty_config_counter.NativeCounterTests.test_unmask_full_participation_record) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_unmask_nonempty_dropout_list (test_empty_config_counter.NativeCounterTests.test_unmask_nonempty_dropout_list) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_unrelated_counter_exception_propagates (test_empty_config_counter.NativeCounterTests.test_unrelated_counter_exception_propagates) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_zero_numeric_false_are_not_removed (test_empty_config_counter.NativeCounterTests.test_zero_numeric_false_are_not_removed) ... skipped 'Requires installed native Flower; not replaced by source harness'
+test_no_global_monkeypatch_in_production (test_empty_config_counter.PackagingTests.test_no_global_monkeypatch_in_production) ... ok
+test_server_report_declares_rule (test_empty_config_counter.PackagingTests.test_server_report_declares_rule) ... ok
+test_source_method_is_exact_except_dedent (test_empty_config_counter.PackagingTests.test_source_method_is_exact_except_dedent) ... ok
+test_all_empty_fields_and_empty_key (test_empty_config_counter.SourceMethodTests.test_all_empty_fields_and_empty_key) ... ok
+test_array_metric_count_delegation_unchanged (test_empty_config_counter.SourceMethodTests.test_array_metric_count_delegation_unchanged) ... ok
+test_config_repair_does_not_swallow_metric_errors (test_empty_config_counter.SourceMethodTests.test_config_repair_does_not_swallow_metric_errors) ... ok
+test_empty_list_keeps_key_length (test_empty_config_counter.SourceMethodTests.test_empty_list_keeps_key_length) ... ok
+test_empty_record_is_zero (test_empty_config_counter.SourceMethodTests.test_empty_record_is_zero) ... ok
+test_invalid_native_return_is_rejected (test_empty_config_counter.SourceMethodTests.test_invalid_native_return_is_rejected) ... ok
+test_legacy_unicode_length_convention_retained (test_empty_config_counter.SourceMethodTests.test_legacy_unicode_length_convention_retained) ... ok
+test_mixed_config_retains_all_nonempty_values (test_empty_config_counter.SourceMethodTests.test_mixed_config_retains_all_nonempty_values) ... ok
+test_multiple_records_keep_all_keys_once (test_empty_config_counter.SourceMethodTests.test_multiple_records_keep_all_keys_once) ... ok
+test_no_record_mutation_or_list_identity_change (test_empty_config_counter.SourceMethodTests.test_no_record_mutation_or_list_identity_change) ... ok
+test_nonempty_lists_of_empty_text_or_bytes_still_count_keys (test_empty_config_counter.SourceMethodTests.test_nonempty_lists_of_empty_text_or_bytes_still_count_keys) ... ok
+test_nonempty_scalars_and_homogeneous_lists_match_native (test_empty_config_counter.SourceMethodTests.test_nonempty_scalars_and_homogeneous_lists_match_native) ... ok
+test_projection_requires_a_configrecord (test_empty_config_counter.SourceMethodTests.test_projection_requires_a_configrecord) ... ok
+test_repeated_count_is_identical (test_empty_config_counter.SourceMethodTests.test_repeated_count_is_identical) ... ok
+test_report_remains_strict_numeric_and_does_not_export_values (test_empty_config_counter.SourceMethodTests.test_report_remains_strict_numeric_and_does_not_export_values) ... ok
+test_reproduce_original_empty_list_error (test_empty_config_counter.SourceMethodTests.test_reproduce_original_empty_list_error) ... ok
+test_reproduce_original_empty_scalar_error (test_empty_config_counter.SourceMethodTests.test_reproduce_original_empty_scalar_error) ... ok
+test_scalar_empty_bytes_keeps_key_length (test_empty_config_counter.SourceMethodTests.test_scalar_empty_bytes_keeps_key_length) ... ok
+test_scalar_empty_text_keeps_key_length (test_empty_config_counter.SourceMethodTests.test_scalar_empty_text_keeps_key_length) ... ok
+test_unmask_full_participation_record (test_empty_config_counter.SourceMethodTests.test_unmask_full_participation_record) ... ok
+test_unmask_nonempty_dropout_list (test_empty_config_counter.SourceMethodTests.test_unmask_nonempty_dropout_list) ... ok
+test_unrelated_counter_exception_propagates (test_empty_config_counter.SourceMethodTests.test_unrelated_counter_exception_propagates) ... ok
+test_zero_numeric_false_are_not_removed (test_empty_config_counter.SourceMethodTests.test_zero_numeric_false_are_not_removed) ... ok
+test_accept_exact_build_after_binding_check (test_fab_build_identity.AdmissionTests.test_accept_exact_build_after_binding_check) ... ok
+test_arbitrary_local_suffix_rejected (test_fab_build_identity.AdmissionTests.test_arbitrary_local_suffix_rejected) ... ok
+test_bool_flags_not_numeric_substitutes (test_fab_build_identity.AdmissionTests.test_bool_flags_not_numeric_substitutes) ... ok
+test_client_server_binding_mismatch_rejected (test_fab_build_identity.AdmissionTests.test_client_server_binding_mismatch_rejected) ... ok
+test_copy_not_shared (test_fab_build_identity.AdmissionTests.test_copy_not_shared) ... ok
+test_forged_build_same_version_rejected (test_fab_build_identity.AdmissionTests.test_forged_build_same_version_rejected) ... ok
+test_function_hash_mismatch_rejected (test_fab_build_identity.AdmissionTests.test_function_hash_mismatch_rejected) ... ok
+test_helper_hash_mismatch_rejected (test_fab_build_identity.AdmissionTests.test_helper_hash_mismatch_rejected) ... ok
+test_missing_identity_record_rejected (test_fab_build_identity.AdmissionTests.test_missing_identity_record_rejected) ... ok
+test_missing_version_rejected (test_fab_build_identity.AdmissionTests.test_missing_version_rejected) ... ok
+test_newer_upstream_rejected (test_fab_build_identity.AdmissionTests.test_newer_upstream_rejected) ... ok
+test_old_build_rejected_before_binding (test_fab_build_identity.AdmissionTests.test_old_build_rejected_before_binding) ... ok
+test_old_condition_reproduces_false_rejection (test_fab_build_identity.AdmissionTests.test_old_condition_reproduces_false_rejection) ... ok
+test_other_candidate_revision_rejected (test_fab_build_identity.AdmissionTests.test_other_candidate_revision_rejected) ... ok
+test_privacy_claim_cannot_be_promoted (test_fab_build_identity.AdmissionTests.test_privacy_claim_cannot_be_promoted) ... ok
+test_source_check_exception_propagated (test_fab_build_identity.AdmissionTests.test_source_check_exception_propagated) ... ok
+test_digest_check_not_relaxed (test_fab_build_identity.PreflightEntryStubTests.test_digest_check_not_relaxed) ... ok
+test_extension_check_not_relaxed (test_fab_build_identity.PreflightEntryStubTests.test_extension_check_not_relaxed) ... ok
+test_missing_flower_metadata_written (test_fab_build_identity.PreflightEntryStubTests.test_missing_flower_metadata_written) ... ok
+test_original_version_rejected_before_builder (test_fab_build_identity.PreflightEntryStubTests.test_original_version_rejected_before_builder) ... ok
+test_preflight_accepts_candidate_not_just_helper (test_fab_build_identity.PreflightEntryStubTests.test_preflight_accepts_candidate_not_just_helper) ... ok
+test_preflight_accepts_noniid (test_fab_build_identity.PreflightEntryStubTests.test_preflight_accepts_noniid) ... ok
+test_rebuild_byte_equality_not_relaxed (test_fab_build_identity.PreflightEntryStubTests.test_rebuild_byte_equality_not_relaxed) ... ok
+test_source_identity_rejected_before_builder (test_fab_build_identity.PreflightEntryStubTests.test_source_identity_rejected_before_builder) ... ok
+test_digest_check_not_relaxed (test_fab_build_identity.SecAggPreflightEntryStubTests.test_digest_check_not_relaxed) ... ok
+test_extension_check_not_relaxed (test_fab_build_identity.SecAggPreflightEntryStubTests.test_extension_check_not_relaxed) ... ok
+test_missing_flower_metadata_written (test_fab_build_identity.SecAggPreflightEntryStubTests.test_missing_flower_metadata_written) ... ok
+test_original_version_rejected_before_builder (test_fab_build_identity.SecAggPreflightEntryStubTests.test_original_version_rejected_before_builder) ... ok
+test_preflight_accepts_candidate_not_just_helper (test_fab_build_identity.SecAggPreflightEntryStubTests.test_preflight_accepts_candidate_not_just_helper) ... ok
+test_preflight_accepts_noniid (test_fab_build_identity.SecAggPreflightEntryStubTests.test_preflight_accepts_noniid) ... ok
+test_rebuild_byte_equality_not_relaxed (test_fab_build_identity.SecAggPreflightEntryStubTests.test_rebuild_byte_equality_not_relaxed) ... ok
+test_source_identity_rejected_before_builder (test_fab_build_identity.SecAggPreflightEntryStubTests.test_source_identity_rejected_before_builder) ... ok
+test_invalid_phase_rejected (test_host_lifecycle.LifecycleTests.test_invalid_phase_rejected) ... ok
+test_no_process_stop_is_noop (test_host_lifecycle.LifecycleTests.test_no_process_stop_is_noop) ... ok
+test_owned_loopback_process_cleaned_without_stopping_other_listener (test_host_lifecycle.LifecycleTests.test_owned_loopback_process_cleaned_without_stopping_other_listener) ... ok
+test_reject_unexpected_service_exit (test_host_lifecycle.LifecycleTests.test_reject_unexpected_service_exit) ... ok
+test_failed_binding_never_reaches_callback (test_integration_identity.IdentityFlowStandinTests.test_failed_binding_never_reaches_callback) ... ok
+test_handshake_duplicate_logical_client_refused (test_integration_identity.IdentityFlowStandinTests.test_handshake_duplicate_logical_client_refused) ... ok
+test_handshake_missing_reply_refused (test_integration_identity.IdentityFlowStandinTests.test_handshake_missing_reply_refused) ... ok
+test_handshake_six_messages_no_training (test_integration_identity.IdentityFlowStandinTests.test_handshake_six_messages_no_training) ... ok
+test_handshake_tampered_claim_rejected (test_integration_identity.IdentityFlowStandinTests.test_handshake_tampered_claim_rejected) ... ok
+test_handshake_unconditional_accept_refused (test_integration_identity.IdentityFlowStandinTests.test_handshake_unconditional_accept_refused) ... ok
+test_missing_fit_id_rejected_before_callback (test_integration_identity.IdentityFlowStandinTests.test_missing_fit_id_rejected_before_callback) ... ok
+test_negative_query_does_not_load_client (test_integration_identity.IdentityFlowStandinTests.test_negative_query_does_not_load_client) ... ok
+test_positive_query_does_not_load_client (test_integration_identity.IdentityFlowStandinTests.test_positive_query_does_not_load_client) ... ok
+test_query_array_refused (test_integration_identity.IdentityFlowStandinTests.test_query_array_refused) ... ok
+test_query_other_fields_refused (test_integration_identity.IdentityFlowStandinTests.test_query_other_fields_refused) ... ok
+test_shared_setup_content_not_mutated (test_integration_identity.IdentityFlowStandinTests.test_shared_setup_content_not_mutated) ... ok
+test_transport_duplicate_destinations_refused (test_integration_identity.IdentityFlowStandinTests.test_transport_duplicate_destinations_refused) ... ok
+test_transport_empty_request_refused (test_integration_identity.IdentityFlowStandinTests.test_transport_empty_request_refused) ... ok
+test_transport_existing_identity_refused (test_integration_identity.IdentityFlowStandinTests.test_transport_existing_identity_refused) ... ok
+test_transport_missing_reply_refused (test_integration_identity.IdentityFlowStandinTests.test_transport_missing_reply_refused) ... ok
+test_valid_fit_reaches_callback_and_adds_only_public_identity (test_integration_identity.IdentityFlowStandinTests.test_valid_fit_reaches_callback_and_adds_only_public_identity) ... ok
+test_wrong_evaluate_never_reaches_callback (test_integration_identity.IdentityFlowStandinTests.test_wrong_evaluate_never_reaches_callback) ... ok
+test_wrong_fit_never_reaches_callback (test_integration_identity.IdentityFlowStandinTests.test_wrong_fit_never_reaches_callback) ... ok
+test_candidate_identity_links_to_validated_source (test_integration_identity.IdentitySchemaTests.test_candidate_identity_links_to_validated_source) ... ok
+test_candidate_source_unmodified (test_integration_identity.IdentitySchemaTests.test_candidate_source_unmodified) ... ok
+test_extra_request_field_rejected (test_integration_identity.IdentitySchemaTests.test_extra_request_field_rejected) ... ok
+test_fullsize_configuration_keeps_crypto_identity (test_integration_identity.IdentitySchemaTests.test_fullsize_configuration_keeps_crypto_identity) ... ok
+test_missing_id_rejected (test_integration_identity.IdentitySchemaTests.test_missing_id_rejected) ... ok
+test_old_id_rejected (test_integration_identity.IdentitySchemaTests.test_old_id_rejected) ... ok
+test_old_new_identifiers_distinct (test_integration_identity.IdentitySchemaTests.test_old_new_identifiers_distinct) ... ok
+test_reply_client_required (test_integration_identity.IdentitySchemaTests.test_reply_client_required) ... ok
+test_unknown_reply_client (test_integration_identity.IdentitySchemaTests.test_unknown_reply_client) ... ok
+test_update_hash_in_identity_refused (test_integration_identity.IdentitySchemaTests.test_update_hash_in_identity_refused) ... ok
+test_valid_reply (test_integration_identity.IdentitySchemaTests.test_valid_reply) ... ok
+test_valid_request (test_integration_identity.IdentitySchemaTests.test_valid_request) ... ok
+test_real_B_client_identity_query_without_dataset (test_integration_identity.NativeIdentityTests.test_real_B_client_identity_query_without_dataset) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_C_client_identity_query_without_dataset (test_integration_identity.NativeIdentityTests.test_real_C_client_identity_query_without_dataset) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_C_wrong_id_query_refused_without_dataset (test_integration_identity.NativeIdentityTests.test_real_C_wrong_id_query_refused_without_dataset) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_C_wrong_train_id_refused_before_mod (test_integration_identity.NativeIdentityTests.test_real_C_wrong_train_id_refused_before_mod) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_candidate_binding (test_integration_identity.NativeIdentityTests.test_real_candidate_binding) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_message_record_handshake_in_memory (test_integration_identity.NativeIdentityTests.test_real_message_record_handshake_in_memory) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_real_shared_record_and_C_boundary (test_integration_identity.NativeIdentityTests.test_real_shared_record_and_C_boundary) ... skipped 'Native Flower identity checks must run in the target full candidate environment'
+test_allowlist_not_widened_to_other_loopback_addresses (test_listener_policy.AddressClassificationTests.test_allowlist_not_widened_to_other_loopback_addresses) ... ok
+test_invalid_and_nonnumeric_addresses_fail_closed (test_listener_policy.AddressClassificationTests.test_invalid_and_nonnumeric_addresses_fail_closed) ... ok
+test_ipv4_loopback_kept (test_listener_policy.AddressClassificationTests.test_ipv4_loopback_kept) ... ok
+test_ipv6_loopback_forms (test_listener_policy.AddressClassificationTests.test_ipv6_loopback_forms) ... ok
+test_mapped_loopback_forms (test_listener_policy.AddressClassificationTests.test_mapped_loopback_forms) ... ok
+test_mapped_nonloopback_blocked (test_listener_policy.AddressClassificationTests.test_mapped_nonloopback_blocked) ... ok
+test_no_dns_resolution_used (test_listener_policy.AddressClassificationTests.test_no_dns_resolution_used) ... ok
+test_other_ipv6_translation_formats_not_allowed (test_listener_policy.AddressClassificationTests.test_other_ipv6_translation_formats_not_allowed) ... ok
+test_private_public_linklocal_and_multicast_blocked (test_listener_policy.AddressClassificationTests.test_private_public_linklocal_and_multicast_blocked) ... ok
+test_reproduces_old_literal_comparison_false_positive (test_listener_policy.AddressClassificationTests.test_reproduces_old_literal_comparison_false_positive) ... ok
+test_wildcards_blocked (test_listener_policy.AddressClassificationTests.test_wildcards_blocked) ... ok
+test_works_even_with_pre_fix_ipv6_is_loopback (test_listener_policy.AddressClassificationTests.test_works_even_with_pre_fix_ipv6_is_loopback) ... ok
+test_access_denied_does_not_pass_silently (test_listener_policy.ListenerAuditTests.test_access_denied_does_not_pass_silently) ... ok
+test_all_owned_processes_inspected_not_only_first (test_listener_policy.ListenerAuditTests.test_all_owned_processes_inspected_not_only_first) ... ok
+test_connected_sockets_not_mistaken_for_listeners (test_listener_policy.ListenerAuditTests.test_connected_sockets_not_mistaken_for_listeners) ... ok
+test_extra_unsafe_port_blocks_even_when_required_ports_safe (test_listener_policy.ListenerAuditTests.test_extra_unsafe_port_blocks_even_when_required_ports_safe) ... ok
+test_failed_periodic_scan_replaces_previous_pass (test_listener_policy.ListenerAuditTests.test_failed_periodic_scan_replaces_previous_pass) ... ok
+test_invalid_required_port_sets_rejected (test_listener_policy.ListenerAuditTests.test_invalid_required_port_sets_rejected) ... ok
+test_invalid_socket_address_is_recorded_and_rejected (test_listener_policy.ListenerAuditTests.test_invalid_socket_address_is_recorded_and_rejected) ... ok
+test_mapped_listener_records_raw_and_effective (test_listener_policy.ListenerAuditTests.test_mapped_listener_records_raw_and_effective) ... ok
+test_missing_required_port_stays_failure (test_listener_policy.ListenerAuditTests.test_missing_required_port_stays_failure) ... ok
+test_original_call_signature_remains_supported (test_listener_policy.ListenerAuditTests.test_original_call_signature_remains_supported) ... ok
+test_os_error_does_not_pass_silently (test_listener_policy.ListenerAuditTests.test_os_error_does_not_pass_silently) ... ok
+test_private_network_not_treated_as_localhost (test_listener_policy.ListenerAuditTests.test_private_network_not_treated_as_localhost) ... ok
+test_unowned_listener_cannot_satisfy_required_port (test_listener_policy.ListenerAuditTests.test_unowned_listener_cannot_satisfy_required_port) ... ok
+test_unwritable_audit_path_stops_instead_of_claiming_pass (test_listener_policy.ListenerAuditTests.test_unwritable_audit_path_stops_instead_of_claiming_pass) ... ok
+test_vanished_required_service_cannot_pass (test_listener_policy.ListenerAuditTests.test_vanished_required_service_cannot_pass) ... ok
+test_wildcard_rejected_and_saved_before_raise (test_listener_policy.ListenerAuditTests.test_wildcard_rejected_and_saved_before_raise) ... ok
+test_real_grpc_local_bind_is_inspected_and_cleaned (test_listener_policy.RealGrpcListenerTest.test_real_grpc_local_bind_is_inspected_and_cleaned) ... ok
+test_bool_size_refused (test_measurement.MeasurementTests.test_bool_size_refused) ... ok
+test_client_exception_logs_type_not_content (test_measurement.MeasurementTests.test_client_exception_logs_type_not_content) ... ok
+test_client_span_records_only_in_context (test_measurement.MeasurementTests.test_client_span_records_only_in_context) ... ok
+test_count_values_not_exported (test_measurement.MeasurementTests.test_count_values_not_exported) ... ok
+test_descriptor_regular_train (test_measurement.MeasurementTests.test_descriptor_regular_train) ... ok
+test_descriptor_secagg (test_measurement.MeasurementTests.test_descriptor_secagg) ... ok
+test_duplicate_client_request_refused (test_measurement.MeasurementTests.test_duplicate_client_request_refused) ... ok
+test_empty_content_count (test_measurement.MeasurementTests.test_empty_content_count) ... ok
+test_exception_span_recorded_false (test_measurement.MeasurementTests.test_exception_span_recorded_false) ... ok
+test_forbidden_round_refused (test_measurement.MeasurementTests.test_forbidden_round_refused) ... ok
+test_initial_eval_classification (test_measurement.MeasurementTests.test_initial_eval_classification) ... ok
+test_missing_response_refused (test_measurement.MeasurementTests.test_missing_response_refused) ... ok
+test_negative_size_refused (test_measurement.MeasurementTests.test_negative_size_refused) ... ok
+test_nonint_size_refused (test_measurement.MeasurementTests.test_nonint_size_refused) ... ok
+test_outer_counter_no_payload_modification (test_measurement.MeasurementTests.test_outer_counter_no_payload_modification) ... ok
+test_real_span_integer_and_serializable (test_measurement.MeasurementTests.test_real_span_integer_and_serializable) ... ok
+test_server_counts_before_reply_mutation (test_measurement.MeasurementTests.test_server_counts_before_reply_mutation) ... ok
+test_unknown_client_span_refused (test_measurement.MeasurementTests.test_unknown_client_span_refused) ... ok
+test_unknown_secagg_stage_refused (test_measurement.MeasurementTests.test_unknown_secagg_stage_refused) ... ok
+test_unknown_type_refused (test_measurement.MeasurementTests.test_unknown_type_refused) ... ok
+test_native_api_workflow_parameters (test_measurement.NativeMeasurementTests.test_native_api_workflow_parameters) ... skipped 'Native Flower measurement contracts required on target host'
+test_native_public_secure_protocol_with_outer_counter (test_measurement.NativeMeasurementTests.test_native_public_secure_protocol_with_outer_counter) ... skipped 'Native Flower measurement contracts required on target host'
+test_real_array_and_config_count (test_measurement.NativeMeasurementTests.test_real_array_and_config_count) ... skipped 'Native Flower measurement contracts required on target host'
+test_real_client_query_outer_counter (test_measurement.NativeMeasurementTests.test_real_client_query_outer_counter) ... skipped 'Native Flower measurement contracts required on target host'
+test_real_workflow_wrapper_round_and_exception (test_measurement.NativeMeasurementTests.test_real_workflow_wrapper_round_and_exception) ... skipped 'Native Flower measurement contracts required on target host'
+test_record_counter_matches_flower_rule (test_measurement.NativeMeasurementTests.test_record_counter_matches_flower_rule) ... skipped 'Native Flower measurement contracts required on target host'
+test_no_cryptographic_random_reseed_in_observer (test_measurement.ProtocolTests.test_no_cryptographic_random_reseed_in_observer) ... ok
+test_no_network_or_install_in_launcher (test_measurement.ProtocolTests.test_no_network_or_install_in_launcher) ... ok
+test_numerical_kernel_source_matches_accepted_predecessor (test_measurement.ProtocolTests.test_numerical_kernel_source_matches_accepted_predecessor) ... ok
+test_observer_is_outermost (test_measurement.ProtocolTests.test_observer_is_outermost) ... ok
+test_optimisation_fields_unchanged (test_measurement.ProtocolTests.test_optimisation_fields_unchanged) ... ok
+test_predeclared_counts (test_measurement.ProtocolTests.test_predeclared_counts) ... ok
+test_predefined_orders (test_measurement.ProtocolTests.test_predefined_orders) ... ok
+test_round_count_in_project (test_measurement.ProtocolTests.test_round_count_in_project) ... ok
+test_schedule_replay (test_measurement.ProtocolTests.test_schedule_replay) ... ok
+test_security_math_unchanged (test_measurement.ProtocolTests.test_security_math_unchanged) ... ok
+test_B_match (test_measurement.ReconciliationTests.test_B_match) ... ok
+test_C_match (test_measurement.ReconciliationTests.test_C_match) ... ok
+test_changed_byte_count (test_measurement.ReconciliationTests.test_changed_byte_count) ... ok
+test_duplicate_client_row (test_measurement.ReconciliationTests.test_duplicate_client_row) ... ok
+test_incorrect_phase_refused (test_measurement.ReconciliationTests.test_incorrect_phase_refused) ... ok
+test_invalid_timer (test_measurement.ReconciliationTests.test_invalid_timer) ... ok
+test_missing_client_row (test_measurement.ReconciliationTests.test_missing_client_row) ... ok
+test_missing_fit_span (test_measurement.ReconciliationTests.test_missing_fit_span) ... ok
+test_no_double_count (test_measurement.ReconciliationTests.test_no_double_count) ... ok
+test_plain_values_claim_refused (test_measurement.ReconciliationTests.test_plain_values_claim_refused) ... ok
+test_unknown_client (test_measurement.ReconciliationTests.test_unknown_client) ... ok
+test_csv_keeps_warmup_and_all_rows (test_measurement.SummaryTests.test_csv_keeps_warmup_and_all_rows) ... ok
+test_different_initial_refused (test_measurement.SummaryTests.test_different_initial_refused) ... ok
+test_extract_full_six_round_fixture_and_csv (test_measurement.SummaryTests.test_extract_full_six_round_fixture_and_csv) ... ok
+test_incomplete_repeats_refused (test_measurement.SummaryTests.test_incomplete_repeats_refused) ... ok
+test_nan_rejected (test_measurement.SummaryTests.test_nan_rejected) ... ok
+test_negative_overhead_valid (test_measurement.SummaryTests.test_negative_overhead_valid) ... ok
+test_no_target_performance_cutoff (test_measurement.SummaryTests.test_no_target_performance_cutoff) ... ok
+test_pair_ratios (test_measurement.SummaryTests.test_pair_ratios) ... ok
+test_paired_three_not_thirty (test_measurement.SummaryTests.test_paired_three_not_thirty) ... ok
+test_raw_intervals_retained (test_measurement.SummaryTests.test_raw_intervals_retained) ... ok
+test_warmup_changed_refused (test_measurement.SummaryTests.test_warmup_changed_refused) ... ok
+test_wrong_order_refused (test_measurement.SummaryTests.test_wrong_order_refused) ... ok
+test_zero_denominator_undefined (test_measurement.SummaryTests.test_zero_denominator_undefined) ... ok
+test_B_noniid_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_B_noniid_entry) ... skipped 'Real patched Flower required: mandatory on target host'
+test_B_reference_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_B_reference_entry) ... skipped 'Real patched Flower required: mandatory on target host'
+test_C_noniid_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_C_noniid_entry) ... skipped 'Real patched Flower required: mandatory on target host'
+test_C_reference_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_C_reference_entry) ... skipped 'Real patched Flower required: mandatory on target host'
+test_boolean_port_rejected (test_port_policy.InputTests.test_boolean_port_rejected) ... ok
+test_duplicates_rejected (test_port_policy.InputTests.test_duplicates_rejected) ... ok
+test_empty_ports_rejected (test_port_policy.InputTests.test_empty_ports_rejected) ... ok
+test_invalid_interval_rejected (test_port_policy.InputTests.test_invalid_interval_rejected) ... ok
+test_invalid_phase_rejected (test_port_policy.InputTests.test_invalid_phase_rejected) ... ok
+test_invalid_range_rejected (test_port_policy.InputTests.test_invalid_range_rejected) ... ok
+test_invalid_timing_rejected (test_port_policy.InputTests.test_invalid_timing_rejected) ... ok
+test_non_linux_rejected (test_port_policy.InputTests.test_non_linux_rejected) ... ok
+test_prestart_cannot_silently_wait (test_port_policy.InputTests.test_prestart_cannot_silently_wait) ... ok
+test_string_port_rejected (test_port_policy.InputTests.test_string_port_rejected) ... ok
+test_valid_port_order_preserved (test_port_policy.InputTests.test_valid_port_order_preserved) ... ok
+test_actual_listener_rejected_and_left_alive (test_port_policy.KernelSocketTests.test_actual_listener_rejected_and_left_alive) ... ok
+test_actual_listener_with_reuseport_not_shared (test_port_policy.KernelSocketTests.test_actual_listener_with_reuseport_not_shared) ... ok
+test_audit_written_on_success_and_failure_with_spaces (test_port_policy.KernelSocketTests.test_audit_written_on_success_and_failure_with_spaces) ... ok
+test_conflict_on_last_port_closes_all_successful_probes (test_port_policy.KernelSocketTests.test_conflict_on_last_port_closes_all_successful_probes) ... ok
+test_diagnostic_not_required_to_admit_provably_bindable_port (test_port_policy.KernelSocketTests.test_diagnostic_not_required_to_admit_provably_bindable_port) ... ok
+test_diagnostic_unavailable_does_not_weaken_kernel_check (test_port_policy.KernelSocketTests.test_diagnostic_unavailable_does_not_weaken_kernel_check) ... ok
+test_free_port_admitted_then_released (test_port_policy.KernelSocketTests.test_free_port_admitted_then_released) ... ok
+test_genuine_eaddrinuse_is_never_inferred_to_be_time_wait (test_port_policy.KernelSocketTests.test_genuine_eaddrinuse_is_never_inferred_to_be_time_wait) ... ok
+test_ipv4_mapped_listener_rejected (test_port_policy.KernelSocketTests.test_ipv4_mapped_listener_rejected) ... ok
+test_persistent_actual_listener_blocks_after_bounded_rechecks (test_port_policy.KernelSocketTests.test_persistent_actual_listener_blocks_after_bounded_rechecks) ... ok
+test_post_cleanup_can_wait_for_graceful_release_without_kill (test_port_policy.KernelSocketTests.test_post_cleanup_can_wait_for_graceful_release_without_kill) ... ok
+test_socket_errors_other_than_eaddrinuse_not_retried (test_port_policy.KernelSocketTests.test_socket_errors_other_than_eaddrinuse_not_retried) ... ok
+test_time_wait_breaks_old_probe_but_new_listener_probe_passes (test_port_policy.KernelSocketTests.test_time_wait_breaks_old_probe_but_new_listener_probe_passes) ... ok
+test_unshared_bound_reservation_rejected (test_port_policy.KernelSocketTests.test_unshared_bound_reservation_rejected) ... ok
+test_wildcard_listener_rejected (test_port_policy.KernelSocketTests.test_wildcard_listener_rejected) ... ok
+test_diagnostic_empty_is_not_sufficient_to_pass_failed_probe (test_port_policy.ProcParsingTests.test_diagnostic_empty_is_not_sufficient_to_pass_failed_probe) ... ok
+test_diagnostic_missing_tables_is_unavailable (test_port_policy.ProcParsingTests.test_diagnostic_missing_tables_is_unavailable) ... ok
+test_diagnostic_partial_is_labelled (test_port_policy.ProcParsingTests.test_diagnostic_partial_is_labelled) ... ok
+test_invalid_family_rejected (test_port_policy.ProcParsingTests.test_invalid_family_rejected) ... ok
+test_invalid_table_does_not_claim_empty (test_port_policy.ProcParsingTests.test_invalid_table_does_not_claim_empty) ... ok
+test_ipv4_state_and_exact_port_filter (test_port_policy.ProcParsingTests.test_ipv4_state_and_exact_port_filter) ... ok
+test_ipv6_mapped_decoded (test_port_policy.ProcParsingTests.test_ipv6_mapped_decoded) ... ok
+test_snapshot_does_not_include_remote_addresses (test_port_policy.ProcParsingTests.test_snapshot_does_not_include_remote_addresses) ... ok
+test_enumeration_denied_saved_and_stops (test_process_inspection.GuardIntegrationMockTests.test_enumeration_denied_saved_and_stops) ... ok
+test_history_retains_pass_and_failed_snapshots (test_process_inspection.GuardIntegrationMockTests.test_history_retains_pass_and_failed_snapshots) ... ok
+test_live_listener_plus_zombies_passes_with_evidence (test_process_inspection.GuardIntegrationMockTests.test_live_listener_plus_zombies_passes_with_evidence) ... ok
+test_live_permission_denial_still_stops_with_pid (test_process_inspection.GuardIntegrationMockTests.test_live_permission_denial_still_stops_with_pid) ... ok
+test_no_systemwide_privileged_fallback (test_process_inspection.GuardIntegrationMockTests.test_no_systemwide_privileged_fallback) ... ok
+test_zombie_cannot_satisfy_required_port (test_process_inspection.GuardIntegrationMockTests.test_zombie_cannot_satisfy_required_port) ... ok
+test_zombies_do_not_hide_wildcard_listener (test_process_inspection.GuardIntegrationMockTests.test_zombies_do_not_hide_wildcard_listener) ... ok
+test_active_process_not_terminal (test_process_inspection.ProcessLifecycleTests.test_active_process_not_terminal) ... ok
+test_confirmed_dead_single_thread (test_process_inspection.ProcessLifecycleTests.test_confirmed_dead_single_thread) ... ok
+test_gone_or_reused_pid_recognised (test_process_inspection.ProcessLifecycleTests.test_gone_or_reused_pid_recognised) ... ok
+test_invalid_identity_result_not_exit (test_process_inspection.ProcessLifecycleTests.test_invalid_identity_result_not_exit) ... ok
+test_no_such_process_confirmed (test_process_inspection.ProcessLifecycleTests.test_no_such_process_confirmed) ... ok
+test_pid_disappears_between_status_reads (test_process_inspection.ProcessLifecycleTests.test_pid_disappears_between_status_reads) ... ok
+test_state_rechecked_before_confirming (test_process_inspection.ProcessLifecycleTests.test_state_rechecked_before_confirming) ... ok
+test_thread_count_must_be_exact_integer_one (test_process_inspection.ProcessLifecycleTests.test_thread_count_must_be_exact_integer_one) ... ok
+test_threads_rechecked_before_confirming (test_process_inspection.ProcessLifecycleTests.test_threads_rechecked_before_confirming) ... ok
+test_unreadable_status_not_treated_as_exit (test_process_inspection.ProcessLifecycleTests.test_unreadable_status_not_treated_as_exit) ... ok
+test_unreadable_thread_count_not_treated_as_exit (test_process_inspection.ProcessLifecycleTests.test_unreadable_thread_count_not_treated_as_exit) ... ok
+test_zombie_exception_alone_not_enough (test_process_inspection.ProcessLifecycleTests.test_zombie_exception_alone_not_enough) ... ok
+test_zombie_identity_still_present_not_assumed_active (test_process_inspection.ProcessLifecycleTests.test_zombie_identity_still_present_not_assumed_active) ... ok
+test_zombie_leader_with_other_threads_not_confirmed (test_process_inspection.ProcessLifecycleTests.test_zombie_leader_with_other_threads_not_confirmed) ... ok
+test_real_zombies_reproduce_failure_and_live_denial_still_blocks (test_process_inspection.RealUnprivilegedLifecycleTest.test_real_zombies_reproduce_failure_and_live_denial_still_blocks) ... ok
+test_access_denied_leader_with_live_threads_remains_error (test_process_inspection.SocketInspectionTests.test_access_denied_leader_with_live_threads_remains_error) ... ok
+test_access_denied_live_process_remains_error (test_process_inspection.SocketInspectionTests.test_access_denied_live_process_remains_error) ... ok
+test_access_denied_state_unknown_remains_error (test_process_inspection.SocketInspectionTests.test_access_denied_state_unknown_remains_error) ... ok
+test_access_denied_then_proven_zombie (test_process_inspection.SocketInspectionTests.test_access_denied_then_proven_zombie) ... ok
+test_access_denied_then_readable_preserves_evidence (test_process_inspection.SocketInspectionTests.test_access_denied_then_readable_preserves_evidence) ... ok
+test_access_denied_then_reaped (test_process_inspection.SocketInspectionTests.test_access_denied_then_reaped) ... ok
+test_access_denied_threads_unknown_remains_error (test_process_inspection.SocketInspectionTests.test_access_denied_threads_unknown_remains_error) ... ok
+test_active_socket_read (test_process_inspection.SocketInspectionTests.test_active_socket_read) ... ok
+test_empty_leader_fd_list_does_not_hide_live_threads (test_process_inspection.SocketInspectionTests.test_empty_leader_fd_list_does_not_hide_live_threads) ... ok
+test_exception_does_not_claim_sockets_read (test_process_inspection.SocketInspectionTests.test_exception_does_not_claim_sockets_read) ... ok
+test_no_such_process_during_socket_read (test_process_inspection.SocketInspectionTests.test_no_such_process_during_socket_read) ... ok
+test_os_error_while_still_active_fails (test_process_inspection.SocketInspectionTests.test_os_error_while_still_active_fails) ... ok
+test_pid_reuse_before_first_scan_not_queried (test_process_inspection.SocketInspectionTests.test_pid_reuse_before_first_scan_not_queried) ... ok
+test_unknown_thread_count_not_replaced_by_empty_socket_list (test_process_inspection.SocketInspectionTests.test_unknown_thread_count_not_replaced_by_empty_socket_list) ... ok
+test_zombie_exception_does_not_bypass_full_exit_check (test_process_inspection.SocketInspectionTests.test_zombie_exception_does_not_bypass_full_exit_check) ... ok
+test_zombie_skips_only_after_confirmation (test_process_inspection.SocketInspectionTests.test_zombie_skips_only_after_confirmation) ... ok
+test_fixture_does_not_write_readonly_or_private_metadata (test_received_message_fixture.FixtureSourceTests.test_fixture_does_not_write_readonly_or_private_metadata) ... ok
+test_fixture_not_imported_by_runtime_or_deployment_code (test_received_message_fixture.FixtureSourceTests.test_fixture_not_imported_by_runtime_or_deployment_code) ... ok
+test_original_assignment_sites_removed_from_native_tests (test_received_message_fixture.FixtureSourceTests.test_original_assignment_sites_removed_from_native_tests) ... ok
+test_cannot_overwrite_existing_id (test_received_message_fixture.FixtureStandinTests.test_cannot_overwrite_existing_id) ... ok
+test_constructs_received_copy_with_explicit_id (test_received_message_fixture.FixtureStandinTests.test_constructs_received_copy_with_explicit_id) ... ok
+test_distinct_new_deliveries_get_distinct_ids (test_received_message_fixture.FixtureStandinTests.test_distinct_new_deliveries_get_distinct_ids) ... ok
+test_error_or_no_content_message_is_rejected (test_received_message_fixture.FixtureStandinTests.test_error_or_no_content_message_is_rejected) ... ok
+test_existing_id_is_preserved_not_regenerated (test_received_message_fixture.FixtureStandinTests.test_existing_id_is_preserved_not_regenerated) ... ok
+test_invalid_explicit_ids_are_rejected (test_received_message_fixture.FixtureStandinTests.test_invalid_explicit_ids_are_rejected) ... ok
+test_non_native_input_is_rejected (test_received_message_fixture.FixtureStandinTests.test_non_native_input_is_rejected) ... ok
+test_original_failure_is_reproduced_by_read_only_contract (test_received_message_fixture.FixtureStandinTests.test_original_failure_is_reproduced_by_read_only_contract) ... ok
+test_preserves_all_non_id_metadata (test_received_message_fixture.FixtureStandinTests.test_preserves_all_non_id_metadata) ... ok
+test_reply_is_not_relabelled_as_instruction (test_received_message_fixture.FixtureStandinTests.test_reply_is_not_relabelled_as_instruction) ... ok
+test_request_payload_is_equal_and_not_shared (test_received_message_fixture.FixtureStandinTests.test_request_payload_is_equal_and_not_shared) ... ok
+test_unexpected_existing_id_is_rejected (test_received_message_fixture.FixtureStandinTests.test_unexpected_existing_id_is_rejected) ... ok
+test_native_duplicate_counter_is_still_rejected (test_received_message_fixture.NativeFixtureTests.test_native_duplicate_counter_is_still_rejected) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_existing_id_cannot_be_changed (test_received_message_fixture.NativeFixtureTests.test_native_existing_id_cannot_be_changed) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_internal_constructor_preserves_metadata (test_received_message_fixture.NativeFixtureTests.test_native_internal_constructor_preserves_metadata) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_missing_id_not_fabricated_by_production_counter (test_received_message_fixture.NativeFixtureTests.test_native_missing_id_not_fabricated_by_production_counter) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_payload_copy_does_not_share_records (test_received_message_fixture.NativeFixtureTests.test_native_payload_copy_does_not_share_records) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_read_only_property_stays_read_only (test_received_message_fixture.NativeFixtureTests.test_native_read_only_property_stays_read_only) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_reply_is_correlated_with_delivered_request (test_received_message_fixture.NativeFixtureTests.test_native_reply_is_correlated_with_delivered_request) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_native_reply_not_accepted_as_test_instruction (test_received_message_fixture.NativeFixtureTests.test_native_reply_not_accepted_as_test_instruction) ... skipped 'Native metadata regressions require installed candidate Flower'
+test_arbitrary_current_directory_does_not_supply_missing_command (test_runtime_path.RuntimePathTests.test_arbitrary_current_directory_does_not_supply_missing_command) ... ok
+test_bare_subprocess_lookup_reproduced_and_fixed (test_runtime_path.RuntimePathTests.test_bare_subprocess_lookup_reproduced_and_fixed) ... ok
+test_empty_inherited_path_supported (test_runtime_path.RuntimePathTests.test_empty_inherited_path_supported) ... ok
+test_existing_global_command_loses_to_pinned (test_runtime_path.RuntimePathTests.test_existing_global_command_loses_to_pinned) ... ok
+test_four_commands_include_superexec (test_runtime_path.RuntimePathTests.test_four_commands_include_superexec) ... ok
+test_missing_superexec_rejected (test_runtime_path.RuntimePathTests.test_missing_superexec_rejected) ... ok
+test_non_executable_superexec_rejected (test_runtime_path.RuntimePathTests.test_non_executable_superexec_rejected) ... ok
+test_parent_environment_not_modified (test_runtime_path.RuntimePathTests.test_parent_environment_not_modified) ... ok
+test_path_inspection_does_not_execute_commands (test_runtime_path.RuntimePathTests.test_path_inspection_does_not_execute_commands) ... ok
+test_prepending_is_idempotent (test_runtime_path.RuntimePathTests.test_prepending_is_idempotent) ... ok
+test_python_symlink_does_not_change_bin_directory (test_runtime_path.RuntimePathTests.test_python_symlink_does_not_change_bin_directory) ... ok
+test_selected_environment_bin_is_first (test_runtime_path.RuntimePathTests.test_selected_environment_bin_is_first) ... ok
+test_spaces_in_command_directory_are_preserved (test_runtime_path.RuntimePathTests.test_spaces_in_command_directory_are_preserved) ... ok
+test_wrong_global_fallback_not_accepted (test_runtime_path.RuntimePathTests.test_wrong_global_fallback_not_accepted) ... ok
+test_A_copy (test_attempt_staging.AttemptStagingTests.test_A_copy) ... ok
+test_B_C_callbacks_preserved (test_attempt_staging.AttemptStagingTests.test_B_C_callbacks_preserved) ... ok
+test_B_noniid_copy_reprobe (test_attempt_staging.AttemptStagingTests.test_B_noniid_copy_reprobe) ... ok
+test_B_reference_copy_reprobe (test_attempt_staging.AttemptStagingTests.test_B_reference_copy_reprobe) ... ok
+test_C_noniid_copy_reprobe (test_attempt_staging.AttemptStagingTests.test_C_noniid_copy_reprobe) ... ok
+test_C_reference_copy_reprobe (test_attempt_staging.AttemptStagingTests.test_C_reference_copy_reprobe) ... ok
+test_config_round_drift_refused (test_attempt_staging.AttemptStagingTests.test_config_round_drift_refused) ... ok
+test_existing_attempt_refused_unchanged (test_attempt_staging.AttemptStagingTests.test_existing_attempt_refused_unchanged) ... ok
+test_fresh_attempts_have_distinct_tokens (test_attempt_staging.AttemptStagingTests.test_fresh_attempts_have_distinct_tokens) ... ok
+test_missing_input_refused_before_copy (test_attempt_staging.AttemptStagingTests.test_missing_input_refused_before_copy) ... ok
+test_nested_attempt_refused (test_attempt_staging.AttemptStagingTests.test_nested_attempt_refused) ... ok
+test_original_copy_reproduces_B_failure (test_attempt_staging.AttemptStagingTests.test_original_copy_reproduces_B_failure) ... ok
+test_original_copy_reproduces_C_failure (test_attempt_staging.AttemptStagingTests.test_original_copy_reproduces_C_failure) ... ok
+test_symlink_input_refused (test_attempt_staging.AttemptStagingTests.test_symlink_input_refused) ... ok
+test_trained_template_refused (test_attempt_staging.AttemptStagingTests.test_trained_template_refused) ... ok
+test_unknown_top_level_refused (test_attempt_staging.AttemptStagingTests.test_unknown_top_level_refused) ... ok
+test_native_B_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_B_noniid) ... skipped 'Native patched Flower mandatory on target'
+test_native_B_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_B_reference) ... skipped 'Native patched Flower mandatory on target'
+test_native_C_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_C_noniid) ... skipped 'Native patched Flower mandatory on target'
+test_native_C_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_C_reference) ... skipped 'Native patched Flower mandatory on target'
+test_A_probe_failure_does_not_train (test_block_probe_order.BlockProbeOrderTests.test_A_probe_failure_does_not_train) ... STOP [main_block]: fixture native probe failure
+ok
+test_B_probe_failure_does_not_train_A (test_block_probe_order.BlockProbeOrderTests.test_B_probe_failure_does_not_train_A) ... STOP [main_block]: fixture native probe failure
+ok
+test_C_probe_failure_does_not_train_A_or_B (test_block_probe_order.BlockProbeOrderTests.test_C_probe_failure_does_not_train_A_or_B) ... STOP [main_block]: fixture native probe failure
+ok
+test_all_probes_before_A_training (test_block_probe_order.BlockProbeOrderTests.test_all_probes_before_A_training) ... ALL_THREE_BLOCK_PREFLIGHTS_PASS_BEFORE_ANY_TRAINING block
+MAIN_RUN_START job-A
+MAIN_RUN_START job-B
+MAIN_RUN_START job-C
+ok
+test_all_60_fixture_cells_and_zero_spread (test_boundaries.ResultIntegrationTests.test_all_60_fixture_cells_and_zero_spread) ... ok
+test_cost_duplicate_rejected (test_boundaries.ResultIntegrationTests.test_cost_duplicate_rejected) ... ok
+test_cost_missing_rejected (test_boundaries.ResultIntegrationTests.test_cost_missing_rejected) ... ok
+test_duplicate_result_rejected (test_boundaries.ResultIntegrationTests.test_duplicate_result_rejected) ... ok
+test_main_cost_file_adapter (test_boundaries.ResultIntegrationTests.test_main_cost_file_adapter) ... ok
+test_main_cost_ratios_and_missing_A_volume (test_boundaries.ResultIntegrationTests.test_main_cost_ratios_and_missing_A_volume) ... ok
+test_missing_cells_not_complete (test_boundaries.ResultIntegrationTests.test_missing_cells_not_complete) ... ok
+test_substitute_seed_rejected (test_boundaries.ResultIntegrationTests.test_substitute_seed_rejected) ... ok
+test_unknown_method_rejected (test_boundaries.ResultIntegrationTests.test_unknown_method_rejected) ... ok
+test_assertion_failure_not_retryable (test_boundaries.WorkflowBoundaryTests.test_assertion_failure_not_retryable) ... ok
+test_code_failure_not_retryable (test_boundaries.WorkflowBoundaryTests.test_code_failure_not_retryable) ... ok
+test_existing_final_evaluation_refused_without_data_read (test_boundaries.WorkflowBoundaryTests.test_existing_final_evaluation_refused_without_data_read) ... ok
+test_final_input_never_called_before_authorisation (test_boundaries.WorkflowBoundaryTests.test_final_input_never_called_before_authorisation) ... ok
+test_generated_report_does_not_change_source (test_boundaries.WorkflowBoundaryTests.test_generated_report_does_not_change_source) ... ok
+test_network_type_eligible (test_boundaries.WorkflowBoundaryTests.test_network_type_eligible) ... ok
+test_no_automatic_next_block_loop (test_boundaries.WorkflowBoundaryTests.test_no_automatic_next_block_loop) ... ok
+test_no_install_in_main_shell (test_boundaries.WorkflowBoundaryTests.test_no_install_in_main_shell) ... ok
+test_only_explicit_test_selection_hash (test_boundaries.WorkflowBoundaryTests.test_only_explicit_test_selection_hash) ... ok
+test_permission_failure_not_retryable (test_boundaries.WorkflowBoundaryTests.test_permission_failure_not_retryable) ... ok
+test_prepare_has_no_final_evaluator_call (test_boundaries.WorkflowBoundaryTests.test_prepare_has_no_final_evaluator_call) ... ok
+test_selected_manifests_require_all_30_before_paths (test_boundaries.WorkflowBoundaryTests.test_selected_manifests_require_all_30_before_paths) ... ok
+test_tampered_source_not_hidden_by_unlisted_file (test_boundaries.WorkflowBoundaryTests.test_tampered_source_not_hidden_by_unlisted_file) ... ok
+test_timeout_only_type_eligible_not_authorisation (test_boundaries.WorkflowBoundaryTests.test_timeout_only_type_eligible_not_authorisation) ... ok
+test_unknown_wrapper_failure_not_retryable (test_boundaries.WorkflowBoundaryTests.test_unknown_wrapper_failure_not_retryable) ... ok
+test_clone_probe_failure_cannot_seal_or_start_training (test_code_repair.RepairPreparationBoundaryTests.test_clone_probe_failure_cannot_seal_or_start_training) ... REVIEWED_FAILED_CAMPAIGN_CHECK_PASS_NO_MUTATION
+ACCEPTED_MAIN_ENVIRONMENT_CHECK_PASS_NO_INSTALL
+PARENT_FROZEN_INPUTS_INITIALS_AND_SCHEDULES_REUSED_BYTE_IDENTICAL
+STOP [job_materialisation_and_native_FAB]: fixture cloned native probe failed
+MAIN_PREPARATION_STOP_REVIEW_REQUIRED
+ok
+test_successor_preparation_is_50_probes_zero_training (test_code_repair.RepairPreparationBoundaryTests.test_successor_preparation_is_50_probes_zero_training) ... REVIEWED_FAILED_CAMPAIGN_CHECK_PASS_NO_MUTATION
+ACCEPTED_MAIN_ENVIRONMENT_CHECK_PASS_NO_INSTALL
+PARENT_FROZEN_INPUTS_INITIALS_AND_SCHEDULES_REUSED_BYTE_IDENTICAL
+ALL_20_PREPARED_TEMPLATE_COPY_AND_NATIVE_REPROBE_CHECKS_PASS
+ALL_30_JOB_CONFIGURATIONS_AND_20_NATIVE_FABS_PASS
+UNCHANGED_A_ENGINEERING_GATE_RETAINED_NO_TRAINING_REPEATED
+MAIN_PREPARATION_PASS_NOT_MAIN_TRAINING_OR_TEST
+ok
+test_changed_archived_A_refused (test_code_repair.RepairProvenanceTests.test_changed_archived_A_refused) ... ok
+test_changed_initial_weights_refused (test_code_repair.RepairProvenanceTests.test_changed_initial_weights_refused) ... ok
+test_changed_parent_manifest_refused (test_code_repair.RepairProvenanceTests.test_changed_parent_manifest_refused) ... ok
+test_changed_parent_source_refused (test_code_repair.RepairProvenanceTests.test_changed_parent_source_refused) ... ok
+test_changed_report_refused (test_code_repair.RepairProvenanceTests.test_changed_report_refused) ... ok
+test_deleted_template_probe_refused (test_code_repair.RepairProvenanceTests.test_deleted_template_probe_refused) ... ok
+test_existing_successor_frozen_not_overwritten (test_code_repair.RepairProvenanceTests.test_existing_successor_frozen_not_overwritten) ... ok
+test_old_training_receipt_not_valid_for_new_campaign (test_code_repair.RepairProvenanceTests.test_old_training_receipt_not_valid_for_new_campaign) ... ok
+test_original_FileExistsError_is_not_transient_retry (test_code_repair.RepairProvenanceTests.test_original_FileExistsError_is_not_transient_retry) ... ok
+test_parent_test_access_refused (test_code_repair.RepairProvenanceTests.test_parent_test_access_refused) ... ok
+test_progressed_parent_refused (test_code_repair.RepairProvenanceTests.test_progressed_parent_refused) ... ok
+test_review_and_frozen_copy_preserve_parent (test_code_repair.RepairProvenanceTests.test_review_and_frozen_copy_preserve_parent) ... ok
+test_sealed_final_models_refused (test_code_repair.RepairProvenanceTests.test_sealed_final_models_refused) ... ok
+test_unlisted_frozen_artefact_refused (test_code_repair.RepairProvenanceTests.test_unlisted_frozen_artefact_refused) ... ok
+test_unlisted_parent_source_refused (test_code_repair.RepairProvenanceTests.test_unlisted_parent_source_refused) ... ok
+test_authorised_fake_30_models_two_tests_end_to_end (test_evaluator_flow.EvaluatorWholeFlowTests.test_authorised_fake_30_models_two_tests_end_to_end) ... FINAL_EVALUATION_CELL_SCORED A/reference/11
+FINAL_EVALUATION_CELL_SCORED A/reference/29
+FINAL_EVALUATION_CELL_SCORED A/reference/47
+FINAL_EVALUATION_CELL_SCORED A/reference/71
+FINAL_EVALUATION_CELL_SCORED A/reference/97
+FINAL_EVALUATION_CELL_SCORED A/noniid/11
+FINAL_EVALUATION_CELL_SCORED A/noniid/29
+FINAL_EVALUATION_CELL_SCORED A/noniid/47
+FINAL_EVALUATION_CELL_SCORED A/noniid/71
+FINAL_EVALUATION_CELL_SCORED A/noniid/97
+FINAL_EVALUATION_CELL_SCORED B/reference/11
+FINAL_EVALUATION_CELL_SCORED B/reference/29
+FINAL_EVALUATION_CELL_SCORED B/reference/47
+FINAL_EVALUATION_CELL_SCORED B/reference/71
+FINAL_EVALUATION_CELL_SCORED B/reference/97
+FINAL_EVALUATION_CELL_SCORED B/noniid/11
+FINAL_EVALUATION_CELL_SCORED B/noniid/29
+FINAL_EVALUATION_CELL_SCORED B/noniid/47
+FINAL_EVALUATION_CELL_SCORED B/noniid/71
+FINAL_EVALUATION_CELL_SCORED B/noniid/97
+FINAL_EVALUATION_CELL_SCORED C/reference/11
+FINAL_EVALUATION_CELL_SCORED C/reference/29
+FINAL_EVALUATION_CELL_SCORED C/reference/47
+FINAL_EVALUATION_CELL_SCORED C/reference/71
+FINAL_EVALUATION_CELL_SCORED C/reference/97
+FINAL_EVALUATION_CELL_SCORED C/noniid/11
+FINAL_EVALUATION_CELL_SCORED C/noniid/29
+FINAL_EVALUATION_CELL_SCORED C/noniid/47
+FINAL_EVALUATION_CELL_SCORED C/noniid/71
+FINAL_EVALUATION_CELL_SCORED C/noniid/97
+ok
+test_B_noniid_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_B_noniid_has_correct_resources) ... ok
+test_B_reference_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_B_reference_has_correct_resources) ... ok
+test_C_noniid_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_C_noniid_has_correct_resources) ... ok
+test_C_reference_has_correct_resources (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_C_reference_has_correct_resources) ... ok
+test_altered_carrier_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_altered_carrier_still_rejected) ... ok
+test_altered_json_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_altered_json_still_rejected) ... ok
+test_existing_test_report_not_overwritten (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_existing_test_report_not_overwritten) ... ok
+test_helper_is_test_only_and_native_tests_remain (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_helper_is_test_only_and_native_tests_remain) ... ok
+test_isolation_survives_poisoned_pythonpath (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_isolation_survives_poisoned_pythonpath) ... ok
+test_mismatched_schema_link_still_rejected (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_mismatched_schema_link_still_rejected) ... ok
+test_missing_carrier_has_no_fallback (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_missing_carrier_has_no_fallback) ... ok
+test_multiple_seeds_do_not_reuse_parent_module (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_multiple_seeds_do_not_reuse_parent_module) ... ok
+test_old_in_process_comparison_reproduces_reported_failure (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_old_in_process_comparison_reproduces_reported_failure) ... ok
+test_template_and_attempt_resources_stay_identical (test_fixture_resource_isolation.FixtureResourceIsolationTests.test_template_and_attempt_resources_stay_identical) ... ok
+test_IQR_fallback (test_main.CalibrationAndMetricTests.test_IQR_fallback) ... ok
+test_all_negatives_undefined (test_main.CalibrationAndMetricTests.test_all_negatives_undefined) ... ok
+test_all_positives_undefined (test_main.CalibrationAndMetricTests.test_all_positives_undefined) ... ok
+test_confusion_counts (test_main.CalibrationAndMetricTests.test_confusion_counts) ... ok
+test_duplicate_validation_rejected (test_main.CalibrationAndMetricTests.test_duplicate_validation_rejected) ... ok
+test_earliest_near_tie_against_global_minimum (test_main.CalibrationAndMetricTests.test_earliest_near_tie_against_global_minimum) ... ok
+test_interval_five_paired (test_main.CalibrationAndMetricTests.test_interval_five_paired) ... ok
+test_invalid_label_rejected (test_main.CalibrationAndMetricTests.test_invalid_label_rejected) ... ok
+test_join_missing_rejected (test_main.CalibrationAndMetricTests.test_join_missing_rejected) ... ok
+test_join_wrong_client_rejected (test_main.CalibrationAndMetricTests.test_join_wrong_client_rejected) ... ok
+test_join_wrong_partition_rejected (test_main.CalibrationAndMetricTests.test_join_wrong_partition_rejected) ... ok
+test_missing_seed_no_interval (test_main.CalibrationAndMetricTests.test_missing_seed_no_interval) ... ok
+test_no_interval_on_secondary_metric (test_main.CalibrationAndMetricTests.test_no_interval_on_secondary_metric) ... ok
+test_no_predictions_with_threats (test_main.CalibrationAndMetricTests.test_no_predictions_with_threats) ... ok
+test_nonfinite_rejected (test_main.CalibrationAndMetricTests.test_nonfinite_rejected) ... ok
+test_perfect_ranking (test_main.CalibrationAndMetricTests.test_perfect_ranking) ... ok
+test_round_zero_not_eligible (test_main.CalibrationAndMetricTests.test_round_zero_not_eligible) ... ok
+test_seed_substitution_rejected (test_main.CalibrationAndMetricTests.test_seed_substitution_rejected) ... ok
+test_strict_greater_threshold (test_main.CalibrationAndMetricTests.test_strict_greater_threshold) ... ok
+test_summary_incomplete_not_success (test_main.CalibrationAndMetricTests.test_summary_incomplete_not_success) ... ok
+test_test_calibration_rejected (test_main.CalibrationAndMetricTests.test_test_calibration_rejected) ... ok
+test_tied_AP_prevalence (test_main.CalibrationAndMetricTests.test_tied_AP_prevalence) ... ok
+test_unit_scale_fallback (test_main.CalibrationAndMetricTests.test_unit_scale_fallback) ... ok
+test_validation_rule (test_main.CalibrationAndMetricTests.test_validation_rule) ... ok
+test_zero_SD_no_certainty (test_main.CalibrationAndMetricTests.test_zero_SD_no_certainty) ... ok
+test_actual_partial_batch_and_reset (test_main.CentralKernelTests.test_actual_partial_batch_and_reset) ... ok
+test_five_distinct_initialisations (test_main.CentralKernelTests.test_five_distinct_initialisations) ... ok
+test_actual_B_C_expressions_match_global_tie_contract (test_main.CheckpointContractTests.test_actual_B_C_expressions_match_global_tie_contract) ... ok
+test_altered_artifact_rejected (test_main.EncodingAndBoundaryTests.test_altered_artifact_rejected) ... ok
+test_duplicate_positions_fail (test_main.EncodingAndBoundaryTests.test_duplicate_positions_fail) ... ok
+test_encoding_119_and_model_forward (test_main.EncodingAndBoundaryTests.test_encoding_119_and_model_forward) ... ok
+test_false_receipt_rejected (test_main.EncodingAndBoundaryTests.test_false_receipt_rejected) ... ok
+test_inference_selection_stays_validation (test_main.EncodingAndBoundaryTests.test_inference_selection_stays_validation) ... ok
+test_label_never_a_feature (test_main.EncodingAndBoundaryTests.test_label_never_a_feature) ... ok
+test_mismatched_campaign_receipt_rejected (test_main.EncodingAndBoundaryTests.test_mismatched_campaign_receipt_rejected) ... ok
+test_negative_gap_fail (test_main.EncodingAndBoundaryTests.test_negative_gap_fail) ... ok
+test_no_final_source_in_preparation (test_main.EncodingAndBoundaryTests.test_no_final_source_in_preparation) ... ok
+test_path_escape_rejected (test_main.EncodingAndBoundaryTests.test_path_escape_rejected) ... ok
+test_test_release_bound_to_models (test_main.EncodingAndBoundaryTests.test_test_release_bound_to_models) ... ok
+test_unknown_maps_masks (test_main.EncodingAndBoundaryTests.test_unknown_maps_masks) ... ok
+test_wrong_hospital_fail (test_main.EncodingAndBoundaryTests.test_wrong_hospital_fail) ... ok
+test_10_blocks (test_main.MainPlanTests.test_10_blocks) ... ok
+test_30_exact_jobs (test_main.MainPlanTests.test_30_exact_jobs) ... ok
+test_budget_limits_not_early_stopping (test_main.MainPlanTests.test_budget_limits_not_early_stopping) ... ok
+test_each_block_has_three_methods (test_main.MainPlanTests.test_each_block_has_three_methods) ... ok
+test_fixed_budget (test_main.MainPlanTests.test_fixed_budget) ... ok
+test_full_geometry (test_main.MainPlanTests.test_full_geometry) ... ok
+test_native_project_constant_is_bound_explicitly (test_main.MainPlanTests.test_native_project_constant_is_bound_explicitly) ... ok
+test_no_new_tuning (test_main.MainPlanTests.test_no_new_tuning) ... ok
+test_noniid_with_replacement (test_main.MainPlanTests.test_noniid_with_replacement) ... ok
+test_pool_preserves_occurrences (test_main.MainPlanTests.test_pool_preserves_occurrences) ... ok
+test_preparation_authority_only (test_main.MainPlanTests.test_preparation_authority_only) ... ok
+test_publication_not_invented (test_main.MainPlanTests.test_publication_not_invented) ... ok
+test_reference_permutation (test_main.MainPlanTests.test_reference_permutation) ... ok
+test_reject_test_condition (test_main.MainPlanTests.test_reject_test_condition) ... ok
+test_replay (test_main.MainPlanTests.test_replay) ... ok
+test_resource_bytes_for_every_seed_condition (test_main.MainPlanTests.test_resource_bytes_for_every_seed_condition) ... ok
+test_seed_changes_schedules (test_main.MainPlanTests.test_seed_changes_schedules) ... ok
+test_seeds (test_main.MainPlanTests.test_seeds) ... ok
+
+----------------------------------------------------------------------
+Ran 502 tests in 48.465s
+
+OK (skipped=60)
+{"status": "INCOMPLETE", "tests_run": 502, "failures": 0, "errors": 0, "skipped": 60, "skipped_tests": ["test_native_builder_and_unpacked_callback_imports (test_bundle_resources.NativeFlowerBundleTests.test_native_builder_and_unpacked_callback_imports)", "test_native_builder_supported_extensions_pinned (test_bundle_resources.NativeFlowerBundleTests.test_native_builder_supported_extensions_pinned)", "test_B_two_boundaries_reconcile_with_empty_status (test_empty_config_counter.NativeBoundaryTests.test_B_two_boundaries_reconcile_with_empty_status)", "test_deflated_config_record_and_message_stay_unchanged (test_empty_config_counter.NativeBoundaryTests.test_deflated_config_record_and_message_stay_unchanged)", "test_installed_count_method_is_unchanged (test_empty_config_counter.NativeBoundaryTests.test_installed_count_method_is_unchanged)", "test_metric_empty_list_delegates_native (test_empty_config_counter.NativeBoundaryTests.test_metric_empty_list_delegates_native)", "test_off_lattice_public_protocol_observed_at_all_stages (test_empty_config_counter.NativeBoundaryTests.test_off_lattice_public_protocol_observed_at_all_stages)", "test_unmask_two_boundaries_reconcile_with_empty_list (test_empty_config_counter.NativeBoundaryTests.test_unmask_two_boundaries_reconcile_with_empty_list)", "test_all_empty_fields_and_empty_key (test_empty_config_counter.NativeCounterTests.test_all_empty_fields_and_empty_key)", "test_array_metric_count_delegation_unchanged (test_empty_config_counter.NativeCounterTests.test_array_metric_count_delegation_unchanged)", "test_config_repair_does_not_swallow_metric_errors (test_empty_config_counter.NativeCounterTests.test_config_repair_does_not_swallow_metric_errors)", "test_empty_list_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_empty_list_keeps_key_length)", "test_empty_record_is_zero (test_empty_config_counter.NativeCounterTests.test_empty_record_is_zero)", "test_invalid_native_return_is_rejected (test_empty_config_counter.NativeCounterTests.test_invalid_native_return_is_rejected)", "test_legacy_unicode_length_convention_retained (test_empty_config_counter.NativeCounterTests.test_legacy_unicode_length_convention_retained)", "test_mixed_config_retains_all_nonempty_values (test_empty_config_counter.NativeCounterTests.test_mixed_config_retains_all_nonempty_values)", "test_multiple_records_keep_all_keys_once (test_empty_config_counter.NativeCounterTests.test_multiple_records_keep_all_keys_once)", "test_no_record_mutation_or_list_identity_change (test_empty_config_counter.NativeCounterTests.test_no_record_mutation_or_list_identity_change)", "test_nonempty_lists_of_empty_text_or_bytes_still_count_keys (test_empty_config_counter.NativeCounterTests.test_nonempty_lists_of_empty_text_or_bytes_still_count_keys)", "test_nonempty_scalars_and_homogeneous_lists_match_native (test_empty_config_counter.NativeCounterTests.test_nonempty_scalars_and_homogeneous_lists_match_native)", "test_projection_requires_a_configrecord (test_empty_config_counter.NativeCounterTests.test_projection_requires_a_configrecord)", "test_repeated_count_is_identical (test_empty_config_counter.NativeCounterTests.test_repeated_count_is_identical)", "test_report_remains_strict_numeric_and_does_not_export_values (test_empty_config_counter.NativeCounterTests.test_report_remains_strict_numeric_and_does_not_export_values)", "test_reproduce_original_empty_list_error (test_empty_config_counter.NativeCounterTests.test_reproduce_original_empty_list_error)", "test_reproduce_original_empty_scalar_error (test_empty_config_counter.NativeCounterTests.test_reproduce_original_empty_scalar_error)", "test_scalar_empty_bytes_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_scalar_empty_bytes_keeps_key_length)", "test_scalar_empty_text_keeps_key_length (test_empty_config_counter.NativeCounterTests.test_scalar_empty_text_keeps_key_length)", "test_unmask_full_participation_record (test_empty_config_counter.NativeCounterTests.test_unmask_full_participation_record)", "test_unmask_nonempty_dropout_list (test_empty_config_counter.NativeCounterTests.test_unmask_nonempty_dropout_list)", "test_unrelated_counter_exception_propagates (test_empty_config_counter.NativeCounterTests.test_unrelated_counter_exception_propagates)", "test_zero_numeric_false_are_not_removed (test_empty_config_counter.NativeCounterTests.test_zero_numeric_false_are_not_removed)", "test_real_B_client_identity_query_without_dataset (test_integration_identity.NativeIdentityTests.test_real_B_client_identity_query_without_dataset)", "test_real_C_client_identity_query_without_dataset (test_integration_identity.NativeIdentityTests.test_real_C_client_identity_query_without_dataset)", "test_real_C_wrong_id_query_refused_without_dataset (test_integration_identity.NativeIdentityTests.test_real_C_wrong_id_query_refused_without_dataset)", "test_real_C_wrong_train_id_refused_before_mod (test_integration_identity.NativeIdentityTests.test_real_C_wrong_train_id_refused_before_mod)", "test_real_candidate_binding (test_integration_identity.NativeIdentityTests.test_real_candidate_binding)", "test_real_message_record_handshake_in_memory (test_integration_identity.NativeIdentityTests.test_real_message_record_handshake_in_memory)", "test_real_shared_record_and_C_boundary (test_integration_identity.NativeIdentityTests.test_real_shared_record_and_C_boundary)", "test_native_api_workflow_parameters (test_measurement.NativeMeasurementTests.test_native_api_workflow_parameters)", "test_native_public_secure_protocol_with_outer_counter (test_measurement.NativeMeasurementTests.test_native_public_secure_protocol_with_outer_counter)", "test_real_array_and_config_count (test_measurement.NativeMeasurementTests.test_real_array_and_config_count)", "test_real_client_query_outer_counter (test_measurement.NativeMeasurementTests.test_real_client_query_outer_counter)", "test_real_workflow_wrapper_round_and_exception (test_measurement.NativeMeasurementTests.test_real_workflow_wrapper_round_and_exception)", "test_record_counter_matches_flower_rule (test_measurement.NativeMeasurementTests.test_record_counter_matches_flower_rule)", "test_B_noniid_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_B_noniid_entry)", "test_B_reference_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_B_reference_entry)", "test_C_noniid_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_C_noniid_entry)", "test_C_reference_entry (test_native_patched_fab.NativePatchedFabEntryTests.test_C_reference_entry)", "test_native_duplicate_counter_is_still_rejected (test_received_message_fixture.NativeFixtureTests.test_native_duplicate_counter_is_still_rejected)", "test_native_existing_id_cannot_be_changed (test_received_message_fixture.NativeFixtureTests.test_native_existing_id_cannot_be_changed)", "test_native_internal_constructor_preserves_metadata (test_received_message_fixture.NativeFixtureTests.test_native_internal_constructor_preserves_metadata)", "test_native_missing_id_not_fabricated_by_production_counter (test_received_message_fixture.NativeFixtureTests.test_native_missing_id_not_fabricated_by_production_counter)", "test_native_payload_copy_does_not_share_records (test_received_message_fixture.NativeFixtureTests.test_native_payload_copy_does_not_share_records)", "test_native_read_only_property_stays_read_only (test_received_message_fixture.NativeFixtureTests.test_native_read_only_property_stays_read_only)", "test_native_reply_is_correlated_with_delivered_request (test_received_message_fixture.NativeFixtureTests.test_native_reply_is_correlated_with_delivered_request)", "test_native_reply_not_accepted_as_test_instruction (test_received_message_fixture.NativeFixtureTests.test_native_reply_not_accepted_as_test_instruction)", "test_native_B_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_B_noniid)", "test_native_B_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_B_reference)", "test_native_C_noniid (test_attempt_staging.NativeCloneReprobeTests.test_native_C_noniid)", "test_native_C_reference (test_attempt_staging.NativeCloneReprobeTests.test_native_C_reference)"], "final_test_data_read": false}

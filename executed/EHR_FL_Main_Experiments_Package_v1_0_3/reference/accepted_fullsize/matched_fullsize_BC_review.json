@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "conditions": {
+    "reference": {
+      "B_final_routine_validation_loss": 0.35876077098421205,
+      "C_final_routine_validation_loss": 0.3587630964745677,
+      "C_minus_B": 2.325490355670201e-06,
+      "loss_difference_acceptance_threshold": null,
+      "detection_comparison_performed": false
+    },
+    "noniid": {
+      "B_final_routine_validation_loss": 0.3475414193520751,
+      "C_final_routine_validation_loss": 0.34744751410201924,
+      "C_minus_B": -9.390525005587014e-05,
+      "loss_difference_acceptance_threshold": null,
+      "detection_comparison_performed": false
+    }
+  },
+  "matched_fullsize_counts_schedules_initial_state_and_seeds": true,
+  "tuning_performed": false,
+  "main_experiments_frozen": false,
+  "privacy_claim_validated": false,
+  "timing_overhead_estimate": false
+}

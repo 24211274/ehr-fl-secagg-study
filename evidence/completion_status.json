@@ -1,0 +1,7 @@
+{
+  "status": "ALL_30_MODELS_CALIBRATED_TESTS_NOT_AUTHORISED",
+  "selected_models_manifest_sha256": "26519dd2e95f55667eac71ae5a5fc84529a25a14e39a5cd9a1b26648bd13510c",
+  "test_data_opened": false,
+  "main_training_complete": true,
+  "privacy_certification": false
+}

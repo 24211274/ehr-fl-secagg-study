@@ -1,0 +1,64 @@
+{
+  "E1": {
+    "description": "Stored-score arithmetic audit and final audited tabulations",
+    "file": "EHR_FL_Final_Score_Audit_Review_v1_0.zip",
+    "sha256": "2ea958f6a2abc6518309c2eab777339cffba604902e696723ae3fa7aa1f90e91"
+  },
+  "E2": {
+    "description": "Main completion report: sealed model registry and system cost analysis",
+    "file": "a4eabf5e-947f-45b5-a072-4f5c2c50bb47.zip",
+    "sha256": "9adc12c476b689c92e2e2daa2e0333f1439cc7ab09483e8983cc11cfd0c2e879"
+  },
+  "E3": {
+    "description": "Pinned implementation and adopted decision documents",
+    "file": "EHR_FL_Main_Experiments_Package_v1_0_3.zip",
+    "sha256": "433a26789afd362dad4316c96379017d2808969925fa5df1d61e332d94cb6c84"
+  },
+  "E4": {
+    "description": "Earlier manuscript used for RQ wording and literature continuity; not authority for final numeric settings",
+    "file": "Privacy_Enhanced_FL_EHR_P1_Corrected_Final.docx",
+    "sha256": "95646dc969b6c3aa8b42aff3a82349b3baf50c17c7b154be4f9ca5cb5a035823"
+  },
+  "E5": {
+    "description": "Original final evaluation report",
+    "file": "7e7c3043-b7fe-4a9f-848d-f384f1bdd962.zip",
+    "sha256": "fe66ff79196f2936605ce873689821a0716fa7bf7c7c99323ad5af26e8497ecd"
+  },
+  "E6": {
+    "description": "Ten completed main-block reports used for model selection histories",
+    "files": [
+      "a65cd4e4-7e84-4f49-80df-ecd3c9f54062.zip",
+      "feed06ed-cf0e-40c1-b6c6-eb5110fdb2fa.zip",
+      "592842fd-bb47-47a7-9f24-089954c575cb.zip",
+      "4eee9da2-8056-40e2-9ea7-6b8e3b25bb5a.zip",
+      "d4bed962-74b7-4b8b-ab3b-d819e5dfdd7d.zip",
+      "2f09747e-3105-424b-89dd-38d93b5617e3.zip",
+      "2b5a7a95-f6ac-48e8-a3d2-b20c66947752.zip",
+      "ff09c4c2-18a8-4a5a-80e5-3d366793355b.zip",
+      "2511b7c1-6031-48a7-9a5f-92949b5ddae5.zip",
+      "88820617-ae1d-480e-9891-f421a2372aa2.zip"
+    ],
+    "sha256_by_file": {
+      "a65cd4e4-7e84-4f49-80df-ecd3c9f54062.zip": "38b98555effedda44b56573d3f335a41c0064588da329e9916c7a9ad557472f9",
+      "feed06ed-cf0e-40c1-b6c6-eb5110fdb2fa.zip": "9abc2bef68ea51bc8d9d21d662464a87a1212b97219443e3f660a163f0475efb",
+      "592842fd-bb47-47a7-9f24-089954c575cb.zip": "f741f980c04a156220b17bb8c8fb25bef6cd6e76497603d01668f7f474a74f8f",
+      "4eee9da2-8056-40e2-9ea7-6b8e3b25bb5a.zip": "cef3055fc7594536b3325ccc35faf56aa1610840a2235e03073deffdbf8fa2f7",
+      "d4bed962-74b7-4b8b-ab3b-d819e5dfdd7d.zip": "ac57b690f92ba461d7a11d2c5799bbf9a60fd613522b3999d3e4e9c79b610012",
+      "2f09747e-3105-424b-89dd-38d93b5617e3.zip": "d2ae4c922bfe5b644bfdc0133b5db20e9b0f2658a0dc6daea3080faf1eb4e8b4",
+      "2b5a7a95-f6ac-48e8-a3d2-b20c66947752.zip": "2111f93cf669bfb36693cdff83ac519e1db6f6c8eade631769ba12a710df5cd2",
+      "ff09c4c2-18a8-4a5a-80e5-3d366793355b.zip": "9ba80e44196d37090cfa6c1ba5457218c36ba93a72111074fdd511a1b19014de",
+      "2511b7c1-6031-48a7-9a5f-92949b5ddae5.zip": "f30a5bcff691f1c8ccb91e38402136887e3fca42657c95f8d28f502a7d8f73a2",
+      "88820617-ae1d-480e-9891-f421a2372aa2.zip": "65ba438e2a393f4d2b8f3f10303e52a7c00daf484701b8dadac2ef21ed4ec5d2"
+    }
+  },
+  "G1": {
+    "description": "Provided UM preparation guide, sections 2.2 and 3.2–3.9",
+    "file": "GP_Preparation_Thesis.pdf",
+    "sha256": "6ab53e2900e4e1edf7953750ed7089e696767b5ec0740dd37c6ac540b847028f"
+  },
+  "G2": {
+    "description": "Provided MAI thesis-writing guidance: Results and Discussion sections",
+    "file": "MAI_How_to_Write_Thesis.pdf",
+    "sha256": "bd75e9898dbd3090db4d4e6910aab4818645bc5765e98d29beb9cdb7f234a100"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "INFERENCE_SEED_PILOT_PASS_NOT_MAIN_OR_PRIVACY_CERTIFICATION",
+  "stage": "completed",
+  "completed_sanity_runs": [
+    "B",
+    "C"
+  ],
+  "inference_microbenchmark_executed": true,
+  "inference_microbenchmark_may_have_started": true,
+  "sanity_deployment_may_have_started": true,
+  "test_data_opened": false,
+  "test_metrics_computed": false,
+  "thresholds_calibrated": false,
+  "model_tuning_performed": false,
+  "main_experiments_frozen": false,
+  "privacy_claim_validated": false,
+  "environment_created": false,
+  "pip_or_download_executed": false,
+  "automatic_retry": false,
+  "wire_bytes_measured": false,
+  "sanity_local_optimizer_updates": 72,
+  "sanity_global_aggregations": 6,
+  "accepted_environment_unchanged_verified": true,
+  "original_environment_unchanged_verified": true,
+  "prepared_and_staged_data_unchanged_verified": true,
+  "source_checkpoints_unchanged_verified": true,
+  "elapsed_wall_ns_including_all_audits": 497061412044
+}

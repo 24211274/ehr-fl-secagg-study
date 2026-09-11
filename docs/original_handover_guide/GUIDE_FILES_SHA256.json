@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "HANDOVER_PLAN_AR.md",
+      "sha256": "141eea742b2d58e57f89e5b9708949781d4db3f34720a8acfb32aa058674cd9d",
+      "bytes": 6765
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "e91da3cbcfb908e8597e01039d8b1e93d39d8ac797c8b8ed99261f7e8c077ce5",
+      "bytes": 2158
+    },
+    {
+      "path": "SUPERVISOR_CODE_GUIDE.md",
+      "sha256": "b19fc0ae8145169d09d710a582c9114784c7a55c19b21d6bf8809d0a27ec5ca0",
+      "bytes": 8748
+    },
+    {
+      "path": "source_identity.json",
+      "sha256": "62c2a36681941e059610d11e9f4cf1cb8bb4e91b8009087bacae8b6e58484ff6",
+      "bytes": 37908
+    }
+  ]
+}

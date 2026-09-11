@@ -1,0 +1,20 @@
+{
+  "rule_id": "flower122_record_content_zero_length_v1",
+  "native_nonempty_config_count_preserved": true,
+  "native_arrays_and_metrics_count_preserved": true,
+  "zero_length_values": [
+    "[]",
+    "scalar empty str",
+    "scalar empty bytes"
+  ],
+  "empty_value_element_bytes": 0,
+  "all_original_key_lengths_included": true,
+  "method": "Construct a temporary ConfigRecord projection excluding zero-length entries for native counting, then add the omitted key lengths. Never change the live Message or installed library.",
+  "no_broad_exception_fallback": true,
+  "wire_bytes_measured": false,
+  "legacy_string_character_length_convention_preserved": true,
+  "measurement_boundary_unchanged": true,
+  "report_values_exported": false,
+  "model_data_protocol_or_training_changes": false,
+  "measured_pilot_runs_before_this_repair": 0
+}
