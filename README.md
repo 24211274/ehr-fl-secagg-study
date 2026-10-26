@@ -1,5 +1,7 @@
 # EHR federated anomaly detection study
 
+Public code, aggregate results, documentation and the thesis are available in [the public companion repository](https://github.com/24211274/ehr-fl-secagg-study-public). This repository retains the complete controlled-access study archive, including raw/fitted inputs and selected models.
+
 Code, data, trained models and supporting evidence for the executed study are indexed in the [online availability guide](docs/AVAILABILITY.md). Download the versioned packages from [study-artifacts-v1.30](https://github.com/24211274/ehr-fl-secagg-study/releases/tag/study-artifacts-v1.30). This repository is private; GitHub read access is required.
 
 ## Start here

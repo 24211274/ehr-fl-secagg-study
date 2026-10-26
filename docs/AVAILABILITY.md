@@ -1,5 +1,7 @@
 # Code data and artifact availability
 
+Public code, aggregate results, documentation and the thesis are available in [the public companion repository](https://github.com/24211274/ehr-fl-secagg-study-public). This repository retains the complete controlled-access study archive, including raw/fitted inputs and selected models.
+
 The study archive is hosted at [https://github.com/24211274/ehr-fl-secagg-study](https://github.com/24211274/ehr-fl-secagg-study). The versioned download is [study-artifacts-v1.30](https://github.com/24211274/ehr-fl-secagg-study/releases/tag/study-artifacts-v1.30). It is a private repository: readers must sign in with a GitHub account that has been granted read access. A private link alone does not grant permission.
 
 ## Find the required files
