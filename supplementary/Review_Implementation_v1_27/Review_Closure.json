@@ -1,0 +1,103 @@
+{
+  "review_rows": 598,
+  "coverage_counts": {
+    "Retained official template": 31,
+    "Reviewed and retained or addressed by context": 75,
+    "Implemented": 141,
+    "Retained after contextual review": 1,
+    "Retained": 144,
+    "Retained disclosure or acknowledgement": 2,
+    "Verified in final field refresh": 161,
+    "Verified and retained": 43
+  },
+  "five_user_priorities": [
+    {
+      "item": 1,
+      "status": "Implemented",
+      "locations": [
+        "1.6",
+        "5.6",
+        "6.3"
+      ],
+      "change": "Lead with empirical comparison, measured workflow cost, legitimate-exception errors and bounded reproduction; shorten non-contribution lists."
+    },
+    {
+      "item": 2,
+      "status": "Implemented",
+      "locations": [
+        "2.1–2.8",
+        "5.5",
+        "A.4"
+      ],
+      "change": "Organise evidence by label origin, clinical context, closest FL and aggregation comparisons, and design implications; split reviewP0281/currentP0421; retain source-specific details verbatim inA.4."
+    },
+    {
+      "item": 3,
+      "status": "Implemented",
+      "locations": [
+        "4.4.1",
+        "4.8.2",
+        "4.12"
+      ],
+      "change": "Place0.9437/91.31%/routine0.9925/unusual0.4307 interpretation and0.95655length-only composition diagnostic besideTable4.4; retain noncausal/post-test status."
+    },
+    {
+      "item": 4,
+      "status": "Implemented",
+      "locations": [
+        "English Abstract",
+        "Malay Abstract"
+      ],
+      "change": "State absoluteAP0.421/0.429 before C−B+0.0047/+0.0001; align data, comparison, reproduction and protection conditions."
+    },
+    {
+      "item": 5,
+      "status": "Implemented",
+      "locations": [
+        "3.5.1",
+        "3.5.2",
+        "3.5.3",
+        "3.4",
+        "B.5"
+      ],
+      "change": "Native editable hierarchical-loss equation, separate score standardisation/raw alert rule, department-skewed replacement-sampling definition, engineering-history appendix and explicit score-direction wording."
+    }
+  ],
+  "retained_or_unresolved_items": [
+    {
+      "issue": "Six alleged broken appendix cross-references",
+      "status": "Already valid in source and rechecked",
+      "reason": "The review used an excerpt lacking appendices; currentv1.26/fullv1.27contains them. No field flattening or fabricated target was needed."
+    },
+    {
+      "issue": "Data provenance, generation, rights and institutional ethics determination",
+      "status": "Unresolved evidence retained",
+      "reason": "No authenticated new origin, permission or ethics records were supplied. The manuscript retains unverified status in3.2,3.12,5.7.5,C.1."
+    },
+    {
+      "issue": "Tabassum90385entitytype andC/E/R/Uactionmeanings",
+      "status": "Unresolved evidence retained",
+      "reason": "No original definition supports filling these gaps."
+    },
+    {
+      "issue": "Official title and administrative declaration choices",
+      "status": "Retained",
+      "reason": "Optional title change was not applied; approved wording and unfilled signature fields remain as supplied."
+    },
+    {
+      "issue": "Optional plot merger, zoom insets and additional uncertainty bands",
+      "status": "Retained current figures",
+      "reason": "Existing quantitative figures retain exact data and explicit five-seed/uncertainty descriptions. No new analysis or unsupported variability was added."
+    },
+    {
+      "issue": "Shared ChatGPT library link",
+      "status": "Sign-in required; not accessed beyond login",
+      "reason": "The supplied local HTML and DOCX were read and archived as review inputs."
+    }
+  ],
+  "new_experiments": false,
+  "new_external_manuscript_upload": false,
+  "modified_review_input_files": false,
+  "source_version": "v1.26",
+  "output_version": "v1.27"
+}

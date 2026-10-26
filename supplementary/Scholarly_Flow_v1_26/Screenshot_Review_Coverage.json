@@ -1,0 +1,1531 @@
+[
+  {
+    "number": 1,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-f4c69b95-a0bb-4c33-84fc-bb356966af47.png",
+    "sha256": "1024570551e687fcccb4949a8ae6528bf9db5b16c0c694908dc737f048d6812a",
+    "orange_examples": [
+      "AI assistance provided no independent human screening, ethics clearance or institutional approval.",
+      "The author remains responsible for the final arguments, interpretation, citation accuracy and compliance with applicable university requirements."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0039",
+      "P0040",
+      "P0041",
+      "P0042",
+      "P0043"
+    ],
+    "observations_ar": "تظهر خاتمة الإفصاح عن المساعدة ومسؤولية المؤلف بالبرتقالي، ثم فهرس المحتويات. هذا نص محمي؛ لا تعديل مقترح، ولا تكشف الألوان خوارزمية التصنيف أو التأليف.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 2,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-602d2d7c-ccba-47db-bfe0-a7805d02b01a.png",
+    "sha256": "adf64811500e901dd90b7390a41f68a0e793f053b4bdc28d69023dc8b6742afa",
+    "orange_examples": [
+      "The study uses a long short-term memory (LSTM) autoencoder, a neural model that learns event order and reconstructs routine sessions.",
+      "Pooled training combines records; standard FedAvg trains at clients; SecAgg+ adds protection for client updates."
+    ],
+    "green_examples": [
+      "A session is a sequence of accesses grouped in the supplied dataset.",
+      "1.2 Problem statement"
+    ],
+    "paragraph_ids": [
+      "P0297",
+      "P0298",
+      "P0299",
+      "P0300"
+    ],
+    "observations_ar": "يتجاور تعريف الجلسة الأخضر مع وصف النموذج والمقارنة البرتقاليين. تعداد الطرائق ثم تعريف وظائفها واضح في السياق، لذلك أبقيته بعد مراجعة بديل أكثر كثافة. استهدفت التكرار في بداية P0300 فقط، مع إبقاء حدود الرسائل والمحاكاة.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 3,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-837b78b7-d59a-40be-a1b9-ceda82f295ed.png",
+    "sha256": "8a605e76bd2302c8844ac8214818deca67a456fa18bc14226ce4694b38e84304",
+    "orange_examples": [
+      "The evaluation addresses this question in two stages.",
+      "Detection performance and the cost of the protected workflow must therefore both be examined.",
+      "RQ2: How do detection performance and training-workflow cost compare between standard FedAvg and FedAvg with SecAgg+?"
+    ],
+    "green_examples": [
+      "1.4 Research aim and objectives"
+    ],
+    "paragraph_ids": [
+      "P0300",
+      "P0301",
+      "P0302",
+      "P0303",
+      "P0304",
+      "P0305",
+      "P0306",
+      "P0307",
+      "P0308"
+    ],
+    "observations_ar": "تغلب البرتقالية على بيان المشكلة وأسئلة البحث؛ السؤالان وهدف الدراسة محميان. تتكرر ضرورة مقارنة الأداء والكلفة قبل وصف مرحلتي المقارنة، مما يتيح حذف إعادة القول دون حذف مبرر مستقل.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 4,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-d2fe9c64-dc62-4025-aeb9-a2ccad882dc9.png",
+    "sha256": "6fb3a378a412db00560bf0d213fc7229c6802245947f91a79764368c3efc3410",
+    "orange_examples": [
+      "1. To implement an AI-based federated anomaly-detection pipeline using Flower across multiple simulated clients.",
+      "The evaluation uses a fixed EHR access-log benchmark supplied as synthetic."
+    ],
+    "green_examples": [
+      "2. To evaluate the anomaly detection performance of the federated model against a pooled centralised reference model.",
+      "4. To compare standard FedAvg and FedAvg with SecAgg+ in terms of detection performance, recorded training-workflow time and application-message content.",
+      "1.5 Research scope"
+    ],
+    "paragraph_ids": [
+      "P0307",
+      "P0308",
+      "P0309",
+      "P0310",
+      "P0311",
+      "P0312",
+      "P0313",
+      "P0314",
+      "P0315"
+    ],
+    "observations_ar": "تختلف الألوان بين أهداف متوازية داخل القائمة نفسها؛ هذا لا يفسر آلية التصنيف. تبقى الأهداف والنطاق العددي وتعريف Non-IID كما هي؛ لم أستهدف القائمة بالتعديل.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 5,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-0cf0a1f2-a0c8-481e-b3fb-6cb99df8b7d2.png",
+    "sha256": "1e72b75ad830973e5304597a7de00525a4cb8339957ff3716e523e25737d5359",
+    "orange_examples": [
+      "This protection excludes shared preprocessing, researcher-side evaluation and local storage.",
+      "Standard FedAvg and FedAvg with SecAgg+ use the same LSTM-autoencoder architecture, training schedules and evaluation procedure."
+    ],
+    "green_examples": [
+      "The study measures differences in detection performance and execution cost, and compares federated detection with a pooled centralised reference.",
+      "It provides empirical evidence about this implementation, rather than a new detection algorithm."
+    ],
+    "paragraph_ids": [
+      "P0316",
+      "P0317",
+      "P0318",
+      "P0319"
+    ],
+    "observations_ar": "تحمل الفقرات الملوّنة هنا حدود الحماية وحدود المساهمة. لا مبرر لحذف الاستبعادات أو الادعاء بأن الاختلاف اللوني يثبت هوية الكاتب؛ أبقيت هذه الفقرات دون اقتراح جديد.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 6,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-765cfc95-59b2-4717-a9b0-856e8c78c683.png",
+    "sha256": "bab2416363658086ad1657d9679551ff136614c274c414479bdc5be932d9ee80",
+    "orange_examples": [
+      "These findings identify the measured cost of protecting updates and a detection limitation of the tested model and benchmark.",
+      "Their training labels marked accesses as suspicious or appropriate, rather than confirming incident outcomes."
+    ],
+    "green_examples": [
+      "Kim et al. (2011) selected logistic-regression examples with anomaly and signature filters.",
+      "They combined filter-selected positives with control-sample negatives."
+    ],
+    "paragraph_ids": [
+      "P0319",
+      "P0320",
+      "P0321",
+      "P0322",
+      "P0323",
+      "P0324"
+    ],
+    "observations_ar": "تظهر صياغات Kim المصححة بالأخضر بجوار وصف Boxwala البرتقالي. هذا وصف لوني فقط. تبقى ملصقات التدريب، ومصدر السلبيات، وأخذ عينات نطاقات المخاطر كاملة دون تغيير.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 7,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-50d1af8d-6965-4d51-9f12-b10f3b8c6d6f.png",
+    "sha256": "6df237ef20832efb32e784bc27a4d2542967d35a7aaf84f736e33a9169f38125",
+    "orange_examples": [
+      "Relational approaches interpret access through relationships among staff, patients and care activities.",
+      "Chen and Malin (2011) analysed user communities and tested detection by inserting simulated anomalous users into real logs."
+    ],
+    "green_examples": [
+      "Menon et al. (2014) used collaborative filtering, which learns user–"
+    ],
+    "paragraph_ids": [
+      "P0325",
+      "P0326"
+    ],
+    "observations_ar": "الصورة تعرض بداية الفقرة العلائقية ونهاية قيد استقلال المجموعات؛ السطر الأخضر الأخير مقطوع عند حافة الصورة. قرأت الفقرة الكاملة من خط الأساس، ولم أستنتج المقطع غير الظاهر من اللون. تعديل FRONT-001 السابق يظل مستقلاً للإدماج.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 8,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-3d4ae069-4c40-4db8-9e36-10e10ca52d44.png",
+    "sha256": "0a20f4116bc8eed4029302e987070a880e1a1fba641a55b816d842c1ed060ec0",
+    "orange_examples": [
+      "Clinical context matters when unusual activity is legitimate.",
+      "Their 25,151 simulated user-days were split chronologically: January–July for training and August–December for testing.",
+      "The present experiments measure detection against source labels."
+    ],
+    "green_examples": [
+      "Monitoring should also provide a way to correct erroneous alerts.",
+      "Differences in staff roles and departments give a further reason to check which groups bear false-alert burdens; pooled performance may not describe every group."
+    ],
+    "paragraph_ids": [
+      "P0327",
+      "P0328"
+    ],
+    "observations_ar": "المقارنة التدريبية في P0327 مفيدة، لكن اسم الدراسة الحالية يتكرر في جملتين متقاربتين. ربط اختلاف التدريب بالتفسير اللاحق يحسن التدفق؛ أبقيت ضمانات الإنصاف والمراجعة وقيود صلاحية التجارب في P0328.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 9,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-7567f349-31f7-41b9-8e0a-cc6114a2e07f.png",
+    "sha256": "cc5fa28a6b409226661dd9f83e1e1126860cd2bb200cf39cfd03f2c00eebff80",
+    "orange_examples": [
+      "Label origin affects what a detector’s score means.",
+      "Differences in data, labels and analysis units prevent direct comparison with this study’s precision or average precision (AP), which summarises precision across recall levels."
+    ],
+    "green_examples": [
+      "PPV is the fraction of predicted-positive cases labelled positive.",
+      "High accuracy can therefore coexist with many false alerts."
+    ],
+    "paragraph_ids": [
+      "P0328",
+      "P0329",
+      "P0330",
+      "P0331",
+      "P0332"
+    ],
+    "observations_ar": "التدرج من مصدر الملصق إلى نتيجة Hurst ثم حد المقارنة قائم بالفعل. التعريف الأخضر لـ PPV متجاور مع تحذيرات برتقالية؛ لا يبرر ذلك تبديل المصطلحات أو إزالة القيود. لا تعديل جديد لهذه الفقرات.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 10,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-1951c068-cba1-4e45-92b5-fdad74522614.png",
+    "sha256": "a0e9ad689c5a5cd3881a7c482f3877b0e0193e1c75e018ac2a05e324228e434d",
+    "orange_examples": [
+      "In their evaluation of 200 observations, the vector model had higher anomaly recall, the fraction of anomalies detected, and higher F1, which combines precision and recall.",
+      "The study’s Fig. 1 shows feedback from testing to behaviour modelling."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0332",
+      "P0333",
+      "P0334"
+    ],
+    "observations_ar": "المقتطف كله تقريباً برتقالي، ويتضمن تعريفين يفصلان المقارنة بين recall وF1. اعتمدت تعديل FRONT-002 الموافق عليه ووحدت الإحالة إلى الدراسة في الجملة التالية؛ بقيت مخاوف الاستقلال وصحة التفسير كاملة.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 11,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-79411b8e-d09f-447a-8896-587245786ba0.png",
+    "sha256": "ffc4c68f211def922b5e0db2b64ec9cc465e4efb4549a329b15e34a73c6d524d",
+    "orange_examples": [
+      "The work supports reconstruction-based anomaly scoring, but a deviation alone does not establish unauthorised intent.",
+      "This is a methodological precedent for federated learning outside EHR monitoring; it does not establish EHR performance or generalisation across heterogeneous institutions."
+    ],
+    "green_examples": [
+      "variables. They used reconstruction error to detect deviations."
+    ],
+    "paragraph_ids": [
+      "P0334",
+      "P0335",
+      "P0336",
+      "P0337"
+    ],
+    "observations_ar": "أعلى المقتطف يعرض نهاية وصف Malhotra الأخضر ثم تحذيره البرتقالي. يكرر افتتاح P0334 وخلاصته دعم إعادة البناء؛ اقتراحي يبدأ مباشرة بطريقة الدراسة ويحتفظ بقيد النية غير المصرح بها. الأرقام والمقارنات في Lazzarini لم تُمس.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 12,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-a423e894-c549-4c4f-ad27-3213f269b067.png",
+    "sha256": "0d5c0b34a276436d17ee06a45d1762ca253557068897c57f36fb6c913d86d7b7",
+    "orange_examples": [
+      "It reports AP over five runs, sensitivity analyses and ablation results, which show how performance changes when components are altered.",
+      "Its masks select participating weights; they do not cryptographically hide shared weights."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0338",
+      "P0339"
+    ],
+    "observations_ar": "تظهر قيود FeadSeq بالبرتقالي: أقنعة اختيار الأوزان ليست إخفاءً تشفيرياً، وعد المعلمات ليس محتوى الرسائل. هذه فروق تقنية لازمة؛ لا اقتراح لتقصيرها أو تعميم نتائجها على EHR.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 13,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-b01d9808-b12d-4cae-835b-bebf866fa195.png",
+    "sha256": "3dda7afa4745fd0e1d02b6550dbca992831ca4a3fa85126b37813687b7327b39",
+    "orange_examples": [
+      "Each user belonged to one client partition, with the same assignment applied to testing.",
+      "Different data, labels and units prevent a direct claim of better numerical performance."
+    ],
+    "green_examples": [
+      "The authors examined 3, 5, 10, 15 and 20 clients, detailing results for three.",
+      "Anomaly ground truth was unavailable, and accesses were assumed benign.",
+      "Clients partitioned one hospital’s data, rather than representing independent hospitals."
+    ],
+    "paragraph_ids": [
+      "P0339",
+      "P0340",
+      "P0341",
+      "P0342"
+    ],
+    "observations_ar": "تتجاور جمل التصميم الأخضر مع حدود تقسيم المستخدمين والعتبات البرتقالية. أبقيت أعداد الدراسة وغياب الحقيقة المرجعية والتمييز بين عميل من بيانات مستشفى واحد ومستشفى مستقل كما هي، دون اقتراح جديد لهذا المقطع.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 14,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-be1433cd-b3cc-44d6-802e-d62f6f89f560.png",
+    "sha256": "5990c0470f9d2956fe863551ec5c668e45a428bac87a5064079eda29670f0255",
+    "orange_examples": [
+      "Their proofs assume that the set of corrupted clients is fixed before execution and that dropout stays within specified bounds.",
+      "The full technical version reports numerical parameter analyses and benchmarks of cryptographic components; a system implementation remained future work."
+    ],
+    "green_examples": [
+      "Li et al. (2022) described Salvia, a SecAgg(+) implementation for Flower under a semi-honest model.",
+      "In this model, participants follow the protocol but may try to learn from what they observe."
+    ],
+    "paragraph_ids": [
+      "P0342",
+      "P0343"
+    ],
+    "observations_ar": "تعرض البرتقالية افتراضات Bell وحدود التنفيذ، ويظهر وصف Salvia بالأخضر. طول الفقرة يعكس فروقاً فعلية بين النماذج الأمنية، لذا أبقيت التفصيل كما هو ولم أُسقطه سعياً لتنويع الإيقاع.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 15,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-bdb21d8a-237a-4222-8b0f-fb3ff2e25b05.png",
+    "sha256": "271c748afb8e361fc70bcdfa354acf3263952b6f8ca5c709b9793360c960118e",
+    "orange_examples": [
+      "Differential privacy limits how much one person’s data can affect released outputs; secure aggregation alone does not provide this formal protection.",
+      "It is assumed able to simulate training to sample client updates and estimate their averages and how entries vary together."
+    ],
+    "green_examples": [
+      "Secure aggregation protects the combination of client updates, not every part of a learning system.",
+      "TLS protects data in transit."
+    ],
+    "paragraph_ids": [
+      "P0344",
+      "P0345",
+      "P0346"
+    ],
+    "observations_ar": "يظهر Ngo بالبرتقالي مع كامل افتراض المحاكاة ورؤية المجموع الدقيق. اقتراحي يوضح مرجع It فقط ويجعل علاقة utility/cost أوضح؛ لا يحول الاستدلال الإحصائي إلى كشف مباشر ولا يزيل وصف preprint.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 16,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-312ee422-ecb5-4a8e-a1a9-7d80a0d234ae.png",
+    "sha256": "dae78b211595b317857d8947041f146009f0674146e6c721f0e79c2cc01cf542",
+    "orange_examples": [
+      "Those questions need comparisons with real logs and expert review.",
+      "Reconstruction loss measures how well the model recreates its input, not whether the input is a threat."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0347",
+      "P0348",
+      "P0349",
+      "P0350"
+    ],
+    "observations_ar": "تعرض الصورة قيود صلاحية البيانات الاصطناعية وتعريفات المقاييس بالبرتقالي. حسّنت التوازي النحوي لأسئلة صلاحية البيانات فقط؛ الأعداد ومراجع AP وPR-AUC وتعريفاتها واستثناءاتها محفوظة.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 17,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-2edcbf88-1904-4441-91ef-a56fff86f0ef.png",
+    "sha256": "e8e7f47e8d29b760f6336a9d84a2611ea6381ec14e8f6ce99c8931f2010c1cc7",
+    "orange_examples": [
+      "They do not separate cryptographic computation from other workflow costs or capture complete deployment latency.",
+      "Scores from different datasets, labels and analysis units cannot provide a fair ranking."
+    ],
+    "green_examples": [
+      "Application-message content counts the data carried in the workflow’s application messages.",
+      "Inference on prepared inputs measures scoring after data preparation (Section 3.10).",
+      "These measures describe different parts of the system."
+    ],
+    "paragraph_ids": [
+      "P0350",
+      "P0351",
+      "P0352",
+      "P0353",
+      "P0354",
+      "P0355",
+      "P0356",
+      "P0357",
+      "P0358",
+      "P0359",
+      "P0360"
+    ],
+    "observations_ar": "تتجاور تعريفات الكلفة الخضراء مع حدودها البرتقالية. يمكن جمع التعريفات تحت افتتاح يحدد نطاق القياس، مع إبقاء عدم عزل الكلفة التشفيرية وعدم قياس زمن النشر الكامل والحاجة لعبء التحقيق.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 18,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-a90327c9-24da-448a-959a-4e66d5ac50dd.png",
+    "sha256": "d7df95251964b9fba3127e1a03d2eef09669fff6b734f0e73b4c90c2c26cbcd5",
+    "orange_examples": [
+      "Explanation coverage and precision were measured on real and randomly generated accesses.",
+      "Inserting simulated users does not establish detection of confirmed misuse."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0373",
+      "P0374",
+      "P0375",
+      "P0376",
+      "P0377",
+      "P0378",
+      "P0379",
+      "P0380",
+      "P0381",
+      "P0382",
+      "P0383",
+      "P0384"
+    ],
+    "observations_ar": "معظم النص الظاهر خلايا جدول برتقالية؛ جزء أخضر مقطوع أعلى الصورة لا يكفي لتوثيق جملة كاملة. الخلايا تؤدي وظيفة تلخيص الأدلة والحدود، ولم أعد صياغتها لمجرد اللون.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 19,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-be3464af-6d6e-4e60-bfe6-b99583a076a7.png",
+    "sha256": "98ac7a31ac1e8fee673fc17aa0330e7630a23066f07a3fbf5480d3a4170d3b32",
+    "orange_examples": [
+      "Manual investigation of actual misuse was outside scope.",
+      "The supervised two-class evaluation treats normal and nonmalicious abnormal behaviour as the negative class.",
+      "The available description does not establish independent confirmation of every case."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0389",
+      "P0390",
+      "P0391",
+      "P0392",
+      "P0393",
+      "P0394",
+      "P0395",
+      "P0396",
+      "P0397",
+      "P0398",
+      "P0399"
+    ],
+    "observations_ar": "تعرض خلايا Yeng وHurst فروق نوع الملصق ومصدره. لا توجد جملة خضراء كاملة ظاهرة في هذا المقتطف. أبقيت التمييز بين النشاط غير الخبيث والحوادث المثبتة دون أي اختصار.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 20,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-6ffb184c-2f12-40f9-88ff-a1627ba839a1.png",
+    "sha256": "d10034ae74c21c308ba9801fef11e0cbd65d4ec655c40852cdff9d47b5c69e3b",
+    "orange_examples": [
+      "No anomaly ground truth for verified detection metrics.",
+      "Labels came from synthetic injections.",
+      "Their Table 2 reports LSTM recall of 0.2610 versus meta-classifier recall of 0.8180;"
+    ],
+    "green_examples": [
+      "Senturk et al. (2025)",
+      "The headline scores are macro averages: performance is averaged equally across the normal and anomaly classes.",
+      "No federated or secure-aggregation experiment was reported."
+    ],
+    "paragraph_ids": [
+      "P0406",
+      "P0407",
+      "P0408",
+      "P0409",
+      "P0410",
+      "P0411",
+      "P0412",
+      "P0413",
+      "P0414",
+      "P0415",
+      "P0416"
+    ],
+    "observations_ar": "تظهر حدود Senturk ووحدة التقييم ثم بداية Matos؛ الجملة الخضراء تشرح macro averages بدقة. لا تتيح مقارنة الألوان تفسير نسب المقاييس أو المؤلف، ولم أغير نتائجها.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 21,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-b9215d77-bef6-4608-830d-6ec3f072f03c.png",
+    "sha256": "30013931dc9aa742f67a64f80bf434037953ac32063c690aae9bc412a94cee3b",
+    "orange_examples": [
+      "However, the confusion counts in their Figure 3 imply a different test composition from the stated split, leaving the denominator uncertain.",
+      "The report does not explain how these counts relate or whether related augmented examples were separated."
+    ],
+    "green_examples": [
+      "variational autoencoder (VAE), which represents inputs through probability distributions, to detect anomalies in augmented synthetic access events.",
+      "The authors acknowledge the need for real clinical validation.",
+      "Segar and Vijayan (2026) use 120,000 synthetic access events and sliding windows of 20 events."
+    ],
+    "paragraph_ids": [
+      "P0416",
+      "P0417",
+      "P0418"
+    ],
+    "observations_ar": "الأخضر والبرتقالي يتناوبان داخل وصف Iqbal نفسه؛ عدم وضوح الأعداد والفصل قيد حقيقي أبقيته. افتتاح Segar ينتقل إلى استقلال النوافذ، وهو انتقال موضوعي لا يحتاج حشواً.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 22,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-acd8ddca-ea06-4864-aaf5-c2ae7af018a4.png",
+    "sha256": "8bd93b5f8c9683beb65edc0c6916b80a23889c388459595c9182562075ba5e9a",
+    "orange_examples": [
+      "McNemar’s analysis should count test examples where one model is correct and the other wrong; instead, their estimate uses aggregate model errors.",
+      "These limitations and their different detector and blockchain-cost measurements limit comparison with the present FedAvg/SecAgg+ workflows."
+    ],
+    "green_examples": [
+      "Maghrabi et al."
+    ],
+    "paragraph_ids": [
+      "P0418",
+      "P0419",
+      "P0420"
+    ],
+    "observations_ar": "معظم الفقرات برتقالية، والاسم Maghrabi et al. أخضر فقط. أبقيت قيد النوافذ وحساب McNemar وحدود تجارب Sutradhar؛ تعديل FRONT-004 السابق معلوم ولم يُستبدل بنص آخر.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 23,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-4bfa7a53-4201-44c0-aa16-fec754376d96.png",
+    "sha256": "f937fc84eba63b4ba86ea36a4d924e300b381b3275cdbc323edfa6d1581fa355",
+    "orange_examples": [
+      "Their Table 8 removes differential privacy and secure aggregation together, preventing isolation of secure aggregation’s contribution.",
+      "Comparisons require matching detection units, protection mechanisms, experimental controls and cost definitions; accuracy alone does not make these studies comparable."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0420",
+      "P0421",
+      "P0422"
+    ],
+    "observations_ar": "الفقرة تجمع مهام متباينة وتصل إلى شروط المقارنة. هذه قائمة أدلة ذات وظيفة مقارنة محددة، ولا يصح حذف أسماء الدراسات أو شروط الضبط لمجرد كثافة البرتقالي.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 24,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-37030aa2-fe76-4cf3-b95f-17cf4a3b975c.png",
+    "sha256": "deb62dcead4aae13ab3bc0d2b575acb43790eadb03ed6030dafbdc71edf575aa",
+    "orange_examples": [
+      "Qazi et al. (2026) evaluate private federated anomaly detection for enterprise resource planning (ERP) systems through component removal and utility and cost measurements.",
+      "Secure aggregation increased elapsed time and changed prediction metrics, providing a previous comparison of performance and cost under ordinary and secure aggregation."
+    ],
+    "green_examples": [
+      "Shamim et al.",
+      "communication reduction compares different allowed numbers of training rounds."
+    ],
+    "paragraph_ids": [
+      "P0422",
+      "P0423",
+      "P0424"
+    ],
+    "observations_ar": "العبارة الختامية داخل نتيجة Lytvyn تعيد أن الدراسة قارنت الأداء والكلفة، وقد قيل ذلك في أول الفقرة. حذفت الإعادة فقط مع إبقاء النتائج وحدود مقاييس التنبؤ وعدم ثبوت عدم اليقين عبر التشغيلات. تعديل Qazi السابق FRONT-005 يبقى للإدماج.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 25,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-e7b4d796-f726-4b4b-abc2-d9d767642317.png",
+    "sha256": "18be19e75ef875f238773e8c3804e9833bf46536699511d415a2234098576dbe",
+    "orange_examples": [
+      "Eleven linked synthetic tables with session labels for threats, routine legitimate activity and unusual legitimate activity.",
+      "Assigning users exclusively to clients does not establish separate training and test users."
+    ],
+    "green_examples": [
+      "Aspect",
+      "Input unit for the model",
+      "Non-overlapping windows of 100 events"
+    ],
+    "paragraph_ids": [
+      "P0424",
+      "P0425",
+      "P0426",
+      "P0427",
+      "P0428",
+      "P0429",
+      "P0430",
+      "P0431",
+      "P0432",
+      "P0433",
+      "P0434",
+      "P0435",
+      "P0436",
+      "P0437",
+      "P0438",
+      "P0439",
+      "P0440"
+    ],
+    "observations_ar": "تعرض الصورة جدول 2.2 بعد نهاية نطاق الفقرات المسموح لي بتعديلها. راجعتها كاملة للتغطية والسياق فقط. المقارنة العددية ووحدة الجلسة وحدود فصل المستخدمين تبقى كما هي، ولا يوجد اقتراح تعديل خارج P0423.",
+    "viewed_at_original_detail": true
+  },
+  {
+    "number": 26,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-43695a46-c09e-41c1-aefd-fbe08eb17da7.png",
+    "sha256": "b12973e274d97926cb4c0259d80586e0a06a163f9d17daa41a66c630bd9c7e7e",
+    "orange_examples": [
+      "AP, area under the receiver-operating-characteristic curve (AUROC) and error counts against fixed scenario labels, including legitimate exceptions",
+      "The examined experiment reports no comparison of FedAvg with and without SecAgg+ under matching conditions."
+    ],
+    "green_examples": [
+      "Compares FedAvg and FedAvg with SecAgg+ under matching conditions for detection performance, execution time and the volume of application-message content."
+    ],
+    "paragraph_ids": [
+      "P0440",
+      "P0441",
+      "P0442",
+      "P0443",
+      "P0444",
+      "P0445",
+      "P0447",
+      "P0451",
+      "P0452",
+      "P0453",
+      "P0454",
+      "P0455",
+      "P0456"
+    ],
+    "observations_ar": "تجاور مقارنات مختصرة مع خلايا أدلة كثيفة؛ لا يستلزم ذلك تعديل الأرقام أو القيود. لم أقترح تغييراً في الجدول."
+  },
+  {
+    "number": 27,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-442c5b7f-a539-4317-b601-1aa2f3353ff8.png",
+    "sha256": "fde268b4d253c7b36f52dde2465c3ed7e6260776ced3b79b7cdbd6ffc8c8b67b",
+    "orange_examples": [
+      "Precision is the proportion of explained accesses that came from the real log when real accesses were mixed with randomly generated user–patient accesses.",
+      "no single summary AUC could be reliably extracted from the figures."
+    ],
+    "green_examples": [
+      "Performance depended on the amount of random access."
+    ],
+    "paragraph_ids": [
+      "P0459",
+      "P0460",
+      "P0461",
+      "P0462",
+      "P0463",
+      "P0464"
+    ],
+    "observations_ar": "التعريف الدقيق للمقياس وحدود الاستدلال أهم من تنويع الصياغة في هذه الخلايا. أبقيت النص والأرقام دون مقترح."
+  },
+  {
+    "number": 28,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-f7526aa7-e109-4490-b14b-d8dc02da66f5.png",
+    "sha256": "9bfb23be54312e0957e56b0e1b214d79e71631e9091c6fdf01869dd94f1b7283",
+    "orange_examples": [
+      "Nested five-fold cross-validation; the report does not document whether training and evaluation used separate entities.",
+      "These are explanation rates, not FPR."
+    ],
+    "green_examples": [
+      "LR+History is logistic regression with additional features describing earlier violation counts and rates.",
+      "SD is not a confidence interval, and AUPRC is not automatically equivalent to this study’s AP."
+    ],
+    "paragraph_ids": [
+      "P0465",
+      "P0466",
+      "P0467",
+      "P0468",
+      "P0469"
+    ],
+    "observations_ar": "النص يميز بالفعل تعريفات النماذج والمقاييس وحدودها؛ لم أغيّر الخلايا أو دلالات SD وAUPRC وAP."
+  },
+  {
+    "number": 29,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-04d36c07-df46-4fe2-a589-bc2b49d73fbf.png",
+    "sha256": "120c5439832e4a2defe5e4c763aa574754bd623659d196001ee5e7a4416ddf94",
+    "orange_examples": [
+      "120,000 synthetic logs: 80,000 normal training logs, 20,000 validation logs and 20,000 test logs.",
+      "The reported evaluation contains 188 normal and 12 anomalous observations."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0481",
+      "P0482",
+      "P0483"
+    ],
+    "observations_ar": "لقطة جزئية تبرز وصف البيانات وعدد الملاحظات؛ لا توجد فيها عينة خضراء ظاهرة. لا تعديل عددي أو استنتاج عن علاقة السجلات بالملاحظات."
+  },
+  {
+    "number": 30,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-2c3e8467-f95a-497a-b443-c4273af958bc.png",
+    "sha256": "bf13acb0d23cc1cd58896718d1f2cdeef7a848faef2f8f52821165c741b6c887",
+    "orange_examples": [
+      "These studies motivate a session-level comparison of pooled training, standard FedAvg and the implemented FedAvg with SecAgg+ workflow",
+      "The previous studies discussed in this chapter leave one question unanswered:"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0485",
+      "P0486"
+    ],
+    "observations_ar": "يتكرر مرجع الدراسات السابقة عند الانتقال من الدافع إلى السؤال؛ المقترح يحافظ على المقارنة ويختصر الإحالة المكررة."
+  },
+  {
+    "number": 31,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-4735d5a3-e933-4790-a1b1-a230127ebbf6.png",
+    "sha256": "66b532508cb9b44a6dec054a582fde813972660fb20453db435930f8d40c5680",
+    "orange_examples": [
+      "Source-labelled routine and unusual legitimate sessions allow false alerts to be counted under the benchmark’s label assumptions.",
+      "Appendix A records the dated search and later source-access updates;"
+    ],
+    "green_examples": [
+      "This comparison introduces no new algorithm and makes no claim to be the first such comparison worldwide.",
+      "Pooled centralised training combines the clients’ selected records before training"
+    ],
+    "paragraph_ids": [
+      "P0486",
+      "P0487",
+      "P0488",
+      "P0489",
+      "P0490",
+      "P0491"
+    ],
+    "observations_ar": "تنتقل اللقطة من فجوة البحث إلى تعريف المقارنات. القيود على الخصوصية والأسبقية العلمية مفيدة ولا تُحذف."
+  },
+  {
+    "number": 32,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-3c4165e1-707c-4851-a9da-58e424e8d54f.png",
+    "sha256": "2b108e6579c20ff6dc8d3e3aece197b91b0bf73b00f0abb25a3c6009c351f26e",
+    "orange_examples": [
+      "Following review, the research questions and fourth objective were revised to match the measured comparisons and outcomes.",
+      "No raw event records were carried in this training exchange."
+    ],
+    "green_examples": [
+      "A seed fixes the starting point of a run’s random operations.",
+      "The federated workflow ran three client applications, C1, C2 and C3, on one trusted research computer."
+    ],
+    "paragraph_ids": [
+      "P0491",
+      "P0492",
+      "P0493"
+    ],
+    "observations_ar": "تظهر إجراءات الضبط مع إفصاح التعديل اللاحق للأسئلة وحدود الاستقلال المؤسسي. أبقيت الإفصاحات والتمييز بين نقل التحديثات وإتاحة الملفات للباحث."
+  },
+  {
+    "number": 33,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-4d97f291-26ca-4383-92ac-624ebdae1cf2.png",
+    "sha256": "fb68456a246aa43d12aa477cc33667501479cc434cbd756e8eef450ec17d2b91",
+    "orange_examples": [
+      "The original creator, executable generator, scenario-construction rules, derivation from Mudliar’s public Kaggle dataset and redistribution rights remain unverified.",
+      "Affected-event lists are supplied annotations, not independent confirmation of misuse."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0498"
+    ],
+    "observations_ar": "قيود منشأ البيانات واضحة ومقصودة؛ لا توجد عينة خضراء ظاهرة. لا أقترح اختصاراً يمكن أن يوحي بتحقق المنشأ أو الترخيص."
+  },
+  {
+    "number": 34,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-86bd75c6-5765-4542-ab78-26660366b0f1.png",
+    "sha256": "1d26f8f912860df7fa7965e90297e9b247d76ff8a557815b31d34ecf801fd53b",
+    "orange_examples": [
+      "Sessions contained 5–81 events and were not truncated",
+      "After final evaluation, descriptive checks examined the retained partitions"
+    ],
+    "green_examples": [
+      "The secondary test, test_known, contained four threat families and unusual legitimate sessions, with no routine sessions.",
+      "These checks described the existing split; the original partitioning algorithm was unavailable."
+    ],
+    "paragraph_ids": [
+      "P0536",
+      "P0537",
+      "P0538"
+    ],
+    "observations_ar": "يمكن وصل الاحتفاظ بحدود الجلسة بفحصها الزمني في جملة واحدة. بقيت حدود الاختبارات والغياب عن فحص الأجهزة وتوقيت الفحص بعد التقييم دون تغيير."
+  },
+  {
+    "number": 35,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-f4ccac45-c30e-4871-a1ca-1e058a78258b.png",
+    "sha256": "1e95fdc9a0b28eebf79fe72ff8a27970de542ce52fb459006ca510d20f94a641",
+    "orange_examples": [
+      "Training and validation included all source-assigned routine sessions in their partitions.",
+      "A file hash is a fingerprint used to detect file changes."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0563",
+      "P0564",
+      "P0565",
+      "P0566",
+      "P0567",
+      "P0568"
+    ],
+    "observations_ar": "تعريف بصمة الملف يقطع تسلسل وصف التحضير قليلاً؛ إدماجه داخل قائمة الفحوص يقلل الوقفة من دون تغيير وظيفة الفحص."
+  },
+  {
+    "number": 36,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-325affc1-4457-4938-9690-9a03bfd5b6fc.png",
+    "sha256": "fd173cc9db119df0d8e2269611549b6880d920ae91f3af5b01e6ae1d86df8308",
+    "orange_examples": [
+      "Hours included fractional values, and weekdays ran from Monday = 0.",
+      "Each field also had two positions for unknown (__UNK__) and missing (__MISSING__) values, giving 110 categorical input dimensions."
+    ],
+    "green_examples": [
+      "The first previous-event interval was zero; negative intervals were rejected."
+    ],
+    "paragraph_ids": [
+      "P0568",
+      "P0569"
+    ],
+    "observations_ar": "الترميز الزمني والفئوي محددان بدقة. أبقيت UTC وAsia/Kuala_Lumpur وlog1p والأبعاد والرموز كما هي."
+  },
+  {
+    "number": 37,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-3226031b-7bfb-40e1-8a36-1383cb1491a2.png",
+    "sha256": "f385ffabb394e63701b67220c8e1c539e430bd093ab3465ccc1680f39f4b763a",
+    "orange_examples": [
+      "Values absent from the training vocabulary used __UNK__; empty values used __MISSING__.",
+      "Each client supplied counts, means and second central moments, which summarise variation around the mean."
+    ],
+    "green_examples": [
+      "All approaches reused these parameters. They were not refitted on validation, test or resampled data."
+    ],
+    "paragraph_ids": [
+      "P0652",
+      "P0653",
+      "P0654"
+    ],
+    "observations_ar": "أحفظ مقترح MR01 المنفصل للترميز؛ المقترح الجديد يقدّم خط الأنابيب بوصفه فاعل التوحيد ويصل إعادة استخدام المعلمات بعدم إعادة ملاءمتها."
+  },
+  {
+    "number": 38,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-9b2c0445-10f2-4608-b5b5-80f13bca2f48.png",
+    "sha256": "9c4adad65244a3843d68d33dbdef094e93b4f2970ce0a07470b41fd3423bf259",
+    "orange_examples": [
+      "This representation was retained after the test results were examined.",
+      "Batches used padding to handle different session lengths, matching the longest session.",
+      "Neither operation created new feature sequences."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0655",
+      "P0656",
+      "P0657"
+    ],
+    "observations_ar": "أحفظ إفصاح الاختيار بعد الفحص ومقترح MR02 الخاص بالحشو. يمكن اختصار التكرار في وصف عدم توليد تسلسلات جديدة مع إبقاء دور إعادة المعاينة وdropout."
+  },
+  {
+    "number": 39,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-620898a5-f79a-417e-99ed-757fa6d932eb.png",
+    "sha256": "256f3a79159704fda9285b2f2c3eda7cce27f3a80bff7fe9272f49d63bcbeed7",
+    "orange_examples": [
+      "In each round, Reference sampling randomly ordered every client’s training sessions without replacement.",
+      "These probabilities were experimental stress settings rather than measured institutional distributions."
+    ],
+    "green_examples": [
+      "Each client made as many draws as in its own Reference condition, but with replacement."
+    ],
+    "paragraph_ids": [
+      "P0660",
+      "P0661"
+    ],
+    "observations_ar": "تجاور اللقطة آلية السحب وحدود تفسيرها؛ لا أقترح تغيير احتمالات السحب أو مساواة Reference بالتوزيع IID."
+  },
+  {
+    "number": 40,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-da758931-9366-4569-a29b-1a04aec4471b.png",
+    "sha256": "eeae35792a49709eae281cc29566f29d5c0a26c235a6921fd16b44b4147f249f",
+    "orange_examples": [
+      "The available project files do not show that LSTM was selected through comparison with other model families.",
+      "The encoder processed events in recorded order and compressed each session into a 32-dimensional latent vector"
+    ],
+    "green_examples": [
+      "Its single-layer, unidirectional LSTM encoder had 119 input features and a hidden-state size of 64.",
+      "Initial hidden and cell states were zero."
+    ],
+    "paragraph_ids": [
+      "P0663",
+      "P0664"
+    ],
+    "observations_ar": "التعريف الوظيفي للنموذج يتبعه وصف البنية؛ أبقيت الأبعاد وعدد المعلمات وعدم ثبوت الاختيار الأمثل وغياب البحث بعد الاختبار."
+  },
+  {
+    "number": 41,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-f7eab0e4-5f7c-4c4b-a518-4377bcbe5b2c.png",
+    "sha256": "6c13e729ef3a57e33ee90ff988f93bd0452667a05b06a5667d5e1b25195d372e",
+    "orange_examples": [
+      "Valid event losses were averaged within each session, then across sessions in the batch",
+      "All approaches used this rule; the study did not test whether it outperformed alternatives."
+    ],
+    "green_examples": [
+      "Each component was averaged over valid outputs, and event loss was the mean of the available components."
+    ],
+    "paragraph_ids": [
+      "P0664",
+      "P0665",
+      "P0666",
+      "P0667"
+    ],
+    "observations_ar": "المقترح يجعل تسلسل جمع مكونات الخسارة ثم متوسط الأحداث والجلسات صريحاً، مع حفظ المساواة بين العائلات والقيود المقارنة."
+  },
+  {
+    "number": 42,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-fd580873-d537-4bd6-b6fd-42d127466fb1.png",
+    "sha256": "8f5baf69c8b493c04ae4a61da7d664a61b04e014a063038a5a2c33cfb212e396",
+    "orange_examples": [
+      "The score direction was retained after examining test results.",
+      "The transformation places scores on a common scale for comparison but does not produce calibrated threat probabilities."
+    ],
+    "green_examples": [
+      "Client scores were calibrated before pooling to account for differences in the centre and spread of routine scores.",
+      "Calibration used only routine-validation scores from the checkpoint selected by routine-validation loss."
+    ],
+    "paragraph_ids": [
+      "P0667",
+      "P0668",
+      "P0669"
+    ],
+    "observations_ar": "المعادلات والحدود العددية للمعايرة تُترك كما هي. أفصل بين وصف تسلسل المعايرة وحدود تفسير الدرجات ولا أحوّلها إلى احتمالات."
+  },
+  {
+    "number": 43,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-a6c28423-a5c0-419a-88ae-8c68ab5efb6f.png",
+    "sha256": "f9b0bdb19294cf68009885d0fad4ded17daa986c829f3e7035eb582fa73439ca",
+    "orange_examples": [
+      "Using the same routine-validation sessions for checkpoint selection and calibration may make calibration appear more favourable.",
+      "Centralised training served as the comparison reference and was not assumed to perform best."
+    ],
+    "green_examples": [
+      "Test results were not used to adjust thresholds.",
+      "Pooled centralised training and standard FedAvg used the same selected sessions to compare training organisation."
+    ],
+    "paragraph_ids": [
+      "P0669",
+      "P0670",
+      "P0671",
+      "P0672"
+    ],
+    "observations_ar": "الجمل الخضراء الظاهرة محددة الوظيفة، لكن ذلك لا يبرر حذف تحفظ المعايرة أو عدم تطابق ترتيب تحديثات المحسن. لم أقترح تغييراً هنا."
+  },
+  {
+    "number": 44,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-08ada2b4-70da-40ac-b6cc-4ec6d38831ab.png",
+    "sha256": "7e4823e15fdf0a2a364201376a5090436bc3fa66655f2f5b6eb4d07f86e768d5",
+    "orange_examples": [
+      "The secure-aggregation comparison added SecAgg+ masking and quantisation to the same FedAvg training procedure.",
+      "The measured extra cost therefore compares the implemented workflows, including their different checks, rather than cryptographic operations alone."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0673",
+      "P0674",
+      "P0675"
+    ],
+    "observations_ar": "يمكن وصل وظيفتي الإخفاء والتكميم، ثم إسناد الكلفة المقاسة مباشرة إلى سيرَي العمل وفحوصهما. يبقى عدم تطابق العمل الحسابي وحد المقارنة التشفيرية صريحين."
+  },
+  {
+    "number": 45,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-0f0262a2-0ae1-44aa-8131-843637445c5a.png",
+    "sha256": "0d265f2b56f8db8de5e61be36e78ac4efca233e501b45b458fc24c1f15dc61cb",
+    "orange_examples": [
+      "Communication used the research computer’s loopback interface, keeping messages on that host.",
+      "Aggregation weights counted scheduled training-session occurrences: 3,609 for C1, 3,548 for C2 and 3,676 for C3."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0704",
+      "P0705",
+      "P0706",
+      "P0707"
+    ],
+    "observations_ar": "خطوات Flower والأوزان موضحة بالفعل. لا توجد عينة خضراء ظاهرة؛ أبقيت فرق عدد مرات الاختيار عن الأحداث والملاحظات المستقلة."
+  },
+  {
+    "number": 46,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-ef7ff768-896e-460b-8e1a-2b4cfcc6ac72.png",
+    "sha256": "5412f2d2bc2de6d0ca1d198d6adfb8c81facf5d84b46ab097f3d8def085d4546",
+    "orange_examples": [
+      "Repeated selections under replacement sampling counted towards the same scheduled total and were not additional independent observations.",
+      "The aggregation server was assumed to be honest-but-curious:"
+    ],
+    "green_examples": [
+      "Among iterations 1–30, the earliest checkpoint within 1e-12 of the minimum loss was selected.",
+      "The selected checkpoint was reevaluated without further optimiser updates."
+    ],
+    "paragraph_ids": [
+      "P0707",
+      "P0708",
+      "P0709",
+      "P0710",
+      "P0711"
+    ],
+    "observations_ar": "سياق الانتقال من اختيار النموذج إلى افتراضات الحماية مهم؛ لا أستدل من اللون على صحة الافتراضات ولا أختصر حدود المهاجم أو غياب TLS."
+  },
+  {
+    "number": 47,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-69dac9f6-bd56-483e-b23a-a2afc6f2a4d9.png",
+    "sha256": "75096729982419bdcbd39cf38701bd3a2eb0f996045fedbe9c63ff7d00259988",
+    "orange_examples": [
+      "Two shares were required to reconstruct either secret for unmasking.",
+      "Nevertheless, every accepted stage required all three clients’ replies.",
+      "Missing replies stopped the workflow, without fallback to ordinary FedAvg."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0711"
+    ],
+    "observations_ar": "التمييز بين عتبة إعادة بناء السر ومتطلب قبول المراحل جوهري: حصتان لإعادة البناء وجميع العملاء الثلاثة لقبول كل مرحلة. لم أعد صياغته."
+  },
+  {
+    "number": 48,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-c2595a5a-b57d-4a4c-ae05-2ce1f08314dd.png",
+    "sha256": "f6494a83cf990b23da05fd6b81c96e89e6f5cbff0dbd78d6a145dd86132f4358",
+    "orange_examples": [
+      "Before the accepted main experiments, predefined public vectors checked expected secure-aggregation averages",
+      "The aggregate, shared models, metrics, counts, plaintext preprocessing summaries and researcher-side calibration remained outside it."
+    ],
+    "green_examples": [
+      "They were not selected through privacy-leakage optimisation.",
+      "Information leakage from EHR updates, the aggregate or final model was not quantified."
+    ],
+    "paragraph_ids": [
+      "P0736",
+      "P0737",
+      "P0738",
+      "P0739"
+    ],
+    "observations_ar": "أحفظ MR03 الخاص بإسناد الفحص إلى الاختبارات. المقترح الجديد يوضح مرجع حدود الحماية، ويبقي حدود الأوزان والتكميم وعدم قياس التسرب دون تغيير."
+  },
+  {
+    "number": 49,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-0929edb6-748a-418b-8917-d14718e5a5a9.png",
+    "sha256": "8d6bb469c716d9ab98df72a49ae072475ad89be2396146db6660a0dabeca7ba9",
+    "orange_examples": [
+      "The checks compared masking-helper outputs with expected values, checked aggregation errors and message fields",
+      "This separately versioned patch changed project input validation rather than the installed cryptographic helper."
+    ],
+    "green_examples": [
+      "Retesting used neither EHR optimisation nor a network deployment."
+    ],
+    "paragraph_ids": [
+      "P0739",
+      "P0740"
+    ],
+    "observations_ar": "المقترح يوضح أن الفحوص استخدمت المصفوفات العامة وأن التعديل يخص مدقق طلبات المشروع. لا يغير توقيت المعايير ولا عدادات بدء العمل وقبول التجميع أو حدود النشر."
+  },
+  {
+    "number": 50,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-1b8f7ee7-047c-4832-a6d5-524fa49345dd.png",
+    "sha256": "18791a6bfdf8293992b0ffd7f411e85bd095fcb07cb1640cde31b625ea07afe6",
+    "orange_examples": [
+      "Five fixed seeds, 11, 29, 47, 71 and 97, assessed variation from training randomness.",
+      "Thirty epochs or rounds fixed how often sessions were scheduled for training without guaranteeing convergence."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0741",
+      "P0742"
+    ],
+    "observations_ar": "راجعت الصورة كاملة، لكن فقراتها تقع بعد P0740 وخارج نطاق ملكية التعديل؛ أحيل أي اقتراح هنا إلى الدمج الرئيس. لا توجد عينة خضراء ظاهرة."
+  },
+  {
+    "number": 51,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-83a41f95-d700-4ae6-9cd2-296b9a2b626a.png",
+    "sha256": "f0c107d4e91c7370d34f471eeee5fb7e14e003e7757111cc2cab6b5f55b9bfe2",
+    "orange_examples": [
+      "Before final-test scoring, all 30 selected checkpoints and calibration records were registered, fixing models and alert thresholds.",
+      "Time limits guarded execution"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0774",
+      "P0775",
+      "P0776",
+      "P0777"
+    ],
+    "observations_ar": "تعاقب وصف الفحوص وقواعد إعادة التشغيل ثم تجميد النماذج واضح، وإن كان النص كثيفاً. يجب إبقاء الإفصاح عن الفحص البنيوي السابق للاختبار وحدود استنتاج التقارب؛ لا أقترح حذفه بسبب التظليل."
+  },
+  {
+    "number": 52,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-d570dd11-2285-4778-870a-ccfd0f336439.png",
+    "sha256": "86be0f126261ef5540e90286b247526a935c2e44efb50748dcc41c4dce0a11ae",
+    "orange_examples": [
+      "AP also depends on class proportions, so the two test populations must be interpreted separately.",
+      "Worst-client AP was the minimum of three client AP values"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0779",
+      "P0780"
+    ],
+    "observations_ar": "تجتمع تعريفات AP وAUROC والمعايرة ومستويات التجميع في فقرة واحدة، ثم تتبعها تعريفات قرارات التنبيه. يمكن تخفيف التكرار وربط التعريف بوظيفته، مع إبقاء اختلاف المقامات وعدم حساب AP/AUROC للمجموعة أحادية الفئة."
+  },
+  {
+    "number": 53,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-106365ff-70a0-48c0-8424-54382f5c98a6.png",
+    "sha256": "58b406f0944d44eaeea82a64fdd4de4640500a562adb9e04d079effd40911019",
+    "orange_examples": [
+      "Single-class subsets used error rates and confusion counts, without AP or AUROC.",
+      "Scoring checks required exactly one result for every expected test session"
+    ],
+    "green_examples": [
+      "Measure",
+      "Reporting boundary"
+    ],
+    "paragraph_ids": [
+      "P0780",
+      "P0781",
+      "P0782",
+      "P0783",
+      "P0784",
+      "P0785",
+      "P0786",
+      "P0787",
+      "P0788",
+      "P0789",
+      "P0790",
+      "P0791",
+      "P0792",
+      "P0793",
+      "P0794",
+      "P0795",
+      "P0796",
+      "P0797"
+    ],
+    "observations_ar": "النص البرتقالي والأخضر متجاوران حتى داخل عناوين الجدول؛ لا يدل اللون على صحة علمية أو مصدر كتابة. صفوف حدود الإبلاغ موجزة ونافعة، وحدود التقييم على مستوى الجلسة ينبغي أن تبقى صريحة."
+  },
+  {
+    "number": 54,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-df4b2002-2d0f-4bef-ae22-71efb9ca1fe8.png",
+    "sha256": "906bf210ce04e90e287a7b122d9be0362a498a53eec0874c57ef54445077b0b3",
+    "orange_examples": [
+      "Complete-run totals and comparisons paired by seed; includes workflow checks and coordination, not cryptographic operations alone",
+      "20 warm-up sessions followed by 200 timed sessions"
+    ],
+    "green_examples": [
+      "Inference",
+      "Latency and throughput for prepared inputs",
+      "Training cost was the elapsed time for the complete training and aggregation workflow."
+    ],
+    "paragraph_ids": [
+      "P0800",
+      "P0801",
+      "P0802",
+      "P0803",
+      "P0804",
+      "P0805",
+      "P0806",
+      "P0808",
+      "P0809"
+    ],
+    "observations_ar": "تجاور اللونين يطال تعريفات قياس متقاربة. حدود الزمن الكلي ووقت CPU ورسائل التطبيق منفصلة على نحو مفيد؛ لا حاجة إلى إعادة كتابة تُخفي استبعاد الشبكة الكاملة أو التحميل أو المعالجة المسبقة."
+  },
+  {
+    "number": 55,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-a7cd03b4-4cbc-448e-9d27-a8f7c746f773.png",
+    "sha256": "d3f7be3a2998908a8add546298428b268a3452b9716be7938d4f24649f50c25e",
+    "orange_examples": [
+      "Seeds were the units for comparisons across repeated runs.",
+      "Sessions, clients and rounds were not treated as independent replicates.",
+      "Pairing ties each contrast to its shared initial state and sampling schedule."
+    ],
+    "green_examples": [
+      "Here, d contains five within-seed differences for one comparison, and SD(d) is their sample standard deviation."
+    ],
+    "paragraph_ids": [
+      "P0811",
+      "P0812",
+      "P0813"
+    ],
+    "observations_ar": "يمكن دمج تمهيد الفروق المقترنة مع أساس الاقتران لتسهيل الوصول إلى المعادلة. يبقى النص الرياضي حرفياً، وتبقى فترات الثقة استكشافية خاصة بتباين البذور. التعديل السابق MR04 في P0811 يظل من مسؤولية الدمج لدى الوكيل الرئيس."
+  },
+  {
+    "number": 56,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-d9f8fd3d-2f64-4262-a2f2-3961e144a1f3.png",
+    "sha256": "d4d2148ae1a3e94973c4f0ef731b44d0634de711f42f2829a1d9cb6b029826f6",
+    "orange_examples": [
+      "Rankings based only on session length, and associations between length and model scores, described the fixed test composition",
+      "Raw scores were checked against the original saved scores before decomposition"
+    ],
+    "green_examples": [
+      "The 30 selected checkpoints were applied to the original test inputs in the original batch order. No fitting or threshold changes were made."
+    ],
+    "paragraph_ids": [
+      "P0815"
+    ],
+    "observations_ar": "تصف الفقرة ما بعد الاختبار وتتحفظ على السببية بوضوح. اختلاف الألوان داخل تسلسل التحقق لا يبرر تغيير النطاق؛ أقترح إبقاء هذه الفقرة."
+  },
+  {
+    "number": 57,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-bc4640ea-6a26-4468-a03e-2bf1cf77bde2.png",
+    "sha256": "f00c9c13663796e64b75b527cc24cb728799047adfbbee4133eb754c258b195c",
+    "orange_examples": [
+      "The group diagnostics split the adopted anomaly score into additive contributions.",
+      "One used thirteen as the categorical denominator.",
+      "Neither calculation removed an input, retrained the model or produced a newly calibrated detector."
+    ],
+    "green_examples": [
+      "Table 3.8 lists the computer"
+    ],
+    "paragraph_ids": [
+      "P0816",
+      "P0818"
+    ],
+    "observations_ar": "التدرج من تعريف المكونات إلى الحسابين البديلين مفيد، لكن الجمل القصيرة المتتابعة تعيق القراءة. يمكن وصل الحسابين في جملة واحدة مع تثبيت ward_or_location والمقام وثبات المخرجات وحدود الاستدلال السببي."
+  },
+  {
+    "number": 58,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-1dc88881-7188-45e2-baf5-5650c484c3c3.png",
+    "sha256": "affb9e7e9f895645d75485e1da4d3b5f083726271bae88de99b825fc25e42cff",
+    "orange_examples": [
+      "After evaluation, separate metric-calculation code recalculated metrics from saved scores and calibration records without repeating inference.",
+      "reused the historical scaler JSON representation with regenerated arrays"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0841",
+      "P0842"
+    ],
+    "observations_ar": "التمييز بين إعادة حساب المقاييس وإعادة التدريب مهم. المقترح يوضح التسلسل ويخفف separate المتكررة، مع إبقاء البيئة الجديدة على المضيف نفسه واستثناء تمثيل scaler JSON دون وصفها بمراجعة مستقلة."
+  },
+  {
+    "number": 59,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-82403317-e218-49a5-831e-920a14aaa819.png",
+    "sha256": "a6d3086eac8a7bf862a83367a43c4d16a55b3a98c8b368acb9077756a6a57a3d",
+    "orange_examples": [
+      "Formal ethics status therefore remains unverified.",
+      "Supervisor permission alone establishes neither ethics clearance nor permission to redistribute the dataset.",
+      "no verified public release is claimed."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0842",
+      "P0843",
+      "P0844",
+      "P0847"
+    ],
+    "observations_ar": "الفقرات تنقل حدود الأخلاقيات والإتاحة ثم وظيفة فصل النتائج. هذه قيود موضوعية لازمة، ولا ينبغي اختزالها إلى تعبير عام أو حذفها لوجود التظليل."
+  },
+  {
+    "number": 60,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-cd7373a7-85f1-4997-b0d9-98ae09850b3d.png",
+    "sha256": "0a199e98fc5d96465afc7b46dc86cda3f7f3426035726971c92d1482155198fc",
+    "orange_examples": [
+      "30 pooled epochs for A; 30 rounds with one local epoch per client for B/C.",
+      "TLS was not used; all three clients were required at every accepted C protocol stage.",
+      "Across the three methods, training completed 153,600 optimiser steps."
+    ],
+    "green_examples": [
+      "10,833 routine training sessions; 3,622 routine validation sessions.",
+      "Training budget"
+    ],
+    "paragraph_ids": [
+      "P0850",
+      "P0851",
+      "P0852",
+      "P0853",
+      "P0854",
+      "P0855",
+      "P0856",
+      "P0857",
+      "P0858",
+      "P0859",
+      "P0860",
+      "P0861",
+      "P0862",
+      "P0863",
+      "P0864",
+      "P0865",
+      "P0866",
+      "P0867",
+      "P0868",
+      "P0869",
+      "P0870",
+      "P0871",
+      "P0872",
+      "P0873",
+      "P0875"
+    ],
+    "observations_ar": "الجدول يثبت الضبط التجريبي وتظهر فيه فئات خضراء وبرتقالية متقاربة وظيفياً. ينبغي إبقاء ميزانية الجولات وحالة المحسن وعدم استخدام TLS وافتراض المضيف المشترك؛ لا يلزم تعديل أسلوبي للجدول."
+  },
+  {
+    "number": 61,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-3a85cc23-e60d-4416-9bda-a844cf2c78d9.png",
+    "sha256": "91ef9526c27ad35359d89d90623a510122cc27a60fddd1b0034634fa94e23605",
+    "orange_examples": [
+      "These checks describe department composition in the selected rounds rather than all rounds or every difference between clients.",
+      "Repeated scoring by different models did not create additional independent observations."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0875",
+      "P0876",
+      "P0877",
+      "P0879"
+    ],
+    "observations_ar": "تنتقل الفقرات من التنفيذ إلى تركيب العملاء ثم التحقق العددي ووحدة التحليل. القيود تعيّن نطاق كل نتيجة بدقة، ولا أجد مسوغاً لتوسيع الادعاء أو اختصار الأعداد."
+  },
+  {
+    "number": 62,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-87fec628-26d2-4b0c-a65b-ba78763dcb27.png",
+    "sha256": "a244c776dbfb0385b996c4afde03f016a0f633d766cc965e824621e7203884e9",
+    "orange_examples": [
+      "The secondary known-scenario test contained four threat families and unusual legitimate activity, with no routine sessions.",
+      "Global AP and AUROC used client scores placed on a comparable scale"
+    ],
+    "green_examples": [
+      "No experiment isolated the effects of session length or recurring actors and patients on detection performance."
+    ],
+    "paragraph_ids": [
+      "P0900",
+      "P0901",
+      "P0903",
+      "P0904"
+    ],
+    "observations_ar": "تجاور الفقرات يربط تركيب الاختبار بتفسير المقاييس. الفرق بين الجلسات والتكرار عبر البذور واضح؛ يجب إبقاء تكرر هويات الممثلين والمرضى وحدود طول الجلسة وعدم استقلال المؤسسات."
+  },
+  {
+    "number": 63,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-8f295774-5bf4-4695-9440-13c40913d23e.png",
+    "sha256": "c1e250ce5480ea426fb4ab9487c357a1bfb28f385533766d06ea112970dfee41",
+    "orange_examples": [
+      "Successful detection therefore required distinguishing threats labelled in the source from legitimate activity, rather than simply flagging unusual behaviour.",
+      "with the final iteration selected in 29 of the 30 runs"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P0905",
+      "P0907",
+      "P0909"
+    ],
+    "observations_ar": "تربط الفقرات تعريف النجاح بوصف فحوص المقاييس ثم اختيار نقاط الحفظ. الإحصاء 29 من 30 والحالة الاستثنائية واضحان؛ أبقيت الصياغة الأصلية كيلا يتحول معظم النماذج إلى ادعاء أن كل اختيار أخير حقق أقل فقد حرفياً."
+  },
+  {
+    "number": 64,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-859517e2-c70f-4e90-a620-b51241450084.png",
+    "sha256": "d94b053f5d87cb3d4db88d7dbc7eea243ebea90cf1ccb811594e838852491241",
+    "orange_examples": [
+      "The curves therefore do not show convergence or whether detection would improve.",
+      "A denotes pooled centralised training, B standard FedAvg and C FedAvg with SecAgg+."
+    ],
+    "green_examples": [
+      "Figure 4.2: Recorded training and validation curves under controlled Non-IID",
+      "Note. Curves are the five-seed mean reconstruction losses"
+    ],
+    "paragraph_ids": [
+      "P0940",
+      "P0942",
+      "P0943",
+      "P0945",
+      "P0946"
+    ],
+    "observations_ar": "الألوان تتغير بين ملاحظتي شكلين لهما حدود قياس متشابهة. القيود على التقارب وغياب حزمة عدم اليقين والتمييز بين إعادة البناء وكشف التهديدات ضرورية، والنص الحالي واضح بما يكفي."
+  },
+  {
+    "number": 65,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-0c451b76-0941-4283-8631-0f45861d1fc6.png",
+    "sha256": "f1d2de578b72952e0f93ac74fe2949508cffbbf626171162b676e324e2364ebe",
+    "orange_examples": [
+      "Recall uses 189 threat sessions and FPR uses 2,175 legitimate sessions",
+      "The secondary test showed poor separation of threats from unusual legitimate activity.",
+      "Similar AP values across the test sets therefore have different meanings"
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P1029",
+      "P1030",
+      "P1032"
+    ],
+    "observations_ar": "الانتقال من أعباء التنبيه إلى الاختبار الثانوي مبرر باختلاف التركيب. صيغة المرجع الثابت والمقامات وحدود تحويل المعدلات إلى عبء مراجعة كلها تضيف معلومات؛ لا حاجة لحذفها."
+  },
+  {
+    "number": 66,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-96bea5d0-eda0-42c6-8b14-c0e2238356ef.png",
+    "sha256": "802622d66c5aa37a2a9730dc011abd8c12547291ad29ef5a25f9141237f0d36e",
+    "orange_examples": [
+      "Precision and F1 depend on the resulting alert counts; the absence of routine sessions limits comparison with the primary test.",
+      "Flagging every secondary-test session illustrates why F1 alone can be misleading.",
+      "These descriptive differences do not explain why client performance varied."
+    ],
+    "green_examples": [
+      "Worst-client AP was the lowest of the three client values for each method, sampling condition and seed.",
+      "Its mean and sample SD summarise these minima across five seeds"
+    ],
+    "paragraph_ids": [
+      "P1107",
+      "P1108",
+      "P1110"
+    ],
+    "observations_ar": "مثال F1 يحمل النتيجة بنفسه؛ يمكن بدء الفقرة بالقاعدة الافتراضية وإبقاء الاستنتاج مع FPR، دون حذف TP/FP/FN أو قيم المقارنة. تعريف أسوأ عميل دقيق ويُترك كما هو."
+  },
+  {
+    "number": 67,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-2fb4c07c-0705-40ca-b686-01a4f5ac2e71.png",
+    "sha256": "0304d75bf7e2857bb4fbb6170f8f50b534c7d1c228f09f0530df2ba5d06fe147",
+    "orange_examples": [
+      "The observed AP therefore did not consistently favour standard FedAvg over pooled centralised training across the sampling conditions."
+    ],
+    "green_examples": [
+      "+0.0238 under controlled Non-IID sampling. Both exploratory 95% intervals included zero."
+    ],
+    "paragraph_ids": [
+      "P1157"
+    ],
+    "observations_ar": "النتيجة العددية ثم التفسير المقيد بتغير حالتي المعاينة تسلسل مناسب. اختلاف اللون داخل جملة النتيجة لا يقدم سبباً لتحويل احتواء الصفر إلى تكافؤ أو نفي الفروق."
+  },
+  {
+    "number": 68,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-11163465-588e-4213-9308-963c1ec17edf.png",
+    "sha256": "c225a774a392fc58adc73fb0c30ea98c59f524e6d4d187cd7de37c83bf0a304c",
+    "orange_examples": [
+      "Values are mean ± sample SD across five seeds; the Sessions column gives each run’s fixed denominator.",
+      "Rates are percentages of the named legitimate group; no confidence interval is shown."
+    ],
+    "green_examples": [
+      "Note. C denotes FedAvg with SecAgg+."
+    ],
+    "paragraph_ids": [
+      "P1230",
+      "P1232",
+      "P1233",
+      "P1234"
+    ],
+    "observations_ar": "ملاحظات الشكل والجدول تفصل معدل كل مجموعة عن المقامات وحجم التشتت. تبقى المقامات 1,986 و189 و267، ولا يتحول SD إلى فاصل ثقة. P1212 السابق للتصوير يحوي MR05 ويظل لدمج الوكيل الرئيس."
+  },
+  {
+    "number": 69,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-81c6cc81-7698-407d-82f7-cbbca6303873.png",
+    "sha256": "0d6983a8a6fb27d577e14abe3ddc30e6095a2ba13156dc6c18c8c563b031e54f",
+    "orange_examples": [
+      "High overall AUROC concealed weak separation from legitimate follow-up activity.",
+      "AUROC(all) = (1,986/2,175) × AUROC(routine) + (189/2,175) × AUROC(unusual legitimate)."
+    ],
+    "green_examples": [
+      "It was therefore not confined to the secure-aggregation model.",
+      "This decomposition shows how the overall metric combines the groups; it does not explain the cause of poor ranking."
+    ],
+    "paragraph_ids": [
+      "P1234",
+      "P1235",
+      "P1238",
+      "P1239",
+      "P1240",
+      "P1241",
+      "P1242",
+      "P1244"
+    ],
+    "observations_ar": "تسلسل المقارنة الفرعية ثم معادلة المتوسط الموزون وتفسير الوزن واضح. المعادلة وتعيين سلبيات كل مجموعة تُحفظ حرفياً؛ لا يجوز اختزال التحليل إلى ادعاء عن سبب ضعف التصنيف."
+  },
+  {
+    "number": 70,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-a4a8aef1-00ad-4244-9ad5-fcafcef6d5a8.png",
+    "sha256": "ae5f9267a7ab6dd5e2eed7f6c7efcc0c44fb22d2b9fcb3345e366829142c3daf",
+    "orange_examples": [
+      "Held-out recall/FPR denominators are 189/2,175 sessions; known-test denominators are 378/267.",
+      "The analysis changed only the decision threshold; stored scores and rankings were unchanged."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P1311",
+      "P1312"
+    ],
+    "observations_ar": "الفقرة توضح ما الذي تغير وما الذي بقي ثابتاً بعد حساسية العتبة. حدود البحث عن العتبات وعدم عكس الدرجات substantive، وتُحفظ."
+  },
+  {
+    "number": 71,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-abe7ba0c-543e-4707-ab3c-db237a52cd80.png",
+    "sha256": "a4e2818d480934533e6d1cf1703921e9117b67ca0130b83233b29abae37a75db",
+    "orange_examples": [
+      "FedAvg with SecAgg+ took longer than standard FedAvg in every seed-matched comparison.",
+      "Pooled centralised training used different timing boundaries, so its recorded time cannot directly measure federated overhead."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P1334",
+      "P1335"
+    ],
+    "observations_ar": "النتائج مرتبة حسب شرطي المعاينة ثم يليها حد المقارنة الزمنية. لا حاجة لتغيير صياغة موجزة تخدم تفسير الأرقام مباشرة."
+  },
+  {
+    "number": 72,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-ea568f74-0ec1-48f1-aa75-5ceb603a7fa2.png",
+    "sha256": "1d1e929d2c88b42e7ef716b8835110e730b254ce5cf6d5cd1980a07fd53e82ed",
+    "orange_examples": [
+      "The counter measures the logical content of Flower Record objects carried in training messages, called fit messages, counting each message once in either direction.",
+      "Because the checks differed between methods, the increase compares whole implemented workflows rather than isolating cryptographic computation."
+    ],
+    "green_examples": [
+      "9"
+    ],
+    "paragraph_ids": [
+      "P1391",
+      "P1393",
+      "P1394",
+      "P1396"
+    ],
+    "observations_ar": "تتجاور علامة خضراء محدودة داخل الرقم 49.90 مع نص برتقالي؛ اللون هنا لا يحمل تفسيراً علمياً. فصل جملة العداد هو بالفعل MR06 المعتمد، لذا لم أكرر اقتراحه. تحفظ جميع استثناءات الشبكة وحدود قياس الاستدلال."
+  },
+  {
+    "number": 73,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-c1adda67-a304-41a7-ad2f-188db0c9bc9f.png",
+    "sha256": "14a53d07ff5a18782397ddf01de8bd916a56643dfd18708c847ca8c9fd23e6b8",
+    "orange_examples": [
+      "Scoring prepared sessions took milliseconds in both federated methods.",
+      "Repeating training and evaluation in a fresh environment on the same host reproduced all compared predictive results.",
+      "These rows repeatedly evaluate 3,009 distinct sessions and are not independent observations."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P1433",
+      "P1435",
+      "P1437",
+      "P1438",
+      "P1439"
+    ],
+    "observations_ar": "يمكن تقليل تكرار matched في نتائج الإعادة مع تجميع العناصر المتطابقة في جملة مترابطة. يجب أن يبقى المضيف نفسه وعدد الصفوف غير المستقلة واستثناء float64/scaler JSON وحدود إسناد زمن الاستدلال كما هي."
+  },
+  {
+    "number": 74,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-4b76e991-4ccb-41d2-9608-993d1e325579.png",
+    "sha256": "792f0a9035088d5af60b30cdea9ee1208521e7624e9d69c4e8579e879079b5de",
+    "orange_examples": [
+      "Seven groups of local security checks ran after the main benchmark, identifying one input-rejection defect and one export-reporting limitation.",
+      "These are case counts, not assertions or repeated sessions",
+      "Five valid aggregation fixtures met their numerical bounds."
+    ],
+    "green_examples": [],
+    "paragraph_ids": [
+      "P1439",
+      "P1441",
+      "P1442",
+      "P1443",
+      "P1444",
+      "P1445",
+      "P1446",
+      "P1447",
+      "P1448",
+      "P1449",
+      "P1450",
+      "P1451",
+      "P1452",
+      "P1453",
+      "P1454"
+    ],
+    "observations_ar": "يمكن توضيح أن التنفيذ غطّى سجلات الحالات المائة وواحد بدلاً من إسناد التنفيذ نحوياً إلى السجلات. تحفظ 99/واحد/واحد وفحوص ما بعد المعيار وافتراضات المضيف الموثوق، ولا تُفسر الألوان بوصفها حكماً أمنياً."
+  },
+  {
+    "number": 75,
+    "path": "C:\\Users\\RNO\\AppData\\Local\\Temp\\codex-clipboard-680f044d-166e-4e28-849a-055887773526.png",
+    "sha256": "4ecfa3d7c43bcf72f617d527bcd8001c697122bc6d47b01ded5034483a3bcada",
+    "orange_examples": [
+      "The restart check asked the stage validator to accept SETUP after SHARE_KEYS; it accepted the request.",
+      "This tested permission to restart, not execution of a state reset.",
+      "This finite check does not prove entropy or unpredictability."
+    ],
+    "green_examples": [
+      "SV-04 Cohort, stage and round",
+      "28 PASS",
+      "SV-05 Key/share corruption",
+      "Original: 6 PASS; 1 FAIL. Retest: 7 PASS.",
+      "SV-06 Freshness diagnostics",
+      "1 PASS"
+    ],
+    "paragraph_ids": [
+      "P1454",
+      "P1455",
+      "P1456",
+      "P1457",
+      "P1458",
+      "P1459",
+      "P1460",
+      "P1461",
+      "P1462",
+      "P1463",
+      "P1464"
+    ],
+    "observations_ar": "يمكن جعل فاعل قبول SETUP صريحاً وتخفيف التكرار دون الإيحاء بتنفيذ إعادة ضبط الحالة. تظل نتائج SV-05 قبل الإصلاح وبعده وحدود فحص عدم إعادة الاستخدام محفوظة بالكامل."
+  }
+]

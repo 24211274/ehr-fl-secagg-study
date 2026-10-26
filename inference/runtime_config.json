@@ -1,0 +1,36 @@
+{
+  "model": {
+    "configuration": "C",
+    "condition": "reference",
+    "seed": 11
+  },
+  "paths": {
+    "source_app": "source_app",
+    "manifest": "assets/selected_models_manifest.json",
+    "schema": "assets/encoding_schema.json",
+    "scaler": "assets/relative_time_scaler.json",
+    "checkpoint": "assets/selected_state.pt",
+    "calibration": "assets/calibration.json"
+  },
+  "sha256": {
+    "manifest": "26519dd2e95f55667eac71ae5a5fc84529a25a14e39a5cd9a1b26648bd13510c",
+    "schema": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+    "scaler": "9c21672699ca2bf5daa3ab1cf74f615ce7a488fa3623a7247b629723a1cb8413",
+    "checkpoint": "79d631dd38f0e1e8701dcea02e7a3ddb86492652d2844e5b6f7fcbb883bc54fc",
+    "calibration": "60b9ee47736283397069626abfc2a642cd99869ab89100be582309dd317d4757"
+  },
+  "source_sha256": {
+    "pilot_core/__init__.py": "ed30536f65145a82d8b44304dcee4dd0dec466440a34a7131e75b7e8f4106256",
+    "pilot_core/core.py": "736409689b0417b7081c39c3515ddbeca6e730a8c36b4d9d1c9b8c20c0094e57",
+    "pilot_core/model.py": "6b5f60add681eabbed16255562cc0067acc0274ff1cdc34c2a1c4fef0b422141",
+    "ehr_preprocessing/__init__.py": "24afeb71cc94fd49b4b22ca0245e3246634165fb30e2e75e8b8ce0767a926d46",
+    "ehr_preprocessing/io_utils.py": "6b8c8b2187639525ca357b618d01c08650f95cdb84f8a8422c6bdb33507fa3f2",
+    "ehr_preprocessing/pipeline.py": "9f4de998976d7b7b7c043524eb5b20d70cd97ffd8df54d544793e0b8b94c06a5",
+    "ehr_preprocessing/dataset.py": "bd8edd994b09334120228568d132d6b74294561cc2c7db44b5f80e9c5794b335"
+  },
+  "purpose": "Independent portable inference; all required source and assets included",
+  "selection_basis": "Original C/reference/seed11 chosen as fixed example before scoring demo inputs",
+  "training_performed": false,
+  "calibration_refitted": false,
+  "portable": true
+}

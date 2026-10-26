@@ -1,0 +1,442 @@
+[
+  {
+    "finding_id": "VC-04",
+    "paragraph_id": "P0324",
+    "status": "RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Desktop/Coureses/P1/ars_literature_audit_v1_5_2026_10_09/primary_sources/Kim2011.html",
+        "sha256": "6059563c14e0144cdec5252e32c079cab78f16a9bd654cf54fe2bcb4b0b80bed",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+        "fresh_read_sha256": "2a4d4a326641667912b5ae35009610391a3439782bb6104759715de04e962584",
+        "pdf_pages_1_based": null,
+        "printed_pages": null,
+        "sections_or_element_ids": [
+          "Methods: Control Arm; Intervention Arm; Mixed Set; Evaluation",
+          "Figures 1 and 2; Results"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "In the control arm, we applied the MAP1 logistic regression model",
+            "line_numbers": [
+              37
+            ]
+          },
+          {
+            "text_anchor": "It would be ideal if we could directly compare classifier performance",
+            "line_numbers": [
+              53
+            ]
+          },
+          {
+            "text_anchor": "We chose the highest risk categories",
+            "line_numbers": [
+              51
+            ]
+          }
+        ],
+        "evidence_extraction": "The control arm applied the earlier MAP1 logistic-regression model to population events. Equal numbers were randomly sampled from high, middle and low predicted-risk bands and sent to privacy officers for labels. The intervention added anomaly/signature screening and selected the highest-risk categories. All sampled intervention events were positive. The mixed sets combined sampled intervention positives with all labelled control negatives; positive sample sizes were matched between arms. The independent Parallel Set contained only positive documented cases, so the source evaluated its false-negative rate rather than an independent false-positive rate."
+      }
+    ],
+    "resolution": "The control sample was stratified by predictions from the earlier model, then randomly sampled in equal numbers across risk bands and labelled by privacy officers.",
+    "search_scope": "Reread original cached PMC full text: Methods and all arm-selection subsections, figure captions, Evaluation and nearby Results.",
+    "what_remains_missing": null,
+    "old_full_paragraph": "Early detection studies learnt from examples reviewed by privacy officers. Boxwala et al. (2011) used logistic regression to estimate class probabilities and support vector machines (SVMs) to learn a boundary between classes. Their training labels marked accesses as suspicious or appropriate, rather than confirming incident outcomes. Kim et al. (2011) used anomaly and signature filtering to select examples for logistic regression. They combined positive examples from the intervention sample with negative examples borrowed from the control sample. The external tests included only inappropriate accesses: independently investigated cases for Boxwala et al. and independently identified cases for Kim et al. These tests could measure sensitivity, the fraction of positive cases detected, but could not provide an independent false-positive rate. Table 2.3 gives sample sizes and results.",
+    "suggested_new_full_paragraph": "Early detection studies learnt from examples reviewed by privacy officers. Boxwala et al. (2011) used logistic regression to estimate class probabilities and support vector machines (SVMs) to learn a boundary between classes. Their training labels marked accesses as suspicious or appropriate, rather than confirming incident outcomes. Kim et al. (2011) used anomaly and signature filtering to select examples for logistic regression. They combined filter-selected positive examples with negative examples from a control sample. Privacy officers labelled this control sample after events were randomly selected in equal numbers from high, middle and low risk-score bands produced by their earlier model. The external tests included only inappropriate accesses: independently investigated cases for Boxwala et al. and independently identified cases for Kim et al. These tests could measure sensitivity, the fraction of positive cases detected, but could not provide an independent false-positive rate. Table 2.3 gives sample sizes and results.",
+    "numeric_strings_in_order": [
+      "2011",
+      "2011",
+      "2.3"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  },
+  {
+    "finding_id": "VC-05",
+    "paragraph_id": "P0345",
+    "status": "RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Desktop/Coureses/P1/ars_revised_v1_6_2026_10_10/front_primary/Ngo2024.html",
+        "sha256": "f1836d197f84bdb978caef4b594476118a3749895fe11ae8c5b7a41a9e53c05a",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+        "fresh_read_sha256": "75b169c177898ee3aa3323baa536eee4eae53cb9d77707eddb0a8ef9f6d344ff",
+        "pdf_pages_1_based": null,
+        "printed_pages": null,
+        "sections_or_element_ids": [
+          "arXiv:2403.17775v3, 15 July 2024",
+          "Section 4.1; Section 4.5; Section 5 Experimental setting",
+          "S4.SS1.SSSx1.p1.1; S4.SS1.SSSx3.p1.1; S4.SS5.p5.2; S5.SS0.SSSx1.p2.1"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "[S4.SS1.SSSx1.p1.1]",
+            "line_numbers": [
+              33
+            ]
+          },
+          {
+            "text_anchor": "[S4.SS1.SSSx3.p1.1]",
+            "line_numbers": [
+              37
+            ]
+          },
+          {
+            "text_anchor": "[S4.SS5.p5.2]",
+            "line_numbers": [
+              79
+            ]
+          },
+          {
+            "text_anchor": "[S5.SS0.SSSx1.p2.1]",
+            "line_numbers": [
+              84
+            ]
+          }
+        ],
+        "evidence_extraction": "The honest server observes the exact sum, with rounding/modulo perturbations excluded from the analysis. The challenger supplies two possible local update vectors, one of which is in that sum. The experiment does not give the server a closed-form update distribution. Instead it assumes the server can simulate the learning scenario to sample the update population. The server estimates mean vectors and covariance matrices from those samples and uses a Gaussian approximation for the sum of other clients' independent updates. Section 4.5 also describes using known mean/covariance or estimating them from samples. The claim concerns candidate model updates; the paper describes inference about underlying data as a possible further step."
+      }
+    ],
+    "resolution": "Specify the population-sampling assumption and the candidate-update inference game. The original source uses mean/covariance estimates from simulated update samples; it does not require a closed-form update distribution in the experiment.",
+    "search_scope": "Reread original arXiv v3 HTML, especially threat model, numerical attack and complete experimental setting.",
+    "what_remains_missing": null,
+    "old_full_paragraph": "A combined update can still disclose information under some threat models. In an arXiv preprint, Ngo et al. (2024) analyse a passive server that observes the protocol without changing it. If the server has the stated knowledge of the input distribution, it can use aggregate updates to distinguish between candidate client inputs. This differs from directly inspecting an individual update. Evaluations should therefore report protocol assumptions and visible outputs alongside utility and cost. Claims about protection during aggregation must remain separate from claims about privacy across the whole monitoring system.",
+    "suggested_new_full_paragraph": "A combined update can still disclose information under some threat models. In an arXiv preprint, Ngo et al. (2024) analyse a passive server that follows the protocol and observes the exact sum of client updates. The server is assumed able to simulate the learning setting to sample client model updates and estimate their average values and how their entries vary together. Given two candidate updates, it can use these estimates and the aggregate to distinguish which candidate a client submitted. This differs from directly inspecting an individual update. Evaluations should therefore report protocol assumptions and visible outputs alongside utility and cost. Claims about protection during aggregation must remain separate from claims about privacy across the whole monitoring system.",
+    "numeric_strings_in_order": [
+      "2024"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  },
+  {
+    "finding_id": "VC-08",
+    "paragraph_id": "P0421",
+    "status": "RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Desktop/Coureses/FL/أقرب الدراسات/Securing-the-edge-privacy-preserving-federated-learning-for-insider-threats-in-IoT-networks.pdf",
+        "sha256": "fe860e2bd132095c03088980c34947cafc5893f1a64ba1699b9e882d9231d66a",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+        "fresh_read_sha256": "5689b816a5bd2375b99ce544e29970a3c26f9287f75ae59c57cbe53e97d41bc5",
+        "pdf_pages_1_based": [
+          8,
+          9,
+          14,
+          17,
+          18,
+          19,
+          42
+        ],
+        "printed_pages": [
+          "8–9 of 49",
+          "14 of 49",
+          "17–19 of 49",
+          "42 of 49"
+        ],
+        "sections_or_element_ids": [
+          "Sections 3.1–3.4; Section 4.5.1; Table 10"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "3.2  Node clustering",
+            "line_numbers": [
+              571
+            ]
+          },
+          {
+            "text_anchor": "3.4  Global model generation",
+            "line_numbers": [
+              773
+            ]
+          },
+          {
+            "text_anchor": "Each critical component OPTICS-CR clustering",
+            "line_numbers": [
+              1579
+            ]
+          },
+          {
+            "text_anchor": "Without OPTICS-CR",
+            "line_numbers": [
+              1588
+            ]
+          },
+          {
+            "text_anchor": "Without FAWO HMAC-SHA",
+            "line_numbers": [
+              1589
+            ]
+          },
+          {
+            "text_anchor": "Without RSA-ECDSA",
+            "line_numbers": [
+              1590
+            ]
+          }
+        ],
+        "evidence_extraction": "Table 10 compares the full framework with three separate omissions: OPTICS-CR node clustering, the FAWO HMAC-SHA algorithm used in global-model generation, and RSA-ECDSA authentication. Section 4.5.1 calls this an ablation study assessing each component's contribution. The methods describe the roles of each component. These comparisons assess the broader framework and do not isolate a secure-aggregation protocol. The original PDF page 42 and its retained rendered image were both inspected."
+      }
+    ],
+    "resolution": "The removals are evaluation comparisons. Name the three components and their methods-defined roles without suggesting that removal itself is the detection mechanism.",
+    "search_scope": "Fresh extraction of the original 49-page PDF; reread component methods and Section 4.5.1/Table 10; visually inspected retained rendered PDF page 42.",
+    "what_remains_missing": null,
+    "old_full_paragraph": "Broader healthcare and Internet of Things (IoT) security studies combine detection and protection. Munusamy and Jothi (2026) combine blockchain, federated learning and secure third-party computation in an EHR-security preprint. Kamatchi and Uma (2025) study insider detection in connected IoT devices by removing component groups. Abbasi et al. (2025) evaluate FedAvg on CERT user profiles with simulated privacy mechanisms. Tanvir et al. (2026) combine IoT traffic and electronic medical record (EMR) payloads in one federated pipeline, reporting accuracy, F1 and system costs. Their Table 8 removes differential privacy and secure aggregation together, preventing isolation of secure aggregation’s contribution. Javed et al. (2025) address broader healthcare privacy, security and efficiency. These tasks differ. Comparisons require matching detection units, protection mechanisms, experimental controls and cost definitions; accuracy alone does not make these studies comparable.",
+    "suggested_new_full_paragraph": "Broader healthcare and Internet of Things (IoT) security studies combine detection and protection. Munusamy and Jothi (2026) combine blockchain, federated learning and secure third-party computation in an EHR-security preprint. Kamatchi and Uma (2025) compare their full IoT insider-detection framework with versions omitting node clustering (OPTICS-CR), global model generation (FAWO HMAC-SHA) or authentication (RSA-ECDSA). Abbasi et al. (2025) evaluate FedAvg on CERT user profiles with simulated privacy mechanisms. Tanvir et al. (2026) combine IoT traffic and electronic medical record (EMR) payloads in one federated pipeline, reporting accuracy, F1 and system costs. Their Table 8 removes differential privacy and secure aggregation together, preventing isolation of secure aggregation’s contribution. Javed et al. (2025) address broader healthcare privacy, security and efficiency. These tasks differ. Comparisons require matching detection units, protection mechanisms, experimental controls and cost definitions; accuracy alone does not make these studies comparable.",
+    "numeric_strings_in_order": [
+      "2026",
+      "2025",
+      "2025",
+      "2026",
+      "1",
+      "8",
+      "2025"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  },
+  {
+    "finding_id": "VC-12",
+    "paragraph_id": "P0459",
+    "status": "RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/source_back_Fabbri2011.pdf",
+        "sha256": "9d8b7d75bd57f21fe2c4b2de481ef86435c79a2c423f61623fc7fdf59b466f47",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+        "fresh_read_sha256": "680d433f9d5e9b0d205e1a45f7f0697877fcdf2568dfd219919013846c601685",
+        "pdf_pages_1_based": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "printed_pages": [
+          "7",
+          "8",
+          "10",
+          "11"
+        ],
+        "sections_or_element_ids": [
+          "Section 4.1 Collaborative Groups",
+          "Section 5.2 Data Overview",
+          "Sections 5.3.2–5.3.4",
+          "Figures 12 and 14"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "can recursively apply the clustering algorithm",
+            "line_numbers": [
+              803
+            ]
+          },
+          {
+            "text_anchor": "and (data set B) Labs, Medications and Radiology",
+            "line_numbers": [
+              882
+            ]
+          },
+          {
+            "text_anchor": "Depth 0 refers to the naive approach",
+            "line_numbers": [
+              1769
+            ]
+          },
+          {
+            "text_anchor": "Precision = |Real Accesses Explained|",
+            "line_numbers": [
+              1754
+            ]
+          },
+          {
+            "text_anchor": "precision of approximately 93% for depth 1",
+            "line_numbers": [
+              1953
+            ]
+          }
+        ],
+        "evidence_extraction": "Dataset A contains appointments, visits and documents; B adds laboratory, medication and radiology data. Users are grouped from shared patient accesses, then recursively clustered into a hierarchy. Depth zero puts every user together; depth one is the first clustering level. Precision is the number of explained accesses from the real log divided by all explained accesses from the combined real and fake logs. Each fake access independently selects a user and patient uniformly from database entities; the fake log matches the real log's size. The source states that depth-one precision was approximately 93% using A and fell to 66% when B was added. It reports explanation coverage/precision rather than confirmed-incident classification accuracy."
+      }
+    ],
+    "resolution": "Define dataset B, the first clustering level and the real-versus-random explanation precision denominator. Keep the numerical comparison and its explanation-metric scope.",
+    "search_scope": "Fresh extraction of the original 12-page PDF; reread group construction and Sections 5.2–5.3.4, including fake-log generation and precision definition.",
+    "what_remains_missing": null,
+    "old_full_paragraph": "Groups/templates were derived from days 1–6 and evaluated on day 7. Reported results: clinical and repeat-access explanations with collaborative groups covered more than 94% of all accesses. Mined templates of length four covered approximately 73% of first accesses. Coverage was 89% with a normalised denominator restricted to real accesses with available supporting events. Adding dataset B reduced depth-1 group precision from approximately 93% to 66%. These are explanation metrics, not accuracy for detecting confirmed incidents.",
+    "suggested_new_full_paragraph": "Groups/templates were derived from days 1–6 and evaluated on day 7. Reported results: clinical and repeat-access explanations with collaborative groups covered more than 94% of all accesses. Mined templates of length four covered approximately 73% of first accesses. Coverage was 89% with a normalised denominator restricted to real accesses with available supporting events. Adding dataset B, which contained laboratory, medication and radiology records, reduced depth-1 group precision from approximately 93% to 66%. Here, depth refers to the level in the hierarchy of user collaboration groups, with the first level formed by clustering users. Precision is the proportion of explained accesses that came from the real log when real accesses were mixed with randomly generated user–patient accesses. These are explanation metrics, not accuracy for detecting confirmed incidents.",
+    "numeric_strings_in_order": [
+      "1",
+      "6",
+      "7",
+      "94%",
+      "73%",
+      "89%",
+      "1",
+      "93%",
+      "66%"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  },
+  {
+    "finding_id": "VC-13",
+    "paragraph_id": "P0465",
+    "status": "RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Downloads/s10994-013-5376-1.pdf",
+        "sha256": "0eee8bed8f0635e2998225c97c05d5b68d8b4ab7849a075a088667636675d1b3",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+        "fresh_read_sha256": "4678263ff2563d2ac8941d73bf5b2bd0acfcf13da5aa580a9d341e9ada658a4c",
+        "pdf_pages_1_based": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "printed_pages": [
+          "89–94"
+        ],
+        "sections_or_element_ids": [
+          "Sections 2, 3.1–3.3, 4.1–4.2 and 5.1",
+          "Table 1 (Hospital dataset)"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "any explicit features",
+            "line_numbers": [
+              223
+            ]
+          },
+          {
+            "text_anchor": "context-dependent latent features",
+            "line_numbers": [
+              255
+            ]
+          },
+          {
+            "text_anchor": "the raw feature set",
+            "line_numbers": [
+              301
+            ]
+          },
+          {
+            "text_anchor": "number of prior violations",
+            "line_numbers": [
+              310
+            ]
+          },
+          {
+            "text_anchor": "Logistic reg. + History",
+            "line_numbers": [
+              363
+            ]
+          },
+          {
+            "text_anchor": "CF + Feats + Rel",
+            "line_numbers": [
+              368
+            ]
+          }
+        ],
+        "evidence_extraction": "CF models latent user–patient interactions. Feats adds explicitly recorded event, user, patient and relationship features. Rel supplies separate latent interaction features for different relationship contexts, rather than merely denoting an extra observed relationship column. LR+History is logistic regression on the observed features augmented with past violation counts and proportions for the user/patient. The table lists the thesis's exact CF+Feats+Rel AUROC and AUPRC and Logistic reg.+History AUPRC values with standard deviations. The methods use nested five-fold cross-validation with inner hyperparameter selection; no entity-disjoint evaluation rule was found in the relevant design/results text."
+      }
+    ],
+    "resolution": "Define Feats, Rel and History from the model/methods text and retain the exact model labels, outcomes and uncertainty notation.",
+    "search_scope": "Fresh extraction of the original published 15-page PDF; reread problem definition, latent-feature extensions, methods, cross-validation and Hospital Table 1.",
+    "what_remains_missing": null,
+    "old_full_paragraph": "Nested five-fold cross-validation; the report does not document whether training and evaluation used separate entities. Reported results (mean ± SD): CF+Feats+Rel AUROC = 0.9916 ± 0.0118 and area under the precision–recall curve (AUPRC) = 0.9714 ± 0.0275; LR+History AUPRC = 0.9101 ± 0.0443. SD is not a confidence interval, and AUPRC is not automatically equivalent to this study’s AP.",
+    "suggested_new_full_paragraph": "Nested five-fold cross-validation; the report does not document whether training and evaluation used separate entities. CF+Feats+Rel combines learnt user–patient interaction patterns, recorded features and interaction patterns specific to the relationship context. LR+History is logistic regression with additional features describing earlier violation counts and rates. Reported results (mean ± SD): CF+Feats+Rel AUROC = 0.9916 ± 0.0118 and area under the precision–recall curve (AUPRC) = 0.9714 ± 0.0275; LR+History AUPRC = 0.9101 ± 0.0443. SD is not a confidence interval, and AUPRC is not automatically equivalent to this study’s AP.",
+    "numeric_strings_in_order": [
+      "0.9916",
+      "0.0118",
+      "0.9714",
+      "0.0275",
+      "0.9101",
+      "0.0443"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  },
+  {
+    "finding_id": "VC-14",
+    "paragraph_id": "P0476",
+    "status": "PARTIALLY_RESOLVED",
+    "verification_level": "FULL TEXT CHECKED",
+    "source_evidence": [
+      {
+        "original_evidence_file": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/primary_sources/Tabassum2024_primary.xml",
+        "sha256": "35d1ab250e90a94104ed264151ab2fc584d1db9ff78adb9312e7307a5e3c94de",
+        "fresh_read_file": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+        "fresh_read_sha256": "6aa433e5df32322fb56f2f6c692731376a31d8b0e0d69b48122c35c7fc56c046",
+        "pdf_pages_1_based": null,
+        "printed_pages": null,
+        "sections_or_element_ids": [
+          "Dataset; Preprocessing phase; Labeling phase; Experiment and results",
+          "JATS Par35; Par74; Table 1 (Tab1); Table 2 (Tab2); Par101; Par103"
+        ],
+        "text_line_anchors": [
+          {
+            "text_anchor": "[p Par35]",
+            "line_numbers": [
+              64
+            ]
+          },
+          {
+            "text_anchor": "[p Par74]",
+            "line_numbers": [
+              113
+            ]
+          },
+          {
+            "text_anchor": "[table-wrap Tab2]",
+            "line_numbers": [
+              114
+            ]
+          },
+          {
+            "text_anchor": "[p Par101]",
+            "line_numbers": [
+              159
+            ]
+          },
+          {
+            "text_anchor": "[p Par103]",
+            "line_numbers": [
+              161
+            ]
+          }
+        ],
+        "evidence_extraction": "The dataset section gives 1,007,727 audit-log entries. Labeling phase says refinement yields 90,385 distinct identifiers. Table 2 labels the denominator Unique IDs and partitions it into anomalous/normal counts separately for IF and LOF. The article defines user ID and patient ID as separate input fields and also discusses device/routine identifiers. Neither the relevant narrative nor Table 2 maps Unique IDs to any one of these entity types. Thus the count is source-supported, while a specific patient/user/session unit cannot be supplied from this full text."
+      }
+    ],
+    "resolution": "The exact source label and denominator are confirmed, but the entity unit is not defined. State that limitation directly while preserving the count.",
+    "search_scope": "Read original complete JATS full text, Dataset, all preprocessing/labeling text, Table 1 feature examples, Table 2 counts, results and later explicit feature definitions; searched every occurrence of identifier, unique, ID, patient, user, device, routine, refinement and labelling in the retained full text.",
+    "what_remains_missing": "The original article does not identify whether its 90,385 Unique IDs are users, patients, accesses, sessions or another entity. No entity type can be asserted from the inspected source.",
+    "old_full_paragraph": "1,007,727 raw hospital EPR audit-log entries; 90,385 distinct identifiers after refinement during labelling; IF and LOF generated the labels",
+    "suggested_new_full_paragraph": "1,007,727 raw hospital EPR audit-log entries; 90,385 “unique IDs” after refinement during labelling, without specifying which entities these IDs identify; IF and LOF generated the labels",
+    "numeric_strings_in_order": [
+      "1,007,727",
+      "90,385"
+    ],
+    "numeric_preservation_check": "PASS",
+    "source_numeric_or_unit_conflict": null,
+    "citations_and_scientific_limits_preserved": true,
+    "applied_to_word": false
+  }
+]

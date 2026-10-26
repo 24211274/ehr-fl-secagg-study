@@ -1,0 +1,69 @@
+{
+  "source_unchanged": true,
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_25_Clarified_Clean_20261020.docx",
+      "sha256": "064b267a7c62ccbc5f447bf6bc6c1248316e3310de307730e1ed3055351e40ed",
+      "paragraphs": 2387,
+      "tables": 51,
+      "media": 7,
+      "bibliography_entries": 42,
+      "highlight_runs": 0,
+      "highlight_colours": {},
+      "refreshed_navigation_paragraphs": [
+        "P0102",
+        "P0110",
+        "P0114",
+        "P0142",
+        "P0156",
+        "P0192",
+        "P0202"
+      ],
+      "links": [
+        "Supplementary_Artifacts/ME06_Evidence.zip",
+        "Supplementary_Artifacts/Result_Traceability_Evidence.zip",
+        "Supplementary_Artifacts/Evidence_Companion.md",
+        "Supplementary_Artifacts/Supplementary_Diagnostics.zip",
+        "Supplementary_Artifacts/Security_Validation_Evidence.zip"
+      ],
+      "errors": []
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_25_Clarified_Highlighted_20261020.docx",
+      "sha256": "d79231b28164aa7f6e921359570fcf1979e96b21c070bc8da882c6e26546de97",
+      "paragraphs": 2387,
+      "tables": 51,
+      "media": 7,
+      "bibliography_entries": 42,
+      "highlight_runs": 514,
+      "highlight_colours": {
+        "cyan": 329,
+        "green": 168,
+        "magenta": 6,
+        "yellow": 11
+      },
+      "refreshed_navigation_paragraphs": [
+        "P0102",
+        "P0110",
+        "P0114",
+        "P0142",
+        "P0156",
+        "P0192",
+        "P0202"
+      ],
+      "links": [
+        "Supplementary_Artifacts/ME06_Evidence.zip",
+        "Supplementary_Artifacts/Result_Traceability_Evidence.zip",
+        "Supplementary_Artifacts/Evidence_Companion.md",
+        "Supplementary_Artifacts/Supplementary_Diagnostics.zip",
+        "Supplementary_Artifacts/Security_Validation_Evidence.zip"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "clean_and_highlighted_same_text": true,
+  "status": "PASS"
+}

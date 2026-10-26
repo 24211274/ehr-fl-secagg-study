@@ -1,0 +1,37 @@
+[
+  {
+    "finding": "VC-14",
+    "paragraph": "P0476",
+    "section": "2.7 Comparison of selected studies",
+    "physical_pages": [
+      37
+    ],
+    "printed_pages": [
+      23
+    ],
+    "status": "PARTIALLY_RESOLVED",
+    "what_is_known": "The exact source label and denominator are confirmed, but the entity unit is not defined. State that limitation directly while preserving the count.",
+    "what_remains_unknown": "The original article does not identify whether its 90,385 Unique IDs are users, patients, accesses, sessions or another entity. No entity type can be asserted from the inspected source.",
+    "required_evidence": "An original-source statement or author-issued clarification identifying what entity each Unique ID represents in Tabassum et al. (2024). Do not relabel these IDs as users, patients, sessions or events without that evidence.",
+    "impact": "The numerical value or encoded input is retained; no unsupported interpretation is supplied."
+  },
+  {
+    "finding": "VC-19",
+    "paragraph": "P0576",
+    "section": "3.3 Data preparation",
+    "physical_pages": [
+      43
+    ],
+    "printed_pages": [
+      29
+    ],
+    "status": "UNRESOLVED",
+    "what_is_known": "The four symbols are literal categorical values supplied for action. The inspected schema and both supplied dictionaries do not map the individual symbols to named actions. The release dictionary explicitly says that their meanings require generator documentation.",
+    "what_remains_unknown": [
+      "A source-authenticated code-to-action mapping or original executable generator remains missing.",
+      "A conventional CRUD or FHIR interpretation would be an inference and is not used."
+    ],
+    "required_evidence": "A source-authenticated data dictionary or original executable generator mapping each C/E/R/U symbol to its intended action. A conventional CRUD interpretation is insufficient.",
+    "impact": "The numerical value or encoded input is retained; no unsupported interpretation is supplied."
+  }
+]

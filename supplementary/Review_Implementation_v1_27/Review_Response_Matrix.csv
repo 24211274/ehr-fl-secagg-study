@@ -1,0 +1,599 @@
+﻿ReviewID,ReviewState,CurrentSourceParagraphs,Disposition,ImplementationOrReason
+P0001,check,P0001; P0005; P0030; P0034,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0002,check,P0002; P0006,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0003,check,P0003; P0008,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0004,check,P0004; P0009,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0005,check,P0001; P0005; P0030; P0034,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0006,check,P0002; P0006,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0007,check,P0007,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0008,check,P0003; P0008,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0009,check,P0004; P0009,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0010,check,P0010,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0011,check,P0011,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0012,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0013,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0014,check,P0014,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0015,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0016,check,P0016,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0017,check,P0017,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0018,check,P0018,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0019,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0020,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0021,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0022,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0023,check,,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0024,check,P0024,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0025,check,P0025,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0026,check,P0026,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0027,check,P0027,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0028,check,P0028,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0029,check,P0029,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0030,check,P0001; P0005; P0030; P0034,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0031,keep,P0031,Retained official template,"Title, administrative fields and declaration wording are preserved; signatures or institutional field decisions are not invented."
+P0032,revise,,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0032"", ""current_ids"": [], ""review_state"": ""revise"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P0032"", ""P0036""]}]"
+P0033,revise,P0033,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0034,check,P0001; P0005; P0030; P0034,Retained after contextual review,"Existing passage remains supported; the requested structural changes, clarified captions and centralised limits address the larger concern without a blanket rewrite."
+P0035,keep,P0035,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0036,revise,P0036,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0037,revise,P0037,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0038,keep,P0038,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0039,keep,,Retained disclosure or acknowledgement,Existing assistance disclosure and acknowledgement remain unchanged.
+P0040,keep,P0040,Retained disclosure or acknowledgement,Existing assistance disclosure and acknowledgement remain unchanged.
+P0041,check,P0041,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0042,check,P0042,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0043,check,P0043,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0044,check,P0044,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0045,check,P0045,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0046,check,P0046,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0047,check,P0047,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0048,check,P0048,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0049,check,P0049,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0050,check,P0050,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0051,check,P0051,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0052,check,P0052,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0053,check,P0053,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0054,check,P0054,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0055,check,P0055,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0056,check,P0056,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0057,check,P0057,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0058,check,P0058,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0059,check,P0059,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0060,check,P0060,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0061,check,P0061,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0062,check,P0062,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0063,check,P0063,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0064,check,P0064,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0065,check,P0065,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0066,check,P0066,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0067,check,P0067,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0068,check,P0068,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0069,check,P0069,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0070,check,P0070,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0071,check,P0071,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0072,check,P0072,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0073,check,P0073,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0074,check,P0074,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0075,check,P0075,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0076,check,P0076,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0077,check,P0077,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0078,check,P0078,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0079,check,P0079,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0080,check,P0080,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0081,check,P0081,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0082,check,P0082,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0083,check,P0083,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0084,check,P0084,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0085,check,P0085,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0086,check,P0086,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0087,check,P0087,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0088,check,P0088,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0089,check,P0089,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0090,check,P0090,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0091,check,P0091,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0092,check,P0092,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0093,check,P0093,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0094,check,P0094,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0095,check,P0095,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0096,check,P0096,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0097,check,P0097,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0098,check,P0098,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0099,check,P0099,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0100,check,P0100,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0101,check,P0101,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0102,check,P0102,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0103,revise,P0103,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0104,check,P0104,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0105,check,P0105,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0106,check,P0106,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0107,check,P0107,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0108,check,P0108,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0109,check,P0109,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0110,check,P0110,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0111,check,P0111,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0112,check,P0112,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0113,check,P0113,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0114,check,P0114,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0115,check,P0115,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0116,check,P0116,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0117,check,P0117,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0118,check,P0118,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0119,check,P0119,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0120,check,P0120,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0121,check,P0121,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0122,check,P0122,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0123,check,P0123,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0124,check,P0124; P0286,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0125,check,P0125,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0126,check,P0126,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0127,check,P0127,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0128,check,P0128; P0287,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0129,check,P0129,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0130,check,P0130,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0131,check,P0131,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0132,check,P0132,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0133,check,P0133; P0288,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0134,check,P0134,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0135,check,P0135,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0136,check,P0136,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0137,check,P0137,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0138,check,P0138,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0139,check,P0139,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0140,check,P0140,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0141,check,P0141,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0142,check,P0142,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0144,keep,P0144,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0145,check,P0145,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0146,check,P0146,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0147,check,P0147,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0148,check,P0148,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0149,check,P0149,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0150,check,P0150,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0151,check,P0151,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0153,keep,P0153,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0154,check,P0154,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0155,check,P0155,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0156,check,P0156,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0157,check,P0157,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0158,check,P0158,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0159,check,P0159,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0160,check,P0160,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0161,check,P0161,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0162,check,P0162,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0163,check,P0163,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0164,check,P0164,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0165,check,P0165,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0166,check,P0166,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0167,check,P0167,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0168,check,P0168,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0169,check,P0169,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0170,check,P0170,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0171,check,P0171,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0172,check,P0172,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0173,check,P0173,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0174,check,P0174,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0175,check,P0175,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0176,check,P0176,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0177,check,P0177,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0178,check,P0178,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0179,check,P0179,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0180,check,P0180,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0181,check,P0181,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0182,check,P0182,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0183,check,P0183,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0184,check,P0184,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0185,check,P0185,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0186,check,P0186,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0187,check,P0187,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0188,check,P0188,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0189,check,P0189,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0190,check,P0190,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0191,check,P0191,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0192,check,P0192,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0193,check,P0193,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0194,check,P0194,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0195,check,P0195,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0196,check,P0196,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0197,check,P0197,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0198,check,P0198,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0199,check,P0199,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0200,check,P0200,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0201,check,P0201,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0202,check,P0202,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0204,revise,P0204,Implemented,Abbreviations alphabetised and symbols grouped separately in the existing table.
+P0205,keep,P0285,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0206,check,P0124; P0286,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0207,check,P0128; P0287,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0208,check,P0133; P0288,Verified in final field refresh,Navigation and page references are regenerated by Word and checked against final fields and render.
+P0211,keep,P0291,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0212,keep,P0292,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0213,revise,P0293,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0214,keep,P0294,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0215,merge,P0295,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0216,revise,P0296,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0217,revise,P0297,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0218,revise,P0298,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0219,keep,P0299,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0220,revise,P0300,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0221,merge,P0301,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0222,keep,P0302,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0223,keep,P0303,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0224,keep,P0304,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0225,revise,P0305,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0225"", ""current_ids"": [""P0305""], ""review_state"": ""revise"", ""disposition"": ""KEEP"", ""reason_ar"": ""الأسئلة والأهداف متسقة مع التنفيذ، ونوعا الكلفة معرّفان صراحة في1.4 و3.10؛ تغييرها هنا اختياري وقد يوهم تغيير سؤال الدراسة."", ""proposed_ids"": []}]"
+P0226,keep,P0306,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0227,revise,P0307,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0228,keep,P0308,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0229,revise,P0309,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0229"", ""current_ids"": [""P0309""], ""review_state"": ""revise"", ""disposition"": ""KEEP"", ""reason_ar"": ""الأسئلة والأهداف متسقة مع التنفيذ، ونوعا الكلفة معرّفان صراحة في1.4 و3.10؛ تغييرها هنا اختياري وقد يوهم تغيير سؤال الدراسة."", ""proposed_ids"": []}]"
+P0230,keep,P0310,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0231,revise,P0311,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0231"", ""current_ids"": [""P0311""], ""review_state"": ""revise"", ""disposition"": ""KEEP"", ""reason_ar"": ""الأسئلة والأهداف متسقة مع التنفيذ، ونوعا الكلفة معرّفان صراحة في1.4 و3.10؛ تغييرها هنا اختياري وقد يوهم تغيير سؤال الدراسة."", ""proposed_ids"": []}]"
+P0232,keep,P0312,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0233,keep,P0313,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0234,keep,P0314,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0235,revise,P0315,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0235"", ""current_ids"": [""P0315""], ""review_state"": ""revise"", ""disposition"": ""METHODS OWNER"", ""reason_ar"": ""دقة تسمية إعادة السحب وعباراتها عبر الأقسام ضمن حزمة المنهجية لتجنب تعارض التحرير."", ""proposed_ids"": []}]"
+P0236,revise,P0316,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0236"", ""current_ids"": [""P0316""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0237,keep,P0317,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0238,revise,P0318,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0239,merge,P0319,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0240,keep,P0320,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0241,keep,P0321,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0242,keep,P0322,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0243,revise,P0323,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0244,revise,P0324,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0245,merge,P0325,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Context_Proposals.json"", ""review_id"": ""P0245"", ""state"": ""merge"", ""note"": ""ملاحظة اعتماد مصادر البيانات مهمة؛ ادمجها مع مقارنة الأدلة بدل قطع التسلسل بفقرة مستقلة."", ""action"": ""keep"", ""reason"": ""Keep the standalone shared-data observation: it establishes dependence between the early studies, rather than repeating their model definitions. Shortened surrounding paragraphs reduce the audit rhythm.""}]"
+P0246,revise,P0326,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0247,keep,P0327,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0248,revise,P0328,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0249,keep,P0329,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0250,revise,P0330,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0251,merge,P0331,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Context_Proposals.json"", ""review_id"": ""P0251"", ""state"": ""merge"", ""note"": ""ادمج اشتراك المصدر مع Hurst/Tabassum بدل فقرة تدقيق منفصلة."", ""action"": ""keep"", ""reason"": ""Keep the shared-Hurst/Tabassum data-source statement as a short bridge; it prevents two publications being mistaken for independent hospital validation.""}]"
+P0252,revise,P0332,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0253,revise,P0333,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0254,keep,P0334,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0255,keep,P0335,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0256,revise,P0336,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0257,revise,P0337,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0258,revise,P0338,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0259,keep,P0339,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0260,revise,P0340,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0261,keep,P0341,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0262,revise,P0342,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Context_Proposals.json"", ""review_id"": ""P0262"", ""state"": ""revise"", ""note"": ""اربط evidence من medical imaging بحد نقلها إلى logs؛ لا توحِ بأن inversion اختُبر على التنفيذ الحالي."", ""action"": ""keep"", ""reason"": ""Keep: the existing paragraph explicitly identifies medical image classification, the examined variables and the source caution. It does not claim an inversion experiment on this log detector; Section3.8 supplies the actual implementation scope.""}]"
+P0263,revise,P0343,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0264,keep,P0344,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0265,revise,P0345,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0266,keep,P0346,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0267,keep,P0347,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0268,merge,P0348,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Context_Proposals.json"", ""review_id"": ""P0268"", ""state"": ""merge"", ""note"": ""ادمج مبادئ synthetic evaluation مع 2.5 واختصر تعريف patient trajectories إذا لم يخدم المقارنة."", ""action"": ""keep"", ""reason"": ""Keep the compact synthetic-evaluation paragraph: its three properties and trajectory-versus-access-log distinction carry the reason for real-log/expert validation. Avoid another cosmetic rewrite.""}]"
+P0269,keep,P0349,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0270,revise,P0350,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0271,revise,P0351,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0272,keep,P0352,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0273,revise,P0353,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0274,revise,P0354,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Proposals.json"", ""review_id"": ""P0274"", ""state"": ""revise"", ""note"": ""Table 2.1 يركز 11 دراسة أساسية أقدم؛ ضيّق عنوانه أو وسّع مصفوفتة مع تصنيف قرب الصلة."", ""action"": ""root-owned caption"", ""reason"": ""Root owns captions and table legends. Recommend Table 2.1 Comparison of eleven core EHR detection studies; Table 2.3 Evaluation designs and reported results of selected EHR studies.""}]"
+P0276,revise,P0416,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0277,revise,P0417,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0278,revise,P0418,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0279,revise,P0419,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0280,revise,P0420,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0281,revise,P0421,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0282,merge,P0422,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0283,revise,P0423,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0284,keep,P0424,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0286,revise,P0447,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0287,keep,P0484,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0288,revise,P0485,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0289,merge,P0486,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0290,revise,P0487,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0291,keep,P0488,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0292,revise,P0489,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0293,keep,P0490,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0294,revise,P0491,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0295,keep,P0492,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0296,keep,P0493,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0299,check,P0496,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0299"", ""current_id"": ""P0496"", ""original_state"": ""check"", ""disposition"": ""verify_in_render"", ""reason"": ""Root visual QA must check topology boundary in Figure3.1; no figure redraw is needed without an observed defect.""}]"
+P0300,keep,P0497,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0301,check,P0498,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0301"", ""current_id"": ""P0498"", ""original_state"": ""check"", ""disposition"": ""retain_unresolved_evidence"", ""reason"": ""No new original generation/permission documents supplied; preserve all existing unverified facts and AppendixC.1.""}]"
+P0302,revise,P0499,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0302"", ""current_id"": ""P0499"", ""original_state"": ""revise"", ""disposition"": ""table_recommendation"", ""reason"": ""Clarify supporting-table role rather than implying these tables were joined to derive contextual model inputs.""}]"
+P0304,keep,P0536,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0305,revise,P0537,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0306,revise,P0538,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0306"", ""current_id"": ""P0538"", ""original_state"": ""revise"", ""disposition"": ""retain"", ""reason"": ""Post-test split inspection and missing device IDs are material; keep separately from design description to preserve chronology.""}]"
+P0307,revise,P0539,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0307"", ""current_id"": ""P0539"", ""original_state"": ""revise"", ""disposition"": ""revise"", ""reason"": ""Apply proposed located edit(s) P0537.""}]"
+P0309,keep,P0565,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0310,keep,P0566,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0311,keep,P0567,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0312,keep,P0568,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0313,keep,P0569,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0314,revise,P0570,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0314"", ""current_id"": ""P0570"", ""original_state"": ""revise"", ""disposition"": ""table_recommendation"", ""reason"": ""Clarify grouped vocabulary count; do not manufacture meanings of C/E/R/U or modify source field identifiers.""}]"
+P0316,check,P0652,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0316"", ""current_id"": ""P0652"", ""original_state"": ""check"", ""disposition"": ""retain_unresolved_evidence"", ""reason"": ""No authenticated source dictionary or field-availability records supplied; preserve retrospective authorisation boundary.""}]"
+P0317,revise,P0653,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0317"", ""current_id"": ""P0653"", ""original_state"": ""revise"", ""disposition"": ""revise"", ""reason"": ""Apply proposed located edit(s) P0666.""}]"
+P0318,keep,P0654,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0319,check,P0655,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0319"", ""current_id"": ""P0655"", ""original_state"": ""check"", ""disposition"": ""verify_in_final_QA"", ""reason"": ""Root checks final field targets, numbering and rendering; no unsupported textual change.""}]"
+P0320,keep,P0656,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0321,merge,P0657,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0322,keep,P0658,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0323,keep,P0659,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0324,revise,P0660,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0325,keep,P0661,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0326,keep,P0662,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0327,revise,P0663,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0328,keep,P0664,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0329,revise,P0665,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0330,revise,P0666,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0331,revise,P0667,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0332,revise,P0668,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0333,revise,P0669,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0334,keep,P0670,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0335,keep,P0671,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0336,revise,P0672,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0336"", ""current_id"": ""P0672"", ""original_state"": ""revise"", ""disposition"": ""retain"", ""reason"": ""Existing matched-session/update-order distinction remains explicit; the short optimiser definition is useful and causes no scientific ambiguity.""}]"
+P0337,revise,P0673,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0337"", ""current_id"": ""P0673"", ""original_state"": ""revise"", ""disposition"": ""retain"", ""reason"": ""Existing budgets and unmatched computational work are clear; a new table would duplicate3.4/3.6 and is optional.""}]"
+P0338,keep,P0674,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0339,revise,P0675,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0339"", ""current_id"": ""P0675"", ""original_state"": ""revise"", ""disposition"": ""table_recommendation"", ""reason"": ""Root owns table notes; expand Skew label to department-skewed replacement sampling without changing run identifiers.""}]"
+P0340,keep,P0705,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0341,merge,P0706,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0342,keep,P0707,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0343,keep,P0708,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0344,keep,P0709,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0345,revise,P0710,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0345"", ""current_id"": ""P0710"", ""original_state"": ""revise"", ""disposition"": ""retain_optional_restructuring"", ""reason"": ""Existing information is accurate; the suggestion is optional and no remaining concrete defect requires this additional rewrite.""}]"
+P0346,keep,P0711,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0347,revise,P0712,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0347"", ""current_id"": ""P0712"", ""original_state"": ""revise"", ""disposition"": ""table_recommendation"", ""reason"": ""Root table setting note plus P0738 revision distinguish configured range from input rejection.""}]"
+P0349,revise,P0736,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0350,check,P0737,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0351,keep,P0738,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0352,revise,P0739,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0353,revise,P0740,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0354,keep,P0741,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0355,revise,P0742,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0356,keep,P0743,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0358,merge,P0773,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0358"", ""current_id"": ""P0773"", ""original_state"": ""merge"", ""disposition"": ""retain"", ""reason"": ""Exact batch remainders and rotated order are useful execution details and already supported; table replacement is optional.""}]"
+P0359,keep,P0774,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0360,revise,P0775,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0361,keep,P0776,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0362,keep,P0777,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0363,keep,P0778,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0364,revise,P0779,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0365,keep,P0780,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0366,keep,P0781,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0367,keep,P0782,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0369,revise,P0808,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0369"", ""current_id"": ""P0808"", ""original_state"": ""revise"", ""disposition"": ""retain_boundary"", ""reason"": ""Current definition states complete workflow, rounds1–30, separate startup/evaluation and waits. Precise call-entry/return timing should only be added after checking accepted-main-run wrapper, not inferred from pilot code.""}]"
+P0370,keep,P0809,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0371,keep,P0810,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0372,keep,P0811,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0373,revise,P0812,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0374,keep,P0813,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0375,keep,P0814,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0376,revise,P0815,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0376"", ""current_id"": ""P0815"", ""original_state"": ""revise"", ""disposition"": ""retain"", ""reason"": ""The paragraph preserves fixed weights/inputs/order and post-test scope. A diagnostics plan table would duplicate4.12/C.9 and is optional.""}]"
+P0377,revise,P0816,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0378,keep,P0817,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0379,keep,P0818,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0380,keep,P0819,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0382,keep,P0841,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0383,revise,P0842,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0384,check,P0843,Reviewed and retained or addressed by context,"[{""source"": ""Methods_Proposals.json"", ""review_id"": ""P0384"", ""current_id"": ""P0843"", ""original_state"": ""check"", ""disposition"": ""retain_unresolved_evidence"", ""reason"": ""No original ethics approval/exemption/determination supplied; preserve unverified status and distinction from supervisor permission.""}]"
+P0385,revise,P0844,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0386,keep,P0845,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0387,keep,P0846,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0388,revise,P0847,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0389,revise,P0848,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0389"", ""current_ids"": [""P0848""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0390,merge,P0849,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0390"", ""current_ids"": [""P0849""], ""review_state"": ""merge"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0391,revise,P0850,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0392,revise,P0851,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0392"", ""current_ids"": [""P0851""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0394,merge,P0875,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0395,revise,P0876,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0396,merge,P0877,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0397,keep,P0878,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0398,keep,P0879,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0399,keep,P0880,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0401,revise,P0900,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0402,revise,P0901,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0403,keep,P0902,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0404,revise,P0903,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0405,keep,P0904,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0406,merge,P0905,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0407,merge,P0906,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0407"", ""current_ids"": [""P0906""], ""review_state"": ""merge"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0408,merge,P0907,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0409,keep,P0908,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0410,keep,P0909,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0411,revise,P0910,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0411"", ""current_ids"": [""P0910""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0413,keep,P0940,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0415,revise,P0942,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0415"", ""current_ids"": [""P0942""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0417,revise,P0945,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0417"", ""current_ids"": [""P0945""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0418,keep,P0947,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0419,keep,P0948,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0420,revise,P0949,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0421,revise,P0950,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0421"", ""current_ids"": [""P0950""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0423,revise,P0980,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0425,revise,P0982,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0425"", ""current_ids"": [""P0982""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0426,revise,P0984,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0426"", ""current_ids"": [""P0984""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0427,revise,P0985,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0428,revise,P0986,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0428"", ""current_ids"": [""P0986""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0430,keep,P1030,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0431,revise,P1031,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0431"", ""current_ids"": [""P1031""], ""review_state"": ""revise"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P1032""]}]"
+P0432,keep,P1032,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0433,revise,P1033,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0433"", ""current_ids"": [""P1033""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0435,keep,P1063,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0436,revise,P1064,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0436"", ""current_ids"": [""P1064""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0438,keep,P1108,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0439,keep,P1109,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0440,revise,P1110,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0441,revise,P1111,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0441"", ""current_ids"": [""P1111""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0443,keep,P1155,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0444,merge,P1156,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0444"", ""current_ids"": [""P1156""], ""review_state"": ""merge"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P0949""]}]"
+P0445,keep,P1157,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0446,revise,P1158,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0446"", ""current_ids"": [""P1158""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0448,keep,P1205,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0450,revise,P1207,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0450"", ""current_ids"": [""P1207""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0451,check,P1209,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0451"", ""current_ids"": [""P1209""], ""review_state"": ""check"", ""disposition"": ""RETAIN EVIDENCE BOUNDARY"", ""reason_ar"": ""الفجوة تتطلب دليلًا أصليًا لا تحريرًا؛ تحفظ الحالة غير المتحققة. الملاحق وإحالاتها موجودة فيv1.26 وفق فحص المنسق، خلاف مقتطف التقرير."", ""proposed_ids"": []}]"
+P0452,revise,P1210,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0452"", ""current_ids"": [""P1210""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0453,revise,P1211,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0453"", ""current_ids"": [""P1211""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0454,revise,P1212,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0455,revise,P1213,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0457,revise,P1232,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0458,keep,P1234,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0459,keep,P1235,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0461,revise,P1237,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0461"", ""current_ids"": [""P1237""], ""review_state"": ""revise"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P0980""]}]"
+P0462,keep,P1238,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0463,merge,P1239,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0464,keep,P1240,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0465,merge,P1241,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0466,check,P1242,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0466"", ""current_ids"": [""P1242""], ""review_state"": ""check"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P0980""]}]"
+P0467,keep,P1243,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0468,keep,P1244,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0469,revise,P1245,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0471,revise,P1312,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0472,merge,P1313,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0472"", ""current_ids"": [""P1313""], ""review_state"": ""merge"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P1314""]}]"
+P0473,revise,P1314,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0474,keep,P1315,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0476,check,P1332,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0476"", ""current_ids"": [""P1332""], ""review_state"": ""check"", ""disposition"": ""RETAIN EVIDENCE BOUNDARY"", ""reason_ar"": ""الفجوة تتطلب دليلًا أصليًا لا تحريرًا؛ تحفظ الحالة غير المتحققة. الملاحق وإحالاتها موجودة فيv1.26 وفق فحص المنسق، خلاف مقتطف التقرير."", ""proposed_ids"": []}]"
+P0477,keep,P1333,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0478,revise,P1334,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0478"", ""current_ids"": [""P1334""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0479,revise,P1335,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0479"", ""current_ids"": [""P1335""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0480,revise,P1336,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0482,keep,P1373,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0483,revise,P1374,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0483"", ""current_ids"": [""P1374""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0486,revise,P1390,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0486"", ""current_ids"": [""P1390""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0488,revise,P1393,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0488"", ""current_ids"": [""P1393""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0489,keep,P1394,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0490,keep,P1395,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0491,keep,P1396,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0492,revise,P1397,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0492"", ""current_ids"": [""P1397""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0494,keep,P1435,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0495,keep,P1436,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0496,revise,P1437,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0497,revise,P1438,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0498,revise,P1439,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0498"", ""current_ids"": [""P1439""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0499,revise,P1440,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0499"", ""current_ids"": [""P1440""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0500,revise,P1441,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0500"", ""current_ids"": [""P1441""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0501,revise,P1442,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0501"", ""current_ids"": [""P1442""], ""review_state"": ""revise"", ""disposition"": ""ROOT OWNED"", ""reason_ar"": ""العناوين وملاحظات الجداول والأشكال والتنسيق وحقول REF يراجعها المنسق؛ لا تغيير متداخل هنا."", ""proposed_ids"": []}]"
+P0502,revise,P1467,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0503,keep,P1468,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0504,revise,P1469,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0505,revise,P1470,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0506,revise,P1471,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0506"", ""current_ids"": [""P1471""], ""review_state"": ""revise"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": []}]"
+P0507,revise,P1472,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0508,keep,P1473,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0509,keep,P1474,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0510,merge,P1510,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0510"", ""current_ids"": [""P1510""], ""review_state"": ""merge"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0511,revise,P1511,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0512,keep,P1512,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0513,keep,P1537,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0514,revise,P1538,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0514"", ""current_ids"": [""P1538""], ""review_state"": ""revise"", ""disposition"": ""PROPOSED EDIT"", ""reason_ar"": ""تعديل محدد في المقترحات أو نقل هندسي مع حفظ كامل محتواه."", ""proposed_ids"": [""P0901""]}]"
+P0515,revise,P1539,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0516,revise,P1540,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0516"", ""current_ids"": [""P1540""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0517,revise,P1541,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0518,revise,P1542,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0518"", ""current_ids"": [""P1542""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0519,revise,P1543,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0520,keep,P1544,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0521,keep,P1545,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0522,revise,P1546,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0523,keep,P1547,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0524,revise,P1548,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0525,keep,P1549,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0526,merge,P1550,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0527,revise,P1551,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0528,keep,P1552,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0529,keep,P1553,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0530,revise,P1554,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0531,keep,P1555,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0532,merge,P1556,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0533,keep,P1557,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0535,keep,P1574,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0536,keep,P1575,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0537,revise,P1576,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0538,revise,P1577,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0539,check,P1578,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0540,keep,P1579,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0541,revise,P1580,Reviewed and retained or addressed by context,"[{""source"": ""Literature_Proposals.json"", ""review_id"": ""P0541"", ""state"": ""revise"", ""note"": ""العنوان واسع؛ حسن التنظيم الداخلي بمحاور لا بسرد دراسات."", ""action"": ""keep"", ""reason"": ""Current section/table heading remains clear; thematic grouping is carried by paragraph order and topic sentences.""}]"
+P0542,revise,P1581,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0543,revise,P1582,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0544,revise,P1583,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0545,revise,P1584,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0546,keep,P1585,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0547,revise,P1586,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0548,keep,P1587,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0549,revise,P1588,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0550,keep,P1589,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0551,revise,P1590,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0552,revise,P1591,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0553,keep,P1592,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0554,keep,P1593,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0555,merge,P1594,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0556,revise,P1595,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0557,keep,P1596,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0558,keep,P1597,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0559,keep,P1598,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0560,keep,P1599,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0561,revise,P1600,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0562,check,P1601,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0562"", ""current_ids"": [""P1601""], ""review_state"": ""check"", ""disposition"": ""RETAIN EVIDENCE BOUNDARY"", ""reason_ar"": ""الفجوة تتطلب دليلًا أصليًا لا تحريرًا؛ تحفظ الحالة غير المتحققة. الملاحق وإحالاتها موجودة فيv1.26 وفق فحص المنسق، خلاف مقتطف التقرير."", ""proposed_ids"": []}]"
+P0563,keep,P1602,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0564,keep,P1603,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0565,keep,P1604,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0566,keep,P1605,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0567,keep,P1606,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0568,revise,P1607,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0568"", ""current_ids"": [""P1607""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0569,keep,P1608,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0570,revise,P1609,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0570"", ""current_ids"": [""P1609""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0571,check,P1610,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0572,revise,P1611,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0573,keep,P1612,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0574,revise,P1613,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0575,revise,P1614,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0575"", ""current_ids"": [""P1614""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0576,revise,P1615,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0577,keep,P1616,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0578,keep,P1638,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0579,keep,P1639,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0580,keep,P1640,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0581,revise,P1641,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0582,keep,P1642,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0583,revise,P1643,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0584,revise,P1644,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0585,merge,P1645,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0586,keep,P1646,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0587,revise,P1647,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0588,revise,P1648,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0589,revise,P1649,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0590,merge,P1650,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0591,keep,P1651,Retained,Review identifies the passage as useful; no evidence-based correction was needed.
+P0592,revise,P1673,Reviewed and retained or addressed by context,"[{""source"": ""Contribution_Result_Proposals.json"", ""review_id"": ""P0592"", ""current_ids"": [""P1673""], ""review_state"": ""revise"", ""disposition"": ""KEEP OR ROOT STRUCTURE"", ""reason_ar"": ""التعديل البنيوي العام يعالج بتخفيف تمهيد الفصل والتفسير المبكر؛ الفقرة الحالية تحمل شرطًا ماديًا أو تفصيلًا صحيحًا لا يستدعي تغييرًا إضافيًا. عناوين الأقسام والترقيم يدمجها المنسق."", ""proposed_ids"": []}]"
+P0593,revise,P1674,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0594,revise,P1675,Implemented,Applied the located prose/structure revision; before/after text is in the change log.
+P0595,keep,P1676,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0596,keep,P1677,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0597,keep,P1678,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0598,check,P1679,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0599,check,P1680,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0600,keep,P1681,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0601,check,P1682,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0602,check,P1683,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0603,keep,P1684,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0604,keep,P1685,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0605,keep,P1686,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0606,keep,P1687,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0607,keep,P1688,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0608,keep,P1689,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0609,keep,P1690,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0610,keep,P1691,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0611,keep,P1692,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0612,keep,P1693,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0613,keep,P1694,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0614,keep,P1695,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0615,keep,P1696,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0616,keep,P1697,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0617,keep,P1698,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0618,keep,P1699,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0619,check,P1700,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0620,keep,P1701,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0621,keep,P1702,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0622,keep,P1703,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0623,check,P1704,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0624,check,P1705,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0625,keep,P1706,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0626,keep,P1707,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0627,keep,P1708,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0628,keep,P1709,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0629,keep,P1710,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0630,keep,P1711,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0631,keep,P1712,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0632,check,P1713,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0633,keep,P1714,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0634,keep,P1715,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0635,keep,P1716,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0636,keep,P1717,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.
+P0637,keep,P1718,Verified and retained,Bibliography preserved; original author-name order and pinned source/software versions retained rather than guessed or automatically updated.

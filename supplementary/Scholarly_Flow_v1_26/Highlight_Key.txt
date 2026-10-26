@@ -1,0 +1,5 @@
+Yellow: language and grammar
+Cyan: cohesion, definitions and paragraph breaks
+Green: concise wording and removed repetition
+Inserted or replaced text is highlighted. For paragraph-only splits, the newly separated paragraph is cyan even though its wording is unchanged. Complete before/after passages include deletions in Changes_Before_After.csv.
+No external detector scan, new experiment or new source-coverage audit was conducted for this revision.

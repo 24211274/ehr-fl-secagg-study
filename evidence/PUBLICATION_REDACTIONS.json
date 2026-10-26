@@ -1,0 +1,87 @@
+{
+  "purpose": "Publication-only removal of the author declaration identifier from archival editorial and extracted page-text records.",
+  "identifier_values_logged": false,
+  "replacement": "[withheld]",
+  "scientific_source_data_models_or_numeric_results_changed": false,
+  "original_archives_preserved_locally": true,
+  "historical_manifests": "Artifact_Manifest.json records original pre-publication package identities. Use evidence/HANDOVER_FILES_SHA256.json for current publication file identities.",
+  "archives": [
+    {
+      "path": "supplementary/Historical_Evidence_Companion_Files.zip",
+      "original_sha256": "cb386abaa754c4dd9b31170278656f2cfe4bfc5ee3a8fa871ab5a1b16be13767",
+      "publication_sha256": "b74f66c55c03902a1ce0d5149d7b8318205876b8612e7a15668f3958351e0323"
+    },
+    {
+      "path": "supplementary/Security_Validation_Evidence.zip",
+      "original_sha256": "91758a2f62315c25baf5f358b3ea0aa9fdee4120c93fb7c455778adbb27daf2f",
+      "publication_sha256": "8000ff2b5cf83967a15a17cd61a2cfe9268a10a2420aa1abb0dacd81c3eefd27"
+    },
+    {
+      "path": "supplementary/SV05_Repair_Evidence.zip",
+      "original_sha256": "df0f9e7ad730f0be80a8454d4d4c0eb24eb50edbc7822e57a9fa9dbaecf8161d",
+      "publication_sha256": "aba94defd499646d9d0f926d3dd24183d2e833c8d7ac6378b344d40bb12cf433"
+    }
+  ],
+  "members": [
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!Approved_Content_Decisions.json",
+      "replacements": 4,
+      "original_sha256": "eff640f359a4443972ae84f87f021835e7d6cc2720b93bf5eb8f45513836885b",
+      "publication_sha256": "521ba3a433439296fa9d084d82ef196d7dc6ff8f6a696b20118609a7ac20df99"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!source_paragraphs.json",
+      "replacements": 1,
+      "original_sha256": "e6739590a96f39e9d68955c54f1a590e364236c70be23677a867c3766fe1a2b2",
+      "publication_sha256": "d03ccd952ca2c0c0f4f7f4a42e30c48335243a090427d9eb70aee34170b205b1"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!Previous_Annotated_v1_12.docx!word/document.xml",
+      "replacements": 1,
+      "original_sha256": "91fb0fe1565ace135ba2ca43538dfdc355a907853f5c0017ea00c56ef5187a47",
+      "publication_sha256": "b1e0d00a4c30cc918ecac6874c743b23aaa4e47473ca99eb1ad5fba2df2aea49"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!Line_by_Line_Review.csv",
+      "replacements": 2,
+      "original_sha256": "1ac8a3ec9a741b050041026423e392c4932f499cfbe06856b7a6632577096054",
+      "publication_sha256": "90845827d77166891b672e281cff6062e4853187a53b925263b4e8fdfcfa6b69"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!history_v1_13/Research_Report_Chapters_1_to_6_v1_13_Clean_Reading_20261012.docx!word/document.xml",
+      "replacements": 1,
+      "original_sha256": "fe633fc181a87175bc4dc490cacceb042ed1b55bbe7c277c46eb880d449cb4c7",
+      "publication_sha256": "b1984aecbd8cd5f44c08aed541083ffd341b96e9ad54b3df80df4d5c492ff483"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!history_v1_13/Research_Report_Chapters_1_to_6_v1_13_Content_Reviewed_Highlighted_20261012.docx!word/document.xml",
+      "replacements": 1,
+      "original_sha256": "d2e7d15bcc957433703a38f84794d3c84bfc0d3973117d19289ced8009969970",
+      "publication_sha256": "e78fb8e402516afc683932f847c23fe735a70faebe9c6963422eddd591485eac"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!trace_completion_v1_14/qa/Page_Text_annotated.json",
+      "replacements": 1,
+      "original_sha256": "ca543966f8cf926564c3c584300396423a6179785952abd869083ff9bc7dd5d8",
+      "publication_sha256": "301569f333919dcdde51d1678f5b1054c549c79e8f4b0812378cdc7f2cbfb540"
+    },
+    {
+      "member": "Historical_Evidence_Companion_Files.zip!trace_completion_v1_14/qa/Page_Text_clean.json",
+      "replacements": 1,
+      "original_sha256": "e2e15acdadb3b6224eeedc9d1174d21b1d2008c0495894d5179ced67e4edfe07",
+      "publication_sha256": "5e9640287cd54eeddde90d2f3ae46890f94a4ad16b061339f8ad9463ae5259cd"
+    },
+    {
+      "member": "Security_Validation_Evidence.zip!qa/Page_Text.json",
+      "replacements": 1,
+      "original_sha256": "12803651814fb472605574097e554789dd5ce00e810c73985420327a1fed7bd8",
+      "publication_sha256": "53d5deb04a38a271902bd87f055d4c607e7cd4c117f0700718cf5dbf01200eb1"
+    },
+    {
+      "member": "SV05_Repair_Evidence.zip!qa/Page_Text.json",
+      "replacements": 1,
+      "original_sha256": "df95fd2dbf820eb1c30c91f5ce9597a558c799dd4af7b48abb3852755ef4e1ec",
+      "publication_sha256": "758db7700695a469945624152752757ff3d29f9ee86b8de488cbad8ba40b0086"
+    }
+  ]
+}

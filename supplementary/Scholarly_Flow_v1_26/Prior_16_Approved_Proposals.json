@@ -1,0 +1,298 @@
+[
+  {
+    "id": "ROOT-01",
+    "paragraph_id": "P0032",
+    "physical_page": 4,
+    "printed_page": "iii",
+    "section": "Abstract opening",
+    "priority": "MEDIUM",
+    "category": "connection between sentences",
+    "exact_before": "Federated learning trains a shared model without pooling raw electronic health record (EHR) access logs. The server can still inspect individual model updates.",
+    "exact_after": "Federated learning trains a shared model without pooling raw electronic health record (EHR) access logs, but the server can still inspect individual model updates.",
+    "reason_ar": "ربط إبقاء السجلات محليًا ببقاء تحديثات النموذج مكشوفة يوضح الدافع إلى التجميع الآمن في جملة مترابطة. هذا تحسين للسرد؛ لا يمثل حكمًا على مصدر النص ولا توقعًا لنتيجة الكاشف.",
+    "preserved_facts_and_caveats": "Keeps a shared model, no pooling of raw EHR access logs, and the server's continued ability to inspect individual updates; preserves the EHR definition and adds no security claim.",
+    "uncertainty_if_any": "No detector result is predicted. Both original sentences are individually correct and may also be retained."
+  },
+  {
+    "id": "FRONT-001",
+    "paragraph_id": "P0326",
+    "physical_page": 21,
+    "printed_page": "7",
+    "section": "2.1 EHR access security and audit logs",
+    "priority": "LOW",
+    "category": "clause_clarity",
+    "exact_before": "Their evaluations do not establish detection of independently validated misuse by previously unseen real users or involving previously unseen real patients.",
+    "exact_after": "Their evaluations do not establish that the methods detect independently validated misuse by previously unseen real users or involving previously unseen real patients.",
+    "reason_ar": "تستبدل العبارة الاسمية المتراكمة establish detection بجملة فعلية توضح ما لم تثبته التقييمات. الإشارة إلى المستخدمين والمرضى غير المشاهدين سابقاً قيد منهجي حقيقي، ولذلك تبقى كاملة.",
+    "preserved_facts_and_caveats": [
+      "The evaluations do not establish the stated detection capability.",
+      "Misuse must be independently validated.",
+      "Both previously unseen real users and previously unseen real patients remain within the qualification.",
+      "No citation, method, dataset or causal claim is added."
+    ],
+    "uncertainty_if_any": "تحسين اختياري محدود؛ الصياغة الحالية صحيحة ويمكن الاحتفاظ بها إذا كانت أولوية المراجعة تقليل التغييرات."
+  },
+  {
+    "id": "FRONT-002",
+    "paragraph_id": "P0333",
+    "physical_page": 23,
+    "printed_page": "9",
+    "section": "2.2 AI-based detection of inappropriate EHR access",
+    "priority": "MEDIUM",
+    "category": "nested_definitions",
+    "exact_before": "In their evaluation of 200 observations, the vector model had higher anomaly recall, the fraction of anomalies detected, and higher F1, which combines precision and recall.",
+    "exact_after": "In their evaluation of 200 observations, the vector model had higher anomaly recall (the fraction of anomalies detected) and higher F1 (which combines precision and recall).",
+    "reason_ar": "الفواصل الحالية تفصل تعريف recall بين جزأي المقارنة، مما يبطئ قراءة النتيجة. توحيد التعريفين بين قوسين يجعل المقارنة بين recall وF1 واضحة مع إبقاء التعريفين للقارئ.",
+    "preserved_facts_and_caveats": [
+      "The evaluation contained 200 observations.",
+      "The vector model had higher anomaly recall and higher F1 in that evaluation.",
+      "Recall remains defined as the fraction of anomalies detected.",
+      "F1 remains defined as combining precision and recall.",
+      "The Senturk et al. (2025) attribution and the surrounding LSTM comparison remain in place."
+    ],
+    "uncertainty_if_any": null,
+    "root_note": "The proposed sentence can be read with higher shared by both metric names, but removing its second occurrence makes the claim of higher F1 less explicit than in the original. Repeat higher before F1 to preserve the comparative claim unambiguously; the parenthetical definitions and 200-observation denominator remain unchanged."
+  },
+  {
+    "id": "FRONT-003",
+    "paragraph_id": "P0337",
+    "physical_page": 24,
+    "printed_page": "10",
+    "section": "2.3 Federated learning for distributed anomaly detection",
+    "priority": "LOW",
+    "category": "definition_placement",
+    "exact_before": "In the Shakespeare experiment, McMahan et al. (2017) found that training plateaued or diverged when too many local epochs, or passes through client data, were used.",
+    "exact_after": "In the Shakespeare experiment, McMahan et al. (2017) found that training plateaued or diverged when the number of local epochs (passes through client data) was too high.",
+    "reason_ar": "يُبقي التعريف التوضيحي قريباً من local epochs دون قطع تركيب when ... were used بفواصل متداخلة. تظل النتيجة مقيدة بتجربة Shakespeare، ولا تعمم على MNIST أو على كل التدريب الاتحادي.",
+    "preserved_facts_and_caveats": [
+      "The finding is attributed to McMahan et al. (2017).",
+      "The finding is specific to the Shakespeare experiment.",
+      "Training plateaued or diverged with too many local epochs.",
+      "Local epochs are still explained as passes through client data.",
+      "The following statement that MNIST behaved differently remains unchanged."
+    ],
+    "uncertainty_if_any": "تعديل منخفض الأولوية؛ لا يغيّر النتيجة أو يضيف تفسيراً سببياً لها."
+  },
+  {
+    "id": "FRONT-004",
+    "paragraph_id": "P0418",
+    "physical_page": 32,
+    "printed_page": "18",
+    "section": "2.7 Comparison of selected studies",
+    "priority": "LOW",
+    "category": "referent_and_sentence_flow",
+    "exact_before": "These limitations and their different detector and blockchain-cost measurements limit comparison with the present FedAvg/SecAgg+ workflows.",
+    "exact_after": "These limitations, together with differences in the detector and blockchain-cost measurements, restrict comparison with the present FedAvg/SecAgg+ workflows.",
+    "reason_ar": "تزيل إحالة their غير المريحة بعد These limitations، وتوضح أن القيود والاختلافات في الكاشف وقياسات تكلفة البلوكشين هي أسباب محدودية المقارنة. كما تتجنب تكرار limitations/limit في الجملة نفسها.",
+    "preserved_facts_and_caveats": [
+      "The preceding window-partition and McNemar limitations remain unchanged.",
+      "Differences in the detector and blockchain-cost measurements still limit comparison.",
+      "The comparator remains the present FedAvg/SecAgg+ workflows.",
+      "No numerical result, citation, stronger criticism or new mechanism is introduced."
+    ],
+    "uncertainty_if_any": null
+  },
+  {
+    "id": "FRONT-005",
+    "paragraph_id": "P0422",
+    "physical_page": 33,
+    "printed_page": "19",
+    "section": "2.7 Comparison of selected studies",
+    "priority": "MEDIUM",
+    "category": "nominalisation_and_coordination",
+    "exact_before": "Qazi et al. (2026) evaluate private federated anomaly detection for enterprise resource planning (ERP) systems through component removal and utility and cost measurements.",
+    "exact_after": "Qazi et al. (2026) evaluate private federated anomaly detection for enterprise resource planning (ERP) systems by removing components and measuring utility and cost.",
+    "reason_ar": "تحوّل through component removal and utility and cost measurements إلى فعلين واضحين، فتزيل تتابع and المربك دون تغيير تصميم المقارنة أو نطاقها.",
+    "preserved_facts_and_caveats": [
+      "The attribution remains Qazi et al. (2026).",
+      "The task remains private federated anomaly detection for enterprise resource planning (ERP) systems.",
+      "Component removal and measurement of both utility and cost remain stated.",
+      "The following caveat that the headline communication reduction compares different permitted training-round counts remains unchanged.",
+      "The following statement that Table 20 does not isolate secure aggregation alone remains unchanged."
+    ],
+    "uncertainty_if_any": null
+  },
+  {
+    "id": "MR01",
+    "paragraph_id": "P0653",
+    "physical_page": 44,
+    "printed_page": "30",
+    "section": "3.3 Data preparation",
+    "priority": "LOW",
+    "category": "توضيح فعل الترميز",
+    "exact_before": "Values absent from the training vocabulary used __UNK__; empty values used __MISSING__.",
+    "exact_after": "Values absent from the training vocabulary were encoded as __UNK__; empty values were encoded as __MISSING__.",
+    "reason_ar": "يجعل فعل الترميز صريحاً، بدلاً من إسناد استخدام الرموز إلى القيم نفسها. تعديل محلي اختياري؛ بقية الفقرة لا تحتاج إعادة كتابة.",
+    "preserved_facts_and_caveats": [
+      "تبقى القيم غير المشاهدة في التدريب ممثلة بـ __UNK__ والقيم الفارغة بـ __MISSING__.",
+      "يبقى تمييز المدخلات عن الأهداف وقواعد إخفاء الخسارة دون أي تعديل في الجمل التالية."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية."
+  },
+  {
+    "id": "MR02",
+    "paragraph_id": "P0656",
+    "physical_page": 45,
+    "printed_page": "31",
+    "section": "3.3 Data preparation",
+    "priority": "LOW",
+    "category": "توضيح مرجع الطول داخل الدفعة",
+    "exact_before": "Batches used padding to handle different session lengths, matching the longest session.",
+    "exact_after": "Within each batch, sessions were padded to the length of the longest session.",
+    "reason_ar": "يوضح مباشرة ما الذي يُحشى والطول المرجعي للحشو، مع حذف العبارة المعلقة matching the longest session.",
+    "preserved_facts_and_caveats": [
+      "يظل الغرض مواءمة أطوال الجلسات داخل الدفعة بالحشو.",
+      "لا يتغير الاحتفاظ بالجلسات الكاملة أو استبعاد المواضع المحشوة من المشفر والخسارة أو الأعداد الواردة لاحقاً."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية."
+  },
+  {
+    "id": "MR03",
+    "paragraph_id": "P0737",
+    "physical_page": 52,
+    "printed_page": "38",
+    "section": "3.8 Secure aggregation of model updates",
+    "priority": "LOW",
+    "category": "إسناد الفعل إلى الاختبار",
+    "exact_before": "Before the accepted main experiments, predefined public vectors checked expected secure-aggregation averages with equal and unequal weights, numerical rounding and conditions requiring refusal.",
+    "exact_after": "Before the accepted main experiments, tests using predefined public vectors checked expected secure-aggregation averages with equal and unequal weights, numerical rounding and conditions requiring refusal.",
+    "reason_ar": "المتجهات مواد اختبار؛ إسناد الفحص إلى الاختبارات يجعل العلاقة النحوية أوضح دون تغيير نطاق التحقق.",
+    "preserved_facts_and_caveats": [
+      "أجريت الفحوص قبل التجارب الرئيسة المقبولة باستخدام متجهات عامة محددة مسبقاً.",
+      "يشمل النطاق المتوسطات المتوقعة والأوزان المتساوية وغير المتساوية والتقريب العددي وحالات الرفض.",
+      "لا تتغير حدود الخطأ أو العدادات أو هوية البناء المحلي أو حدود ادعاءات الخصوصية."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية."
+  },
+  {
+    "id": "MR04",
+    "paragraph_id": "P0811",
+    "physical_page": 58,
+    "printed_page": "44",
+    "section": "3.11 Statistical analysis",
+    "priority": "LOW",
+    "category": "توضيح وحدة التلخيص",
+    "exact_before": "Each approach, sampling condition and test set was summarised separately using all five seed-level values, the mean, sample standard deviation, median and range.",
+    "exact_after": "For each combination of approach, sampling condition and test set, summaries reported all five seed-level values, the mean, sample standard deviation, median and range.",
+    "reason_ar": "يحدد أن التلخيص يتم لكل توليفة تجريبية، ويجعل القيم الخمس وإحصاءاتها محتويات الملخص بدلاً من عناصر تُستخدم في تلخيص الطريقة نفسها.",
+    "preserved_facts_and_caveats": [
+      "تظل كل طريقة وشرط سحب ومجموعة اختبار مفصولة في التلخيص.",
+      "تبقى القيم الخمس والمتوسط والانحراف المعياري للعينة والوسيط والمدى جميعها مذكورة.",
+      "تظل البذور وحدات المقارنة، ولا تتحول الجلسات أو العملاء أو الجولات إلى مكررات مستقلة."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية."
+  },
+  {
+    "id": "MR05",
+    "paragraph_id": "P1212",
+    "physical_page": 73,
+    "printed_page": "59",
+    "section": "4.8.1 Post-test descriptive breakdown",
+    "priority": "LOW",
+    "category": "توضيح وظيفة تحليل الإنذارات الكاذبة",
+    "exact_before": "The false-alert analysis separates routine from unusual legitimate activity using FedAvg with SecAgg+'s frozen q = 0.99 decisions (Table 4.10; Figure 4.5).",
+    "exact_after": "The false-alert analysis summarises the frozen q = 0.99 decisions from FedAvg with SecAgg+ separately for routine and unusual legitimate activity (Table 4.10; Figure 4.5).",
+    "reason_ar": "يوضح أن التحليل يعرض قرارات النموذج بحسب مجموعات النشاط، ويزيل احتمال فهم الجملة على أن قرارات التنبيه نفسها تحدد نوع النشاط.",
+    "preserved_facts_and_caveats": [
+      "تبقى القرارات مجمدة عند q = 0.99 وللطريقة FedAvg with SecAgg+.",
+      "يبقى الفصل الوصفي بين النشاط المشروع الروتيني وغير المعتاد، مع مرجعي الجدول والشكل نفسيهما.",
+      "لا تتغير مقامات معدلات المجموعات أو تعريفات recall وFPR أو استبعاد AP وAUROC للمجموعات ذات الفئة الواحدة."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية.",
+    "root_note": "P1212 and the accompanying table and figure concern group rates with fixed denominators and seed-level summaries. Reports the decisions could suggest presentation of individual decision records. Replacing reports with summarises keeps the representation of the analysis aligned with the displayed group outcomes while retaining the model, frozen quantile, activity groups and references."
+  },
+  {
+    "id": "MR06",
+    "paragraph_id": "P1393",
+    "physical_page": 79,
+    "printed_page": "65",
+    "section": "4.9.1 Training-workflow time and application-message content",
+    "priority": "LOW",
+    "category": "تقسيم جملة كثيفة",
+    "exact_before": "The counter measures the logical content of Flower Record objects carried in training messages, called fit messages, counting each message once in either direction.",
+    "exact_after": "The counter measures the logical content of Flower Record objects carried in training messages, called fit messages. Each message is counted once in either direction.",
+    "reason_ar": "يفصل تعريف ما يُقاس عن قاعدة العد في جملتين قصيرتين؛ لا يحذف أياً من حدود القياس أو يغير قيم البايتات.",
+    "preserved_facts_and_caveats": [
+      "يبقى القياس للمحتوى المنطقي لكائنات Flower Record في رسائل التدريب المسماة fit messages.",
+      "تُعد كل رسالة مرة واحدة في أي من الاتجاهين.",
+      "تظل استثناءات تأطير الشبكة وإعادة الإرسال وحركة البنية التحتية في الجملة التالية، فلا يتحول الرقم إلى قياس شامل لحركة الشبكة."
+    ],
+    "uncertainty_if_any": "لا يوجد غموض يمنع هذا التعديل المحلي؛ لا يضيف تفسيراً سببياً أو نتيجة علمية."
+  },
+  {
+    "id": "DA02",
+    "paragraph_id": "P1551",
+    "physical_page": 89,
+    "printed_page": "75",
+    "section": "5.2 RQ1: federated detection relative to the centralised reference",
+    "priority": "MEDIUM",
+    "category": "Clear comparison referent",
+    "exact_before": "Which method had higher AP changed under controlled Non-IID sampling. The training procedures help interpret this change.",
+    "exact_after": "The methods ranked differently by AP under Reference and controlled Non-IID sampling. The training procedures help interpret this difference.",
+    "reason_ar": "يستبدل افتتاحًا ثقيلًا بمقارنة صريحة بين حالتي المعاينة المعروضتين في السياق السابق، دون إضافة تفسير سببي.",
+    "preserved_facts_and_caveats": [
+      "The AP ordering differs between the two sampling conditions in the primary-test discussion.",
+      "Training procedures provide interpretive context.",
+      "All following caveats about resampling, AdamW, heterogeneity and absent local-only comparisons remain untouched."
+    ],
+    "uncertainty_if_any": "تسمية Reference توضيح من السياق السابق P1548–P1549؛ لا تعمم الجملة على الاختبار الثانوي.",
+    "root_note": "Replace the compressed noun phrase AP ordering with the explicit subject and verb methods ranked differently; preserves the contextual comparison and does not claim a causal benefit from heterogeneity."
+  },
+  {
+    "id": "DA04",
+    "paragraph_id": "P1592",
+    "physical_page": 95,
+    "printed_page": "81",
+    "section": "5.6 Contribution, practical significance and responsible use",
+    "priority": "MEDIUM",
+    "category": "Clarify measurement limitation",
+    "exact_before": "The millisecond scoring times covered prepared inputs and excluded the rest of the response process. They therefore establish neither acceptable end-to-end times nor alert workload.",
+    "exact_after": "The millisecond scoring times covered prepared inputs and excluded the rest of the response process. They therefore do not establish whether end-to-end times are acceptable or how much work alert review would require.",
+    "reason_ar": "يوضح ما لم تقسه أزمنة الاستدلال، ويربط عبء العمل بمراجعة التنبيهات بدل التركيب غير المتوازي «establish alert workload».",
+    "preserved_facts_and_caveats": [
+      "Millisecond scoring times cover prepared inputs and exclude the rest of the response process.",
+      "Acceptable end-to-end times and alert-review workload are not established.",
+      "The prototype and clinical-review limitations in the surrounding paragraph remain unchanged."
+    ],
+    "uncertainty_if_any": null
+  },
+  {
+    "id": "DA05",
+    "paragraph_id": "P2159",
+    "physical_page": 117,
+    "printed_page": "103",
+    "section": "C.4 Supplementary statistical and subgroup results",
+    "priority": "LOW",
+    "category": "Paragraph progression",
+    "exact_before": "The supplementary analyses describe variation across five seeds and errors within labelled groups. Seed-level summaries report the mean, sample SD, median and range, with five within-seed differences for each paired contrast. Table C.6 gives exploratory worst-client AP intervals, and Table C.7 separates held-out AUROC by legitimate group. At q = 0.99, alert rate is recall for a threat-only group and FPR for a legitimate-only group; AP and AUROC are not assigned to one-class groups. These post-test analyses are descriptive. Records reconstructed from preserved scores and labels retain each seed’s client AP, every client tied for the lowest AP, and scenario confusion counts. The AP summaries reproduce Table 4.8. Scenario counts calculated with the saved validation thresholds reproduce Table 4.10. No model was retrained or threshold refitted. The supplementary package of result traceability evidence includes the derivation code and numerical checks.",
+    "exact_after": "The supplementary analyses describe variation across five seeds and errors within labelled groups. Seed-level summaries report the mean, sample SD, median and range, with five within-seed differences for each paired contrast. Table C.6 gives exploratory worst-client AP intervals, and Table C.7 separates held-out AUROC by legitimate group. At q = 0.99, alert rate is recall for a threat-only group and FPR for a legitimate-only group; AP and AUROC are not assigned to one-class groups. These post-test analyses are descriptive.\n\nRecords reconstructed from preserved scores and labels retain each seed’s client AP, every client tied for the lowest AP, and scenario confusion counts. The AP summaries reproduce Table 4.8. Scenario counts calculated with the saved validation thresholds reproduce Table 4.10. No model was retrained or threshold refitted. The supplementary package of result traceability evidence includes the derivation code and numerical checks.",
+    "reason_ar": "يفصل تعريف المقاييس والتحليلات الوصفية عن سلسلة التتبع وإعادة الحساب، مع إبقاء النص العلمي كاملًا.",
+    "preserved_facts_and_caveats": [
+      "All existing words, numbers, metric definitions, table references and limitations remain unchanged.",
+      "Five-seed summaries remain descriptive and post-test.",
+      "No model was retrained or threshold refitted.",
+      "Saved-score and validation-threshold traceability remains explicit."
+    ],
+    "uncertainty_if_any": "تقسيم فقرة فقط؛ يحتاج فحص الترحيل والتنسيق إذا طُبق لاحقًا في Word."
+  },
+  {
+    "id": "DA06",
+    "paragraph_id": "P2251",
+    "physical_page": 119,
+    "printed_page": "105",
+    "section": "C.7 Bounded security validation",
+    "priority": "MEDIUM",
+    "category": "Separate harness paths from instrumentation limits",
+    "exact_before": "The standard-FedAvg control used a native plain Flower reply, not the complete benchmark application. In SV-07, the actual project logging functions recorded message-content byte counts, timings and permitted metadata; the error-report function exported selected error, stack-trace and round metadata.",
+    "exact_after": "The standard-FedAvg control used a native plain Flower reply, not the complete benchmark application.\n\nIn SV-07, the actual project logging functions recorded message-content byte counts, timings and permitted metadata; the error-report function exported selected error, stack-trace and round metadata.",
+    "reason_ar": "يفصل مسارات الاختبار وضابط FedAvg عن تفاصيل تسجيل SV-07 واستبدال measurement_scope()؛ تبقى حدود الجهاز وكل معرّف برمجي كما هي.",
+    "preserved_facts_and_caveats": [
+      "All existing words and technical identifiers remain unchanged.",
+      "The simplified strategy and copied validation code remain disclosed.",
+      "Upstream reference cases, direct calls and native plain reply remain distinguished.",
+      "measurement_scope() substitution and the bypassed loading/validation remain explicit.",
+      "Not all cases test complete application or network behaviour."
+    ],
+    "uncertainty_if_any": "تقسيم فقرة فقط؛ لا يغيّر تصميم الاختبار، والتحقق التجريبي من المصدر خارج النطاق."
+  }
+]

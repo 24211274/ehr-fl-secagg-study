@@ -1,0 +1,1380 @@
+{
+  "format": "supervisor-handover-file-manifest-v1",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 160,
+      "sha256": "c2e280d9fed0b1d226f9fd422d3152dac680c60498cbbff42d9792f0f6495259"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 398,
+      "sha256": "55eccc63dfd85d15151b8f06ab3abe93b0336a153755f858d4a38f353d586b73"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3882,
+      "sha256": "555d59a3251a30c41637be8dce2ab76f6557b8efd6ad0b9ba648c1d3ed1e142c"
+    },
+    {
+      "path": "analysis/final_score_audit/AUDITED_RESULTS.md",
+      "bytes": 13436,
+      "sha256": "55fabb1fd83ee4cee110bd5cfae5e7dcd22d90f1ef657e68d04146d0ced762dd"
+    },
+    {
+      "path": "analysis/final_score_audit/AUDIT_FILES_SHA256.json",
+      "bytes": 3106,
+      "sha256": "b079722496c6675112b7b44cbb7f380830bb4185940d90bb88b3b9cf0b23451d"
+    },
+    {
+      "path": "analysis/final_score_audit/AUDIT_QA.json",
+      "bytes": 1166,
+      "sha256": "29f66e705c36be8bedc9b7696a390a7193efda466b62ca6069e28d0f88eeaad3"
+    },
+    {
+      "path": "analysis/final_score_audit/Final_Score_Arithmetic_Audit.json",
+      "bytes": 54845,
+      "sha256": "1ad38c1dd0b636142d53171bf4e298702bae08536e4e99c7b26b24597ff9c216"
+    },
+    {
+      "path": "analysis/final_score_audit/README_AR.md",
+      "bytes": 3617,
+      "sha256": "343f13da8bc32a739f2225def66f7515b23dd0249cf56d108aff2292a385d724"
+    },
+    {
+      "path": "analysis/final_score_audit/REPRODUCE_AUDIT.md",
+      "bytes": 1712,
+      "sha256": "2d92d7249c87260059ec59a265745c3d62abfcac0ddc27ae694e135ac89bb908"
+    },
+    {
+      "path": "analysis/final_score_audit/audit_scores.py",
+      "bytes": 29066,
+      "sha256": "bd952e00a3e125ba2f74af3054b98b765af5267dfdb9704194cc555ff92f33dc"
+    },
+    {
+      "path": "analysis/final_score_audit/descriptive_AUROC_mixture_checks.csv",
+      "bytes": 4330,
+      "sha256": "febf7b469b58243e40a340bfec033d725a583ad8697687b1c3ae671a641ba440"
+    },
+    {
+      "path": "analysis/final_score_audit/descriptive_class_error_summary.csv",
+      "bytes": 25310,
+      "sha256": "bab740d98c69b0baa427bc1ef83d2ceb3f0fd2353fea0b54a55daaef8417e402"
+    },
+    {
+      "path": "analysis/final_score_audit/descriptive_class_score_summary.csv",
+      "bytes": 117285,
+      "sha256": "3fbd89a4f9faa4359a3bf42323681f074cd60cbf281b7a1dadb4bd5dd8532a6a"
+    },
+    {
+      "path": "analysis/final_score_audit/descriptive_pairwise_ordering.csv",
+      "bytes": 21492,
+      "sha256": "c437486e8a0e2fb92d79e83f732b18605b7f2f63ba4b879803e6c7cba8d1c926"
+    },
+    {
+      "path": "analysis/final_score_audit/descriptive_pairwise_ordering_summary.csv",
+      "bytes": 5127,
+      "sha256": "6039914ea820c2d882d1c83babef7a3d2b3ee8947e029b001047e612e10d6078"
+    },
+    {
+      "path": "analysis/final_score_audit/global_results_table.csv",
+      "bytes": 4904,
+      "sha256": "5202352d84a975bdaadf4aaa40af739add92fd6ff891970ce6d2f30c3c910508"
+    },
+    {
+      "path": "analysis/final_score_audit/metrics_fixture_tests.log",
+      "bytes": 1177,
+      "sha256": "0fa2d90ce54ffcaef7174934837ad12f924e1e88043295d15880aa3817ba6801"
+    },
+    {
+      "path": "analysis/final_score_audit/paired_contrasts.csv",
+      "bytes": 25563,
+      "sha256": "db822c79f059d3f55b1f510b6572d3e878fe2ba16077261579fc73f0dcc55509"
+    },
+    {
+      "path": "analysis/final_score_audit/recomputed_decision_metrics.csv",
+      "bytes": 156030,
+      "sha256": "8b4e7f7636a9f5e03cf66e3712efa47e9839cba91ec60e87baa957a1d0c08729"
+    },
+    {
+      "path": "analysis/final_score_audit/recomputed_rank_metrics.csv",
+      "bytes": 25872,
+      "sha256": "909f2bfc0e21e8e10027d80c834f6ee1af6503fe5f9728be65577621fb8c3e62"
+    },
+    {
+      "path": "analysis/final_score_audit/seed_summary.csv",
+      "bytes": 19557,
+      "sha256": "1d4fdd508a9dc6638e50a3da4ed8145b38c0c88d893018d8283e3b29571b365b"
+    },
+    {
+      "path": "analysis/final_score_audit/test_audit_metrics.py",
+      "bytes": 2242,
+      "sha256": "07de940341f5b04d1c9c60430985dff9121f6dbf3047d0a53388e9eafec0530d"
+    },
+    {
+      "path": "analysis/final_score_audit/test_composition.csv",
+      "bytes": 2516,
+      "sha256": "e3ca103973dbec0382c28f06cddf81b4f5ceef20e4f1833eb96517f20fb5413c"
+    },
+    {
+      "path": "docs/CONTRIBUTIONS.md",
+      "bytes": 1333,
+      "sha256": "a050f05af44ec2f1ec3a78e7b35b2cfec037a195d93710921fa6cfead02cccd0"
+    },
+    {
+      "path": "docs/DATA_ACCESS.md",
+      "bytes": 1364,
+      "sha256": "296da7f87a06dae5e848c79c0f044be173ecb544081e14e06d76eb5d269bea96"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 1752,
+      "sha256": "b3952ee904be23cc7eb014b5858389a7f09599a1f800da17f685ffe03aee4135"
+    },
+    {
+      "path": "docs/original_handover_guide/GUIDE_FILES_SHA256.json",
+      "bytes": 634,
+      "sha256": "dc8670fe161e7505ce28ad46a24c06e0298ed2aa1a43a7251800f336e9792d2e"
+    },
+    {
+      "path": "docs/original_handover_guide/HANDOVER_PLAN_AR.md",
+      "bytes": 6765,
+      "sha256": "141eea742b2d58e57f89e5b9708949781d4db3f34720a8acfb32aa058674cd9d"
+    },
+    {
+      "path": "docs/original_handover_guide/SOURCES.md",
+      "bytes": 2158,
+      "sha256": "e91da3cbcfb908e8597e01039d8b1e93d39d8ac797c8b8ed99261f7e8c077ce5"
+    },
+    {
+      "path": "docs/original_handover_guide/SUPERVISOR_CODE_GUIDE.md",
+      "bytes": 8748,
+      "sha256": "b19fc0ae8145169d09d710a582c9114784c7a55c19b21d6bf8809d0a27ec5ca0"
+    },
+    {
+      "path": "docs/original_handover_guide/source_identity.json",
+      "bytes": 37908,
+      "sha256": "62c2a36681941e059610d11e9f4cf1cb8bb4e91b8009087bacae8b6e58484ff6"
+    },
+    {
+      "path": "evidence/HANDOVER_SOURCES.json",
+      "bytes": 896,
+      "sha256": "c95df1ec3fcbc18c266cd7fb85d5b86df6cf9199d7d741b7550e3918523a7d43"
+    },
+    {
+      "path": "evidence/INDEX.md",
+      "bytes": 1909,
+      "sha256": "60c6177649d1092f75c7c7be7f23df077c5cdea6872b4d2c8edd94bb6c63ecd2"
+    },
+    {
+      "path": "evidence/Table_and_Figure_Source_Map.csv",
+      "bytes": 3236,
+      "sha256": "ab3ef920aed466bed444a2f9facf29bb0d0b54df87403dc710a31a31676613ef"
+    },
+    {
+      "path": "evidence/completion_status.json",
+      "bytes": 266,
+      "sha256": "872320c8adf9a1d14ddbc5b9e0fb89db28be8da5a63eca2f5dedfa243960be06"
+    },
+    {
+      "path": "evidence/system_cost_analysis.json",
+      "bytes": 46006,
+      "sha256": "9186e3775d6c1e8c47adcb15d06071dcfe1da0499552ee5ece9106793fe437d4"
+    },
+    {
+      "path": "evidence/writing_source_register.json",
+      "bytes": 3488,
+      "sha256": "79efc1b177b94fd81e0baabd44aa5dfeb6d71ae0e8ad51773eafc243fdd486c1"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/CODE_REPAIR.md",
+      "bytes": 4824,
+      "sha256": "18c99fa2f5d1a132ac5b16a79dbe6ee2daf72adc08f9ebb7e40c1c300d0fe23a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/FIXTURE_IMPORT_FIX.md",
+      "bytes": 3811,
+      "sha256": "9d0d754e616496db88067541ea5ecb4303abd469a62c0822d99a8893630513b0"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/MAIN_IMPLEMENTATION.md",
+      "bytes": 10560,
+      "sha256": "86ee561e7f681531d6f0687bfa24495118ce9946b8b2194d620f7db7a2a7abef"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/MEASUREMENT_SCOPE_FIX.md",
+      "bytes": 5308,
+      "sha256": "f54bc32ff608a41e159a7393e91e4501020a0d7a7491b8375f27c0c787c32524"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/PACKAGE_SHA256SUMS.txt",
+      "bytes": 22396,
+      "sha256": "0e4bc1175bf97a766d46aa60f02c4c891c483d3870957b3ae6ac52ea7734dc88"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/README.md",
+      "bytes": 1438,
+      "sha256": "96357570f8147a97db6f0b832eabea67f7181772314edd21bbbf077b74696fd2"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/README_AR.md",
+      "bytes": 3921,
+      "sha256": "c5030b6803e5beb5a0965bfe677089de89f6d7f467f70cda76b074dc79fbf432"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/SOURCES.md",
+      "bytes": 1661,
+      "sha256": "acc47c0f160b206ab806a80235faf0feb746e52c11bbed6a2cd5e4cc0209542a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/central_smoke/__init__.py",
+      "bytes": 82,
+      "sha256": "e40dc67d5f83eed895baebdea62ad1181ba381510c36a66afae56820d570e93a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/central_smoke/engine.py",
+      "bytes": 16995,
+      "sha256": "b10ef49c28ddfb741ddf5c9a9f69ef7b9c2bed2864a2abf02491c5db03f5ca44"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/central_smoke/identity.py",
+      "bytes": 1827,
+      "sha256": "8be3f9a846b3a2f7d109de5a3ce9deacf7ef6e27c04cdc1fbd4934d477aa60e2"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/central_smoke/sampling.py",
+      "bytes": 9200,
+      "sha256": "0013d260484237e60c4082c7eb8abc1d36b5b8f9a204bf243a87be52c39f1603"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/central_smoke/validation.py",
+      "bytes": 4219,
+      "sha256": "739d21bff23c06dcfb57dbf302f89b8e187b4c05b9f17476198ac182be720a39"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/__init__.py",
+      "bytes": 61,
+      "sha256": "5f5a7568bade10a80c6507512e8dbfb6e67bc60a89f41f0632903313fefea818"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/_embedded_resources.py",
+      "bytes": 14642,
+      "sha256": "8c5506142dbe84b9254ea0f13e4dad2678d5aa372ef213b2b38497555e5cf2f8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/bundle_checks.py",
+      "bytes": 11929,
+      "sha256": "5009e37cd826fe809fd312a88a54dc727d8dc6a219b15a05cddbd78bd2e8b551"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/client_app.py",
+      "bytes": 1006,
+      "sha256": "3e59f361235186ce72e088d9f447cbd71beff850df21b63820cb37cc8e81c866"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/encoding_schema.json",
+      "bytes": 9580,
+      "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/fixed_config.json",
+      "bytes": 4098,
+      "sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/host.py",
+      "bytes": 13236,
+      "sha256": "46ccdb23b42983b50ee0c8478a6e95b107eb2320bd5413e9ebb780a1f110fe28"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/listener_policy.py",
+      "bytes": 2061,
+      "sha256": "ecb827c8615d6422f22b4f1cf1274ade8ec1b83fbd368aaa2894ca451dee455e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/math_checks.py",
+      "bytes": 5373,
+      "sha256": "58b5d12c4af500741ea291725c64b8068c52b68857886846c1aaae3b86d48484"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/port_policy.py",
+      "bytes": 10530,
+      "sha256": "e3ffa908f9219af67d68d1e2e5f656331c58618f56a3de82535d0c664229a956"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/process_inspection.py",
+      "bytes": 6982,
+      "sha256": "75c3c3a27f8adfddc9552f1196974cfb116481f2c8db07ee2be4c00ab1dd91d5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/resources.py",
+      "bytes": 2343,
+      "sha256": "2cc6012e07b1c5f66f69c4d593dddbd3ff53a4f361d99db9c5c79f73301b1ec9"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/server_app.py",
+      "bytes": 8978,
+      "sha256": "9090ad462823388c21c3149a8079465857698424964b6510d74555b603892010"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/strategy.py",
+      "bytes": 7984,
+      "sha256": "88e4d5d2bd9da273a92197bb0b8dded3d234127517798527b5e787d2e5395a89"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_fedavg/task.py",
+      "bytes": 10488,
+      "sha256": "2e6b2fd2d817018dc06670e0eceea2260f02171970c1c0c889a6a7826e9cdf85"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/__init__.py",
+      "bytes": 105,
+      "sha256": "24afeb71cc94fd49b4b22ca0245e3246634165fb30e2e75e8b8ce0767a926d46"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/dataset.py",
+      "bytes": 5665,
+      "sha256": "bd8edd994b09334120228568d132d6b74294561cc2c7db44b5f80e9c5794b335"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/io_utils.py",
+      "bytes": 6685,
+      "sha256": "6b8c8b2187639525ca357b618d01c08650f95cdb84f8a8422c6bdb33507fa3f2"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/pipeline.py",
+      "bytes": 25953,
+      "sha256": "9f4de998976d7b7b7c043524eb5b20d70cd97ffd8df54d544793e0b8b94c06a5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/raw_crosscheck.py",
+      "bytes": 4591,
+      "sha256": "3fedfc7dd2b68ea15e0b86bc1f111b2e30d3553e5977e992c2e065a7d492db17"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_preprocessing/validation.py",
+      "bytes": 8756,
+      "sha256": "4e24fcda3ae08a6cdac80d4484d8244ff46b3235e2c4ede8a32e05ebeaafdd8b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/__init__.py",
+      "bytes": 83,
+      "sha256": "314e05878e6baea5269339c330d02bc60c8c4136880e7613a11ed77734dabb96"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/bundle_checks.py",
+      "bytes": 12242,
+      "sha256": "0afcf982abee4d3b548601a9a18a87b3c57c6a88f0d5144c90c6fd97538abcfc"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/client_app.py",
+      "bytes": 2734,
+      "sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/local_task.py",
+      "bytes": 1982,
+      "sha256": "29b7d392c93dc533a60725ae6e3a83e3115ca003117c43354cf612fb8098e61b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/oracle.py",
+      "bytes": 11489,
+      "sha256": "f79ca8a4637e9aeae53ca10a2459ba2347fba29c59e3837570f44613c3328e70"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/policy.py",
+      "bytes": 3965,
+      "sha256": "5f863f27d9e08952cf122dc1713e0eb273932cdc236e4667a34c18a75d559256"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/server_app.py",
+      "bytes": 7680,
+      "sha256": "c30d11a076d9dba91f2cab157b24897a555f2bd57a036b5450a0aebcb9341116"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/settings.py",
+      "bytes": 3550,
+      "sha256": "a370c60a0646f2b5c014989587c1345c2562367a41eae07492e8b0db518f8064"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/strategy.py",
+      "bytes": 3759,
+      "sha256": "1bc6b2b189be4501a66aa06c7021eebe98e7463853dd7e23ac831f387dae1b1d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/wire.py",
+      "bytes": 2426,
+      "sha256": "e224589f53235d639ffbc845ae1482b96ffa93117a625d48c0da9c06b10d2e2d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/ehr_secagg/workflow.py",
+      "bytes": 3647,
+      "sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/mai_fab_policy.py",
+      "bytes": 1582,
+      "sha256": "90a7162b10844a88ff297f365e5cc5c6979fe1ba7757c1d5efc7f6ad50388dc7"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/mai_measurement.py",
+      "bytes": 15645,
+      "sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/mai_runtime_identity.py",
+      "bytes": 10190,
+      "sha256": "798e2f142cbb8ad471c0c2ca9f8f15c17a07c8cc89e39981d0db2748606c0497"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/pilot_core/__init__.py",
+      "bytes": 79,
+      "sha256": "ed30536f65145a82d8b44304dcee4dd0dec466440a34a7131e75b7e8f4106256"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/pilot_core/core.py",
+      "bytes": 6901,
+      "sha256": "736409689b0417b7081c39c3515ddbeca6e730a8c36b4d9d1c9b8c20c0094e57"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/app/pilot_core/model.py",
+      "bytes": 4438,
+      "sha256": "6b5f60add681eabbed16255562cc0067acc0274ff1cdc34c2a1c4fef0b422141"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/authorisations/EVALUATE_FINAL_TESTS_UNAPPROVED_TEMPLATE.json",
+      "bytes": 283,
+      "sha256": "55d2d7f6914f6e27027bc6142de397cd2f064655c49c4cb2383f1537ba333f8e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/authorisations/RETRY_TRANSIENT_BLOCK_UNAPPROVED_TEMPLATE.json",
+      "bytes": 335,
+      "sha256": "22c2950d7d6987f99934c48d3de84735062d08031dda88a4e884735fc8fc2a52"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/authorisations/TRAIN_UNAPPROVED_TEMPLATE.json",
+      "bytes": 258,
+      "sha256": "bccdff62692c948c9fac81df7128fa03ca2be935ae0c9226fe7314fc7ddd4c80"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/encoding_schema.json",
+      "bytes": 9580,
+      "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/integration_policy.json",
+      "bytes": 3321,
+      "sha256": "ae85ff464f4d7a5b5b2633ce744b0bd0d96dedcc3021ca8cc14de42eb0023057"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/timing_B.json",
+      "bytes": 4098,
+      "sha256": "15e6a018be6b50dd051412f9bab98066363495d970cbbae5561be35700fd0147"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/timing_C.json",
+      "bytes": 3201,
+      "sha256": "9c8d78fb88e64e5c09fa0987d6ea4aec99cdc494668b884605d82e992a5cfd4b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/timing_draws_six_rounds.csv",
+      "bytes": 328728,
+      "sha256": "4357a029d262de078b2ca54c73ff797e2c14cc07fee33e739efaac65ac1e7379"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/timing_membership.csv",
+      "bytes": 159025,
+      "sha256": "2af0b7e0d8a67f4315aa77f975c2e50a5cedb8bde801c2403f0eb82564e82c16"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/timing_policy.json",
+      "bytes": 3554,
+      "sha256": "b685dbe78c388bdee3274eb8a7b23e784ba625097a7fe5d63543b8325f75e550"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/fullsize_support/data.py",
+      "bytes": 9034,
+      "sha256": "6932e236479902e2ec09c6543a63e1eca02ff8cc2abb9d44b154a4e88a31e7d9"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/fullsize_support/deployment.py",
+      "bytes": 7291,
+      "sha256": "7e2a80347aef058d8a3ef8a840a7587f673cafb6b5c0d26bce49be8b7b96ca96"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/fullsize_support/integrity.py",
+      "bytes": 2679,
+      "sha256": "01b56e89b55a9cc562c89f483df3633f7a9d0b4afc1ec8ea853dc62d9d75f7a8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/fullsize_support/preflight.py",
+      "bytes": 3178,
+      "sha256": "7f693e79790e80cbe8e6f7886122ddbc3a26331f2d6c74bc5191b0ab4f5dde36"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/fullsize_support/review.py",
+      "bytes": 8433,
+      "sha256": "81e7f90b3b04caef86cef868c559bc1445d52b91fcfaac2a0b035568476b561c"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/__init__.py",
+      "bytes": 85,
+      "sha256": "21c2522085eaa4b814ed3070fcbb10c9b246c0c4604557f3738e67a66763b155"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/campaign.py",
+      "bytes": 27940,
+      "sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/central.py",
+      "bytes": 6910,
+      "sha256": "ceaff3ddbb37c437fe6f9c1d48ed016d349d5a0b93a549940dde5f3bc41f484a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/common.py",
+      "bytes": 5642,
+      "sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/costs.py",
+      "bytes": 5707,
+      "sha256": "b3330eac79ae648324dc5ebd2beb5ef2b319d111cd3f4fa09bb70c6fc0709324"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/design.py",
+      "bytes": 11229,
+      "sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/evaluation.py",
+      "bytes": 10562,
+      "sha256": "7423885ca0efd46383860ac170afd3434628fd23b637f0d0023951d04d9938e3"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/failure_evidence.py",
+      "bytes": 3020,
+      "sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/final_evaluator.py",
+      "bytes": 6272,
+      "sha256": "0fdfa3596243f2b0ce9063ce8810b43aeb77b769e53c1e3aa292f22d6ab9aa4f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/inference.py",
+      "bytes": 2883,
+      "sha256": "0c9fd0f5aa4ec84f3f3c1ab8d3c947d67e3d83ee81dc73694cbb087151f53f96"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/measurement_gate.py",
+      "bytes": 6807,
+      "sha256": "c94650417a04acb11e2152815be7c6dc74741ec5518bfb6a49aa6d3dfa0f6699"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/repair.py",
+      "bytes": 8767,
+      "sha256": "bd50f0cb977efe2ba19486c5a320ab8107f5ca68b7f5c962ecdae4a13c1c14cf"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/staging.py",
+      "bytes": 3671,
+      "sha256": "2f8a564f55f6671a6e5dceb6129c50320a0123e30a6b7eeb7f84ece6ee1b4443"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/test_inputs.py",
+      "bytes": 5629,
+      "sha256": "3899bac46ddf2ae35afc415e22fb0992d3d6791e3ac2e8a87265045abd2ab390"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/Decision_Closure_Record.docx",
+      "bytes": 43133,
+      "sha256": "b2d7d59249bbc3b9993b2ddc019bed89a1f59e342989c79b66bb609537f1fda8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/MANIFEST.json",
+      "bytes": 2636,
+      "sha256": "ce4bd7e703f18394a84d6717309dab84e8e0abb7fbd56c1da72c0cd77588574b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/README_AR.md",
+      "bytes": 7303,
+      "sha256": "a1062d60065deb0637ca0f80f2fee7366964aaf3740d8acf947d547a0dc5140e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "bytes": 27769,
+      "sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_run_order.csv",
+      "bytes": 2531,
+      "sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/evidence/S02_source_file_manifest.csv",
+      "bytes": 1346,
+      "sha256": "4a388fae660ae699dea96c2f7a29e90fc7979c2be7185a6d848c867fbc714f13"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/evidence/S03_generation_notes.md",
+      "bytes": 2154,
+      "sha256": "5ef7e49509ed82509c93043dd2995292752e48cd16645531dc9c1679842c7877"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/evidence/S04_licence_status.md",
+      "bytes": 729,
+      "sha256": "4eed86e74a2cbfdd751610eee18c22a73745f388e1e22ef25243d06869e4cc69"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/evidence/S13_encoding_schema.json",
+      "bytes": 9580,
+      "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/evidence/S26_relative_time_scaler.json",
+      "bytes": 2414,
+      "sha256": "9c21672699ca2bf5daa3ab1cf74f615ce7a488fa3623a7247b629723a1cb8413"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/qa/decision_consistency_checks.json",
+      "bytes": 1144,
+      "sha256": "f694f614141a32b439cd5663dbc26da495b383b8bf1144280d2b4d1beb31f884"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/review/Evaluation_and_Analysis_Plan.md",
+      "bytes": 7429,
+      "sha256": "0d163eb595260de2d14bd3f3d6d65a127f1798effcd0061001f84a496a9fd8da"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/review/Security_and_Reporting_Limits.md",
+      "bytes": 4665,
+      "sha256": "a3277ae21d34511233060cae4f5750e1e0ee66c4d47e7d2bf1c371fc6aa2838c"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/review/authority_and_provenance.json",
+      "bytes": 1175,
+      "sha256": "4ac2b229a69e9b87d03e02006161c72b3aba87df60a6cdae8c74da03a0a3e270"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/review/change_log.json",
+      "bytes": 1379,
+      "sha256": "46703f4ec1834cf6f449487e24120ba3b6d695ec01676b974f57c23e9400827d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/review/closure_register.json",
+      "bytes": 1624,
+      "sha256": "f37ce7f4adc9f228412c75fda4fffb42b6773b75c6f3f1572ad1c5d21de1aeae"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_bc/full_environment_after.json",
+      "bytes": 2686,
+      "sha256": "92701e1d08a6d8af30581227acc7e8da04e6ff21ebd95b736ae9f499c45c7d18"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_bc/full_wheel_inventory.json",
+      "bytes": 10300,
+      "sha256": "7ea541caf5a98d5ad777f9bf4061bb09e26eb0c6595666f4e9794c35976176bb"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_bc/original_environment_after.json",
+      "bytes": 47897,
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_bc/report_files.json",
+      "bytes": 48110,
+      "sha256": "eed4c3af434c5a5e3419009b724a13a1322ab73cbbc13fa19ccd090277670f38"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_bc/stage_status.json",
+      "bytes": 656,
+      "sha256": "7a4c33e7a4e7fd19c667192c931f67110142ffd254827bc4d13fcb3a455a0136"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_fullsize/environment_after.json",
+      "bytes": 47826,
+      "sha256": "a770db43215b1975bdcdba3cd698a064b5be8f5051650bea86b1906e92682d2d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_fullsize/matched_fullsize_BC_review.json",
+      "bytes": 828,
+      "sha256": "7a3e174e04158f337b5fb93a0b1bd00e00ee30f3d085169e9a81f3f70b8e59f6"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_fullsize/original_environment_after.json",
+      "bytes": 47897,
+      "sha256": "df3dfab2bcf55b12e4aeb2dc5837cdc784fec3ac585a3e67aed5e4f02dd2d9cd"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_fullsize/report_files.json",
+      "bytes": 49857,
+      "sha256": "922e6ea9446510fbc8a51ad4d15364d75d8fb9e290542c642e58398ecae22c3f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_fullsize/stage_status.json",
+      "bytes": 788,
+      "sha256": "8544f86783c48a8a58de219a9266d33c0124ed836c6fbfcfe37c9aaf0721c62f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_inference_seed/report_files.json",
+      "bytes": 46450,
+      "sha256": "7b45be84504d1f89a86af7c571d10d537a774796a4c150325e16912d423b66df"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_inference_seed/stage_status.json",
+      "bytes": 967,
+      "sha256": "899f2c81b3b9e297f727e4412b9d3d5cdd0784e952fc33568d0eb5f246f6f236"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/accepted_initial_state.json",
+      "bytes": 200,
+      "sha256": "7219fc99bde371a5d5099409e5048b019c3275d40f106aef4a14fd3b2afbbadd"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/repair_policy.json",
+      "bytes": 1915,
+      "sha256": "49367f7611449f1414a85dcc7e5ea382557926180d3918178f9251f03841e330"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/A/cell_complete.json",
+      "bytes": 762,
+      "sha256": "ca39b4d08f107580df489b496d8d79c44cfdd121f71add21db5d00c6ee3dc028"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/A/central_summary.json",
+      "bytes": 843,
+      "sha256": "ce7e7b8559d2501dd996e6887ca4c565687b2f1f5a3c1cf8ad83783faaad480d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/B_probe.log",
+      "bytes": 1476,
+      "sha256": "5ca0fae5f0f9ef5d17810fd27d7abaa8425ab4ff5f82e5b465699224923103af"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/block_status.json",
+      "bytes": 1176,
+      "sha256": "e0420365ccb229dad6ea019ea04d3075dfbc6dae1d14f65ad61c9afdab36f87d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/report_files.json",
+      "bytes": 3348,
+      "sha256": "ef5d757dd1cf9ea22fdd65bcdc6bb2f1f08f2db073e79082b467fafa2ee63f44"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/reviewed_failure/worker_failure.json",
+      "bytes": 1223,
+      "sha256": "0e6beb89531862a281bb2b5c8cb3a5b6bb392dc37d7e13f2ccb6468d491cd4b4"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/runtime_change.diff",
+      "bytes": 43520,
+      "sha256": "6e670b638180b56b711e8480852d81dd5145b5bb208305f3e0d8104e940d6258"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/attempt_clone_fix/source_transition.json",
+      "bytes": 13284,
+      "sha256": "8123ae6ffe89004fcac5e17736951f8938ee711d7619fe6d333e3c46f161a1b3"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/counter_fix/counting_policy.json",
+      "bytes": 839,
+      "sha256": "2d06660692f23aafcc502298ac222c411c1783669bfe133a6f62f0948fce5987"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/counter_fix/flower122_config_count_method.py",
+      "bytes": 2276,
+      "sha256": "8c436360197787196997a96edd6708c7ffa542a9a033a37045ec2e83751ab448"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/counter_fix/measurement_change.diff",
+      "bytes": 4772,
+      "sha256": "4c81f8e8f53dcdd16a55aa2d527e4da295fb0ea115a289eaefeadcff41ae61e5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/counter_fix/source_evidence.json",
+      "bytes": 1311,
+      "sha256": "1bd4fcdffb7f25ed2d898840bd2afc4064a8e8811c1efd3b0342f6bf401fc5e4"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/counter_fix/source_transition.json",
+      "bytes": 20107,
+      "sha256": "6d7e6e0173b004b13c2ac4e0a026a0d0b6f8e56bfca1505ea9ba680fdd43282e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/failure_excerpt.txt",
+      "bytes": 6432,
+      "sha256": "9046a72a8a7988e30f7654f2b9979dd6b0c74f09d440be23e51ede16bb9b8718"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/failure_review.json",
+      "bytes": 4269,
+      "sha256": "02dcc4e5588b25af44dca69abc0ec2a57b843f533f57c33f3cf7f0f194fb5cbb"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/isolated_regression.log",
+      "bytes": 2276,
+      "sha256": "d20533bdc9b8d6c8f52b659236b2d44ef61d5e020f6b6ced1e33c1f493bcb9a0"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/local_full_suite.json",
+      "bytes": 8461,
+      "sha256": "18d76bfead7a0b67777b99e65b06f4223b822307ab07900245fdef22f6b29a5a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/local_full_suite.log",
+      "bytes": 77737,
+      "sha256": "0c641cf7bb79f000601f1caa43cf0e71089331aba4f710d995336036ca8370e5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/native_tests_change.diff",
+      "bytes": 3322,
+      "sha256": "81bff66a72f829a0a2fd6e765f1c0b6f14ace271084b75dce8a58f7af19334b4"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/resource_reproduction.json",
+      "bytes": 8464,
+      "sha256": "15799c0249d829b0e03fbf63ee8edca7cf7c4ddfb1731cebe61450ba9456a2b6"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fixture_import_fix/source_transition.json",
+      "bytes": 16971,
+      "sha256": "3fb8502b6131ac9f03f768ca565023fae9bab44eefb60a7f7b87f76450135cb8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/full_membership.csv",
+      "bytes": 1052664,
+      "sha256": "d98b97e24ece19323b944e768cc0fa7d68fd60ce59927c937bae7cd950bcbec5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "bytes": 4477,
+      "sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+      "bytes": 3655,
+      "sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_manifests/C1_five_round_draws.csv",
+      "bytes": 3715661,
+      "sha256": "2462b73dc598109d339ab4e89d82b506bc777bf63077eb14e50bf408b521c4a6"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_manifests/C2_five_round_draws.csv",
+      "bytes": 3688116,
+      "sha256": "2dd21354158cdf9c13f84fb1608d50be478945305cc2332449423134b494ad19"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_manifests/C3_five_round_draws.csv",
+      "bytes": 3629644,
+      "sha256": "275f398fc37e9fe6dd68030721ef1ff7d83d1be052817f4fce7ceed63b1bc30d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "bytes": 1869,
+      "sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/EMPTY_CONFIG_COUNT_FIX.md",
+      "bytes": 4317,
+      "sha256": "ead18840bdef3913423cebd4e56931671f312d5bc0535863623be72719da8630"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/METADATA_FIX.md",
+      "bytes": 3066,
+      "sha256": "31662342ccc29969276f8925c0e66a0b31e2fb054eace5f0312f4d610fa32b70"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/README.md",
+      "bytes": 3992,
+      "sha256": "9a74f9b35bb5e3e752dd98a905b1252538358affb7aa81c2c49d1e8861006338"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/README_AR.md",
+      "bytes": 7655,
+      "sha256": "8f049378aaa740325dc3cfca7adc46af121a5ec3c64e33456f36a53a597f879b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/SOURCES.md",
+      "bytes": 3281,
+      "sha256": "38b2671de1f4897083fbcfa5c17eaccf517caedc41daed2b96efd277f88df8c8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/inherited_docs/TIMING_ACCEPTANCE.md",
+      "bytes": 8225,
+      "sha256": "d7b41ddfb1cabfd748fba0509b2772080d536ddefc62a1b8dc173eefd09ab62e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/legacy_host_v1_0_3.py",
+      "bytes": 11191,
+      "sha256": "f161b7e3c4d7279109af0fb8560aa795b25c538dfe1f592cdd2e0530882a3faf"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/main_inference_selection.csv",
+      "bytes": 12404,
+      "sha256": "301ff27dfcde0ecda526b54a85133591ada440cf09dccde69724816222e306d0"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/observer_change.diff",
+      "bytes": 8258,
+      "sha256": "d1804e021f031fd20d46f9fae2c4888dbccc8e0adbc54da40a450ef7b7665865"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/old_observer_reproduction.json",
+      "bytes": 542,
+      "sha256": "50f5da7c2dbb0a9fe423e844f787b2f22bc8e816ae740e22c82a9ceddbfe67cb"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/repair_policy.json",
+      "bytes": 1909,
+      "sha256": "9440687dd647ff5ee5a3891995f202004d8d407563e93d2b9a1719c8102e9499"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/researcher_supplied_server_result.json",
+      "bytes": 236,
+      "sha256": "a06c544e645c750efe8536aa1bfa12120ef387b7792f44f20d5d43350f28c1ad"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/researcher_supplied_trace_location.txt",
+      "bytes": 376,
+      "sha256": "62f7a1cee573300b6246be6e4dbd6cc4ca6701e5b472e0cce8610a4c9a53b4e6"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/measurement_scope_fix/source_transition.json",
+      "bytes": 31535,
+      "sha256": "94d35a98ab8bdad6b0ebee13b18befaa7827f4cb20fe3e7e61734400b2acf8b6"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/pilot_membership.csv",
+      "bytes": 159025,
+      "sha256": "2af0b7e0d8a67f4315aa77f975c2e50a5cedb8bde801c2403f0eb82564e82c16"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/pilot_run_matrix.csv",
+      "bytes": 1183,
+      "sha256": "940156f2995f4c8ce45f80b1983957994f68acf3010ebfa20df181d3a35ea51f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/pilot_settings_v1_1.json",
+      "bytes": 14418,
+      "sha256": "f12ae9aae26738fd62b43fd66f712517a01df1b17f07a38a2cabfef48abb7d9f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/smoke_training_departments.csv",
+      "bytes": 34610,
+      "sha256": "3967544545a3d5eaa5aa0dfe69cd219b76a54bd7ef475e3498c104702d1b2d84"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/unchanged_numerical_source.json",
+      "bytes": 1386,
+      "sha256": "da6812bfab94cce64c10b1d32e79c309237ee152fe7d8b0ee2aa7983b204eab7"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/central_fullsize_local_engineering.json",
+      "bytes": 4013,
+      "sha256": "c5204b98328e554a323c9db25d3b471ac0d3b3d122e21027ebfead6cb9c28e22"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/development_gate_local.json",
+      "bytes": 242,
+      "sha256": "121a9fa106eb11162dbb52b7aa1393ca2d9c976a8ff5062c7863a4c6f60c5b50"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/local_preparation_status.json",
+      "bytes": 1070,
+      "sha256": "1924d08151d22db8febaf373dfd7b1561a1c09777618ff78e39e7d014ad0496c"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/local_tests_nonroot.json",
+      "bytes": 8065,
+      "sha256": "9cf90717559af12822df9c845111d97a9a313552ea4bf0b0443368875dd3f0b3"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/main_nonIID_sampling_local.json",
+      "bytes": 3183,
+      "sha256": "bac42a391eec966c633bf56e05152de4f1d5e0be2520aa97f2da4117d1caf21b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/predecessor_integrity.json",
+      "bytes": 294,
+      "sha256": "820bf6c95a4d18c05bde992bc2a5b181703000fed24196db812c21159fb84bee"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/reports_preparation/source_transition.json",
+      "bytes": 20467,
+      "sha256": "8a4e9576695623f3d7c791d5130185c24b0d763a8b2ea16c127edd764954394b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/environment_probe.py",
+      "bytes": 2525,
+      "sha256": "21d21f332d342ace7b45a820ce6e240675df0b2e2e4ef0c71dab364f738a298d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/generate_bundled_resources.py",
+      "bytes": 1334,
+      "sha256": "1dc79f3ab8d85a308cc3afdd5aa3a1a71d52296c59f23d71ad5ec887b64af301"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/host_snapshot.py",
+      "bytes": 370,
+      "sha256": "1c191311daebcc5fc3d2108eeb9ec1de8a75b429d9aae9263155208760847722"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/job_worker.py",
+      "bytes": 5232,
+      "sha256": "34263cd357495b4be218a2116fc6b28bc9b89a7636310ed51a876607575511a7"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/main_cli.py",
+      "bytes": 2870,
+      "sha256": "2103ccc6d919124b6c9e52f0d78b7f91ae1fc05c52f715984a94bb9512003041"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/run_main_tests.py",
+      "bytes": 973,
+      "sha256": "47a185cdeda76c95c9633c6f610cffff8a5729511ced9c9207f76a8c90dd8dc5"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/run_on_wsl.sh",
+      "bytes": 3776,
+      "sha256": "964c9629977c8b0edbc26c85a81ba7198273b4d11337ed6b0f12d6db99b8d893"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/run_timing.py",
+      "bytes": 15071,
+      "sha256": "ee43ce9e96b0e764d674fa86aba33aa43d9ab2b9fb823e370c787142c1d5ff0d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/scripts/run_unit_checks.py",
+      "bytes": 800,
+      "sha256": "8732cc48203ebe661330e40f0be9f52c71e01615714babd5eaed54984934f87e"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/flower_message_fixture.py",
+      "bytes": 2552,
+      "sha256": "438b46a20287e27555d46952b574b361a874e03056b815fba36b6ac9be701d60"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/process_lifecycle_probe.py",
+      "bytes": 6192,
+      "sha256": "3f294d8ba511b0f163e1b2828be5c6f76048529919c6f5d0c1bfb86f7771e338"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_bundle_resources.py",
+      "bytes": 10097,
+      "sha256": "691304b98e52509c8f7bec902759bed5aabf0c91311d17e4225d5e31eced6919"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_empty_config_counter.py",
+      "bytes": 14424,
+      "sha256": "cbfc71747d95203075941ba64c5f9c9bc370e41a4fb00888082a03bf857ec1a8"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_fab_build_identity.py",
+      "bytes": 9121,
+      "sha256": "d9bbbecc1669c4da435b0de42ee6b98c4e4f266e6c6da220fd81752f435c6b87"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_host_lifecycle.py",
+      "bytes": 2232,
+      "sha256": "6ee9e95e577b8e23abe099c39f6367488f765d6fb9237d3f4da00b8b00b8b94a"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_integration_identity.py",
+      "bytes": 13735,
+      "sha256": "0fadbd2595ae608c54576399cb35ebf1345aba4d1f8ddd5e8b7a442aa4ebf573"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_listener_policy.py",
+      "bytes": 11783,
+      "sha256": "ff2eca382cb5027ba774e55054b36ed711c8800f9404971e1a12dd33936c2186"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_measurement.py",
+      "bytes": 21457,
+      "sha256": "1e096e5c45c4eb4e0d655af61ec123f4b544cc1ce886c21bc56dfc38af08dfbd"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_native_patched_fab.py",
+      "bytes": 2971,
+      "sha256": "da8584a68f9cde152a9f24781570a229ee83a5dc1bd8d75facd54d4438e81412"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_port_policy.py",
+      "bytes": 12286,
+      "sha256": "e98787076eae3352605ccc594412941380796ff5759a437b364a4b939e99d8c9"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_process_inspection.py",
+      "bytes": 13177,
+      "sha256": "da169ccdeb048299c8f23b8c6e20944904b50ade43ac1cadcb5d65938bae9341"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_received_message_fixture.py",
+      "bytes": 11486,
+      "sha256": "50a7e97fd0f3b1bed48e3719da40279886f4fe336d9570907903f32bef102e57"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests/test_runtime_path.py",
+      "bytes": 5778,
+      "sha256": "f8c920874fd03f159b9f3b324ccd4d68ed35e976d0e1ec1f5e30eaa0d8cc16ae"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/_isolated_app_probe.py",
+      "bytes": 7939,
+      "sha256": "743a25759713347be91a9255e701f6264c125947823006f1a7fe7d71beebe857"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_attempt_staging.py",
+      "bytes": 9539,
+      "sha256": "75b5e7197ff606e07d7031f973338b6f348673e8b562d74251e9515577b33542"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_block_probe_order.py",
+      "bytes": 3336,
+      "sha256": "ffb08d4ceadba7fed8d5c2640ee8a5a2ab76348d05ec68f0a2e1791711a5570b"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_boundaries.py",
+      "bytes": 8933,
+      "sha256": "5a7c214fb15b0dc5f6eddb5cde848cf2d5f70ba9df94c7fda109e84636d360a9"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_code_repair.py",
+      "bytes": 12791,
+      "sha256": "b90284df3eca6ad117a67a576ee74bb343a7dd94ab6a32f80390e632d89faf76"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_evaluator_flow.py",
+      "bytes": 5118,
+      "sha256": "f8c09f93e078395d1c588fe6ab9a82b9a68e64e13ca8f3281d495326f992326f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_fixture_resource_isolation.py",
+      "bytes": 9724,
+      "sha256": "97c6d56299ff18187d90f8ef11e8b45187c47055e83747d94175f897601f8761"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_main.py",
+      "bytes": 17988,
+      "sha256": "57a192e293aeec6f131c58fe29bbd6f0dc43e5f83326a9f2290d87663f243a3f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_measurement_contract.py",
+      "bytes": 9776,
+      "sha256": "849c15940efeed66c024485e85a3b1d85a8cdee4d3b2fde653f49274bd72ec2d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/tests_main/test_measurement_failure_repair.py",
+      "bytes": 7317,
+      "sha256": "f6260d55d7b46737e3c8ee469b6c13ec7147ee1975dd7e3f857a958c9e3c1df4"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/timing_support/analysis.py",
+      "bytes": 11754,
+      "sha256": "25cf2bec59ea8342dd60ae1287e96899106ff9d2d17ded8312e7c60f1f98ed05"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/timing_support/data.py",
+      "bytes": 5273,
+      "sha256": "79f14dfa7251281bd7f147b9c38985c38cd467c0ab341637f502c625392b7fad"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/timing_support/deployment.py",
+      "bytes": 8181,
+      "sha256": "571d3ee62ef7edda915a9fdd0f61b56936be17d6992f0a34cf542d7f3d228402"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/CHANGE_MANIFEST.json",
+      "bytes": 1825,
+      "sha256": "42fd85a66cbe5c8a3c9883ac7dc0d817e4e51e4c92f561948dce816f4be61381"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/LICENSE-Flower-Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/NOTICE.md",
+      "bytes": 1298,
+      "sha256": "5e0b5dd4160b17147bde5f9f379dd9b7d54ca2738a0e59e27e227e102128222d"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/__init__.py",
+      "bytes": 80,
+      "sha256": "7bf9471c2a86f0706041b360d2899ac38eb88745c36dd10eea1060f03450e322"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/build.py",
+      "bytes": 7951,
+      "sha256": "f8bea50e42401cb6aa859453fda908032ea95dfd6c8ddb6360df397b15fcbd42"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/identity.py",
+      "bytes": 2796,
+      "sha256": "94e5629fc6bd6185646a19fd46dd4d97737f37fbc5f45a8d23c5ac009b35d994"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/policy.py",
+      "bytes": 3821,
+      "sha256": "f3ed6a63d8b0f3662f220b76d06d7deb76518f314d0a31300d7de9f6eb283d4f"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/primitive_tests.py",
+      "bytes": 4290,
+      "sha256": "1f8de54ba976f85d9c8ba2f79ba7f5e55dc9b435ceb2ee1d56ae9a2db8c72fb0"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/public_protocol.py",
+      "bytes": 12292,
+      "sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/runtime_checks.py",
+      "bytes": 4107,
+      "sha256": "a82fe1d6fe6000b11fc9650b299cd2f8a8a010aaa0be403fb53aa53e600fc508"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/settings.py",
+      "bytes": 222,
+      "sha256": "081e40320f06a373ea365decd6057246a2956530bfd2e0d5462f5e258344cde3"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/snapshot.py",
+      "bytes": 2614,
+      "sha256": "7a339b8f165bd1075c7e9e066a28bbd0861476bcfa290e22f80e5e3e2118ffa1"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/prg_validation/wire.py",
+      "bytes": 2369,
+      "sha256": "4def294e19ed6424397a306990ad1a0ec9f8961922a38e21e2219352e530fe48"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/sources/UNMERGED_PR_7570_e87804ad_secaggplus_utils.py",
+      "bytes": 4773,
+      "sha256": "f644ca905b17a83f9c82c5115db5d64bfa63a97abad24ca1a847141ecc05ac67"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/sources/backport_secaggplus_utils.py",
+      "bytes": 5005,
+      "sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c"
+    },
+    {
+      "path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/validation_support/sources/flower_v1_22_0_secaggplus_utils.py",
+      "bytes": 3214,
+      "sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a"
+    },
+    {
+      "path": "results/figures/Figure_4_1_Held_Out_AP.png",
+      "bytes": 103242,
+      "sha256": "c60b446f4a00289cea49f6740bfa5ec4767b958bbaee81c12a8325c71cd027fe"
+    },
+    {
+      "path": "results/figures/Figure_4_1_Held_Out_AP.svg",
+      "bytes": 47393,
+      "sha256": "1b33fe6b7bb7390bced646e89e79941926c76dd5e4e81d41e630d098562d08ab"
+    },
+    {
+      "path": "results/figures/Figure_4_2_Paired_AP_Differences.png",
+      "bytes": 100274,
+      "sha256": "faa55eb925d9f054feb2bc1e959e02ec847275400edaf23d3ced91774a464a87"
+    },
+    {
+      "path": "results/figures/Figure_4_2_Paired_AP_Differences.svg",
+      "bytes": 45209,
+      "sha256": "823854c9fa35422ea696916d093153ef86d026b2099bc33d89552545749e3223"
+    },
+    {
+      "path": "results/figures/Figure_4_3_Legitimate_Subgroup_FPR.png",
+      "bytes": 112639,
+      "sha256": "6642f54177e2a96b3e6c400ecade2829cc9920c125fd59373ed607c1b4df7619"
+    },
+    {
+      "path": "results/figures/Figure_4_3_Legitimate_Subgroup_FPR.svg",
+      "bytes": 45893,
+      "sha256": "662ee910e813f238b4c8ade6372785ffe7125341af64df0759efa6fddaa51102"
+    },
+    {
+      "path": "results/figures/Figure_4_4_Paired_Training_Time.png",
+      "bytes": 201891,
+      "sha256": "865e674d8c5f4019167ae094fa519d3a1f73eeaf87f3f711fe18a83c16935e18"
+    },
+    {
+      "path": "results/figures/Figure_4_4_Paired_Training_Time.svg",
+      "bytes": 44412,
+      "sha256": "627c1b99c1f32ada64e7b21a14088a27e9425a32136df13cc87241e73ab350b2"
+    },
+    {
+      "path": "results/tables/confusion_count_summary.csv",
+      "bytes": 1508,
+      "sha256": "b53e9f695fd813c87202883b77b23759f0c99ffb9a05b5ab692c5494e14102f8"
+    },
+    {
+      "path": "results/tables/descriptive_class_error_summary.csv",
+      "bytes": 25310,
+      "sha256": "bab740d98c69b0baa427bc1ef83d2ceb3f0fd2353fea0b54a55daaef8417e402"
+    },
+    {
+      "path": "results/tables/descriptive_pairwise_ordering_summary.csv",
+      "bytes": 5127,
+      "sha256": "6039914ea820c2d882d1c83babef7a3d2b3ee8947e029b001047e612e10d6078"
+    },
+    {
+      "path": "results/tables/global_results_table.csv",
+      "bytes": 4904,
+      "sha256": "5202352d84a975bdaadf4aaa40af739add92fd6ff891970ce6d2f30c3c910508"
+    },
+    {
+      "path": "results/tables/paired_contrasts.csv",
+      "bytes": 25563,
+      "sha256": "db822c79f059d3f55b1f510b6572d3e878fe2ba16077261579fc73f0dcc55509"
+    },
+    {
+      "path": "results/tables/per_client_rank_summary.csv",
+      "bytes": 3883,
+      "sha256": "bcf50754d608d1170be6f146fd4148ddafb581f264b614ef207dc64c48757615"
+    },
+    {
+      "path": "results/tables/recomputed_decision_metrics.csv",
+      "bytes": 156030,
+      "sha256": "8b4e7f7636a9f5e03cf66e3712efa47e9839cba91ec60e87baa957a1d0c08729"
+    },
+    {
+      "path": "results/tables/recomputed_rank_metrics.csv",
+      "bytes": 25872,
+      "sha256": "909f2bfc0e21e8e10027d80c834f6ee1af6503fe5f9728be65577621fb8c3e62"
+    },
+    {
+      "path": "results/tables/seed_summary.csv",
+      "bytes": 19557,
+      "sha256": "1d4fdd508a9dc6638e50a3da4ed8145b38c0c88d893018d8283e3b29571b365b"
+    },
+    {
+      "path": "results/tables/selected_models_and_validation_loss.csv",
+      "bytes": 2991,
+      "sha256": "f02ea2668fa7c61bc72b9d7c088818069a92d6163216b74dfc5452b1bd2b08a9"
+    },
+    {
+      "path": "results/tables/system_cost_run_values.csv",
+      "bytes": 3546,
+      "sha256": "037b9e534a0aff31509fd66974530cc8780b04125b7ccf5437da9430ec6acf45"
+    },
+    {
+      "path": "results/tables/test_composition.csv",
+      "bytes": 2516,
+      "sha256": "e3ca103973dbec0382c28f06cddf81b4f5ceef20e4f1833eb96517f20fb5413c"
+    },
+    {
+      "path": "results/tables/threshold_sensitivity_all_methods.csv",
+      "bytes": 6851,
+      "sha256": "4db1e8e3d602148f7e82c7237c16c05154d12ce2a94dfff0c10acdd82854934e"
+    },
+    {
+      "path": "tools/verify_handover.py",
+      "bytes": 3951,
+      "sha256": "84f002f90f196ed1ab4167ddadd3801b06bc544ec01e881effa8e58428d7532b"
+    }
+  ]
+}

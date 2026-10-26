@@ -1,0 +1,6 @@
+Yellow: language and phrasing
+Cyan: definitions and connections between ideas
+Green: concise wording and removed repetition
+Pink: an explanation that remains limited by missing original documentation
+Only inserted or replaced text is highlighted. Deletions and complete before/after passages are recorded in Changes_Before_After.csv.
+No new scientific or security experiment was run for this revision.

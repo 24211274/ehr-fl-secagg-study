@@ -1,0 +1,1 @@
+Yellow: language. Cyan: structure, scientific clarity, new equation, moves and appendix transfers. Green: concise wording and removed repetition. Changed words are marked; newly separated/relocated paragraphs are cyan. Complete deletions and original passages are retained in the before/after CSV. No new training, detector upload or new authorship claim.

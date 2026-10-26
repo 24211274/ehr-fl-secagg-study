@@ -1,0 +1,56 @@
+{
+  "source_unchanged": true,
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_26_Scholarly_Flow_Clean_20261020.docx",
+      "sha256": "bcbc1831066e8d085fdff2b49c67258c44d04cc5c13a8169c885215d3653f5a9",
+      "paragraphs": 2389,
+      "tables": 51,
+      "media": 7,
+      "bibliography_entries": 42,
+      "highlight_runs": 0,
+      "highlight_colours": {},
+      "refreshed_navigation_paragraphs": [
+        "P0055"
+      ],
+      "links": [
+        "Supplementary_Artifacts/ME06_Evidence.zip",
+        "Supplementary_Artifacts/Result_Traceability_Evidence.zip",
+        "Supplementary_Artifacts/Evidence_Companion.md",
+        "Supplementary_Artifacts/Supplementary_Diagnostics.zip",
+        "Supplementary_Artifacts/Security_Validation_Evidence.zip"
+      ],
+      "errors": []
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_26_Scholarly_Flow_Highlighted_20261020.docx",
+      "sha256": "f03dd67c59fc5d63a580209dea4d9251666e519dda4dda625a563fd86f7e5ef3",
+      "paragraphs": 2389,
+      "tables": 51,
+      "media": 7,
+      "bibliography_entries": 42,
+      "highlight_runs": 204,
+      "highlight_colours": {
+        "cyan": 113,
+        "green": 35,
+        "yellow": 56
+      },
+      "refreshed_navigation_paragraphs": [
+        "P0055"
+      ],
+      "links": [
+        "Supplementary_Artifacts/ME06_Evidence.zip",
+        "Supplementary_Artifacts/Result_Traceability_Evidence.zip",
+        "Supplementary_Artifacts/Evidence_Companion.md",
+        "Supplementary_Artifacts/Supplementary_Diagnostics.zip",
+        "Supplementary_Artifacts/Security_Validation_Evidence.zip"
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "clean_and_highlighted_same_text": true,
+  "status": "PASS"
+}

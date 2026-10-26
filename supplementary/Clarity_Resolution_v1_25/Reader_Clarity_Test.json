@@ -1,0 +1,230 @@
+{
+  "review_type": "Fresh-reader clarity test",
+  "reviewed_date": "2026-10-20",
+  "reviewer_context": "No prior thesis history. The supplied reader copy was treated as the reader's document.",
+  "scope": {
+    "inputs": [
+      {
+        "file": "evidence/Reader_Copy.json",
+        "sha256": "6B2A225C3224FF61CF27E0ED9C3EE020F878BCB5E048C140B4023FF8B41F390E"
+      },
+      {
+        "file": "evidence/Integrated_Changes.json",
+        "sha256": "1200DA0FD1DF3AC640000DA95FBB046C771D9C5A4A52F8285E060456FFD8C835"
+      }
+    ],
+    "read": "All six main chapters' narrative paragraphs, all 54 integrated changes, and relevant table/appendix context for the changed passages.",
+    "changed_paragraphs": 54,
+    "finding_ids_covered_by_changes": 62,
+    "fidelity_guidance": [
+      "academic-humanizer: preserve claims, numbers, citations, uncertainty and limitations; use local changes only",
+      "doc-coauthoring: fresh-reader questions and ambiguity testing"
+    ],
+    "supplemental_internal_read": "The existing Definition_Resolution_Ledger entries for VC-37, VC-50, VC-51 and VC-58 were consulted only to distinguish a wording problem from a documented source/code result. This did not involve new source searching.",
+    "actions_excluded": [
+      "No source or web search",
+      "No code-source investigation",
+      "No Word edits"
+    ]
+  },
+  "overall_verdict": "The main argument and the important implementation distinctions are recoverable. Three small local edits would remove residual opaque terminology, chiefly in the search appendix and SV-07 scope table. One further function-substitution wording change is optional.",
+  "checks": {
+    "vague_reviewed_evidence_phrase": "No occurrence of 'Within the reviewed evidence' or 'reviewed evidence' remains in Reader_Copy.json.",
+    "literature_referent": "P0485 explicitly names previous studies and the chapter, then states the comparison question.",
+    "undocumented_source_terms": "P0476 explicitly leaves the entity type behind 90,385 unique IDs unknown; P0576 explicitly leaves C/E/R/U meanings unsupplied. These are disclosed information limits, not wording failures.",
+    "claims_not_verified_by_this_test": "This is a reader-clarity assessment, not a source or numerical audit."
+  },
+  "reader_questions": [
+    {
+      "id": "RQ-01",
+      "question": "What was compared, on which data, and what can the results imply for hospitals?",
+      "answer": "Pooled centralised training, standard FedAvg and FedAvg with SecAgg+ used one supplied benchmark described as synthetic, three simulated clients, two sampling conditions and five seeds. The text separates benchmark findings from claims about independently administered hospitals.",
+      "paragraphs": [
+        "P0032",
+        "P0314",
+        "P0315",
+        "P0489",
+        "P0491",
+        "P1641"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-02",
+      "question": "Which previous studies motivate the research question?",
+      "answer": "The literature gap names Martínez Llamas, Senturk, Iqbal, Lytvyn and Nguyen, and Sutradhar, states their different roles, and asks about the matched FedAvg/SecAgg+ comparison. The reader is not required to infer that 'evidence' means literature.",
+      "paragraphs": [
+        "P0485",
+        "P0487"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-03",
+      "question": "Were the data regenerated or independently authenticated by replay?",
+      "answer": "No. Configuration records matched a local file and supplied partition seeds are reported, but original creator, generator, construction rules, labels and rights remain unverified. Replay starts from the supplied CSV snapshot.",
+      "paragraphs": [
+        "P0498",
+        "P1937",
+        "P1938"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-04",
+      "question": "Why are two secret shares sufficient while all three client replies are still required?",
+      "answer": "Each client creates three shares of each of two secrets; two reconstruct a secret for unmasking. The workflow nevertheless requires all three clients at every accepted stage, and missing replies stop processing. The reconstruction threshold and workflow participation policy are distinct.",
+      "paragraphs": [
+        "P0711",
+        "P0717",
+        "P0718"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-05",
+      "question": "Did the old and candidate masking helpers produce the same outputs in the constructed legacy-fold control?",
+      "answer": "No. Distinct public seeds chosen to collapse under the old seed reduction produced identical old-helper arrays and distinct candidate-helper arrays. This tests the constructed case, not general cryptographic collision resistance.",
+      "paragraphs": [
+        "P0736",
+        "P1448"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-06",
+      "question": "Did the SETUP restart test execute a reset?",
+      "answer": "No. It asked the stage validator to permit SETUP after SHARE_KEYS. The separate setup code's reset operations are described, and the text explicitly states that this reset was not executed by the check.",
+      "paragraphs": [
+        "P1457",
+        "P2249"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-07",
+      "question": "Which logging and error-report code actually ran, and what did the harness substitute?",
+      "answer": "Actual logging counters, timing/metadata collection and error-report selection ran. The harness substituted public values returned by measurement_scope(), bypassing the normal loading and validation of bundled measurement settings. This did not test the complete application or network.",
+      "paragraphs": [
+        "P2251"
+      ],
+      "result": "recoverable_with_optional_wording_refinement"
+    },
+    {
+      "id": "RQ-08",
+      "question": "What do the 281 API identifiers and 452 catalogue groups count?",
+      "answer": "The reader can recover that 281 counts source/record-ID pairs across database returns and that 452 counts groups linked through identifiers, DOIs or URL matching. Neither is a verified count of unique studies. 'Source namespace' and 'normalised URLs' leave avoidable terminology work for the reader.",
+      "paragraphs": [
+        "P1743",
+        "P1767",
+        "P1768"
+      ],
+      "result": "recoverable_core_with_local_terminology_obstacles"
+    },
+    {
+      "id": "RQ-09",
+      "question": "How does the repaired malformed request differ from the original failure?",
+      "answer": "The original malformed collection request reached local computation and failed with KeyError during unmasking. The targeted project validator repair rejects it with ValueError during collection before the affected client's local computation and before aggregate acceptance. The historical 101-case ledger and later tests use distinct counting units.",
+      "paragraphs": [
+        "P0740",
+        "P1460",
+        "P1468",
+        "P1469",
+        "P2253",
+        "P2254"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-10",
+      "question": "What exactly matched in replay, and what did not?",
+      "answer": "Compared predictive outputs, selected tensors, calibration and scores matched. One float64 scaler diagnostic differed by an adjacent value; a separate replay file set reused historical scaler JSON bytes to meet the runtime file hash. Resource measurements also differed.",
+      "paragraphs": [
+        "P0842",
+        "P1437",
+        "P1438",
+        "P1439",
+        "P2246",
+        "P2247"
+      ],
+      "result": "recoverable"
+    },
+    {
+      "id": "RQ-11",
+      "question": "Did marker scanning establish that every diagnostic record is safe to share?",
+      "answer": "No. Selected outputs omitted literal public payload markers; separate artifacts retained a permitted metadata marker. The limits exclude arbitrary sensitive content, private logs/stores and process memory. P2280's old component nicknames remain a local obstacle.",
+      "paragraphs": [
+        "P1470",
+        "P2255",
+        "P2280"
+      ],
+      "result": "recoverable_core_with_local_terminology_obstacle"
+    }
+  ],
+  "remaining_genuine_obstacles": [
+    {
+      "id": "RC-01",
+      "paragraph_id": "P1743",
+      "severity": "small_required_clarity_edit",
+      "obstacle": "The count is explained, but 'source namespace' introduces an opaque technical term and does not explicitly frame MED/ETH as source labels paired with a record ID.",
+      "exact_old": "Grouping these by source namespace and record ID yielded 281 distinct pairs: MED identifiers shared across PubMed and Europe PMC, plus an ETH identifier returned by Europe PMC.",
+      "exact_proposed": "Grouping these records by source label (MED or ETH) and record ID yielded 281 distinct pairs across the databases. MED identifiers occurred in PubMed and Europe PMC; Europe PMC also returned one ETH identifier.",
+      "preservation": "Retains 281, both database names, the single ETH record and the pair-counting rule. Does not invent an expansion or document type for ETH."
+    },
+    {
+      "id": "RC-02",
+      "paragraph_id": "P1768",
+      "severity": "small_required_clarity_edit",
+      "obstacle": "'Normalised URLs' is the only remaining unexplained operation in the otherwise concrete explanation of 452 identifier-linked groups.",
+      "exact_old": "identical source identifiers, DOIs or normalised URLs",
+      "exact_proposed": "identical source identifiers, DOIs or web addresses put into a common format for matching",
+      "preservation": "A plain-language definition of normalisation only. If the editor wishes to list particular transformations, use the already retained catalogue code resolution; do not infer operations such as removing query parameters."
+    },
+    {
+      "id": "RC-03",
+      "paragraph_id": "P2280",
+      "severity": "small_required_clarity_edit",
+      "obstacle": "'Observer and capsule' are no longer named or defined in P2251, which now explains them as logging and error-report functions. P2280 therefore reintroduces unexplained internal component names.",
+      "exact_old": "SV-07 covered selected outputs from the observer and capsule and literal public canary strings. Host process memory, all private logs/stores and sensitive information in permitted metadata beyond the literal public test markers were outside this contract.",
+      "exact_proposed": "SV-07 checked selected JSON outputs from the logging and error-report functions for literal public test markers. Host process memory, all private logs/stores and sensitive information in permitted metadata beyond those markers were outside this test's scope.",
+      "preservation": "Preserves the selected-output and literal-marker limits and every excluded area. Connects the table directly to P2251 and P2255."
+    }
+  ],
+  "optional_smaller_refinement": [
+    {
+      "id": "RC-04",
+      "paragraph_id": "P2251",
+      "reason": "The distinction is already recoverable, but a function is technically replaced by a substitute function returning values. Stating that directly makes the loader limitation more concrete.",
+      "exact_old": "The harness replaced measurement_scope() with public round, condition, stage and configuration-digest values, bypassing its normal loading and validation of the bundled measurement settings for that run.",
+      "exact_proposed": "The harness substituted a version of measurement_scope() that returned public round, condition, stage and configuration-digest values, bypassing the function's normal loading and validation of the bundled measurement settings for that run.",
+      "preservation": "No added validation claim. Actual counters, logging and error-report code still ran."
+    }
+  ],
+  "explicit_passes_on_sensitive_distinctions": [
+    {
+      "paragraph_id": "P0711",
+      "result": "Two shares reconstruct either secret; all three replies remain required by workflow policy. Clear without an inferred dropout guarantee."
+    },
+    {
+      "paragraph_id": "P1448",
+      "result": "The legacy control outcomes are explicitly different for the old and candidate helpers. The term is immediately explained well enough for this result."
+    },
+    {
+      "paragraph_id": "P1457",
+      "result": "Permission for SETUP restart is explicitly distinguished from executing the reset."
+    },
+    {
+      "paragraph_id": "P2251",
+      "result": "Actual observation/export functions are distinguished from the substituted settings-loading function, with limits stated."
+    },
+    {
+      "paragraph_id": "P0476",
+      "result": "Unique-ID entity type is explicitly undocumented; no guessed entity supplied."
+    },
+    {
+      "paragraph_id": "P0576",
+      "result": "C/E/R/U code meanings are explicitly unsupplied; no guessed meaning supplied."
+    }
+  ],
+  "recommendation": "Apply RC-01 to RC-03 as local wording corrections. RC-04 is optional. No broad rewrite, new claim, new citation or source inquiry is needed for the reader-clarity issues identified here."
+}

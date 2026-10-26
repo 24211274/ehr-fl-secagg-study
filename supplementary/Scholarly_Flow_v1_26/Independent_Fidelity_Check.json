@@ -1,0 +1,446 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-20T07:50:11.645987+00:00",
+  "reviewer": "Independent v1.26 scientific/editorial fidelity reviewer",
+  "review_type": "Complete old/new editorial meaning-preservation audit with baseline and reader context",
+  "input_file": "evidence/Integrated_Changes.json",
+  "input_sha256": "c75a34fb5c94019a74b6926ca31eaa49f286f39cafd0ae296da6e2ecd09ec1ec",
+  "input_hash_verified": true,
+  "input_file_hashes": {
+    "evidence/Integrated_Changes.json": "c75a34fb5c94019a74b6926ca31eaa49f286f39cafd0ae296da6e2ecd09ec1ec",
+    "evidence/Paragraphs_Baseline.json": "0438b7d5e52eafddf7bcfdc744171d04040a5e84a31dbbe733ce175700e95aea",
+    "evidence/Reader_Copy.json": "5a277ec888e9071fbb9dca0fde3cf965c4d304d04580fe26614a861ca097a0f8",
+    "evidence/Prior_16_Approved_Proposals.json": "99bcf86696dedf04d24ad43c45d8d592e1e5e22e710087c7f55d8f9c3a04fbe2",
+    "evidence/Package_Baseline.json": "7d5c1f35792646108891fbea9cf9e56f487d1e2e7021ce46e17432cf00c1dda8"
+  },
+  "source_snapshot_sha256": "064b267a7c62ccbc5f447bf6bc6c1248316e3310de307730e1ed3055351e40ed",
+  "source_snapshot_matches_package_baseline": true,
+  "reviewed_count": 43,
+  "reviewed_ids": [
+    "P0032",
+    "P0300",
+    "P0301",
+    "P0326",
+    "P0327",
+    "P0333",
+    "P0334",
+    "P0337",
+    "P0345",
+    "P0348",
+    "P0351",
+    "P0418",
+    "P0422",
+    "P0423",
+    "P0536",
+    "P0567",
+    "P0653",
+    "P0654",
+    "P0656",
+    "P0657",
+    "P0666",
+    "P0674",
+    "P0737",
+    "P0738",
+    "P0739",
+    "P0740",
+    "P0779",
+    "P0811",
+    "P0812",
+    "P0816",
+    "P0841",
+    "P0842",
+    "P1108",
+    "P1212",
+    "P1393",
+    "P1437",
+    "P1438",
+    "P1441",
+    "P1457",
+    "P1551",
+    "P1592",
+    "P2159",
+    "P2251"
+  ],
+  "reviewed_complete_old_and_new_texts": true,
+  "checks": {
+    "all_old_texts_equal_baseline": true,
+    "all_old_sha256_values_verified": true,
+    "all_reader_new_texts_equal_integrated_new_texts": true,
+    "unchanged_paragraphs_identical": true,
+    "unchanged_paragraph_count": 2344,
+    "baseline_reader_id_sets_identical": true,
+    "numeric_token_sequences_preserved_for_all_43": true,
+    "conditions_units_metric_names_and_denominators_preserved": "PASS: complete manual comparison; no conversion, recalculation or changed population/conditioning found",
+    "negations_uncertainty_and_causal_strength_preserved": "PASS",
+    "citation_scope_preserved": "PASS: existing cited claims, author-year attribution and limiting context retained; no new source support asserted",
+    "technical_terms_and_identifiers_preserved": "PASS",
+    "approved_proposal_count": 16,
+    "all_16_approved_exact_after_passages_retained": true,
+    "approved_proposal_ids": [
+      "ROOT-01",
+      "FRONT-001",
+      "FRONT-002",
+      "FRONT-003",
+      "FRONT-004",
+      "FRONT-005",
+      "MR01",
+      "MR02",
+      "MR03",
+      "MR04",
+      "MR05",
+      "MR06",
+      "DA02",
+      "DA04",
+      "DA05",
+      "DA06"
+    ]
+  },
+  "paragraph_reviews": [
+    {
+      "id": "P0032",
+      "status": "PASS",
+      "finding": "Only the opening sentences are joined. All benchmark counts, AP differences, overheads, FPRs, trust assumptions and data-generation limitations remain verbatim."
+    },
+    {
+      "id": "P0300",
+      "status": "PASS",
+      "finding": "Redundant framing is removed; no raw-record transfer, server visibility, protocol assumptions, separate detection/protection evidence and both cost dimensions remain."
+    },
+    {
+      "id": "P0301",
+      "status": "PASS",
+      "finding": "Both comparison stages and the pooled-model reference/deployment caveat remain."
+    },
+    {
+      "id": "P0326",
+      "status": "PASS",
+      "finding": "The negative conclusion retains independently validated misuse and both unseen-real-user and unseen-real-patient conditions."
+    },
+    {
+      "id": "P0327",
+      "status": "PASS",
+      "finding": "25,151 simulated user-days, chronological partitions, normal and nonmalicious negatives, and the present routine-only training contrast remain."
+    },
+    {
+      "id": "P0333",
+      "status": "PASS",
+      "finding": "Parenthetical definitions preserve 200 observations, higher vector-model recall/F1, fewer LSTM false positives and all source-method/explanation limitations. Its still refers to the Senturk study."
+    },
+    {
+      "id": "P0334",
+      "status": "PASS",
+      "finding": "The revised opening retains the named LSTM encoder-decoder and reconstruction use. Different scoring, threshold and predictable/unpredictable conditions, intent caveat and absent detector comparison remain."
+    },
+    {
+      "id": "P0337",
+      "status": "PASS",
+      "finding": "The finding remains specific to Shakespeare, with plateau/divergence under excessive local epochs and different MNIST behaviour."
+    },
+    {
+      "id": "P0345",
+      "status": "PASS",
+      "finding": "The passive server and exact-sum assumptions, statistical-inference qualification, arXiv status and systemwide-privacy limit remain."
+    },
+    {
+      "id": "P0348",
+      "status": "PASS",
+      "finding": "All three synthetic-data evaluation properties and all three real-workflow/authorisation/performance uncertainties remain."
+    },
+    {
+      "id": "P0351",
+      "status": "PASS",
+      "finding": "The three separate measurement scopes, non-isolation of cryptographic cost, incomplete deployment latency and need for workload evidence remain."
+    },
+    {
+      "id": "P0418",
+      "status": "PASS",
+      "finding": "All event/window counts, overlap/fold concern and McNemar criticism remain; only the comparison-limitation sentence is clarified."
+    },
+    {
+      "id": "P0422",
+      "status": "PASS",
+      "finding": "Component removal plus utility/cost measurements remain; different allowed training-round counts and failure to isolate secure aggregation remain."
+    },
+    {
+      "id": "P0423",
+      "status": "PASS",
+      "finding": "Removed text repeats the preceding matched comparison. Model/partitions/settings, HTTP/SSL vertical assignment, elapsed-time/result change, metric mismatch and absent repeated-run uncertainty remain."
+    },
+    {
+      "id": "P0536",
+      "status": "PASS",
+      "finding": "Complete supplied sessions, retained identifiers/boundaries/positions, consistency checks, 5–81 events, no truncation and unestablished clinical optimality remain."
+    },
+    {
+      "id": "P0567",
+      "status": "PASS",
+      "finding": "The hash definition becomes parenthetical; every validation condition, stop rule and no-reconstructed-history caveat remains."
+    },
+    {
+      "id": "P0653",
+      "status": "PASS",
+      "finding": "Only the encoding verb changes; __UNK__/__MISSING__ remain inputs with excluded categorical targets, valid-field averaging and all-session retention."
+    },
+    {
+      "id": "P0654",
+      "status": "PASS",
+      "finding": "Training-only shared scaling, C1/C2/C3 order, float64, ddof=0, exact-zero replacement, no epsilon/refitting and plaintext preprocessing remain."
+    },
+    {
+      "id": "P0656",
+      "status": "PASS",
+      "finding": "Padding is explicitly within each batch. Packed encoder/loss masks, complete arrays, counts and test encoding restrictions remain."
+    },
+    {
+      "id": "P0657",
+      "status": "PASS",
+      "finding": "The opening blanket statement still excludes augmented event sequences from preprocessing, loading and training. Frequency resampling and decoder-output dropout remain distinguished; no novel input sequences are implied."
+    },
+    {
+      "id": "P0666",
+      "status": "PASS",
+      "finding": "The event-loss averaging clause is reordered with identical mathematics. All output counts, beta, valid-output/session averaging, equal session weights and absent alternatives test remain."
+    },
+    {
+      "id": "P0674",
+      "status": "PASS",
+      "finding": "Masking/quantisation definitions, shared training/topology, unequal checking procedures, lack of plaintext secured export and workflow-level cost comparison remain."
+    },
+    {
+      "id": "P0737",
+      "status": "PASS",
+      "finding": "Tests using public vectors clarifies the actor; chronology, counts, range/precision constraints and absent privacy-leakage optimisation remain."
+    },
+    {
+      "id": "P0738",
+      "status": "PASS",
+      "finding": "The explicit protection boundary and unquantified leakage remain unchanged in substance."
+    },
+    {
+      "id": "P0739",
+      "status": "PASS",
+      "finding": "Post-benchmark/replay chronology and known results remain. Installed code/project-validator scope, public-array substitutions, excluded full application/network, separate call counters and pre-rejection completed work remain."
+    },
+    {
+      "id": "P0740",
+      "status": "PASS",
+      "finding": "The validation patch still precedes local computation and preserves aligned reordering. Identical malformed retest, original criteria, additional actual-code tests, separately versioned scope and excluded EHR/network remain."
+    },
+    {
+      "id": "P0779",
+      "status": "PASS",
+      "finding": "Global calibrated pooling remains primary; global raw scores remain secondary and client measures raw. AP/AUROC definitions, three-client minimum, retained identity and original class proportions remain."
+    },
+    {
+      "id": "P0811",
+      "status": "PASS",
+      "finding": "The approved combination wording preserves all five values and statistics, seed units, paired contrasts and non-independent sessions/clients/rounds."
+    },
+    {
+      "id": "P0812",
+      "status": "PASS",
+      "finding": "The condensed opening retains same seed, shared initial state and sampling schedule. Exact interval formula, degrees of freedom, matched/finite and zero-variance requirements, and fixed-benchmark variability limit remain."
+    },
+    {
+      "id": "P0816",
+      "status": "PASS",
+      "finding": "Only sentence joining changes. The thirteen-field denominator, ward_or_location output omission, renormalisation, unchanged model outputs and noncausal/no-retraining/no-new-calibration caveats remain."
+    },
+    {
+      "id": "P0841",
+      "status": "PASS",
+      "finding": "Separate saved-score metric calculation and fresh same-host computational replay remain distinct; Python/OS versions, raw CSV, regeneration, historical-weight exclusion and nonblinded local scope remain."
+    },
+    {
+      "id": "P0842",
+      "status": "PASS",
+      "finding": "The same 30 epochs/rounds, frozen checkpoints/calibration, compared outputs, regenerated arrays/historical scaler-JSON exception and same-host/no-full-OS/no-external-host limits remain."
+    },
+    {
+      "id": "P1108",
+      "status": "PASS",
+      "finding": "The same all-alert counterexample and TP/FP/FN/F1/FPR values, exact ratios and method-condition comparisons remain."
+    },
+    {
+      "id": "P1212",
+      "status": "PASS",
+      "finding": "The approved wording retains frozen q=0.99 decisions, method, group denominators, recall/FPR meanings and no AP/AUROC for single-class groups."
+    },
+    {
+      "id": "P1393",
+      "status": "PASS",
+      "finding": "Splitting a sentence preserves logical Flower Record/fit-message measurement, once per direction, approximate byte/percentage figures and excluded network traffic."
+    },
+    {
+      "id": "P1437",
+      "status": "PASS",
+      "finding": "Sentence joining preserves same-host qualification, all run/evaluation/score/session counts, exact quantiles and repeated-observation limitation."
+    },
+    {
+      "id": "P1438",
+      "status": "PASS",
+      "finding": "The reordered account preserves one-adjacent-float64 diagnostic difference, matching parameters/arrays, historical JSON compatibility and nonidentical preprocessing-metadata bytes."
+    },
+    {
+      "id": "P1441",
+      "status": "PASS",
+      "finding": "All seven groups, 101/99/one/one case counts, distinct defect/export limitation and trusted-local scope remain."
+    },
+    {
+      "id": "P1457",
+      "status": "PASS",
+      "finding": "SETUP acceptance after SHARE_KEYS is still permission to restart only; neither reset execution nor successful reset testing is claimed."
+    },
+    {
+      "id": "P1551",
+      "status": "PASS",
+      "finding": "The previously approved Reference/controlled-Non-IID AP ordering is supported by P1548–P1549 primary-test context. AdamW resets, changed sequences, no general heterogeneity benefit and absent local-only comparison remain."
+    },
+    {
+      "id": "P1592",
+      "status": "PASS",
+      "finding": "The approved clarification preserves prototype status, no prospective review/workload evidence, no blocking/misconduct basis and prepared-input-only timing."
+    },
+    {
+      "id": "P2159",
+      "status": "PASS",
+      "finding": "Paragraph split only; the exact original words are retained, including descriptive post-test status, fixed validation thresholds and no retraining/refitting."
+    },
+    {
+      "id": "P2251",
+      "status": "PASS",
+      "finding": "Paragraph split only; the exact original words retain copied/adapted validator scope, native plain control, measurement_scope() substitution and excluded full application/network coverage."
+    }
+  ],
+  "paragraph_split_checks": [
+    {
+      "id": "P2159",
+      "status": "PASS",
+      "segment_count": 2,
+      "space_joined_segments_equal_original_exactly": true,
+      "all_words_punctuation_numbers_identifiers_unchanged": true,
+      "new_text_equals_two_segments_joined_by_two_newline_characters": true
+    },
+    {
+      "id": "P2251",
+      "status": "PASS",
+      "segment_count": 2,
+      "space_joined_segments_equal_original_exactly": true,
+      "all_words_punctuation_numbers_identifiers_unchanged": true,
+      "new_text_equals_two_segments_joined_by_two_newline_characters": true
+    }
+  ],
+  "critical_distinctions": [
+    {
+      "status": "PASS",
+      "ids": [
+        "P0711",
+        "P0873",
+        "P1605"
+      ],
+      "finding": "Two shares reconstruct a secret; every accepted protocol stage still requires all three client replies. No successful client-dropout claim is introduced."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P1457"
+      ],
+      "finding": "Restart-stage permission is explicitly separated from reset execution; the check did not execute the reset."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P1212",
+        "P1603"
+      ],
+      "finding": "q=0.99 remains a routine-validation quantile, with test FPR explicitly not inferred as 1%."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P0816",
+        "P1592"
+      ],
+      "finding": "Score composition and high reconstruction scores do not establish causal importance, misuse, clinical appropriateness or operational acceptability."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P0779"
+      ],
+      "finding": "Calibrated pooled scores determine primary global metrics; raw global scores are secondary and client metrics remain raw."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P0841",
+        "P0842",
+        "P1437",
+        "P1438",
+        "P1613",
+        "P2245"
+      ],
+      "finding": "Replay stays same-host/local, with historical scaler JSON compatibility explicitly disclosed and no universal byte identity or independent replication asserted."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P0498",
+        "P0843",
+        "P1610",
+        "P1937"
+      ],
+      "finding": "Dataset creator/generator/derivation/redistribution and formal ethics status remain unverified; no original generation or approval records are invented."
+    },
+    {
+      "status": "PASS",
+      "ids": [
+        "P0039",
+        "P0302",
+        "P0303",
+        "P0304",
+        "P0305",
+        "P0306",
+        "P0307",
+        "P0308",
+        "P0309",
+        "P0310",
+        "P0311",
+        "P0312"
+      ],
+      "finding": "AI declaration, research questions, aim and objectives remain exactly unchanged."
+    }
+  ],
+  "protected_paragraph_ids_checked": [
+    "P0039",
+    "P0302",
+    "P0303",
+    "P0304",
+    "P0305",
+    "P0306",
+    "P0307",
+    "P0308",
+    "P0309",
+    "P0310",
+    "P0311",
+    "P0312",
+    "P0498",
+    "P0711",
+    "P0843",
+    "P0873",
+    "P1603",
+    "P1605",
+    "P1610",
+    "P1613",
+    "P1937",
+    "P2245"
+  ],
+  "issues": [],
+  "required_exact_fixes": [],
+  "scope_limits": [
+    "This audit checks preservation against the supplied baseline and local context. It does not re-audit source origins, original publications, provenance or ethics records.",
+    "No new experiment was performed or inferred. No document, patch, model, threshold, source data or result was edited.",
+    "The two split instructions and unchanged words are verified in Integrated_Changes/Reader_Copy. Delivery DOCX files were not yet built; actual OOXML paragraph execution and rendered pagination remain the root build/QA checks."
+  ],
+  "citation_verification_level": "LOCAL BASELINE/REVISED PASSAGE AND SURROUNDING CONTEXT CHECKED; ORIGINAL SOURCES NOT RE-AUDITED"
+}

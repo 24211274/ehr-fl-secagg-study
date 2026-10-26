@@ -1,0 +1,11 @@
+Of the 19 targeted definitions, 17 are resolved and 2 retain an explicit evidence limit.
+
+VC-14 | 2.7 Comparison of selected studies | printed page(s) [23]
+The exact source label and denominator are confirmed, but the entity unit is not defined. State that limitation directly while preserving the count.
+Needed: An original-source statement or author-issued clarification identifying what entity each Unique ID represents in Tabassum et al. (2024). Do not relabel these IDs as users, patients, sessions or events without that evidence.
+
+VC-19 | 3.3 Data preparation | printed page(s) [29]
+The four symbols are literal categorical values supplied for action. The inspected schema and both supplied dictionaries do not map the individual symbols to named actions. The release dictionary explicitly says that their meanings require generator documentation.
+Needed: A source-authenticated data dictionary or original executable generator mapping each C/E/R/U symbol to its intended action. A conventional CRUD interpretation is insufficient.
+
+These two items do not replace the dissertation’s existing limitations concerning original benchmark generation, data permissions and ethical provenance, external validation, causal component attribution, practical equivalence, and cryptographic guarantees. This revision clarifies retained evidence; it does not create missing original records or execute new experiments.

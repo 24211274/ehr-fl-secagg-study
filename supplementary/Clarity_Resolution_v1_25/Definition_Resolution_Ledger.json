@@ -1,0 +1,198 @@
+[
+  {
+    "finding_id": "VC-04",
+    "paragraph_id": "P0324",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "The control sample was stratified by predictions from the earlier model, then randomly sampled in equal numbers across risk bands and labelled by privacy officers.",
+    "missing": null
+  },
+  {
+    "finding_id": "VC-05",
+    "paragraph_id": "P0345",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "Specify the population-sampling assumption and the candidate-update inference game. The original source uses mean/covariance estimates from simulated update samples; it does not require a closed-form update distribution in the experiment.",
+    "missing": null
+  },
+  {
+    "finding_id": "VC-08",
+    "paragraph_id": "P0421",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "The removals are evaluation comparisons. Name the three components and their methods-defined roles without suggesting that removal itself is the detection mechanism.",
+    "missing": null
+  },
+  {
+    "finding_id": "VC-12",
+    "paragraph_id": "P0459",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "Define dataset B, the first clustering level and the real-versus-random explanation precision denominator. Keep the numerical comparison and its explanation-metric scope.",
+    "missing": null
+  },
+  {
+    "finding_id": "VC-13",
+    "paragraph_id": "P0465",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "Define Feats, Rel and History from the model/methods text and retain the exact model labels, outcomes and uncertainty notation.",
+    "missing": null
+  },
+  {
+    "finding_id": "VC-14",
+    "paragraph_id": "P0476",
+    "status": "PARTIALLY_RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+    "conclusion": "The exact source label and denominator are confirmed, but the entity unit is not defined. State that limitation directly while preserving the count.",
+    "missing": "The original article does not identify whether its 90,385 Unique IDs are users, patients, accesses, sessions or another entity. No entity type can be asserted from the inspected source."
+  },
+  {
+    "finding_id": "VC-21",
+    "paragraph_id": "P0711",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The share count and reconstruction threshold apply separately to each client's private-mask seed (rd_seed) and first private key (sk1), which derives pairwise masks. The client creates shares of both with create_shares(secret, threshold, share_num). During upstream unmasking, the server reconstructs active clients' private-mask seeds or dropped clients' first private keys. The project's strict wrapper independently requires the full cohort at every stage, so the reconstruction threshold does not authorise continuing with only two client replies.",
+    "missing": [
+      "The dropped-client key branch is an upstream code definition. The benchmark project explicitly rejects dropout; this is not evidence that dropout recovery was accepted or tested in its training workflow.",
+      "Secret-sharing settings and successful arithmetic do not establish a cryptographic privacy guarantee."
+    ]
+  },
+  {
+    "finding_id": "VC-37",
+    "paragraph_id": "P1448",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The legacy-fold control constructs distinct public byte seeds whose repeated little-endian words cancel in the old helper's XOR reduction to its RandomState seed. The executed assertions required identical legacy output arrays and distinct candidate output arrays for these constructed seeds. Agreement means each implementation met this deliberately different expected result. The separate public-output checks compare HMAC against a fixed vector and the PRG arrays against an independently written scalar decoder for each specified modulus.",
+    "missing": [
+      "This is a constructed seed-folding control. It does not estimate general collision rates or prove collision resistance, entropy, unpredictability or privacy.",
+      "The proposed wording retains the existing runtime-file count and modulus count; it introduces no new numerical result."
+    ]
+  },
+  {
+    "finding_id": "VC-39",
+    "paragraph_id": "P1457",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The executed fixture directly passed current_stage=Stage.SHARE_KEYS and configs={Key.STAGE:Stage.SETUP} to the installed check_stage function. That function permits a requested SETUP and logs a warning when the current stage is not UNMASK. The fixture returned without exception, with zero aggregate callbacks. Separately, the installed message handler would assign SETUP and call _setup after config validation. _setup reloads the supplied protocol parameters, clears rd_seed_share_dict, sk1_share_dict and ss2_dict, and generates both private/public key pairs anew. The fixture did not execute that state reset.",
+    "missing": [
+      "The fixture is a direct stage-validation call, not a sequence of messages or an end-to-end restart test.",
+      "Only the explicitly listed dictionaries and key pairs are reset in _setup. The private-mask seed is freshly generated later in _share_keys; public_keys_dict is assigned there. The resolution does not imply complete clearing of every state field in SETUP.",
+      "Permission for SETUP restart is not a replay-resistance guarantee."
+    ]
+  },
+  {
+    "finding_id": "VC-41",
+    "paragraph_id": "P1463",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The compared categories are exact public-key bytes, private-key bytes, private-mask seed bytes, pairwise mask-key bytes, share-encryption-key bytes and ordered tuples of serialized masked-parameter byte strings. The finite in-memory set-cardinality checks found no repeated value within each category.",
+    "missing": [
+      "Exact comparisons took place only in memory. Retained JSON contains counts and booleans, not the actual secret values or their digests; those values cannot be independently recovered from the retained JSON.",
+      "No reuse within a finite checked category is not proof of entropy, unpredictability or privacy. The check directly exercised installed setup/share/collect functions and did not run UNMASK.",
+      "Each pair is counted once, despite checking agreement at both endpoints; equality is checked within each category, not between categories."
+    ]
+  },
+  {
+    "finding_id": "VC-52",
+    "paragraph_id": "P1915",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "i is the zero-based index returned by enumerate(values), indexing the three client vectors in their listed order. Each client's offset uses that client's index plus one; i does not index vector coordinates. The baseline vectors and offset are explicitly float32, and the expected weighted average casts those actual float32 values to float64.",
+    "missing": [
+      "This identifies a public numerical fixture and the floating-point operations used by its oracle. Numerical agreement does not establish privacy or security.",
+      "No vector values, weights, precision strings or existing numerical assumptions were altered."
+    ]
+  },
+  {
+    "finding_id": "VC-58",
+    "paragraph_id": "P2251",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The actual observer code includes record_bytes(), timing_boundary_mod(), ObservedRawGrid, client_span() and server_report(): it computes logical record-content byte counts, clocks/spans and allowed message metadata, then writes JSON. collect_failure_capsule() reads selected job/result/trace/history files and exports only its selected diagnostic fields. The harness patches measurement_scope() to return a fixed public dictionary (rounds, conditions, stage, fixed_config_sha256). The normal function reads a bundled fixed_config.json through the resource loader, validates its measurement budget/conditions/stage, and returns the configuration digest. This resource read and validation were bypassed; counters, observers, capsule selection/redaction and output scanning still ran.",
+    "missing": [
+      "Public fixture callbacks and in-memory transport were used. The output check was not a complete secure benchmark application, network experiment or full deployment measurement.",
+      "The returned configuration digest was a dummy public value. SV-07 did not validate the bundled measurement resource through the substituted measurement_scope() call.",
+      "Only selected output JSON files were scanned for the injected public literal markers. Metadata-boundary case SV07-13 separately documents copied allowed metadata; no universal redaction or zero-leakage claim follows."
+    ]
+  },
+  {
+    "finding_id": "VC-59",
+    "paragraph_id": "P2252",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+    "conclusion": "The four remaining context types are the exact rd_seed bytes, one derived pairwise mask key per unordered client pair, one stored ss2_dict share-encryption key per unordered client pair, and an ordered tuple of serialized MASKED_PARAMETERS blobs per client reply. Set cardinalities were compared with the prespecified expected counts, and reverse endpoint key derivations were checked for equality.",
+    "missing": [
+      "Exact comparisons took place only in memory. Retained JSON contains counts and booleans, not the actual secret values or their digests; those values cannot be independently recovered from the retained JSON.",
+      "No reuse within a finite checked category is not proof of entropy, unpredictability or privacy. The check directly exercised installed setup/share/collect functions and did not run UNMASK.",
+      "Each pair is counted once, despite checking agreement at both endpoints; equality is checked within each category, not between categories."
+    ]
+  },
+  {
+    "finding_id": "VC-19",
+    "paragraph_id": "P0576",
+    "status": "UNRESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "The four symbols are literal categorical values supplied for action. The inspected schema and both supplied dictionaries do not map the individual symbols to named actions. The release dictionary explicitly says that their meanings require generator documentation.",
+    "missing": [
+      "A source-authenticated code-to-action mapping or original executable generator remains missing.",
+      "A conventional CRUD or FHIR interpretation would be an inference and is not used."
+    ]
+  },
+  {
+    "finding_id": "VC-28",
+    "paragraph_id": "P0775",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "Full-size refers to the complete unchanged model and complete routine development memberships, not to all benchmark partitions or a full main-study training budget. The original full-size B/C reports contain completed short engineering cells for both conditions and explicitly exclude test access. A separate full-size central engineering epoch is also recorded.",
+    "missing": [
+      "This is a definition of the retained engineering check, not new scientific validation.",
+      "Non-IID training samples with replacement from the complete training membership; not every unique session must occur in every sampled round."
+    ]
+  },
+  {
+    "finding_id": "VC-50",
+    "paragraph_id": "P1743",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "The unit is an exact (source namespace, source record ID) pair. The script first retains separate database records using database+source+ID, then merges the two databases using source+ID alone. Retained pairs are MED:PMID identifiers and an ETH:771510 record returned by Europe PMC. These are neither DOI-deduplicated articles nor independently verified unique studies.",
+    "missing": [
+      "No expansion of the ETH namespace to an unverified document type is needed.",
+      "Final DOI/title and version reconciliation remains a separate operation."
+    ]
+  },
+  {
+    "finding_id": "VC-51",
+    "paragraph_id": "P1768",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "A cluster is a connected component under exact shared identifier strings. The catalogue code creates keys for source IDs, DOI, PMID/MED, PMCID/PMC, other supported indexed identifiers, and normalised URLs; explicitly documented URL-to-DOI aliases can add a shared DOI key. Matching is transitive through union-find. Titles are normalised only to flag possible duplicates, which remain separate.",
+    "missing": [
+      "Different versions or alternate URLs can remain separate, and non-study/background pages remain discovery candidates.",
+      "The retained catalogue has 281 API nodes plus 182 web candidates, 11 merge events and 452 components. Counts do not establish unique studies.",
+      "Supported code paths include OpenAlex IDs, but the retained nodes contain no OpenAlex ID keys; no claim that such a key produced a merge is made."
+    ]
+  },
+  {
+    "finding_id": "VC-53",
+    "paragraph_id": "P1934",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "Adopted decisions denotes the separate main_protocol_decisions.json record, especially its adopted_evaluation_details and P1-P5 adopted_closures. These document no additional tuning; calibration on routine validation; conditional paired-seed statistics; cost and inference measurement boundaries; bounded security wording; and failure/retry handling. The campaign manifest hashes this record, while cell_config inherits runnable model/training settings from reference/fullsize_B.json and stage_cell seals job/app inputs.",
+    "missing": [
+      "The decision record explicitly says it is not a runnable configuration or security certification.",
+      "The proposed wording says the decisions were documented and linked by identity; it does not claim that byte identity alone proves every methodological decision was implemented."
+    ]
+  },
+  {
+    "finding_id": "VC-54",
+    "paragraph_id": "P1938",
+    "status": "RESOLVED",
+    "receipt": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+    "conclusion": "The two records are the exact archived releases/reference_seed_01/manifests/config_resolved.yaml member and the local outputs/full/reference_seed_01/manifests/config_resolved.yaml file. A fresh read compares their complete bytes, not only the seed fields; both have the same SHA256 shown in the evidence.",
+    "missing": [
+      "This is custodial record consistency only. It cannot authenticate the original generator, establish original partition construction, or prove that the source data were generated from these settings.",
+      "The existing uncertainty statements about unavailable original rules and same-host replay are retained verbatim."
+    ]
+  }
+]

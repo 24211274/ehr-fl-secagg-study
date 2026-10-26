@@ -1,0 +1,87 @@
+{
+  "revision": "1.18",
+  "access": "Private local supplement; no new rights or public availability claimed",
+  "files": [
+    {
+      "file": "Historical_Evidence_Companion.md",
+      "bytes": 320497,
+      "sha256": "e6e1c3658b9ecfe8ec9548e4fd859a1c3b07944ffdc6b8b1b5de334c18ab5c63",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\narrative_review_v1_16_2026_10_17\\delivery\\Evidence_Companion.md",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "Historical_Evidence_Companion_Files.zip",
+      "bytes": 3942900,
+      "sha256": "cb386abaa754c4dd9b31170278656f2cfe4bfc5ee3a8fa871ab5a1b16be13767",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\narrative_review_v1_16_2026_10_17\\delivery\\Evidence_Companion_Files.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "Result_Traceability_Evidence.zip",
+      "bytes": 5919773,
+      "sha256": "32e36e7c098628904fcb25ea48f092913eebd7948715e092937e88bc09124db5",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\Result_Traceability_Evidence.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "README_Result_Traceability.md",
+      "bytes": 5756,
+      "sha256": "05aacabeee68fc96d58cdeca7efe71adda8782f1dfafe8faf881af64da130fc8",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\README_Result_Traceability.md",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "ME06_Evidence.zip",
+      "bytes": 301424,
+      "sha256": "ed395d9fad8dd017b6ef726bfd76091ba8a63101e6d0b97183ab229d0427313c",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\ME06_Evidence.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "Security_Validation_Evidence.zip",
+      "bytes": 495721,
+      "sha256": "91758a2f62315c25baf5f358b3ea0aa9fdee4120c93fb7c455778adbb27daf2f",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\Security_Validation_Evidence.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "SV05_Repair_Evidence.zip",
+      "bytes": 6263365,
+      "sha256": "df0f9e7ad730f0be80a8454d4d4c0eb24eb50edbc7822e57a9fa9dbaecf8161d",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\SV05_Repair_Evidence.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "Literature_Refresh_ME04_ME05_20261011.zip",
+      "bytes": 4694241,
+      "sha256": "3f5d4365e084d99c69d8fa0ff94d8a40b3b496cf26ee2c27eebce438b84cf1a8",
+      "source": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\result_trace_completion_2026_10_12\\delivery\\Literature_Refresh_ME04_ME05_20261011.zip",
+      "scope": "Retained existing local evidence; not a new experiment or public release."
+    },
+    {
+      "file": "Supplementary_Diagnostics.zip",
+      "bytes": 143317,
+      "sha256": "c50d572bc5ff411889ea136aeaab7e24c9deb1336730e9c6b87b19a7edca1ec2",
+      "scope": "Fresh post-test exploratory diagnostics; no new training or model selection."
+    },
+    {
+      "file": "Source_Access_Update.json",
+      "bytes": 78476,
+      "sha256": "ed32fa5e22cd8a6a33eede369601584457a0a0b6b50bafe2f1b87436b241c7f1",
+      "scope": "42-reference access inventory with exact examination levels, original URLs and material identities."
+    },
+    {
+      "file": "Evidence_Companion.md",
+      "bytes": 3022,
+      "sha256": "8169e406073c3ae66793f5e6bdaeaa8bc103f7ed8965fe051407bd12e9698265",
+      "scope": "Current v1.18 local artifact index."
+    }
+  ],
+  "excluded": [
+    "Raw benchmark",
+    "Learned model weights",
+    "Complete experiment/preprocessing source packages",
+    "Offline dependency store",
+    "Full private replay payload"
+  ]
+}

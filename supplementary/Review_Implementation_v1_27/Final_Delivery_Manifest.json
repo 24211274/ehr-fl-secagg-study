@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETE",
+  "version": "v1.27",
+  "source_version": "v1.26",
+  "source_unchanged": true,
+  "source_sha256": "bcbc1831066e8d085fdff2b49c67258c44d04cc5c13a8169c885215d3653f5a9",
+  "review_rows_dispositioned": 598,
+  "five_user_priorities_implemented": true,
+  "edited_source_paragraphs": 165,
+  "complete_verbatim_appendix_transfers": 22,
+  "bibliography_entries_preserved": 42,
+  "images_preserved": 7,
+  "tables": 51,
+  "visual_page_records": 260,
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_27_review_implementation_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_27_Review_Revised_Clean_20261025.docx",
+      "sha256": "c98329fe0b06945bbaf1dc7b028b7ea094a9f932cf7e111e5d2dd56f205e5384",
+      "pages": 130,
+      "main_words": 18259,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "all_pages_visually_verified": true,
+      "comments": 0,
+      "revisions": 0
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_27_review_implementation_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_27_Review_Revised_Highlighted_20261025.docx",
+      "sha256": "2535a25b434a7b9ee566f5335c8c93924497e7b5ae6f7c13495bfa1b5b371de8",
+      "pages": 130,
+      "main_words": 18259,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "all_pages_visually_verified": true,
+      "comments": 0,
+      "revisions": 0
+    }
+  ],
+  "native_editable_loss_equation": true,
+  "score_standardisation_and_alert_threshold_separated": true,
+  "shared_library_link_access": "Sign-in required; local supplied HTML and DOCX used",
+  "unresolved_evidence_retained": [
+    {
+      "issue": "Six alleged broken appendix cross-references",
+      "status": "Already valid in source and rechecked",
+      "reason": "The review used an excerpt lacking appendices; currentv1.26/fullv1.27contains them. No field flattening or fabricated target was needed."
+    },
+    {
+      "issue": "Data provenance, generation, rights and institutional ethics determination",
+      "status": "Unresolved evidence retained",
+      "reason": "No authenticated new origin, permission or ethics records were supplied. The manuscript retains unverified status in3.2,3.12,5.7.5,C.1."
+    },
+    {
+      "issue": "Tabassum90385entitytype andC/E/R/Uactionmeanings",
+      "status": "Unresolved evidence retained",
+      "reason": "No original definition supports filling these gaps."
+    },
+    {
+      "issue": "Official title and administrative declaration choices",
+      "status": "Retained",
+      "reason": "Optional title change was not applied; approved wording and unfilled signature fields remain as supplied."
+    },
+    {
+      "issue": "Optional plot merger, zoom insets and additional uncertainty bands",
+      "status": "Retained current figures",
+      "reason": "Existing quantitative figures retain exact data and explicit five-seed/uncertainty descriptions. No new analysis or unsupported variability was added."
+    },
+    {
+      "issue": "Shared ChatGPT library link",
+      "status": "Sign-in required; not accessed beyond login",
+      "reason": "The supplied local HTML and DOCX were read and archived as review inputs."
+    }
+  ],
+  "new_experiments": false,
+  "new_external_manuscript_upload": false
+}

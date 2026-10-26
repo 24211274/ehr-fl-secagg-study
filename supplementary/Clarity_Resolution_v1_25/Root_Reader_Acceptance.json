@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reader_recommendations_applied": [
+    "RC-01 source label and record ID explicitly explained",
+    "RC-02 normalised URLs explained in plain language",
+    "RC-03 observer/capsule replaced by logging/error-report functions",
+    "RC-04 substituted measurement_scope() return values stated"
+  ],
+  "field_preservation_amendment": "P2159 keeps the live hyperlink text result traceability evidence; the surrounding sentence identifies its supplementary package.",
+  "final_patch_sha256": "6574302bcf686a02967bba39cd5a266024f2fbb458a3b7ef2e5921676e2e96a0"
+}

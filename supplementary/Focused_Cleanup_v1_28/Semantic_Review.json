@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "edits": 17,
+  "transfer": 1,
+  "independent_review_groups": {
+    "methods": "v127_literature_argument",
+    "conclusion": "v127_methods_restructure",
+    "practical_and_count_scope": "v127_contributions_results"
+  },
+  "integrated_sha256": "be554eebeae0254a390ca42310bc1307afbd92955524c2a5e3ba182f3592de00",
+  "post_review_change": "Only Practical preservation-map labels corrected to revised P1592; no manuscript text changed."
+}

@@ -1,0 +1,260 @@
+{
+  "status": "PASS",
+  "scope": "Existing fixture tests and unchanged stored-score arithmetic audit only",
+  "training_performed": false,
+  "model_inference_performed": false,
+  "thresholds_refitted": false,
+  "dependency_environment_mutated": false,
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.8.0"
+  },
+  "fixtures": {
+    "command": [
+      "wsl.exe",
+      "-d",
+      "Ubuntu-24.04",
+      "--cd",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/repository/analysis/final_score_audit",
+      "--exec",
+      "/home/mai/ehr_me06_reproduction_20261011_v1/.venv/bin/python",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_audit_metrics"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.25,
+    "log": "Local_Arithmetic_Fixtures.log",
+    "output_tail": "test_affine_threshold_and_ranking (test_audit_metrics.ArithmeticFixtures.test_affine_threshold_and_ranking) ... ok\ntest_all_tied (test_audit_metrics.ArithmeticFixtures.test_all_tied) ... ok\ntest_decision_denominators (test_audit_metrics.ArithmeticFixtures.test_decision_denominators) ... ok\ntest_deterministic_random_small_cases (test_audit_metrics.ArithmeticFixtures.test_deterministic_random_small_cases) ... ok\ntest_finite_input_guard (test_audit_metrics.ArithmeticFixtures.test_finite_input_guard) ... ok\ntest_inverse_order (test_audit_metrics.ArithmeticFixtures.test_inverse_order) ... ok\ntest_no_alert (test_audit_metrics.ArithmeticFixtures.test_no_alert) ... ok\ntest_no_negative (test_audit_metrics.ArithmeticFixtures.test_no_negative) ... ok\ntest_no_positive (test_audit_metrics.ArithmeticFixtures.test_no_positive) ... ok\ntest_partial_ties (test_audit_metrics.ArithmeticFixtures.test_partial_ties) ... ok\ntest_perfect (test_audit_metrics.ArithmeticFixtures.test_perfect) ... ok\ntest_permutation_tied (test_audit_metrics.ArithmeticFixtures.test_permutation_tied) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.026s\n\nOK\n"
+  },
+  "input_archives": {
+    "scores": {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\saved_scores_original.zip",
+      "bytes": 2631204,
+      "sha256": "6bd4d752c12730d6d93143c2e8bd184622b5e5c2778d244a1327ddc1657d6dcf"
+    },
+    "report": {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\final_evaluation_original.zip",
+      "bytes": 1127029,
+      "sha256": "fe66ff79196f2936605ce873689821a0716fa7bf7c7c99323ad5af26e8497ecd"
+    },
+    "completion": {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\training_completion_original.zip",
+      "bytes": 13538,
+      "sha256": "9adc12c476b689c92e2e2daa2e0333f1439cc7ab09483e8983cc11cfd0c2e879"
+    },
+    "source": {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\frozen_source_original.zip",
+      "bytes": 2863420,
+      "sha256": "5d758aef74b13e00db27e60f3c041796e19a5a4584eb7d04e791b9215d112c50"
+    },
+    "benchmark": {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\benchmark_original.zip",
+      "bytes": 17170840,
+      "sha256": "b551bfdbe515ba40fc5b147163aad619788566062d5e571339aa9ef60d06700e"
+    }
+  },
+  "audit_run": {
+    "command": [
+      "wsl.exe",
+      "-d",
+      "Ubuntu-24.04",
+      "--cd",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/repository/analysis/final_score_audit",
+      "--exec",
+      "/home/mai/ehr_me06_reproduction_20261011_v1/.venv/bin/python",
+      "-B",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/repository/analysis/final_score_audit/audit_scores.py",
+      "--scores",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/restored_local/audit_inputs/saved_scores_original.zip",
+      "--report",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/restored_local/audit_inputs/final_evaluation_original.zip",
+      "--completion",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/restored_local/audit_inputs/training_completion_original.zip",
+      "--source",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/restored_local/audit_inputs/frozen_source_original.zip",
+      "--benchmark",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/restored_local/audit_inputs/benchmark_original.zip",
+      "--output",
+      "/mnt/c/Users/RNO/Desktop/Coureses/P1/study_online_availability_20261026/qa/metric_recalculation_local"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.719,
+    "log": "Local_Arithmetic_Recalculation.log",
+    "output_tail": "ARITHMETIC_AUDIT_PASS_NO_MODEL_RESCORE_NO_RETUNING\n{\n  \"score_files\": 60,\n  \"calibration_files\": 30,\n  \"model_client_calibrations\": 90,\n  \"score_rows\": 90270,\n  \"distinct_sessions\": 3009,\n  \"distinct_sessions_per_test\": {\n    \"test_held_out\": 2364,\n    \"test_known\": 645\n  },\n  \"source_label_rows\": 17464,\n  \"source_matched_score_rows\": 90270,\n  \"unique_ranking_groups_compared_to_report\": 300,\n  \"unique_AP_and_AUROC_values_compared_to_report\": 600,\n  \"per_client_affine_ranking_invariance_checks\": 180,\n  \"decision_metric_groups_recomputed\": 720,\n  \"scenario_count_groups_recomputed\": 63000,\n  \"method_endpoint_seed_summaries\": 144,\n  \"paired_endpoint_summaries\": 96,\n  \"exploratory_paired_intervals\": 16\n}\n{\n  \"scalar_checks\": 394623,\n  \"absolute_max_differences\": {\n    \"calibration_transform\": 0.0,\n    \"independent_vs_sklearn_AP\": 3.3306690738754696e-16,\n    \"independent_vs_sklearn_AUROC\": 2.220446049250313e-16,\n    \"affine_invariance\": 0.0,\n    \"metric_report\": 3.3306690738754696e-16,\n    \"summary\": 1.1368683772161603e-13,\n    \"paired_summary\": 7.105427357601002e-15,\n    \"paired_CI\": 2.498001805406602e-16,\n    \"AUROC_mixture_identity\": 2.220446049250313e-16\n  },\n  \"failures\": [],\n  \"failures_count\": 0\n}\n"
+  },
+  "audit_status": "ARITHMETIC_AUDIT_PASS_NO_MODEL_RESCORE_NO_RETUNING",
+  "counts": {
+    "score_files": 60,
+    "calibration_files": 30,
+    "model_client_calibrations": 90,
+    "score_rows": 90270,
+    "distinct_sessions": 3009,
+    "distinct_sessions_per_test": {
+      "test_held_out": 2364,
+      "test_known": 645
+    },
+    "source_label_rows": 17464,
+    "source_matched_score_rows": 90270,
+    "unique_ranking_groups_compared_to_report": 300,
+    "unique_AP_and_AUROC_values_compared_to_report": 600,
+    "per_client_affine_ranking_invariance_checks": 180,
+    "decision_metric_groups_recomputed": 720,
+    "scenario_count_groups_recomputed": 63000,
+    "method_endpoint_seed_summaries": 144,
+    "paired_endpoint_summaries": 96,
+    "exploratory_paired_intervals": 16
+  },
+  "comparison_to_original_report": {
+    "scalar_checks": 394623,
+    "absolute_max_differences": {
+      "calibration_transform": 0.0,
+      "independent_vs_sklearn_AP": 3.3306690738754696e-16,
+      "independent_vs_sklearn_AUROC": 2.220446049250313e-16,
+      "affine_invariance": 0.0,
+      "metric_report": 3.3306690738754696e-16,
+      "summary": 1.1368683772161603e-13,
+      "paired_summary": 7.105427357601002e-15,
+      "paired_CI": 2.498001805406602e-16,
+      "AUROC_mixture_identity": 2.220446049250313e-16
+    },
+    "failures": [],
+    "failures_count": 0
+  },
+  "all_input_archive_bytes_unchanged_after_audit": true,
+  "tolerance_absolute": 1e-12,
+  "reference_csv_comparisons": [
+    {
+      "file": "descriptive_AUROC_mixture_checks.csv",
+      "status": "PASS",
+      "rows": 60,
+      "cell_checks": 360,
+      "max_absolute_numeric_difference": 1.1102230246251565e-16,
+      "byte_identical": false,
+      "failures": []
+    },
+    {
+      "file": "descriptive_class_error_summary.csv",
+      "status": "PASS",
+      "rows": 108,
+      "cell_checks": 2268,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "descriptive_class_score_summary.csv",
+      "status": "PASS",
+      "rows": 540,
+      "cell_checks": 13500,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "descriptive_pairwise_ordering.csv",
+      "status": "PASS",
+      "rows": 180,
+      "cell_checks": 2520,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "descriptive_pairwise_ordering_summary.csv",
+      "status": "PASS",
+      "rows": 36,
+      "cell_checks": 324,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "global_results_table.csv",
+      "status": "PASS",
+      "rows": 12,
+      "cell_checks": 252,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "paired_contrasts.csv",
+      "status": "PASS",
+      "rows": 96,
+      "cell_checks": 1728,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "recomputed_decision_metrics.csv",
+      "status": "PASS",
+      "rows": 720,
+      "cell_checks": 17280,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "recomputed_rank_metrics.csv",
+      "status": "PASS",
+      "rows": 300,
+      "cell_checks": 3000,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "seed_summary.csv",
+      "status": "PASS",
+      "rows": 144,
+      "cell_checks": 1584,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    },
+    {
+      "file": "test_composition.csv",
+      "status": "PASS",
+      "rows": 42,
+      "cell_checks": 294,
+      "max_absolute_numeric_difference": 0.0,
+      "byte_identical": true,
+      "failures": []
+    }
+  ],
+  "source_and_input_hashes_unchanged": true,
+  "source_and_input_hashes_before": {
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\repository\\analysis\\final_score_audit\\audit_scores.py": "bd952e00a3e125ba2f74af3054b98b765af5267dfdb9704194cc555ff92f33dc",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\repository\\analysis\\final_score_audit\\test_audit_metrics.py": "07de940341f5b04d1c9c60430985dff9121f6dbf3047d0a53388e9eafec0530d",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\saved_scores_original.zip": "6bd4d752c12730d6d93143c2e8bd184622b5e5c2778d244a1327ddc1657d6dcf",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\final_evaluation_original.zip": "fe66ff79196f2936605ce873689821a0716fa7bf7c7c99323ad5af26e8497ecd",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\training_completion_original.zip": "9adc12c476b689c92e2e2daa2e0333f1439cc7ab09483e8983cc11cfd0c2e879",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\frozen_source_original.zip": "5d758aef74b13e00db27e60f3c041796e19a5a4584eb7d04e791b9215d112c50",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\qa\\restored_local\\audit_inputs\\benchmark_original.zip": "b551bfdbe515ba40fc5b147163aad619788566062d5e571339aa9ef60d06700e"
+  },
+  "original_audit_environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  },
+  "environment_differences": {
+    "python": {
+      "reference": "3.13.5",
+      "local": "3.12.3"
+    },
+    "scipy": {
+      "reference": "1.17.0",
+      "local": "1.18.1"
+    }
+  },
+  "source_archive_container_note": "The restored source ZIP is a repackaged container; the unchanged audit verifies its original internal source manifest and every manifested source member. Other restored historical archives are identified by their exact SHA-256 values."
+}

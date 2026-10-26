@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "personal_identifiers_withheld": 1,
+  "identifier_values_logged": false,
+  "original_thesis_unchanged": true,
+  "files": [
+    {
+      "file": "Research_Thesis_v1_30_Online_Availability_Clean_20261026.docx",
+      "changed_paragraphs": 2
+    },
+    {
+      "file": "Study_Appendices_v1_30_Online_Availability_EN.docx",
+      "changed_paragraphs": 1
+    }
+  ],
+  "caption": "Online artifacts and access boundaries"
+}

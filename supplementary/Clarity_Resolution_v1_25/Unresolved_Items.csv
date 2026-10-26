@@ -1,0 +1,3 @@
+﻿Finding,Paragraph,Section,PhysicalPage,PrintedPage,Status,RequiredEvidence
+VC-14,P0476,2.7 Comparison of selected studies,37,23,PARTIALLY_RESOLVED,"An original-source statement or author-issued clarification identifying what entity each Unique ID represents in Tabassum et al. (2024). Do not relabel these IDs as users, patients, sessions or events without that evidence."
+VC-19,P0576,3.3 Data preparation,43,29,UNRESOLVED,A source-authenticated data dictionary or original executable generator mapping each C/E/R/U symbol to its intended action. A conventional CRUD interpretation is insufficient.

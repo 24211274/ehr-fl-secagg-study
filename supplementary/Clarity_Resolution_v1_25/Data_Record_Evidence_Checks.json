@@ -1,0 +1,72 @@
+{
+  "mode": "STATIC_SOURCE_RECORD_AND_EXPORT_CHECKS_ONLY; no scientific experiment or study code execution",
+  "api_count_verification": {
+    "raw_returned_hit_sum": 498,
+    "raw_database_source_id_pairs": 488,
+    "normalized_records_match_raw_metadata_ids": true,
+    "source_and_record_id_pairs": 281,
+    "source_namespace_counts": {
+      "MED": 280,
+      "ETH": 1
+    },
+    "non_MED_identifiers": [
+      "ETH:771510"
+    ],
+    "canonical_and_screened_id_sets_match": true
+  },
+  "catalogue_verification": {
+    "input_nodes": 463,
+    "api_nodes": 281,
+    "web_nodes": 182,
+    "exact_merge_events": 11,
+    "connected_components": 452,
+    "independently_reconstructed_partition_matches": true,
+    "actual_merge_key_prefixes": {
+      "DOI": 7,
+      "PMC": 3,
+      "URL": 1
+    },
+    "counts_are_unique_studies": false
+  },
+  "fullsize_original_report_checks": [
+    {
+      "member": "B/reference/server/server_result.json",
+      "status": "PASS",
+      "rounds_completed": 5,
+      "total_local_optimiser_steps": 855,
+      "flower_executed": true,
+      "test_data_opened": false
+    },
+    {
+      "member": "B/noniid/server/server_result.json",
+      "status": "PASS",
+      "rounds_completed": 5,
+      "total_local_optimiser_steps": 855,
+      "flower_executed": true,
+      "test_data_opened": false
+    },
+    {
+      "member": "C/reference/server/server_result.json",
+      "status": "PASS",
+      "rounds_completed": 5,
+      "total_local_optimiser_steps": 855,
+      "flower_executed": true,
+      "test_data_opened": false
+    },
+    {
+      "member": "C/noniid/server/server_result.json",
+      "status": "PASS",
+      "rounds_completed": 5,
+      "total_local_optimiser_steps": 855,
+      "flower_executed": true,
+      "test_data_opened": false
+    }
+  ],
+  "custodial_config_full_byte_comparison": {
+    "byte_identical": true,
+    "sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+    "bytes": 8969
+  },
+  "source_snapshot_members_compared_to_supplied_archive": true,
+  "word_document_edited": false
+}

@@ -23,3 +23,6 @@ node_modules/
 /final_evaluation/
 /publish_reports/
 # Archived reference CSVs and selected historical logs in executed/ are intentional.
+
+# Explicitly included inference checkpoint; other model files are release assets.
+!/inference/assets/selected_state.pt

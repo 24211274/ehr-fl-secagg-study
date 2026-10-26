@@ -1,0 +1,14 @@
+[
+  {
+    "id": "VC-14",
+    "physical_page": 37,
+    "printed_page": 23,
+    "required_evidence": "An original-source definition or author clarification identifying what the 90,385 Unique IDs in Tabassum et al. represent."
+  },
+  {
+    "id": "VC-19",
+    "physical_page": 43,
+    "printed_page": 29,
+    "required_evidence": "An authenticated original data dictionary or executable generator defining each C/E/R/U action code."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "edits": 43,
+  "images_reviewed": 75,
+  "categories": {
+    "coherence": 21,
+    "concision": 8,
+    "language": 14
+  },
+  "main_whitespace_word_delta": -79,
+  "paragraph_splits": [
+    "P2159",
+    "P2251"
+  ],
+  "protected_content_retained": true,
+  "new_experiments": false,
+  "detector_result_promised": false
+}

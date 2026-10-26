@@ -1,9 +1,9 @@
-# Data and sharing limits
+# Data access
 
-The raw eleven-table synthetic benchmark is not included. Neither are per-session final scores, selected model checkpoints, private keys, masks, credentials or virtual environments. Benchmark publication details and a redistribution licence were not established in the accepted handover record. No Kaggle URL, DOI, licence or publication date is invented here.
+The private versioned release includes the researcher-supplied eleven-table benchmark, saved scores, selected checkpoints and fitted/prepared inputs identified by its manifests. Repository read permission is required. Raw records are supplied for controlled study inspection and reproduction; they are not represented as real hospital incidents or as a licensed public dataset.
 
-The byte-preserved executed source package **does contain synthetic development membership/draw manifests**, profile labels and some historical local paths and validation logs. These are not raw EHR event tables and are not represented as real hospital records. They are retained because they are part of the original source integrity manifest. A private repository is the intended sharing boundary; review these records before any future public release.
+The original creator, executable generation and complete scenario/authorisation rules, verified Kaggle derivation, and redistribution licence remain unestablished. This private transfer does not resolve those provenance, ethics or redistribution questions. Do not infer a public release from the term release candidate in a historical filename.
 
-The arithmetic audit needs saved score/calibration evidence and the source label file to reproduce all its checks. Those inputs remain separate and must be shared only after the researcher confirms permission and the recipient's need. Their absence must not be described as complete clean-machine reproducibility.
+Credentials, protocol private keys and masks, virtual environments and general user directories are not release payloads. The inference examples are hand-constructed synthetic fixtures without verified threat labels.
 
-Third-party Flower source, licence text and contributor attribution remain in the archived source. No new blanket licence is selected for the project, university work or benchmark by this packaging step.
+Third-party source attribution and licences are preserved. Historical records that describe earlier file exclusions remain dated evidence; current locations and access are documented in [AVAILABILITY.md](AVAILABILITY.md).

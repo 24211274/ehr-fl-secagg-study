@@ -1,0 +1,314 @@
+{
+  "review": "Independent final semantic-fidelity review of the integrated v1.25 clarity proposals",
+  "reviewer": "v125_fidelity",
+  "date": "2026-10-20",
+  "status": "PASS_AFTER_ONE_QUALIFICATION_CORRECTION",
+  "scope": "All 55 complete old/new paragraph pairs, corresponding Current_Paragraphs context, and all 19 source/code/data resolution records were read. The final 55 pairs comprise the original 54 plus the root's Malay-abstract amendment. Primary-source excerpts and relevant local code were checked for the definitions at greatest risk of changing meaning. This is a bounded fidelity review, not certification of complete original-source coverage, a new literature search, a new security experiment, or an independent reproduction.",
+  "skills_read": [
+    "academic-proofreader",
+    "citation-checker"
+  ],
+  "word_document_edited": false,
+  "new_experiments_run": false,
+  "issues": [],
+  "resolved_issues": [
+    {
+      "issue_id": "IF-01",
+      "paragraph_id": "P0324",
+      "finding_ids": [
+        "VC-04"
+      ],
+      "severity": "qualification",
+      "status": "RESOLVED_BY_ROOT_AND_RECHECKED",
+      "previous_candidate_span": "Their labels marked suspicious or appropriate accesses, not confirmed incidents.",
+      "original_span": "Their training labels marked accesses as suspicious or appropriate, rather than confirming incident outcomes.",
+      "proposed_fix": "Their training labels marked accesses as suspicious or appropriate, rather than confirming incident outcomes.",
+      "reason": "Removing 'training' broadens the statement to the studies' labels generally. The same paragraph distinguishes external sets containing independently investigated or identified inappropriate accesses. Preserve the original training-only scope to avoid erasing that distinction.",
+      "evidence": [
+        "Integrated_Changes.json P0324 old/new",
+        "Current_Paragraphs.json P0324-P0325",
+        "Source_Definition_Resolutions.json VC-04; Kim2011_fresh_blocks.txt Control Arm, Mixed Set and Evaluation"
+      ]
+    }
+  ],
+  "focus_checks": [
+    {
+      "paragraph_ids": [
+        "P0324"
+      ],
+      "verdict": "No remaining issue. Correct sample definition; the root restored the training-only label qualification identified in IF-01, and the complete revised paragraph was rechecked.",
+      "evidence_checked": "Kim2011_fresh_blocks.txt lines 35-55: MAP1 risk strata, equal random sampling, privacy-officer labelling, intervention positives and borrowed control negatives; external parallel set contains only positives."
+    },
+    {
+      "paragraph_ids": [
+        "P0345"
+      ],
+      "verdict": "No issue. The text states exact-sum observation, assumed simulation/sampling access, estimated means/co-variation and a two-candidate update inference task. It does not assert direct observation of an individual update or assume a closed-form distribution.",
+      "evidence_checked": "Ngo2024_fresh_blocks.txt Section 4.1, Section 4.5 and Section 5 Experimental setting, especially lines 33-37, 79 and 84. Verification is limited to the inspected source-bearing excerpts."
+    },
+    {
+      "paragraph_ids": [
+        "P0421"
+      ],
+      "verdict": "No issue. The three omitted component roles agree with the methods and Table 10. Omitting the new acronym names from main prose leaves the verified roles intact; the exact names remain in the source resolution receipts.",
+      "evidence_checked": "Kamatchi2025_fresh.txt Sections 3.2 and 3.4 and Table 10 near lines 571, 773 and 1579-1590."
+    },
+    {
+      "paragraph_ids": [
+        "P0459"
+      ],
+      "verdict": "No issue. Dataset B, first clustering level and precision's real-explained/all-explained denominator are represented correctly. The explanation-versus-confirmed-incident qualification and all reported values survive.",
+      "evidence_checked": "Fabbri2011_fresh.txt collaborative-group construction, dataset overview, precision definition and depth comparison near lines 803, 882, 1754, 1769 and 1953."
+    },
+    {
+      "paragraph_ids": [
+        "P0465"
+      ],
+      "verdict": "No issue. Rel denotes context-specific learnt interaction patterns, rather than merely another observed relationship field. History is correctly expressed as earlier violation counts/rates. Model labels, AUROC/AUPRC values, SD notation and uncertainty limits survive.",
+      "evidence_checked": "Menon2014_fresh.txt Sections 3.1-3.3, model extensions and Hospital Table 1 near lines 223, 255, 301, 310 and 363-368."
+    },
+    {
+      "paragraph_ids": [
+        "P0476",
+        "P0576"
+      ],
+      "verdict": "No issue. The undefined entity behind 90,385 'unique IDs' and the missing meanings of C/E/R/U remain explicit. No user, patient, session, CRUD or FHIR action mapping is guessed.",
+      "evidence_checked": "Tabassum2024_fresh_blocks.txt Par35, Par74/Table 2 and Par101/Par103; Data_Record_Resolutions.json VC-19; source dictionary's literal action-code field."
+    },
+    {
+      "paragraph_ids": [
+        "P0711"
+      ],
+      "verdict": "No issue. Three shares and a threshold of two apply separately to the private-mask seed and the first private key. The separate requirement for all three clients at each accepted stage survives.",
+      "evidence_checked": "installed_secaggplus_mod.py create_shares and unmask selection; installed_secaggplus_workflow.py threshold/reconstruction; tested_project_workflow.py strict cohort check and tested_project_client_app.py UNMASK guard."
+    },
+    {
+      "paragraph_ids": [
+        "P1448",
+        "P1457"
+      ],
+      "verdict": "No issue. The constructed legacy-fold control deliberately expects identical old-helper outputs and distinct candidate-helper outputs. SETUP-after-SHARE_KEYS is accurately described as a stage-validation permission check; the code reset is described separately and expressly was not executed by that check.",
+      "evidence_checked": "prg/run_checks.py collision() lines 158-170; protocol/attempt_02/Executed_Script.py lines 202-203; installed_secaggplus_mod.py check_stage and _setup."
+    },
+    {
+      "paragraph_ids": [
+        "P1441",
+        "P2249",
+        "P2254"
+      ],
+      "verdict": "No issue. The original 101 cases remain 99 PASS, 1 FAIL and 1 OBSERVED_BOUNDARY. The later 59/12/75 counts retain their different units and restricted rerun scope; no new all-pass 101-case suite is claimed.",
+      "evidence_checked": "Full old/new pair comparison, Current_Paragraphs.json Section 4.11 and Appendix C.7, and Security_Code_Resolutions.json limits. No test was rerun for this review."
+    },
+    {
+      "paragraph_ids": [
+        "P1463",
+        "P2252"
+      ],
+      "verdict": "No issue. The compared contexts are exact public/private key bytes, mask-seed bytes, one derived mask key and one share-encryption key per unordered pair, and ordered tuples of serialised masked-parameter bytes. The finite-check, in-memory and no-UNMASK limitations survive; no digest-only comparison or entropy claim is introduced.",
+      "evidence_checked": "prg/run_checks.py freshness() near lines 188-221; installed_secaggplus_mod.py rd_seed, shared-key construction and MASKED_PARAMETERS context; Security_Code_Resolutions.json VC-41/VC-59."
+    },
+    {
+      "paragraph_ids": [
+        "P2251",
+        "P2280"
+      ],
+      "verdict": "No issue. The measurement_scope replacement bypasses normal bundled-resource loading and validation while actual counters, timing/logging and diagnostic-export functions still run. Literal-marker coverage and untested semantic sensitive content remain distinct.",
+      "evidence_checked": "exports/run_sv07.py scope and patch.object calls; tested_mai_measurement.py measurement_scope(), timing_boundary_mod(), ObservedRawGrid and server_report(); tested_failure_evidence.py collect_failure_capsule()."
+    },
+    {
+      "paragraph_ids": [
+        "P0775",
+        "P1743",
+        "P1768",
+        "P1934",
+        "P1938"
+      ],
+      "verdict": "No issue. The engineering-check, namespace/record-ID, connected-component catalogue, adopted-decision record and byte-matched custodial configuration definitions follow the retained resolutions. Original-generation uncertainty, study-count limits, source identity and runtime-token exceptions survive.",
+      "evidence_checked": "Data_Record_Resolutions.json all six records; fullsize_policy.json; prepare_screening.py source+source_id union; build_cross_channel_catalog.py union-find and title-only duplicate flags; quoted configuration/hash receipts in the resolution record."
+    },
+    {
+      "paragraph_ids": [
+        "P0032",
+        "P0842",
+        "P1438",
+        "P1543"
+      ],
+      "verdict": "No issue. Same-host replay and predictive agreement are retained with the scaler-metadata exception. Reused historical scaler JSON is described as a separate file set; identical freshly generated metadata bytes or independent external replication are not claimed.",
+      "evidence_checked": "Full old/new comparison with Current_Paragraphs.json Appendix C.6, particularly P2243-P2247."
+    },
+    {
+      "paragraph_ids": [
+        "P1341",
+        "P1377",
+        "P1378",
+        "P1401",
+        "P1915"
+      ],
+      "verdict": "No issue. Clarified cost labels fit their adjacent definitions; p95 and 95th percentile represent the same value. The public-vector index is the client index, not a coordinate index; float32 inputs and float64 expected averages are preserved.",
+      "evidence_checked": "Current_Paragraphs.json P1372-P1396 and Table 4.15; tested_public_protocol.py lines 69-70 and protocol Executed_Script.py line 58."
+    }
+  ],
+  "root_amendments_rechecked": [
+    {
+      "paragraph_id": "P0036",
+      "verdict": "No issue. Three Malay-abstract changes mirror the English abstract: primary-test group composition, secondary threats/unusual legitimate activity without routine sessions, and the documented difference in stored input-scaling information. Every numeric token and all other claims remain unchanged."
+    },
+    {
+      "paragraph_id": "P0324",
+      "verdict": "IF-01 resolved by restoring the exact original training-label qualification."
+    },
+    {
+      "paragraph_id": "P1743",
+      "verdict": "No issue. Source label is a plain-language description of the source field; the labels MED and ETH and the record-ID pair unit are explicit. No expansion of ETH or count of unique studies is introduced."
+    },
+    {
+      "paragraph_id": "P1768",
+      "verdict": "No issue. 'Web addresses put into a common format' preserves URL normalisation; exact-identifier linkage, documented URL-to-DOI links and the limit on study counts remain explicit."
+    },
+    {
+      "paragraph_id": "P2280",
+      "verdict": "No issue. Selected logging/error-report outputs replaces observer/capsule without enlarging the literal-marker test's coverage. Untested memory, stores and sensitive metadata remain explicit."
+    },
+    {
+      "paragraph_id": "P2159",
+      "verdict": "No issue. The final mechanical change to 'The supplementary package of result traceability evidence includes the derivation code and numerical checks.' retains the exact original live-hyperlink anchor text 'result traceability evidence'. The full paragraph was rechecked; all original values, qualifications, table references and the no-retraining/no-threshold-refit limitation remain unchanged.",
+      "status": "LINK_ANCHOR_PRESERVATION_RECHECKED"
+    }
+  ],
+  "remaining_boundary": "The Word document and main-text word count were not built or checked by this reviewer. No claim is made that every original paper was fully reread or that all source claims throughout the thesis have been independently certified.",
+  "reviewed_ids": [
+    "P0032",
+    "P0036",
+    "P0324",
+    "P0345",
+    "P0414",
+    "P0418",
+    "P0421",
+    "P0422",
+    "P0423",
+    "P0433",
+    "P0459",
+    "P0465",
+    "P0476",
+    "P0485",
+    "P0487",
+    "P0498",
+    "P0576",
+    "P0663",
+    "P0711",
+    "P0736",
+    "P0739",
+    "P0740",
+    "P0775",
+    "P0839",
+    "P0842",
+    "P1341",
+    "P1377",
+    "P1378",
+    "P1401",
+    "P1438",
+    "P1441",
+    "P1448",
+    "P1454",
+    "P1457",
+    "P1460",
+    "P1463",
+    "P1472",
+    "P1543",
+    "P1565",
+    "P1583",
+    "P1594",
+    "P1666",
+    "P1667",
+    "P1743",
+    "P1768",
+    "P1915",
+    "P1934",
+    "P1938",
+    "P2159",
+    "P2249",
+    "P2251",
+    "P2252",
+    "P2254",
+    "P2280",
+    "P2386"
+  ],
+  "covered_finding_ids": [
+    "VC-01",
+    "VC-02",
+    "VC-03",
+    "VC-04",
+    "VC-05",
+    "VC-06",
+    "VC-07",
+    "VC-08",
+    "VC-09",
+    "VC-10",
+    "VC-11",
+    "VC-12",
+    "VC-13",
+    "VC-14",
+    "VC-15",
+    "VC-16",
+    "VC-17",
+    "VC-18",
+    "VC-19",
+    "VC-20",
+    "VC-21",
+    "VC-22",
+    "VC-23",
+    "VC-24",
+    "VC-25",
+    "VC-26",
+    "VC-27",
+    "VC-28",
+    "VC-29",
+    "VC-30",
+    "VC-31",
+    "VC-32",
+    "VC-33",
+    "VC-34",
+    "VC-35",
+    "VC-36",
+    "VC-37",
+    "VC-38",
+    "VC-39",
+    "VC-40",
+    "VC-41",
+    "VC-42",
+    "VC-43",
+    "VC-44",
+    "VC-45",
+    "VC-46",
+    "VC-47",
+    "VC-48",
+    "VC-49",
+    "VC-50",
+    "VC-51",
+    "VC-52",
+    "VC-53",
+    "VC-54",
+    "VC-55",
+    "VC-56",
+    "VC-57",
+    "VC-58",
+    "VC-59",
+    "VC-60",
+    "VC-61",
+    "VC-62"
+  ],
+  "input_sha256": "6574302bcf686a02967bba39cd5a266024f2fbb458a3b7ef2e5921676e2e96a0",
+  "validation": {
+    "pair_count": 55,
+    "finding_count": 62,
+    "full_old_paragraphs_equal_current": true,
+    "old_current_mismatches": [],
+    "ordered_numeric_token_sequences_unchanged": true,
+    "numeric_token_mismatches": [],
+    "numeric_check_limit": "Lexical numeric tokens were also checked in their full sentences; the intentional p95 wording expansion preserves the value.",
+    "citations": "All 55 pairs were visually compared for citation names, years and attachment; no removed or reassigned citation was found.",
+    "source_resolution_records_read": 19,
+    "issue_count": 0,
+    "resolved_issue_count": 1
+  }
+}

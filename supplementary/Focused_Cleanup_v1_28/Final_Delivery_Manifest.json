@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETE",
+  "version": "v1.28",
+  "source_version": "v1.27",
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_28_focused_cleanup_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_28_Focused_Cleanup_Clean_20261025.docx",
+      "sha256": "22037b19c6997ea134769d56602bdc49ae8e15871c6dbb5ac8d4be69a01cb893",
+      "status": "PASS",
+      "pages": 130,
+      "main_words": 17927,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "paragraphs": 2463,
+      "non_navigation_paragraphs": 2293,
+      "figures_preserved": 7,
+      "tables": 51,
+      "other_tables_unchanged": 50,
+      "prose_only_table_changed": [
+        32
+      ],
+      "bibliography_entries": 42,
+      "native_math_objects": 7,
+      "highlight_runs": 0,
+      "highlight_colours": {},
+      "issues": []
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_28_focused_cleanup_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_28_Focused_Cleanup_Highlighted_20261025.docx",
+      "sha256": "8e0876f0dc62c5cbc53c72d1de797ed6d6dd967f1b9d1f0d8e5c2c9615a53ce3",
+      "status": "PASS",
+      "pages": 130,
+      "main_words": 17927,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "paragraphs": 2463,
+      "non_navigation_paragraphs": 2293,
+      "figures_preserved": 7,
+      "tables": 51,
+      "other_tables_unchanged": 50,
+      "prose_only_table_changed": [
+        32
+      ],
+      "bibliography_entries": 42,
+      "native_math_objects": 7,
+      "highlight_runs": 122,
+      "highlight_colours": {
+        "green": 120,
+        "cyan": 2
+      },
+      "issues": []
+    }
+  ],
+  "targeted_edits": 17,
+  "verbatim_protocol_transfer": 1,
+  "native_main_words": 17927,
+  "previous_native_main_words": 18259,
+  "native_main_words_reduced": 332,
+  "main_limit": 19500,
+  "pages_per_copy": 130,
+  "current_visual_records": 260,
+  "new_experiments": false,
+  "source_unchanged": true,
+  "result_tables_and_figures_preserved": true,
+  "material_limits_preserved": true,
+  "scope": "Focused repetition and engineering-detail cleanup in3.8,5.5,5.6,6.3 andTable6.1, with one explicit count-scope word addition in5.7.5 and protocol detail retained inB.5."
+}

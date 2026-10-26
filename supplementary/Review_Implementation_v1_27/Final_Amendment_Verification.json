@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "integrated_sha256": "57737153f8f015c1015165bad834b543856c28c180a663b19f37344849ca4c47",
+  "reviewed_integrated_sha256": "2430a4bb4275e199e173d40e7004233edf049f68f61edd83eb0885c5f88273ca",
+  "post_review_changes": [
+    "Preserve full live Table2.1/2.2/2.3 andTableB.4 field displays in the same evidence context",
+    "Shorten table header to Levels in training",
+    "NativeOMML explicitly qualifies family means by g∈G_it; surrounding prose attributes equal session weights to the batch mean",
+    "Layout-only width and page-break repairs documented separately"
+  ],
+  "basis": "Exact content verification against final expected paragraphs; unchanged numbers/citations and source copies; current-hash visual checks; equation/code equivalence and displayed-domain review"
+}

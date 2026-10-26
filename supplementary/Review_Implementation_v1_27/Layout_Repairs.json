@@ -1,0 +1,41 @@
+{
+  "repairs": [
+    {
+      "mode": "Clean",
+      "before_sha256": "10120b64a81109c7f14d23fd7948d58133604c89b1a71f438993653a987d83ac",
+      "after_sha256": "0dd56bc56f3c4557a731007bf0a492626402147cc264455bff75ce359440a13c",
+      "repairs": [
+        "P0573 shorter training-level header",
+        "C11 note kept together",
+        "C12 removed forced page break"
+      ],
+      "partition_column_widths_twips": [
+        1389,
+        850,
+        1219,
+        850,
+        1050,
+        3145
+      ]
+    },
+    {
+      "mode": "Highlighted",
+      "before_sha256": "a26ba7e970f0448927a1233a307a3b2207a322a9ed8abe21b99d7df4e27f6587",
+      "after_sha256": "987c589bdea48b62d2902918ed9516218c464704df864eab29272085a4e7d738",
+      "repairs": [
+        "P0573 shorter training-level header",
+        "C11 note kept together",
+        "C12 removed forced page break"
+      ],
+      "partition_column_widths_twips": [
+        1389,
+        850,
+        1219,
+        850,
+        1050,
+        3145
+      ]
+    }
+  ],
+  "table_header_report_recheck": "Physical pages30and35 both have complete headers. Originalpixelbounds and PDF text coordinates confirm; no table2.1 modification needed."
+}

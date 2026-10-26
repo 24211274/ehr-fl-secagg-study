@@ -1,17 +1,21 @@
-# Reproducibility boundaries
+# Reproduction materials
 
-## 1. Inspect code and existing results
+Start with [the online file and download guide](AVAILABILITY.md). The release supplies the original audit inputs, all 30 selected model records, raw/frozen preparation inputs, dependency wheels and replay controls. File inventories and hashes distinguish these materials from newly generated outputs.
 
-Read the root README, supervisor guide and evidence index. Run `python -I -B tools/verify_handover.py` to check the handover files against the supplied SHA-256 manifest and the original source manifest. This verifies file consistency, not research validity or cryptographic security.
+## Integrity inspection
 
-## 2. Reproduce metric arithmetic
+Run the two standard-library verifiers in the root README. The original executed 215-file source and PACKAGE_SHA256SUMS.txt remain unchanged. The historical handover manifest is retained under evidence/historical; the current handover manifest covers the enlarged repository and corrects the pre-existing README checksum drift.
 
-Use `analysis/final_score_audit/REPRODUCE_AUDIT.md` with separately authorised saved-score/calibration evidence, the final evaluation report and original source labels. The audit can recalculate AP, AUROC and decision metrics without retraining. This repository includes the audit code and outputs, but not all its private inputs. Tests on numerical fixtures are not repeat training runs.
+## Saved-score arithmetic
 
-## 3. Reproduce training/inference from a new host
+The audit package supplies all five inputs required by analysis/final_score_audit/audit_scores.py. Its numerical-fixture tests and an actual file-only arithmetic pass are recorded separately from model inference or training. Use the package's instructions and a new output directory.
 
-This has not been established as a one-command path by this handover. The frozen launcher depends on earlier preprocessing and validation evidence, fitted transforms, initial states/draws or their verified generation, campaign-specific files and the pinned local Flower build `1.22.0+mai.prg7570.1`. Inspect the retained build provenance; do not substitute the latest stock Flower release.
+## New-session inference
 
-An independent rerun needs an approved asset transfer and a new workspace, preserving the completed campaign. A later portability wrapper must be identified as a post-experiment addition and must not overwrite the original executed source or claim to have produced the original results.
+The inference directory contains its own model, calibration, preprocessing assets, dependency files, template and samples. Its self-test checks the fixed C/Reference/seed11 example. It does not retrain or recalibrate the model.
 
-No training, inference, threshold refitting or score-direction change was performed when preparing this GitHub handover. Test data have already been evaluated; new development must not be represented as blind tuning on untouched test sets.
+## Full training replay
+
+The archived ME06 control files and offline Python 3.12 Linux wheels are supplied, including the local Flower build. Historical absolute paths and predecessor identity guards remain visible. Restore into a new workspace and review those path bindings before execution. Availability of the materials is not a claim of new independent-host training validation or a newly tested one-command launcher.
+
+This online publication step performs integrity checks, score arithmetic and demo tests only; it does not repeat the benchmark training or change the thesis results.

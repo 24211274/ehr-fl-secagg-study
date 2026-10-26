@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "recorded_utc": "2026-10-26T11:24:00.071259+00:00",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "cases": [
+    {
+      "name": "all_paths_inside_extracted_bundle",
+      "status": "PASS",
+      "detail": true
+    },
+    {
+      "name": "frozen_asset_hashes_and_original_model_binding",
+      "status": "PASS",
+      "detail": {
+        "configuration": "C",
+        "condition": "reference",
+        "seed": 11,
+        "checkpoint_sha256": "79d631dd38f0e1e8701dcea02e7a3ddb86492652d2844e5b6f7fcbb883bc54fc"
+      }
+    },
+    {
+      "name": "01_below_threshold.csv",
+      "status": "PASS",
+      "detail": {
+        "score": 0.19823519885540009,
+        "threshold": 0.21659636572003307,
+        "alert": false
+      }
+    },
+    {
+      "name": "02_above_threshold.csv",
+      "status": "PASS",
+      "detail": {
+        "score": 1.7077388763427734,
+        "threshold": 0.21659636572003307,
+        "alert": true
+      }
+    },
+    {
+      "name": "03_invalid_sequence.csv",
+      "status": "PASS",
+      "detail": "sequence_position must be unique, contiguous and start at zero"
+    },
+    {
+      "name": "04_missing_columns.csv",
+      "status": "PASS",
+      "detail": "Missing or duplicate CSV column names; use the supplied template"
+    },
+    {
+      "name": "frozen_threshold_C2",
+      "status": "PASS",
+      "detail": 0.22253612235188477
+    },
+    {
+      "name": "frozen_threshold_C3",
+      "status": "PASS",
+      "detail": 0.20509986847639133
+    },
+    {
+      "name": "no_training_or_gradients",
+      "status": "PASS",
+      "detail": true
+    }
+  ],
+  "fixture": "Bundled hand-constructed synthetic samples only",
+  "new_training": false,
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.10.0+cpu"
+  }
+}

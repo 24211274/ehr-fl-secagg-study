@@ -1,0 +1,1 @@
+v1.28 compared with v1.27. Green marks concise revisions; cyan marks clarified scope and the verbatim protocol transfer to Appendix B.5. Complete deletions and all before/after text are recorded in Changes_Before_After.csv. No new experiments or detector upload.

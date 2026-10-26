@@ -1,0 +1,932 @@
+{
+  "task": "thesis_v1_25_clarity_resolution_20261020",
+  "review": "Security_Code_Resolutions",
+  "method": "Static reads of actual tested WSL installed/source files, executed harness scripts and retained JSON/logs. Standard-library hashing and ZIP member byte comparisons only. No scientific/security experiments, training, inference or Word edits.",
+  "skill_applied": "C:\\Users\\RNO\\.codex\\skills\\academic-proofreader\\SKILL.md",
+  "source_snapshot_provenance": {
+    "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\snapshot_provenance.json",
+    "sha256": "7192b5d118a759fdbbc2ce78886f6202a23372f871fa4fe8b47be92f03b3ffba"
+  },
+  "execution_identity_checks": [
+    {
+      "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\execution_receipt_attempt_01.json",
+      "sha256": "5666dea208bc15b55881a93bd9a3f8565af224b3bc002bceb17b63c401ef15cd",
+      "anchors": [
+        {
+          "line": 18,
+          "exact_line": "  \"contract_unchanged\": true,"
+        },
+        {
+          "line": 19,
+          "exact_line": "  \"script_unchanged\": true,"
+        }
+      ]
+    },
+    {
+      "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Attempt_Receipt.json",
+      "sha256": "b681a29e30c03ab5fdd426f5662191ffac16551a33bcaae3dd4b7875c807f9e6",
+      "anchors": [
+        {
+          "line": 23,
+          "exact_line": "  \"script_sha256\": \"43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212\","
+        },
+        {
+          "line": 2,
+          "exact_line": "  \"exit_code\": 2,"
+        }
+      ],
+      "establishes": "The retained attempt identifies the actual executed script. The attempt includes an overall target failure; this review uses only the specified retained case results and does not claim complete-suite success."
+    },
+    {
+      "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\execution_receipt.json",
+      "sha256": "4025bb3aae7394e3d373034688232dfbb78b31cde61fe16d9a6e2719fbfb9e56",
+      "anchors": [
+        {
+          "line": 18,
+          "exact_line": "  \"source_and_protected_runtime_unchanged\": true,"
+        },
+        {
+          "line": 20,
+          "exact_line": "  \"source_input_hash_failures\": 0,"
+        }
+      ]
+    }
+  ],
+  "candidate_wheel_static_identity": {
+    "absolute_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+    "sha256": "f0d3998ac84f9f7510d441ba45d40917c3122449547a78c2f57208148ec66630",
+    "member_checks": [
+      {
+        "snapshot": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+        "wheel_member": "flwr/client/mod/secure_aggregation/secaggplus_mod.py",
+        "member_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+        "byte_identical": true
+      },
+      {
+        "snapshot": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+        "wheel_member": "flwr/server/workflow/secure_aggregation/secaggplus_workflow.py",
+        "member_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+        "byte_identical": true
+      },
+      {
+        "snapshot": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_candidate_secaggplus_utils.py",
+        "wheel_member": "flwr/common/secure_aggregation/secaggplus_utils.py",
+        "member_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+        "byte_identical": true
+      }
+    ]
+  },
+  "global_limits": [
+    "Definitions are established by implementation and retained fixture outputs, not by cryptographic proof or external privacy certification.",
+    "This report does not revise or inflate the original 101-case suite claim. Targeted SV-05 repair evidence remains separate from that original suite.",
+    "Complete four-stage public arithmetic checks establish numerical correctness only within their declared fixtures; privacy remains a distinct claim."
+  ],
+  "findings": [
+    {
+      "finding_id": "VC-21",
+      "paragraph_id": "P0711",
+      "status": "RESOLVED",
+      "resolution": "The share count and reconstruction threshold apply separately to each client's private-mask seed (rd_seed) and first private key (sk1), which derives pairwise masks. The client creates shares of both with create_shares(secret, threshold, share_num). During upstream unmasking, the server reconstructs active clients' private-mask seeds or dropped clients' first private keys. The project's strict wrapper independently requires the full cohort at every stage, so the reconstruction threshold does not authorise continuing with only two client replies.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+          "sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+          "anchors": [
+            {
+              "line": 384,
+              "exact_line": "    b_shares = create_shares(state.rd_seed, state.threshold, state.share_num)"
+            },
+            {
+              "line": 385,
+              "exact_line": "    sk1_shares = create_shares(state.sk1, state.threshold, state.share_num)"
+            },
+            {
+              "line": 514,
+              "exact_line": "    shares += [state.rd_seed_share_dict[nid] for nid in active_nids]"
+            },
+            {
+              "line": 515,
+              "exact_line": "    shares += [state.sk1_share_dict[nid] for nid in dead_nids]"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+          "sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+          "anchors": [
+            {
+              "line": 612,
+              "exact_line": "            if len(share_list) < state.threshold:"
+            },
+            {
+              "line": 617,
+              "exact_line": "            secret = combine_shares(share_list)"
+            },
+            {
+              "line": 619,
+              "exact_line": "                # The seed for PRG is the private mask seed of an active client."
+            },
+            {
+              "line": 625,
+              "exact_line": "                # The seed for PRG is the secret key 1 of a dropped client."
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\server\\workflow\\secure_aggregation\\secaggplus_workflow.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_workflow.py",
+          "sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514",
+          "anchors": [
+            {
+              "line": 52,
+              "exact_line": "        if not ok or state.failures or len(state.sampled_node_ids)!=3 or state.active_node_ids!=state.sampled_node_ids:"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\workflow.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_client_app.py",
+          "sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53",
+          "anchors": [
+            {
+              "line": 42,
+              "exact_line": "        if len(record[Key.ACTIVE_NODE_ID_LIST])!=3 or record[Key.DEAD_NODE_ID_LIST]:raise RuntimeError('Incomplete cohort refused before unmasking')"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\client_app.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_UNMASK_MISSING.json",
+          "sha256": "9fbfe3d3e0d5f5aa81d08db8d34891750ca7dd221cb51fd9507ec86fb8ca562e",
+          "anchors": [
+            {
+              "line": 2,
+              "exact_line": "  \"aggregate_callbacks\": 0,"
+            },
+            {
+              "line": 416,
+              "exact_line": "  \"status\": \"PASS\","
+            }
+          ],
+          "json_key_anchor": "fixture.stage=unmask; fixture.mutation=missing; aggregate_callbacks; status"
+        }
+      ],
+      "evidence_limits": [
+        "The dropped-client key branch is an upstream code definition. The benchmark project explicitly rejects dropout; this is not evidence that dropout recovery was accepted or tested in its training workflow.",
+        "Secret-sharing settings and successful arithmetic do not establish a cryptographic privacy guarantee."
+      ],
+      "suggested_full_paragraph_old": "Secure aggregation comprised four stages: setup, key sharing, masked-vector collection and unmasking. The server used SecAggPlusWorkflow and clients used secaggplus_mod, with stage identifiers setup, share_keys, collect_masked_vectors and unmask. Message checks verified expected fields and the absence of plaintext individual updates in aggregation replies. The configured share count was three and the reconstruction threshold was two. Nevertheless, every accepted stage required replies from all three clients. Missing replies stopped the workflow, with no fallback to ordinary FedAvg.",
+      "suggested_full_paragraph_new": "Secure aggregation comprised four stages: setup, key sharing, masked-vector collection and unmasking. The server used SecAggPlusWorkflow and clients used secaggplus_mod, with stage identifiers setup, share_keys, collect_masked_vectors and unmask. Message checks verified expected fields and the absence of plaintext individual updates in aggregation replies. The configured share count was three and the reconstruction threshold was two for each client's private-mask seed and the private key used to derive pairwise masks: the count sets how many shares are created, and the threshold sets how many are needed to reconstruct the respective secret for unmasking. Nevertheless, every accepted stage required replies from all three clients. Missing replies stopped the workflow, with no fallback to ordinary FedAvg.",
+      "original_numeric_strings": [],
+      "replacement_numeric_strings": [],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee."
+    },
+    {
+      "finding_id": "VC-37",
+      "paragraph_id": "P1448",
+      "status": "RESOLVED",
+      "resolution": "The legacy-fold control constructs distinct public byte seeds whose repeated little-endian words cancel in the old helper's XOR reduction to its RandomState seed. The executed assertions required identical legacy output arrays and distinct candidate output arrays for these constructed seeds. Agreement means each implementation met this deliberately different expected result. The separate public-output checks compare HMAC against a fixed vector and the PRG arrays against an independently written scalar decoder for each specified modulus.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+          "sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+          "anchors": [
+            {
+              "line": 158,
+              "exact_line": "def collision():"
+            },
+            {
+              "line": 164,
+              "exact_line": "    public_keys=[i.to_bytes(4,'little')*2+b'\\0'*24 for i in range(n)]"
+            },
+            {
+              "line": 167,
+              "exact_line": "    require(all(np.array_equal(a,old_out[0]) for a in old_out))"
+            },
+            {
+              "line": 168,
+              "exact_line": "    require(len({a.tobytes() for a in new_out})==n)"
+            },
+            {
+              "line": 136,
+              "exact_line": "        require(same(arr,scalar_reference(PUBLIC_KEY,mod,SHAPES)))"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+          "sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a",
+          "anchors": [
+            {
+              "line": 88,
+              "exact_line": "    seed32 = 0"
+            },
+            {
+              "line": 90,
+              "exact_line": "        seed32 ^= int.from_bytes(seed[i : i + 4], \"little\")"
+            },
+            {
+              "line": 92,
+              "exact_line": "    gen = np.random.RandomState(seed32)"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\sources\\flower_v1_22_0_secaggplus_utils.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+          "sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+          "anchors": [
+            {
+              "line": 377,
+              "exact_line": "        \"legacy_fold_collision_reproduced\": true,"
+            },
+            {
+              "line": 378,
+              "exact_line": "        \"candidate_distinguishes_constructed_inputs\": true,"
+            }
+          ],
+          "json_key_anchor": "results[case='SV01.primitive.legacy_constructed_fold_collision_control'].status/evidence; results[case='SV01.identity.wheel_record_and_installed_payload'].evidence.installed_runtime_files_match_wheel"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\contract.json",
+          "sha256": "133172442839c69da1553dc538fdb6e8dfc1bab673549e7f27391cbbd8bd5a22",
+          "anchors": [
+            {
+              "line": 13,
+              "exact_line": "  \"primitive_moduli_exponents\": [1,8,9,16,17,22,24,25,31,32,33,40,48,56,63],"
+            },
+            {
+              "line": 17,
+              "exact_line": "  \"legacy_constructed_collision_inputs\": 16,"
+            }
+          ]
+        }
+      ],
+      "evidence_limits": [
+        "This is a constructed seed-folding control. It does not estimate general collision rates or prove collision resistance, entropy, unpredictability or privacy.",
+        "The proposed wording retains the existing runtime-file count and modulus count; it introduces no new numerical result."
+      ],
+      "suggested_full_paragraph_old": "424 installed Flower runtime files matched the candidate wheel. Public vectors, 15 moduli and the constructed legacy-fold control also matched.",
+      "suggested_full_paragraph_new": "424 installed Flower runtime files matched the candidate wheel. Public-vector outputs and the checks over 15 moduli matched their respective reference outputs. The constructed legacy-fold control confirmed identical output arrays from the previous helper for distinct public seeds chosen to collapse under its seed reduction, and distinct output arrays from the candidate helper.",
+      "original_numeric_strings": [
+        "424",
+        "15"
+      ],
+      "replacement_numeric_strings": [
+        "424",
+        "15"
+      ],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee."
+    },
+    {
+      "finding_id": "VC-39",
+      "paragraph_id": "P1457",
+      "status": "RESOLVED",
+      "resolution": "The executed fixture directly passed current_stage=Stage.SHARE_KEYS and configs={Key.STAGE:Stage.SETUP} to the installed check_stage function. That function permits a requested SETUP and logs a warning when the current stage is not UNMASK. The fixture returned without exception, with zero aggregate callbacks. Separately, the installed message handler would assign SETUP and call _setup after config validation. _setup reloads the supplied protocol parameters, clears rd_seed_share_dict, sk1_share_dict and ss2_dict, and generates both private/public key pairs anew. The fixture did not execute that state reset.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+          "sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+          "anchors": [
+            {
+              "line": 202,
+              "exact_line": "            elif kind=='setup_restart_characterization':"
+            },
+            {
+              "line": 203,
+              "exact_line": "                mod.check_stage(Stage.SHARE_KEYS,ConfigRecord({Key.STAGE:Stage.SETUP})); value={'upstream_setup_restart_allowed':True,'warning_expected':True,'not_a_replay_resistance_guarantee':True}"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+          "sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+          "anchors": [
+            {
+              "line": 210,
+              "exact_line": "    if next_stage == Stage.SETUP:"
+            },
+            {
+              "line": 212,
+              "exact_line": "            log(WARNING, \"Restart from the setup stage\")"
+            },
+            {
+              "line": 159,
+              "exact_line": "    state.current_stage = cast(str, configs.pop(Key.STAGE))"
+            },
+            {
+              "line": 168,
+              "exact_line": "        res = _setup(state, configs)"
+            },
+            {
+              "line": 332,
+              "exact_line": "    state.rd_seed_share_dict = {}"
+            },
+            {
+              "line": 333,
+              "exact_line": "    state.sk1_share_dict = {}"
+            },
+            {
+              "line": 336,
+              "exact_line": "    state.ss2_dict = {}"
+            },
+            {
+              "line": 341,
+              "exact_line": "    sk1, pk1 = generate_key_pairs()"
+            },
+            {
+              "line": 342,
+              "exact_line": "    sk2, pk2 = generate_key_pairs()"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+          "sha256": "d807219fba025d8750dfa9ba0b973e7da5c215f02b365536399edacffa194026",
+          "anchors": [
+            {
+              "line": 5,
+              "exact_line": "  \"exception\": null,"
+            },
+            {
+              "line": 20,
+              "exact_line": "    \"upstream_setup_restart_allowed\": true,"
+            },
+            {
+              "line": 25,
+              "exact_line": "  \"status\": \"PASS\""
+            }
+          ],
+          "json_key_anchor": "fixture.direct; exception; public_result; aggregate_callbacks; model_advancements; scope; status"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\stderr.log",
+          "sha256": "2428caeb33d55ba3ca733236164879b2e7dfa391aecc2666335ca0c208fdac7c",
+          "anchors": [
+            {
+              "line": 69,
+              "exact_line": "WARNING :   Restart from the setup stage"
+            }
+          ]
+        }
+      ],
+      "evidence_limits": [
+        "The fixture is a direct stage-validation call, not a sequence of messages or an end-to-end restart test.",
+        "Only the explicitly listed dictionaries and key pairs are reset in _setup. The private-mask seed is freshly generated later in _share_keys; public_keys_dict is assigned there. The resolution does not imply complete clearing of every state field in SETUP.",
+        "Permission for SETUP restart is not a replay-resistance guarantee."
+      ],
+      "suggested_full_paragraph_old": "Selected missing, duplicate, foreign and error replies were refused at each stage. No rejected fixture accepted an aggregate. The SETUP restart check described allowed behaviour.",
+      "suggested_full_paragraph_new": "Selected missing, duplicate, foreign and error replies were refused at each stage. No rejected fixture accepted an aggregate. The SETUP restart check called the stage validator with SHARE_KEYS as the current stage and SETUP as the next stage and observed acceptance with a warning. The setup code reloads protocol settings, clears stored share and share-encryption-key dictionaries and regenerates both key pairs; that reset was not executed by this check.",
+      "original_numeric_strings": [],
+      "replacement_numeric_strings": [],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee."
+    },
+    {
+      "finding_id": "VC-41",
+      "paragraph_id": "P1463",
+      "status": "RESOLVED",
+      "resolution": "The compared categories are exact public-key bytes, private-key bytes, private-mask seed bytes, pairwise mask-key bytes, share-encryption-key bytes and ordered tuples of serialized masked-parameter byte strings. The finite in-memory set-cardinality checks found no repeated value within each category.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+          "sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+          "anchors": [
+            {
+              "line": 188,
+              "exact_line": "    seen_pk=set();seen_sk=set();seen_seed=set();seen_pair=set();seen_enc=set();seen_reply=set()"
+            },
+            {
+              "line": 202,
+              "exact_line": "                st=states[nid];seen_pk.update((st.pk1,st.pk2));seen_sk.update((st.sk1,st.sk2));seen_seed.add(st.rd_seed)"
+            },
+            {
+              "line": 204,
+              "exact_line": "                for b in nids[i+1:]:"
+            },
+            {
+              "line": 208,
+              "exact_line": "                    seen_pair.add(ka)"
+            },
+            {
+              "line": 210,
+              "exact_line": "                    seen_enc.add(states[a].ss2_dict[b])"
+            },
+            {
+              "line": 217,
+              "exact_line": "                seen_reply.add(tuple(reply[Key.MASKED_PARAMETERS]))"
+            },
+            {
+              "line": 220,
+              "exact_line": "        require(len(seen_pk)==2*contexts and len(seen_sk)==2*contexts and len(seen_seed)==contexts)"
+            },
+            {
+              "line": 221,
+              "exact_line": "        require(len(seen_pair)==sessions*3 and len(seen_enc)==sessions*3 and len(seen_reply)==contexts)"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+          "sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+          "anchors": [
+            {
+              "line": 412,
+              "exact_line": "        \"within_category_no_reuse_observed\": true,"
+            },
+            {
+              "line": 418,
+              "exact_line": "        \"crypto_entropy_or_unpredictability_proven\": false,"
+            },
+            {
+              "line": 419,
+              "exact_line": "        \"unmask_executed_in_this_group\": false,"
+            }
+          ],
+          "json_key_anchor": "results[case='SV06.freshness.twenty_three_client_real_generator_sessions'].evidence"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+          "sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+          "anchors": [
+            {
+              "line": 381,
+              "exact_line": "    state.rd_seed = os.urandom(32)"
+            },
+            {
+              "line": 399,
+              "exact_line": "            state.ss2_dict[nid] = shared_key"
+            },
+            {
+              "line": 396,
+              "exact_line": "                bytes_to_private_key(state.sk2),"
+            },
+            {
+              "line": 479,
+              "exact_line": "            bytes_to_private_key(state.sk1),"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+          "origin_snapshot_sha256_match": true
+        }
+      ],
+      "evidence_limits": [
+        "Exact comparisons took place only in memory. Retained JSON contains counts and booleans, not the actual secret values or their digests; those values cannot be independently recovered from the retained JSON.",
+        "No reuse within a finite checked category is not proof of entropy, unpredictability or privacy. The check directly exercised installed setup/share/collect functions and did not run UNMASK.",
+        "Each pair is counted once, despite checking agreement at both endpoints; equality is checked within each category, not between categories."
+      ],
+      "suggested_full_paragraph_old": "Across 20 three-client sessions, none of the compared generated contexts was reused within its category. This finite check does not prove entropy or unpredictability.",
+      "suggested_full_paragraph_new": "Across 20 three-client sessions, none of the compared generated contexts was reused within its category: public- and private-key bytes, private-mask seed bytes, pairwise mask-key bytes, share-encryption-key bytes, and ordered tuples of serialised masked-parameter byte strings. This finite check does not prove entropy or unpredictability.",
+      "original_numeric_strings": [
+        "20"
+      ],
+      "replacement_numeric_strings": [
+        "20"
+      ],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee.",
+      "implementation_detail": {
+        "public_keys": "seen_pk.update((st.pk1, st.pk2)): exact stored byte representations of both public keys per client.",
+        "private_keys": "seen_sk.update((st.sk1, st.sk2)): exact stored byte representations of both private keys per client.",
+        "self_seed": "seen_seed.add(st.rd_seed): private-mask seed bytes only; no client/session metadata.",
+        "pairwise_mask_key": "seen_pair.add(ka): generate_shared_key(private key sk1 of endpoint a, public key pk1 of endpoint b), once per unordered pair; reverse derivation kb checked equal.",
+        "share_encryption_key": "seen_enc.add(states[a].ss2_dict[b]): stored shared-key bytes for the same unordered pair, derived from the second key pairs; reverse stored key checked equal.",
+        "masked_reply": "seen_reply.add(tuple(reply[Key.MASKED_PARAMETERS])): the ordered tuple of serialized masked-parameter byte strings from each client collect reply, not the entire message or its metadata.",
+        "equality": "Python sets compare bytes by their value and tuples by ordered element equality; only category cardinalities/booleans were written to retained JSON. These are raw value comparisons, not digest comparisons or concatenated session labels."
+      }
+    },
+    {
+      "finding_id": "VC-52",
+      "paragraph_id": "P1915",
+      "status": "RESOLVED",
+      "resolution": "i is the zero-based index returned by enumerate(values), indexing the three client vectors in their listed order. Each client's offset uses that client's index plus one; i does not index vector coordinates. The baseline vectors and offset are explicitly float32, and the expected weighted average casts those actual float32 values to float64.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_public_protocol.py",
+          "sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf",
+          "anchors": [
+            {
+              "line": 69,
+              "exact_line": "    if not lattice:values=[a+np.array([.001,.023,-.041,.079],np.float32)*(i+1) for i,a in enumerate(values)]"
+            },
+            {
+              "line": 70,
+              "exact_line": "    expected=sum((a.astype(np.float64)*w/sum(weights) for a,w in zip(values,weights)),np.zeros(4,np.float64))"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\prg_validation\\public_protocol.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+          "sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+          "anchors": [
+            {
+              "line": 58,
+              "exact_line": "        if spec.get('off_lattice'): values=[x+np.array([.001,.023,-.041,.079],np.float32)*(i+1) for i,x in enumerate(values)]"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+          "sha256": "f4abf3cfe9293bc39048536875c87cd980974cceb26e03bb6860cdc156a60996",
+          "anchors": [
+            {
+              "line": 33,
+              "exact_line": "    \"off_lattice\": true,"
+            },
+            {
+              "line": 43,
+              "exact_line": "  \"lattice_fixture\": false,"
+            },
+            {
+              "line": 23,
+              "exact_line": "    \"status\": \"PASS\""
+            }
+          ],
+          "json_key_anchor": "fixture.off_lattice; fixture.weights; lattice_fixture; max_abs_average_error; predeclared_error_bound; status"
+        }
+      ],
+      "evidence_limits": [
+        "This identifies a public numerical fixture and the floating-point operations used by its oracle. Numerical agreement does not establish privacy or security.",
+        "No vector values, weights, precision strings or existing numerical assumptions were altered."
+      ],
+      "suggested_full_paragraph_old": "Checks using public vectors started with [−1,0,1,2], [2,1,−2,0] and [0,3,1,−1], with four coordinates per client. The non-lattice cases produced values between quantisation-grid points by adding (i+1)[0.001,0.023,−0.041,0.079] in float32. Expected averages were calculated in float64 from the actual float32 inputs. Table B.4 and the original JSON records in the Evidence Companion give the numerical assumptions and scale.",
+      "suggested_full_paragraph_new": "Checks using public vectors started with [−1,0,1,2], [2,1,−2,0] and [0,3,1,−1], with four coordinates per client. The non-lattice cases produced values between quantisation-grid points by adding (i+1)[0.001,0.023,−0.041,0.079] in float32, where i is the zero-based client-vector index in the order listed. Expected averages were calculated in float64 from the actual float32 inputs. Table B.4 and the original JSON records in the Evidence Companion give the numerical assumptions and scale.",
+      "original_numeric_strings": [
+        "−1",
+        "0",
+        "1",
+        "2",
+        "2",
+        "1",
+        "−2",
+        "0",
+        "0",
+        "3",
+        "1",
+        "−1",
+        "+1",
+        "0.001",
+        "0.023",
+        "−0.041",
+        "0.079",
+        "32",
+        "64",
+        "32",
+        "4"
+      ],
+      "replacement_numeric_strings": [
+        "−1",
+        "0",
+        "1",
+        "2",
+        "2",
+        "1",
+        "−2",
+        "0",
+        "0",
+        "3",
+        "1",
+        "−1",
+        "+1",
+        "0.001",
+        "0.023",
+        "−0.041",
+        "0.079",
+        "32",
+        "64",
+        "32",
+        "4"
+      ],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee."
+    },
+    {
+      "finding_id": "VC-58",
+      "paragraph_id": "P2251",
+      "status": "RESOLVED",
+      "resolution": "The actual observer code includes record_bytes(), timing_boundary_mod(), ObservedRawGrid, client_span() and server_report(): it computes logical record-content byte counts, clocks/spans and allowed message metadata, then writes JSON. collect_failure_capsule() reads selected job/result/trace/history files and exports only its selected diagnostic fields. The harness patches measurement_scope() to return a fixed public dictionary (rounds, conditions, stage, fixed_config_sha256). The normal function reads a bundled fixed_config.json through the resource loader, validates its measurement budget/conditions/stage, and returns the configuration digest. This resource read and validation were bypassed; counters, observers, capsule selection/redaction and output scanning still ran.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+          "sha256": "71650cbe8124360ba548cafc1e0e5277c3fe0e80eefe3f5afea3bd8995cdfc2f",
+          "anchors": [
+            {
+              "line": 89,
+              "exact_line": "    scope={'rounds':30,'conditions':['reference','noniid'],'stage':'MAIN_CONTROLLED_COMPARISON','fixed_config_sha256':'0'*64}"
+            },
+            {
+              "line": 131,
+              "exact_line": "        with patch.object(mm,'measurement_scope',return_value=scope): r=mm.timing_boundary_mod(m,ctx(d),lambda a,b:reply(a))"
+            },
+            {
+              "line": 167,
+              "exact_line": "    def c07():"
+            },
+            {
+              "line": 169,
+              "exact_line": "        cap=collect_failure_capsule(d,outputs/'capsule_unknown');p=outputs/'capsule_unknown/server_failure_capsule.json';assert not scan([p]) and cap['server_exception']=='RuntimeError' and cap['message']=='[redacted; inspect retained local log]'"
+            },
+            {
+              "line": 202,
+              "exact_line": "    def c12():"
+            },
+            {
+              "line": 203,
+              "exact_line": "        paths=sorted(outputs.rglob('*.json'));hits=scan(paths);assert len(paths)>=9 and not hits"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+          "sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328",
+          "anchors": [
+            {
+              "line": 75,
+              "exact_line": "def measurement_scope() -> dict:"
+            },
+            {
+              "line": 84,
+              "exact_line": "    conf = read_document('fixed_config.json')"
+            },
+            {
+              "line": 159,
+              "exact_line": "def timing_boundary_mod(msg,context,call_next):"
+            },
+            {
+              "line": 253,
+              "exact_line": "class ObservedRawGrid:"
+            },
+            {
+              "line": 292,
+              "exact_line": "def server_report(grid,*,partial=False):"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\mai_measurement.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+          "sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326",
+          "anchors": [
+            {
+              "line": 18,
+              "exact_line": "def collect_failure_capsule(job: Path, reports: Path) -> dict:"
+            },
+            {
+              "line": 37,
+              "exact_line": "            result.update(server_failure_found=True,server_exception=kind if isinstance(kind,str) and _CLASS.fullmatch(kind) else 'UNKNOWN',"
+            },
+            {
+              "line": 43,
+              "exact_line": "        result['frames']=[{'file':a,'line':int(b),'function':c.strip()} for a,b,c in _FRAME.findall(text)]"
+            },
+            {
+              "line": 50,
+              "exact_line": "            result['last_recorded_evaluation_round']=rounds[-1]"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\main_study\\failure_evidence.py",
+          "origin_snapshot_sha256_match": true
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-03.json",
+          "sha256": "2286e4cc3fbdc324bc7e648a6059e43683c68f11a21cbc3d9fcde5b3eabccabb",
+          "anchors": [
+            {
+              "line": 5,
+              "exact_line": "  \"status\": \"PASS\","
+            },
+            {
+              "line": 7,
+              "exact_line": "    \"export_fields\": ["
+            }
+          ],
+          "json_key_anchor": "evidence.export_fields/counts/message_payload_remains_in_memory"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-08.json",
+          "sha256": "ebd010ede9b7275da8efbcc431869146adaa6463be6b0aefe04ede4fd7cacec5",
+          "anchors": [
+            {
+              "line": 5,
+              "exact_line": "  \"status\": \"PASS\","
+            },
+            {
+              "line": 10,
+              "exact_line": "    \"losses_and_locals_exported\": false"
+            }
+          ],
+          "json_key_anchor": "evidence.safe_message_preserved/public_frames_preserved/last_round/losses_and_locals_exported"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-12.json",
+          "sha256": "61bd37e9b839e3be7c3ce7752b2c6b132c02a73ef3a910314009c16dafb29872",
+          "anchors": [
+            {
+              "line": 9,
+              "exact_line": "    \"canary_matches\": 0,"
+            },
+            {
+              "line": 10,
+              "exact_line": "    \"scanned_only_runtime_outputs\": true,"
+            }
+          ],
+          "json_key_anchor": "evidence.selected_publishable_json_files/public_canary_categories/canary_matches/files"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\original_seal_before.json",
+          "sha256": "66d1c57052318e1b7b436cdd2a525646d98b08f6e06725ff6668a68d8ab58b50",
+          "anchors": [
+            {
+              "line": 321,
+              "exact_line": "      \"relative_path\": \"app/mai_measurement.py\","
+            },
+            {
+              "line": 510,
+              "exact_line": "      \"relative_path\": \"main_study/failure_evidence.py\","
+            }
+          ],
+          "json_key_anchor": "source_files[relative_path=app/mai_measurement.py or main_study/failure_evidence.py].sha256"
+        }
+      ],
+      "evidence_limits": [
+        "Public fixture callbacks and in-memory transport were used. The output check was not a complete secure benchmark application, network experiment or full deployment measurement.",
+        "The returned configuration digest was a dummy public value. SV-07 did not validate the bundled measurement resource through the substituted measurement_scope() call.",
+        "Only selected output JSON files were scanned for the injected public literal markers. Metadata-boundary case SV07-13 separately documents copied allowed metadata; no universal redaction or zero-leakage claim follows."
+      ],
+      "suggested_full_paragraph_old": "The test harness used a toy strategy and a replica client guard adapted to the public inputs to exercise installed Flower code and named project validators. Three public reference cases with known expected outputs used the upstream workflow/client path. Selected direct cases called actual project methods before any data or model access. The standard-FedAvg control used a native plain Flower reply, not the complete benchmark application. In SV-07, the observer and capsule functions were actual project code, but measurement_scope() used a public substitute. The cases therefore did not all test the complete application from end to end, which limits their coverage of application and network behaviour.",
+      "suggested_full_paragraph_new": "The test harness used a toy strategy and a replica client guard adapted to the public inputs to exercise installed Flower code and named project validators. Three public reference cases with known expected outputs used the upstream workflow/client path. Selected direct cases called actual project methods before any data or model access. The standard-FedAvg control used a native plain Flower reply, not the complete benchmark application. In SV-07, the project observer functions wrote message-content byte counts, timings and permitted metadata; the failure-capsule function exported selected error, traceback-frame and round metadata. Their JSON outputs were checked for injected public canaries. The harness replaced measurement_scope() with a dictionary of public round, condition, stage and configuration-digest values, bypassing its normal reading and validation of the job-specific bundled measurement configuration. The cases therefore did not all test the complete application from end to end, which limits their coverage of application and network behaviour.",
+      "original_numeric_strings": [
+        "-07"
+      ],
+      "replacement_numeric_strings": [
+        "-07"
+      ],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee."
+    },
+    {
+      "finding_id": "VC-59",
+      "paragraph_id": "P2252",
+      "status": "RESOLVED",
+      "resolution": "The four remaining context types are the exact rd_seed bytes, one derived pairwise mask key per unordered client pair, one stored ss2_dict share-encryption key per unordered client pair, and an ordered tuple of serialized MASKED_PARAMETERS blobs per client reply. Set cardinalities were compared with the prespecified expected counts, and reverse endpoint key derivations were checked for equality.",
+      "evidence": [
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+          "sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+          "anchors": [
+            {
+              "line": 188,
+              "exact_line": "    seen_pk=set();seen_sk=set();seen_seed=set();seen_pair=set();seen_enc=set();seen_reply=set()"
+            },
+            {
+              "line": 202,
+              "exact_line": "                st=states[nid];seen_pk.update((st.pk1,st.pk2));seen_sk.update((st.sk1,st.sk2));seen_seed.add(st.rd_seed)"
+            },
+            {
+              "line": 204,
+              "exact_line": "                for b in nids[i+1:]:"
+            },
+            {
+              "line": 208,
+              "exact_line": "                    seen_pair.add(ka)"
+            },
+            {
+              "line": 210,
+              "exact_line": "                    seen_enc.add(states[a].ss2_dict[b])"
+            },
+            {
+              "line": 217,
+              "exact_line": "                seen_reply.add(tuple(reply[Key.MASKED_PARAMETERS]))"
+            },
+            {
+              "line": 220,
+              "exact_line": "        require(len(seen_pk)==2*contexts and len(seen_sk)==2*contexts and len(seen_seed)==contexts)"
+            },
+            {
+              "line": 221,
+              "exact_line": "        require(len(seen_pair)==sessions*3 and len(seen_enc)==sessions*3 and len(seen_reply)==contexts)"
+            }
+          ]
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+          "sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+          "anchors": [
+            {
+              "line": 412,
+              "exact_line": "        \"within_category_no_reuse_observed\": true,"
+            },
+            {
+              "line": 418,
+              "exact_line": "        \"crypto_entropy_or_unpredictability_proven\": false,"
+            },
+            {
+              "line": 419,
+              "exact_line": "        \"unmask_executed_in_this_group\": false,"
+            }
+          ],
+          "json_key_anchor": "results[case='SV06.freshness.twenty_three_client_real_generator_sessions'].evidence"
+        },
+        {
+          "absolute_path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+          "sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+          "anchors": [
+            {
+              "line": 381,
+              "exact_line": "    state.rd_seed = os.urandom(32)"
+            },
+            {
+              "line": 399,
+              "exact_line": "            state.ss2_dict[nid] = shared_key"
+            },
+            {
+              "line": 396,
+              "exact_line": "                bytes_to_private_key(state.sk2),"
+            },
+            {
+              "line": 479,
+              "exact_line": "            bytes_to_private_key(state.sk1),"
+            }
+          ],
+          "tested_source_origin": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+          "origin_snapshot_sha256_match": true
+        }
+      ],
+      "evidence_limits": [
+        "Exact comparisons took place only in memory. Retained JSON contains counts and booleans, not the actual secret values or their digests; those values cannot be independently recovered from the retained JSON.",
+        "No reuse within a finite checked category is not proof of entropy, unpredictability or privacy. The check directly exercised installed setup/share/collect functions and did not run UNMASK.",
+        "Each pair is counted once, despite checking agreement at both endpoints; equality is checked within each category, not between categories."
+      ],
+      "suggested_full_paragraph_old": "SV-06 checked whether generated protocol contexts were reused across twenty independent three-client sessions. The same public NumPy seed, 177, was reset for each session. In-memory comparisons found 120 distinct public-key representations and 120 distinct private-key representations. Within their respective categories, there were 60 self-seed contexts, 60 pairwise mask-key contexts, 60 share-encryption-key contexts and 60 masked-reply contexts. Matching peers derived matching keys. The installed setup/share/collect functions ran. Checking reuse of these contexts did not require UNMASK, so that stage was not run in this group. SV-02 contains complete four-stage numerical checks. Observing no reuse in a finite check does not establish entropy or unpredictability.",
+      "suggested_full_paragraph_new": "SV-06 checked whether generated protocol contexts were reused across twenty independent three-client sessions. The same public NumPy seed, 177, was reset for each session. In-memory comparisons found 120 distinct public-key representations and 120 distinct private-key representations. Within their respective categories, there were 60 self-seed contexts (private-mask seed bytes), 60 pairwise mask-key contexts (derived shared-key bytes for each unordered client pair), 60 share-encryption-key contexts (shared-key bytes stored for encrypting shares) and 60 masked-reply contexts (ordered tuples of each client's serialised masked-parameter byte strings). The comparisons used exact byte equality and, for masked replies, tuple equality across those byte strings. Matching peers derived matching keys. The installed setup/share/collect functions ran. Checking reuse of these contexts did not require UNMASK, so that stage was not run in this group. SV-02 contains complete four-stage numerical checks. Observing no reuse in a finite check does not establish entropy or unpredictability.",
+      "original_numeric_strings": [
+        "-06",
+        "177",
+        "120",
+        "120",
+        "60",
+        "60",
+        "60",
+        "60",
+        "-02"
+      ],
+      "replacement_numeric_strings": [
+        "-06",
+        "177",
+        "120",
+        "120",
+        "60",
+        "60",
+        "60",
+        "60",
+        "-02"
+      ],
+      "numeric_strings_and_order_preserved": true,
+      "original_code_identifiers_preserved": true,
+      "citation_preservation": "No citations added, removed or reassigned; original paragraph has no bibliographic citation.",
+      "scope": "Definition clarification from tested source and retained public-fixture records; no new experiment or guarantee.",
+      "implementation_detail": {
+        "public_keys": "seen_pk.update((st.pk1, st.pk2)): exact stored byte representations of both public keys per client.",
+        "private_keys": "seen_sk.update((st.sk1, st.sk2)): exact stored byte representations of both private keys per client.",
+        "self_seed": "seen_seed.add(st.rd_seed): private-mask seed bytes only; no client/session metadata.",
+        "pairwise_mask_key": "seen_pair.add(ka): generate_shared_key(private key sk1 of endpoint a, public key pk1 of endpoint b), once per unordered pair; reverse derivation kb checked equal.",
+        "share_encryption_key": "seen_enc.add(states[a].ss2_dict[b]): stored shared-key bytes for the same unordered pair, derived from the second key pairs; reverse stored key checked equal.",
+        "masked_reply": "seen_reply.add(tuple(reply[Key.MASKED_PARAMETERS])): the ordered tuple of serialized masked-parameter byte strings from each client collect reply, not the entire message or its metadata.",
+        "equality": "Python sets compare bytes by their value and tuples by ordered element equality; only category cardinalities/booleans were written to retained JSON. These are raw value comparisons, not digest comparisons or concatenated session labels."
+      }
+    }
+  ],
+  "validation": {
+    "finding_count": 7,
+    "resolved_count": 7,
+    "all_original_paragraphs_exactly_matched_current_input": true,
+    "all_numeric_strings_and_order_preserved": true,
+    "all_proposals_are_full_paragraphs": true,
+    "author_query_placeholders": 0
+  }
+}

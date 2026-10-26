@@ -1,0 +1,3793 @@
+{
+  "schema_version": "1.0",
+  "scope": "Bounded independent evidence-provenance QC of the 19 v1.25 definition resolutions; no Word edits, experiments, security test execution, or new source search.",
+  "generated_utc": "2026-10-20T04:56:29.463197+00:00",
+  "status": "PASS_WITH_TWO_JUSTIFIED_EVIDENCE_GAPS",
+  "runtime": "Bundled Python 3 runtime; standard-library read/hash/archive operations only.",
+  "resolution_status_counts": {
+    "PARTIALLY_RESOLVED": 1,
+    "RESOLVED": 17,
+    "UNRESOLVED": 1
+  },
+  "resolution_records": [
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-04",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-05",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-08",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-12",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-13",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Source_Definition_Resolutions.json",
+      "finding_id": "VC-14",
+      "status": "PARTIALLY_RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-21",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-37",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-39",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-41",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-52",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-58",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Security_Code_Resolutions.json",
+      "finding_id": "VC-59",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-19",
+      "status": "UNRESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-28",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-50",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-51",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-53",
+      "status": "RESOLVED"
+    },
+    {
+      "file": "Data_Record_Resolutions.json",
+      "finding_id": "VC-54",
+      "status": "RESOLVED"
+    }
+  ],
+  "hash_check_count_including_repeated_citations": 124,
+  "unique_evidence_identity_count": 110,
+  "hash_failures": [],
+  "anchor_check_count": 186,
+  "anchor_failures": [],
+  "hash_checks": [
+    {
+      "ref": "Source_Definition_Resolutions.json/0/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/ars_literature_audit_v1_5_2026_10_09/primary_sources/Kim2011.html",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/ars_literature_audit_v1_5_2026_10_09/primary_sources/Kim2011.html",
+      "expected_sha256": "6059563c14e0144cdec5252e32c079cab78f16a9bd654cf54fe2bcb4b0b80bed",
+      "actual_sha256": "6059563c14e0144cdec5252e32c079cab78f16a9bd654cf54fe2bcb4b0b80bed",
+      "bytes": 151583,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/0/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+      "expected_sha256": "2a4d4a326641667912b5ae35009610391a3439782bb6104759715de04e962584",
+      "actual_sha256": "2a4d4a326641667912b5ae35009610391a3439782bb6104759715de04e962584",
+      "bytes": 25793,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/ars_revised_v1_6_2026_10_10/front_primary/Ngo2024.html",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/ars_revised_v1_6_2026_10_10/front_primary/Ngo2024.html",
+      "expected_sha256": "f1836d197f84bdb978caef4b594476118a3749895fe11ae8c5b7a41a9e53c05a",
+      "actual_sha256": "f1836d197f84bdb978caef4b594476118a3749895fe11ae8c5b7a41a9e53c05a",
+      "bytes": 760928,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "expected_sha256": "75b169c177898ee3aa3323baa536eee4eae53cb9d77707eddb0a8ef9f6d344ff",
+      "actual_sha256": "75b169c177898ee3aa3323baa536eee4eae53cb9d77707eddb0a8ef9f6d344ff",
+      "bytes": 50892,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Desktop/Coureses/FL/أقرب الدراسات/Securing-the-edge-privacy-preserving-federated-learning-for-insider-threats-in-IoT-networks.pdf",
+      "locator": "C:/Users/RNO/Desktop/Coureses/FL/أقرب الدراسات/Securing-the-edge-privacy-preserving-federated-learning-for-insider-threats-in-IoT-networks.pdf",
+      "expected_sha256": "fe860e2bd132095c03088980c34947cafc5893f1a64ba1699b9e882d9231d66a",
+      "actual_sha256": "fe860e2bd132095c03088980c34947cafc5893f1a64ba1699b9e882d9231d66a",
+      "bytes": 3865556,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "expected_sha256": "5689b816a5bd2375b99ce544e29970a3c26f9287f75ae59c57cbe53e97d41bc5",
+      "actual_sha256": "5689b816a5bd2375b99ce544e29970a3c26f9287f75ae59c57cbe53e97d41bc5",
+      "bytes": 126159,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/source_back_Fabbri2011.pdf",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/source_back_Fabbri2011.pdf",
+      "expected_sha256": "9d8b7d75bd57f21fe2c4b2de481ef86435c79a2c423f61623fc7fdf59b466f47",
+      "actual_sha256": "9d8b7d75bd57f21fe2c4b2de481ef86435c79a2c423f61623fc7fdf59b466f47",
+      "bytes": 730232,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "expected_sha256": "680d433f9d5e9b0d205e1a45f7f0697877fcdf2568dfd219919013846c601685",
+      "actual_sha256": "680d433f9d5e9b0d205e1a45f7f0697877fcdf2568dfd219919013846c601685",
+      "bytes": 81247,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Downloads/s10994-013-5376-1.pdf",
+      "locator": "C:/Users/RNO/Downloads/s10994-013-5376-1.pdf",
+      "expected_sha256": "0eee8bed8f0635e2998225c97c05d5b68d8b4ab7849a075a088667636675d1b3",
+      "actual_sha256": "0eee8bed8f0635e2998225c97c05d5b68d8b4ab7849a075a088667636675d1b3",
+      "bytes": 705811,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "expected_sha256": "4678263ff2563d2ac8941d73bf5b2bd0acfcf13da5aa580a9d341e9ada658a4c",
+      "actual_sha256": "4678263ff2563d2ac8941d73bf5b2bd0acfcf13da5aa580a9d341e9ada658a4c",
+      "bytes": 47236,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0",
+      "kind": "file",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/primary_sources/Tabassum2024_primary.xml",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/ars_source_verification_v1_5_2026_10_09/primary_sources/Tabassum2024_primary.xml",
+      "expected_sha256": "35d1ab250e90a94104ed264151ab2fc584d1db9ff78adb9312e7307a5e3c94de",
+      "actual_sha256": "35d1ab250e90a94104ed264151ab2fc584d1db9ff78adb9312e7307a5e3c94de",
+      "bytes": 151184,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "kind": "fresh_extraction",
+      "path": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "expected_sha256": "6aa433e5df32322fb56f2f6c692731376a31d8b0e0d69b48122c35c7fc56c046",
+      "actual_sha256": "6aa433e5df32322fb56f2f6c692731376a31d8b0e0d69b48122c35c7fc56c046",
+      "bytes": 59603,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/source_snapshot_provenance",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\snapshot_provenance.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\snapshot_provenance.json",
+      "expected_sha256": "7192b5d118a759fdbbc2ce78886f6202a23372f871fa4fe8b47be92f03b3ffba",
+      "actual_sha256": "7192b5d118a759fdbbc2ce78886f6202a23372f871fa4fe8b47be92f03b3ffba",
+      "bytes": 4570,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\execution_receipt_attempt_01.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\execution_receipt_attempt_01.json",
+      "expected_sha256": "5666dea208bc15b55881a93bd9a3f8565af224b3bc002bceb17b63c401ef15cd",
+      "actual_sha256": "5666dea208bc15b55881a93bd9a3f8565af224b3bc002bceb17b63c401ef15cd",
+      "bytes": 784,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Attempt_Receipt.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Attempt_Receipt.json",
+      "expected_sha256": "b681a29e30c03ab5fdd426f5662191ffac16551a33bcaae3dd4b7875c807f9e6",
+      "actual_sha256": "b681a29e30c03ab5fdd426f5662191ffac16551a33bcaae3dd4b7875c807f9e6",
+      "bytes": 1061,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\execution_receipt.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\execution_receipt.json",
+      "expected_sha256": "4025bb3aae7394e3d373034688232dfbb78b31cde61fe16d9a6e2719fbfb9e56",
+      "actual_sha256": "4025bb3aae7394e3d373034688232dfbb78b31cde61fe16d9a6e2719fbfb9e56",
+      "bytes": 1060,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/candidate_wheel_static_identity",
+      "kind": "file",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+      "expected_sha256": "f0d3998ac84f9f7510d441ba45d40917c3122449547a78c2f57208148ec66630",
+      "actual_sha256": "f0d3998ac84f9f7510d441ba45d40917c3122449547a78c2f57208148ec66630",
+      "bytes": 704497,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/candidate_wheel_static_identity/member_checks/0",
+      "kind": "wheel_snapshot",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/candidate_wheel_static_identity/member_checks/1",
+      "kind": "wheel_snapshot",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "expected_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "actual_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "bytes": 29460,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/candidate_wheel_static_identity/member_checks/2",
+      "kind": "wheel_snapshot",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_candidate_secaggplus_utils.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_candidate_secaggplus_utils.py",
+      "expected_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "actual_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "bytes": 5005,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "expected_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "actual_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "bytes": 29460,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\server\\workflow\\secure_aggregation\\secaggplus_workflow.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\server\\workflow\\secure_aggregation\\secaggplus_workflow.py",
+      "expected_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "actual_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "bytes": 29460,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_workflow.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_workflow.py",
+      "expected_sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514",
+      "actual_sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514",
+      "bytes": 3647,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/2/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\workflow.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\workflow.py",
+      "expected_sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514",
+      "actual_sha256": "629eae75c6fa3bf9e01f2aa9cdf8a33311dd0f140ad830b483a1064e1262b514",
+      "bytes": 3647,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_client_app.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_client_app.py",
+      "expected_sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53",
+      "actual_sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53",
+      "bytes": 2734,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/3/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\client_app.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\ehr_secagg\\client_app.py",
+      "expected_sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53",
+      "actual_sha256": "638ac31c2c6bb5fe789dba3190d4769a2b1c8fb75000d41312456df865695e53",
+      "bytes": 2734,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_UNMASK_MISSING.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_UNMASK_MISSING.json",
+      "expected_sha256": "9fbfe3d3e0d5f5aa81d08db8d34891750ca7dd221cb51fd9507ec86fb8ca562e",
+      "actual_sha256": "9fbfe3d3e0d5f5aa81d08db8d34891750ca7dd221cb51fd9507ec86fb8ca562e",
+      "bytes": 10933,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "expected_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "actual_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "bytes": 15784,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+      "expected_sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a",
+      "actual_sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a",
+      "bytes": 3214,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/1/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\sources\\flower_v1_22_0_secaggplus_utils.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\sources\\flower_v1_22_0_secaggplus_utils.py",
+      "expected_sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a",
+      "actual_sha256": "13fc54f99778e5d68ed5e9bb33a0b6c0e8c55d5b497feead97b7e9fbbc6ad70a",
+      "bytes": 3214,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "expected_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "actual_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "bytes": 14618,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\contract.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\contract.json",
+      "expected_sha256": "133172442839c69da1553dc538fdb6e8dfc1bab673549e7f27391cbbd8bd5a22",
+      "actual_sha256": "133172442839c69da1553dc538fdb6e8dfc1bab673549e7f27391cbbd8bd5a22",
+      "bytes": 3069,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "expected_sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+      "actual_sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+      "bytes": 20702,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+      "expected_sha256": "d807219fba025d8750dfa9ba0b973e7da5c215f02b365536399edacffa194026",
+      "actual_sha256": "d807219fba025d8750dfa9ba0b973e7da5c215f02b365536399edacffa194026",
+      "bytes": 860,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\stderr.log",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\stderr.log",
+      "expected_sha256": "2428caeb33d55ba3ca733236164879b2e7dfa391aecc2666335ca0c208fdac7c",
+      "actual_sha256": "2428caeb33d55ba3ca733236164879b2e7dfa391aecc2666335ca0c208fdac7c",
+      "bytes": 4527,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "expected_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "actual_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "bytes": 15784,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "expected_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "actual_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "bytes": 14618,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_public_protocol.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_public_protocol.py",
+      "expected_sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf",
+      "actual_sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf",
+      "bytes": 12292,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/0/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\prg_validation\\public_protocol.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\validation_support\\prg_validation\\public_protocol.py",
+      "expected_sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf",
+      "actual_sha256": "9f01be97cda21a469002fe1ea7ad03071c09af406917fe9a6429869f02be35bf",
+      "bytes": 12292,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "expected_sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+      "actual_sha256": "43b261dc923dcf802eadf3286729db727bca9d1ef4893f42476356c8e989f212",
+      "bytes": 20702,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+      "expected_sha256": "f4abf3cfe9293bc39048536875c87cd980974cceb26e03bb6860cdc156a60996",
+      "actual_sha256": "f4abf3cfe9293bc39048536875c87cd980974cceb26e03bb6860cdc156a60996",
+      "bytes": 1560,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "expected_sha256": "71650cbe8124360ba548cafc1e0e5277c3fe0e80eefe3f5afea3bd8995cdfc2f",
+      "actual_sha256": "71650cbe8124360ba548cafc1e0e5277c3fe0e80eefe3f5afea3bd8995cdfc2f",
+      "bytes": 20204,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "expected_sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328",
+      "actual_sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328",
+      "bytes": 15645,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\mai_measurement.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\app\\mai_measurement.py",
+      "expected_sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328",
+      "actual_sha256": "ab28c54ac8f12044760d455b34d79beb1d9ce661fd9e622c59e6709eea538328",
+      "bytes": 15645,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "expected_sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326",
+      "actual_sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326",
+      "bytes": 3020,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\main_study\\failure_evidence.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\source\\main_study\\failure_evidence.py",
+      "expected_sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326",
+      "actual_sha256": "a777c19f766996eb3d9a61ae98abbbb3c6ece883b0875c68741883a1f2c78326",
+      "bytes": 3020,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-03.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-03.json",
+      "expected_sha256": "2286e4cc3fbdc324bc7e648a6059e43683c68f11a21cbc3d9fcde5b3eabccabb",
+      "actual_sha256": "2286e4cc3fbdc324bc7e648a6059e43683c68f11a21cbc3d9fcde5b3eabccabb",
+      "bytes": 1154,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-08.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-08.json",
+      "expected_sha256": "ebd010ede9b7275da8efbcc431869146adaa6463be6b0aefe04ede4fd7cacec5",
+      "actual_sha256": "ebd010ede9b7275da8efbcc431869146adaa6463be6b0aefe04ede4fd7cacec5",
+      "bytes": 426,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/5",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-12.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-12.json",
+      "expected_sha256": "61bd37e9b839e3be7c3ce7752b2c6b132c02a73ef3a910314009c16dafb29872",
+      "actual_sha256": "61bd37e9b839e3be7c3ce7752b2c6b132c02a73ef3a910314009c16dafb29872",
+      "bytes": 2526,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/6",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\original_seal_before.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\original_seal_before.json",
+      "expected_sha256": "66d1c57052318e1b7b436cdd2a525646d98b08f6e06725ff6668a68d8ab58b50",
+      "actual_sha256": "66d1c57052318e1b7b436cdd2a525646d98b08f6e06725ff6668a68d8ab58b50",
+      "bytes": 75225,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "expected_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "actual_sha256": "87ff62869bec0b7216bde3392fa151ad46a6739e4e82cbdf2fdb0fe3ac0f19a7",
+      "bytes": 15784,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "expected_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "actual_sha256": "9cbc72dd6df8e67b6626949173fd7e90b9caf84de058ab8a167e0b71b3bb28c4",
+      "bytes": 14618,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2/origin",
+      "kind": "tested_source_origin",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "locator": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\.venv\\lib\\python3.12\\site-packages\\flwr\\client\\mod\\secure_aggregation\\secaggplus_mod.py",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/input_paragraphs",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Current_Paragraphs.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Current_Paragraphs.json",
+      "expected_sha256": "27a61d8e7e40c1466408cd6f0bbd4bbd6e49cff1e4aba39a5253596a6dc5dd56",
+      "actual_sha256": "27a61d8e7e40c1466408cd6f0bbd4bbd6e49cff1e4aba39a5253596a6dc5dd56",
+      "bytes": 855275,
+      "status": "PASS",
+      "expected_bytes": 855275,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/verification_audit",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Data_Record_Evidence_Checks.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Data_Record_Evidence_Checks.json",
+      "expected_sha256": "97fcd30711e306d72509a764914053110b1f171e91abf982b864ff96f2a53027",
+      "actual_sha256": "97fcd30711e306d72509a764914053110b1f171e91abf982b864ff96f2a53027",
+      "bytes": 2139,
+      "status": "PASS",
+      "expected_bytes": 2139,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "expected_sha256": "d1e9974b377e0780eac5deabd375a83cdc0256051e77fa167a4bf7c593eabe37",
+      "actual_sha256": "d1e9974b377e0780eac5deabd375a83cdc0256051e77fa167a4bf7c593eabe37",
+      "bytes": 9027,
+      "status": "PASS",
+      "expected_bytes": 9027,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\suite\\docs\\FULL_BENCHMARK_DATA_DICTIONARY.md",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\suite\\docs\\FULL_BENCHMARK_DATA_DICTIONARY.md",
+      "expected_sha256": "c30870a5f5675af67b3d26a716dcfc950b5c6a6790db463d60f8dfc4be63639d",
+      "actual_sha256": "c30870a5f5675af67b3d26a716dcfc950b5c6a6790db463d60f8dfc4be63639d",
+      "bytes": 6325,
+      "status": "PASS",
+      "expected_bytes": 6325,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/2",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip!/EHR_FL_Benchmark_Release_Candidate_v1_0/DATA_DICTIONARY.md",
+      "expected_sha256": "a1794f810c225a676d0efb125eea1ab3d74694d3ab8f24d9cf96497b029bf911",
+      "actual_sha256": "a1794f810c225a676d0efb125eea1ab3d74694d3ab8f24d9cf96497b029bf911",
+      "bytes": 16341,
+      "status": "PASS",
+      "expected_bytes": 16341,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/3",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip!/EHR_FL_Benchmark_Release_Candidate_v1_0/SOURCE_AND_GENERATION_NOTES.md",
+      "expected_sha256": "5ef7e49509ed82509c93043dd2995292752e48cd16645531dc9c1679842c7877",
+      "actual_sha256": "5ef7e49509ed82509c93043dd2995292752e48cd16645531dc9c1679842c7877",
+      "bytes": 2154,
+      "status": "PASS",
+      "expected_bytes": 2154,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\config\\encoding_schema.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\config\\encoding_schema.json",
+      "expected_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+      "actual_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+      "bytes": 9580,
+      "status": "PASS",
+      "expected_bytes": 9580,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/4/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/encoding_schema.json",
+      "expected_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+      "actual_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+      "bytes": 9580,
+      "status": "PASS",
+      "expected_bytes": 9580,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "expected_sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+      "actual_sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+      "bytes": 4477,
+      "status": "PASS",
+      "expected_bytes": 4477,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/0/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "expected_sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+      "actual_sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+      "bytes": 4477,
+      "status": "PASS",
+      "expected_bytes": 4477,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "expected_sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+      "actual_sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+      "bytes": 3655,
+      "status": "PASS",
+      "expected_bytes": 3655,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/1/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+      "expected_sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+      "actual_sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+      "bytes": 3655,
+      "status": "PASS",
+      "expected_bytes": 3655,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "expected_sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+      "actual_sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+      "bytes": 1869,
+      "status": "PASS",
+      "expected_bytes": 1869,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/2/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "expected_sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+      "actual_sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+      "bytes": 1869,
+      "status": "PASS",
+      "expected_bytes": 1869,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/3",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/stage_status.json",
+      "expected_sha256": "8544f86783c48a8a58de219a9266d33c0124ed836c6fbfcfe37c9aaf0721c62f",
+      "actual_sha256": "8544f86783c48a8a58de219a9266d33c0124ed836c6fbfcfe37c9aaf0721c62f",
+      "bytes": 788,
+      "status": "PASS",
+      "expected_bytes": 788,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/4",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/B/reference/server/server_result.json",
+      "expected_sha256": "8301aad52150fa00073c9fc073c03a98c6ea8a61fc0e57a2bbb4380992855b80",
+      "actual_sha256": "8301aad52150fa00073c9fc073c03a98c6ea8a61fc0e57a2bbb4380992855b80",
+      "bytes": 8251,
+      "status": "PASS",
+      "expected_bytes": 8251,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/5",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/B/noniid/server/server_result.json",
+      "expected_sha256": "fa228ece8c016e82ebead187a86adec7cc07cb92af5f6432a15b9e866fd5f0f9",
+      "actual_sha256": "fa228ece8c016e82ebead187a86adec7cc07cb92af5f6432a15b9e866fd5f0f9",
+      "bytes": 8230,
+      "status": "PASS",
+      "expected_bytes": 8230,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/6",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/C/reference/server/server_result.json",
+      "expected_sha256": "b91238c06cdb54f8a025cc3fb326498c86ba8e74b4814bf51f11bafc7b569dce",
+      "actual_sha256": "b91238c06cdb54f8a025cc3fb326498c86ba8e74b4814bf51f11bafc7b569dce",
+      "bytes": 8277,
+      "status": "PASS",
+      "expected_bytes": 8277,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/7",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/C/noniid/server/server_result.json",
+      "expected_sha256": "b137bc8a5e263d0fa73a939e2f7dd36f1f8f72a2ba08b31898c728451df0fb6b",
+      "actual_sha256": "b137bc8a5e263d0fa73a939e2f7dd36f1f8f72a2ba08b31898c728451df0fb6b",
+      "bytes": 8261,
+      "status": "PASS",
+      "expected_bytes": 8261,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/8",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+      "locator": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!/matched_fullsize_BC_review.json",
+      "expected_sha256": "7a3e174e04158f337b5fb93a0b1bd00e00ee30f3d085169e9a81f3f70b8e59f6",
+      "actual_sha256": "7a3e174e04158f337b5fb93a0b1bd00e00ee30f3d085169e9a81f3f70b8e59f6",
+      "bytes": 828,
+      "status": "PASS",
+      "expected_bytes": 828,
+      "bytes_match": true
+    },
+    {
+      "kind": "nested_archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+      "member": "preparation/MAIN_PREPARATION_Original.zip",
+      "expected_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+      "actual_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/9",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!/preparation/MAIN_PREPARATION_Original.zip!/engineering_A_summary.json",
+      "expected_sha256": "c6e3105b5f3641c613bd796999f8d4d9ce92a8e4226e199d83d37d939902d95a",
+      "actual_sha256": "c6e3105b5f3641c613bd796999f8d4d9ce92a8e4226e199d83d37d939902d95a",
+      "bytes": 847,
+      "status": "PASS",
+      "expected_bytes": 847,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/10",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "expected_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "actual_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "bytes": 27940,
+      "status": "PASS",
+      "expected_bytes": 27940,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/10/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/campaign.py",
+      "expected_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "actual_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "bytes": 27940,
+      "status": "PASS",
+      "expected_bytes": 27940,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "expected_sha256": "1164225db40a1ae8872aa2b1581b95e31fc7ce9c207ad31a5612b604587782a6",
+      "actual_sha256": "1164225db40a1ae8872aa2b1581b95e31fc7ce9c207ad31a5612b604587782a6",
+      "bytes": 15432,
+      "status": "PASS",
+      "expected_bytes": 15432,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+      "expected_sha256": "93f08fcbd1c983931550e12f32c3ada62cbc28906fbb10c33df206374a00e27e",
+      "actual_sha256": "93f08fcbd1c983931550e12f32c3ada62cbc28906fbb10c33df206374a00e27e",
+      "bytes": 888,
+      "status": "PASS",
+      "expected_bytes": 888,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+      "expected_sha256": "8d417332ebc86712c92d924a075a690a50fe4c940959fa178e746f064aa51975",
+      "actual_sha256": "8d417332ebc86712c92d924a075a690a50fe4c940959fa178e746f064aa51975",
+      "bytes": 2082345,
+      "status": "PASS",
+      "expected_bytes": 2082345,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Canonical_Union_To_Screen.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Canonical_Union_To_Screen.json",
+      "expected_sha256": "34fbf05662d4be6246695a1ac5bcee3f2600b7544daf4aff5ff9e9d61f64dbc5",
+      "actual_sha256": "34fbf05662d4be6246695a1ac5bcee3f2600b7544daf4aff5ff9e9d61f64dbc5",
+      "bytes": 1342846,
+      "status": "PASS",
+      "expected_bytes": 1342846,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Screening_Union.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Screening_Union.json",
+      "expected_sha256": "9250bf055dd5ff5f9602451697cc1c4bc4b3667f19fef46654598eb9ea6f1af8",
+      "actual_sha256": "9250bf055dd5ff5f9602451697cc1c4bc4b3667f19fef46654598eb9ea6f1af8",
+      "bytes": 1646776,
+      "status": "PASS",
+      "expected_bytes": 1646776,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/5",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\001_pubmed_S1_esearch_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\001_pubmed_S1_esearch_attempt1.json",
+      "expected_sha256": "5632fb9e57da085e4c85e3bdb707fecd52133b7eaf868b9dc877981b0650a9f3",
+      "actual_sha256": "5632fb9e57da085e4c85e3bdb707fecd52133b7eaf868b9dc877981b0650a9f3",
+      "bytes": 2827,
+      "status": "PASS",
+      "expected_bytes": 2827,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/6",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\002_pubmed_S1_efetch_00000_attempt1.xml",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\002_pubmed_S1_efetch_00000_attempt1.xml",
+      "expected_sha256": "80d29abcddd659eeb3894496ef39d6d1ecc9824bbb62f8f30e7580cd2c44e0a5",
+      "actual_sha256": "80d29abcddd659eeb3894496ef39d6d1ecc9824bbb62f8f30e7580cd2c44e0a5",
+      "bytes": 2014084,
+      "status": "PASS",
+      "expected_bytes": 2014084,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/7",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\003_pubmed_S2_esearch_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\003_pubmed_S2_esearch_attempt1.json",
+      "expected_sha256": "bf83ad8f6fe70cced2c827889d3c0cd7d43f36f5fa067cba9a197e01520e5d72",
+      "actual_sha256": "bf83ad8f6fe70cced2c827889d3c0cd7d43f36f5fa067cba9a197e01520e5d72",
+      "bytes": 1544,
+      "status": "PASS",
+      "expected_bytes": 1544,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/8",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\004_pubmed_S2_efetch_00000_attempt1.xml",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\004_pubmed_S2_efetch_00000_attempt1.xml",
+      "expected_sha256": "45d9e9249d1ea0a874dab750b201d49d64672d3539445c9906ee99843aa83121",
+      "actual_sha256": "45d9e9249d1ea0a874dab750b201d49d64672d3539445c9906ee99843aa83121",
+      "bytes": 63604,
+      "status": "PASS",
+      "expected_bytes": 63604,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/9",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\005_pubmed_S3_esearch_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\005_pubmed_S3_esearch_attempt1.json",
+      "expected_sha256": "7b0868ea66350ad524266bd9625f82e2b108d974bab487b11c2065ad6e8cf072",
+      "actual_sha256": "7b0868ea66350ad524266bd9625f82e2b108d974bab487b11c2065ad6e8cf072",
+      "bytes": 2916,
+      "status": "PASS",
+      "expected_bytes": 2916,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/10",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\006_pubmed_S3_efetch_00000_attempt1.xml",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\006_pubmed_S3_efetch_00000_attempt1.xml",
+      "expected_sha256": "51c62a027076557fb3e335e7458c9581fbfbba1ef456ed32e66a6ddc3b27be97",
+      "actual_sha256": "51c62a027076557fb3e335e7458c9581fbfbba1ef456ed32e66a6ddc3b27be97",
+      "bytes": 3220149,
+      "status": "PASS",
+      "expected_bytes": 3220149,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/11",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\007_pubmed_S4_esearch_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\007_pubmed_S4_esearch_attempt1.json",
+      "expected_sha256": "c7b6105768c3c266791ecaa9b922b6908bf5c41be8680637c63ca9d6c23aca0b",
+      "actual_sha256": "c7b6105768c3c266791ecaa9b922b6908bf5c41be8680637c63ca9d6c23aca0b",
+      "bytes": 817,
+      "status": "PASS",
+      "expected_bytes": 817,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/12",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\008_pubmed_S4_efetch_00000_attempt1.xml",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\008_pubmed_S4_efetch_00000_attempt1.xml",
+      "expected_sha256": "eb56cc57d5ec940893b68c7b1f0430c6ccbd19ed1ec92152feb2398637da18db",
+      "actual_sha256": "eb56cc57d5ec940893b68c7b1f0430c6ccbd19ed1ec92152feb2398637da18db",
+      "bytes": 228069,
+      "status": "PASS",
+      "expected_bytes": 228069,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/13",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+      "expected_sha256": "0d1f114ad9020c9e68e90187733e86599be41c37e7bc176ceb910605fee19b69",
+      "actual_sha256": "0d1f114ad9020c9e68e90187733e86599be41c37e7bc176ceb910605fee19b69",
+      "bytes": 530457,
+      "status": "PASS",
+      "expected_bytes": 530457,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/14",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+      "expected_sha256": "48df66c02077ef85efb1d7fef23739e53ec98a9a4d88d5a0c540743e0cfa8e83",
+      "actual_sha256": "48df66c02077ef85efb1d7fef23739e53ec98a9a4d88d5a0c540743e0cfa8e83",
+      "bytes": 16903,
+      "status": "PASS",
+      "expected_bytes": 16903,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/15",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+      "expected_sha256": "d155bf6d7294e35c8b35c604e6951f660604ba2e8c8d131a6e4dc7f4d79837f0",
+      "actual_sha256": "d155bf6d7294e35c8b35c604e6951f660604ba2e8c8d131a6e4dc7f4d79837f0",
+      "bytes": 844002,
+      "status": "PASS",
+      "expected_bytes": 844002,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/16",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+      "expected_sha256": "0d4df9843f4baee5d175ba9415ca71cbd972122ad402898771646a345396c77f",
+      "actual_sha256": "0d4df9843f4baee5d175ba9415ca71cbd972122ad402898771646a345396c77f",
+      "bytes": 57460,
+      "status": "PASS",
+      "expected_bytes": 57460,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "expected_sha256": "916a6b25a5a58d7616055459e0653c5bcb6372b5acf22453b25129d46f4ed6e8",
+      "actual_sha256": "916a6b25a5a58d7616055459e0653c5bcb6372b5acf22453b25129d46f4ed6e8",
+      "bytes": 6738,
+      "status": "PASS",
+      "expected_bytes": 6738,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "expected_sha256": "eb328654717f66b489647df727e55a09a7ada53cf4df4dff72898ca6fe25ddae",
+      "actual_sha256": "eb328654717f66b489647df727e55a09a7ada53cf4df4dff72898ca6fe25ddae",
+      "bytes": 712159,
+      "status": "PASS",
+      "expected_bytes": 712159,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+      "expected_sha256": "391f9ade3dda20c45ac23d6df4cb55089c3bebcd12352f94fa385d5a7b049272",
+      "actual_sha256": "391f9ade3dda20c45ac23d6df4cb55089c3bebcd12352f94fa385d5a7b049272",
+      "bytes": 306,
+      "status": "PASS",
+      "expected_bytes": 306,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+      "expected_sha256": "055f793cee0639203ade44008c64756144c4633ea0202def16fecac3e2715d3e",
+      "actual_sha256": "055f793cee0639203ade44008c64756144c4633ea0202def16fecac3e2715d3e",
+      "bytes": 198042,
+      "status": "PASS",
+      "expected_bytes": 198042,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+      "expected_sha256": "0c845848c15209e546407a5c9355b21f9c5550627195b15c819ddcae1a9040f9",
+      "actual_sha256": "0c845848c15209e546407a5c9355b21f9c5550627195b15c819ddcae1a9040f9",
+      "bytes": 24714,
+      "status": "PASS",
+      "expected_bytes": 24714,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/5",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\root_sources\\Root_Source_Assessment.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\root_sources\\Root_Source_Assessment.json",
+      "expected_sha256": "a900c80f5cc8e2679f8770c27d1365400ed70613f862413f0a23245d64106f4c",
+      "actual_sha256": "a900c80f5cc8e2679f8770c27d1365400ed70613f862413f0a23245d64106f4c",
+      "bytes": 3665,
+      "status": "PASS",
+      "expected_bytes": 3665,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/0",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "expected_sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+      "actual_sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+      "bytes": 27769,
+      "status": "PASS",
+      "expected_bytes": 27769,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/0/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "expected_sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+      "actual_sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+      "bytes": 27769,
+      "status": "PASS",
+      "expected_bytes": 27769,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "expected_sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+      "actual_sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+      "bytes": 11229,
+      "status": "PASS",
+      "expected_bytes": 11229,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/design.py",
+      "expected_sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+      "actual_sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+      "bytes": 11229,
+      "status": "PASS",
+      "expected_bytes": 11229,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/2",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "expected_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "actual_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "bytes": 27940,
+      "status": "PASS",
+      "expected_bytes": 27940,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/2/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/campaign.py",
+      "expected_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "actual_sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+      "bytes": 27940,
+      "status": "PASS",
+      "expected_bytes": 27940,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/3",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\common.py",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\common.py",
+      "expected_sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+      "actual_sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+      "bytes": 5642,
+      "status": "PASS",
+      "expected_bytes": 5642,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/3/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/common.py",
+      "expected_sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+      "actual_sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+      "bytes": 5642,
+      "status": "PASS",
+      "expected_bytes": 5642,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/4",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_run_order.csv",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_run_order.csv",
+      "expected_sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+      "actual_sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+      "bytes": 2531,
+      "status": "PASS",
+      "expected_bytes": 2531,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/4/supplied_archive_member",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!/ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_run_order.csv",
+      "expected_sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+      "actual_sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+      "bytes": 2531,
+      "status": "PASS",
+      "expected_bytes": 2531,
+      "bytes_match": true
+    },
+    {
+      "kind": "nested_archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+      "member": "preparation/MAIN_PREPARATION_Original.zip",
+      "expected_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+      "actual_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/5",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!/preparation/MAIN_PREPARATION_Original.zip!/ready_receipt.json",
+      "expected_sha256": "d852f2242293c32698e940f70aa54b95d87d52b68aaf6507e34b390e0d8273b3",
+      "actual_sha256": "d852f2242293c32698e940f70aa54b95d87d52b68aaf6507e34b390e0d8273b3",
+      "bytes": 1409,
+      "status": "PASS",
+      "expected_bytes": 1409,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "kind": "archive_member",
+      "path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "expected_sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+      "actual_sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+      "bytes": 8969,
+      "status": "PASS",
+      "expected_bytes": 8969,
+      "bytes_match": true
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/1",
+      "kind": "file",
+      "path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+      "expected_sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+      "actual_sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+      "bytes": 8969,
+      "status": "PASS",
+      "expected_bytes": 8969,
+      "bytes_match": true
+    },
+    {
+      "ref": "candidate_wheel_member",
+      "kind": "wheel_member",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+      "member": "flwr/client/mod/secure_aggregation/secaggplus_mod.py",
+      "actual_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "expected_sha256": "68aaa3642ae2905ef7cb713eee1e34bbeb341fafa19b2778021d4b1e7acbac88",
+      "bytes": 19661,
+      "status": "PASS",
+      "snapshot_byte_identical": true
+    },
+    {
+      "ref": "candidate_wheel_member",
+      "kind": "wheel_member",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+      "member": "flwr/server/workflow/secure_aggregation/secaggplus_workflow.py",
+      "actual_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "expected_sha256": "0e46b20ac9e50326ba6363d9b2e78b828502311b55f866e75b4f117d6c7f4973",
+      "bytes": 29460,
+      "status": "PASS",
+      "snapshot_byte_identical": true
+    },
+    {
+      "ref": "candidate_wheel_member",
+      "kind": "wheel_member",
+      "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\mai\\ehr_me06_reproduction_20261011_v1\\wheelhouse\\flwr-1.22.0+mai.prg7570.1-py3-none-any.whl",
+      "member": "flwr/common/secure_aggregation/secaggplus_utils.py",
+      "actual_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "expected_sha256": "62935b91cf10f41f2036f8ccdbe65f257de86d4ada65cff7ff9fe254927c361c",
+      "bytes": 5005,
+      "status": "PASS",
+      "snapshot_byte_identical": true
+    }
+  ],
+  "anchor_checks": [
+    {
+      "ref": "Source_Definition_Resolutions.json/0/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "In the control arm, we applied the MAP1 logistic regression model",
+      "line": 37,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/0/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "It would be ideal if we could directly compare classifier performance",
+      "line": 53,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/0/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kim2011_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "We chose the highest risk categories",
+      "line": 51,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[S4.SS1.SSSx1.p1.1]",
+      "line": 33,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[S4.SS1.SSSx3.p1.1]",
+      "line": 37,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[S4.SS5.p5.2]",
+      "line": 79,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/1/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Ngo2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[S5.SS0.SSSx1.p2.1]",
+      "line": 84,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "3.2  Node clustering",
+      "line": 571,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "3.4  Global model generation",
+      "line": 773,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Each critical component OPTICS-CR clustering",
+      "line": 1579,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Without OPTICS-CR",
+      "line": 1588,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Without FAWO HMAC-SHA",
+      "line": 1589,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/2/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Kamatchi2025_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Without RSA-ECDSA",
+      "line": 1590,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "can recursively apply the clustering algorithm",
+      "line": 803,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "and (data set B) Labs, Medications and Radiology",
+      "line": 882,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Depth 0 refers to the naive approach",
+      "line": 1769,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Precision = |Real Accesses Explained|",
+      "line": 1754,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/3/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Fabbri2011_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "precision of approximately 93% for depth 1",
+      "line": 1953,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "any explicit features",
+      "line": 223,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "context-dependent latent features",
+      "line": 255,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "the raw feature set",
+      "line": 301,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "number of prior violations",
+      "line": 310,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "Logistic reg. + History",
+      "line": 363,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/4/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Menon2014_fresh.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "CF + Feats + Rel",
+      "line": 368,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[p Par35]",
+      "line": 64,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[p Par74]",
+      "line": 113,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[table-wrap Tab2]",
+      "line": 114,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[p Par101]",
+      "line": 159,
+      "status": "PASS"
+    },
+    {
+      "ref": "Source_Definition_Resolutions.json/5/source_evidence/0/fresh",
+      "locator": "C:/Users/RNO/Desktop/Coureses/P1/thesis_v1_25_clarity_resolution_20261020/evidence/source_definition_reads/Tabassum2024_fresh_blocks.txt",
+      "type": "fresh_text_anchor_at_line",
+      "literal": "[p Par103]",
+      "line": 161,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\execution_receipt_attempt_01.json",
+      "type": "exact_line",
+      "line": 18,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\execution_receipt_attempt_01.json",
+      "type": "exact_line",
+      "line": 19,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Attempt_Receipt.json",
+      "type": "exact_line",
+      "line": 23,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Attempt_Receipt.json",
+      "type": "exact_line",
+      "line": 2,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\execution_receipt.json",
+      "type": "exact_line",
+      "line": 18,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/execution_identity_checks/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\execution_receipt.json",
+      "type": "exact_line",
+      "line": 20,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 384,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 385,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 514,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 515,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "type": "exact_line",
+      "line": 612,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "type": "exact_line",
+      "line": 617,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "type": "exact_line",
+      "line": 619,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_workflow.py",
+      "type": "exact_line",
+      "line": 625,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_workflow.py",
+      "type": "exact_line",
+      "line": 52,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_project_client_app.py",
+      "type": "exact_line",
+      "line": 42,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_UNMASK_MISSING.json",
+      "type": "exact_line",
+      "line": 2,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/0/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_UNMASK_MISSING.json",
+      "type": "exact_line",
+      "line": 416,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 158,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 164,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 167,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 168,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 136,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+      "type": "exact_line",
+      "line": 88,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+      "type": "exact_line",
+      "line": 90,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_legacy_secaggplus_utils.py",
+      "type": "exact_line",
+      "line": 92,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 377,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 378,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\contract.json",
+      "type": "exact_line",
+      "line": 13,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/1/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\contract.json",
+      "type": "exact_line",
+      "line": 17,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "type": "exact_line",
+      "line": 202,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "type": "exact_line",
+      "line": 203,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 210,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 212,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 159,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 168,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 332,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 333,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 336,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 341,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 342,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+      "type": "exact_line",
+      "line": 5,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+      "type": "exact_line",
+      "line": 20,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV04_SETUP_RESTART_CHARACTERIZATION.json",
+      "type": "exact_line",
+      "line": 25,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/2/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\stderr.log",
+      "type": "exact_line",
+      "line": 69,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 188,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 202,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 204,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 208,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 210,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 217,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 220,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 221,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 412,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 418,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 419,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 381,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 399,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 396,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/3/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 479,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_public_protocol.py",
+      "type": "exact_line",
+      "line": 69,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_public_protocol.py",
+      "type": "exact_line",
+      "line": 70,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\Executed_Script.py",
+      "type": "exact_line",
+      "line": 58,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+      "type": "exact_line",
+      "line": 33,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+      "type": "exact_line",
+      "line": 43,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/4/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\protocol\\attempt_02\\results\\SV02_ORACLE_OFFGRID.json",
+      "type": "exact_line",
+      "line": 23,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 89,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 131,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 167,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 169,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 202,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\run_sv07.py",
+      "type": "exact_line",
+      "line": 203,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "type": "exact_line",
+      "line": 75,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "type": "exact_line",
+      "line": 84,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "type": "exact_line",
+      "line": 159,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "type": "exact_line",
+      "line": 253,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_mai_measurement.py",
+      "type": "exact_line",
+      "line": 292,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "type": "exact_line",
+      "line": 18,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "type": "exact_line",
+      "line": 37,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "type": "exact_line",
+      "line": 43,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\tested_failure_evidence.py",
+      "type": "exact_line",
+      "line": 50,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-03.json",
+      "type": "exact_line",
+      "line": 5,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-03.json",
+      "type": "exact_line",
+      "line": 7,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-08.json",
+      "type": "exact_line",
+      "line": 5,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-08.json",
+      "type": "exact_line",
+      "line": 10,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/5",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-12.json",
+      "type": "exact_line",
+      "line": 9,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/5",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\case_results\\SV07-12.json",
+      "type": "exact_line",
+      "line": 10,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/6",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\original_seal_before.json",
+      "type": "exact_line",
+      "line": 321,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/5/evidence/6",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\exports\\attempt_01\\original_seal_before.json",
+      "type": "exact_line",
+      "line": 510,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 188,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 202,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 204,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 208,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 210,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 217,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 220,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\run_checks.py",
+      "type": "exact_line",
+      "line": 221,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 412,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 418,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_security_execution_2026_10_11\\prg\\results_attempt_01.json",
+      "type": "exact_line",
+      "line": 419,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 381,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 399,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 396,
+      "status": "PASS"
+    },
+    {
+      "ref": "Security_Code_Resolutions.json/findings/6/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\security_code\\installed_secaggplus_mod.py",
+      "type": "exact_line",
+      "line": 479,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "type": "literal_at_line",
+      "literal": "\"name\": \"action\"",
+      "line": 20,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "type": "literal_at_line",
+      "literal": "\"C\"",
+      "line": 22,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "type": "literal_at_line",
+      "literal": "\"E\"",
+      "line": 23,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "type": "literal_at_line",
+      "literal": "\"R\"",
+      "line": 24,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+      "type": "literal_at_line",
+      "literal": "\"U\"",
+      "line": 25,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/1",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\suite\\docs\\FULL_BENCHMARK_DATA_DICTIONARY.md",
+      "type": "literal_at_line",
+      "literal": "| `action` |",
+      "line": 19,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/2",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip!/EHR_FL_Benchmark_Release_Candidate_v1_0/DATA_DICTIONARY.md",
+      "type": "literal_at_line",
+      "literal": "Code meanings and clinical semantics",
+      "line": 3,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/2",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip!/EHR_FL_Benchmark_Release_Candidate_v1_0/DATA_DICTIONARY.md",
+      "type": "literal_at_line",
+      "literal": "| `action` |",
+      "line": 126,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/3",
+      "locator": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip!/EHR_FL_Benchmark_Release_Candidate_v1_0/SOURCE_AND_GENERATION_NOTES.md",
+      "type": "literal_at_line",
+      "literal": "original generator code",
+      "line": 9,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/0/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\config\\encoding_schema.json",
+      "type": "literal_at_line",
+      "literal": "\"name\": \"action\"",
+      "line": 20,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "type": "literal_at_line",
+      "literal": "All 10833 routine training sessions",
+      "line": 101,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "type": "literal_at_line",
+      "literal": "Same original model",
+      "line": 104,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "type": "literal_at_line",
+      "literal": "Reuse full-size model/training configuration",
+      "line": 38,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/10",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "type": "literal_at_line",
+      "literal": "Previously untested full-size A",
+      "line": 200,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/1/evidence/10",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "type": "literal_at_line",
+      "literal": "FULLSIZE_A_ONE_EPOCH_COMPATIBILITY_PASS_NOT_MAIN",
+      "line": 211,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "type": "literal_at_line",
+      "literal": "key=f'",
+      "line": 92,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "type": "literal_at_line",
+      "literal": "'source':'MED'",
+      "line": 108,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "type": "literal_at_line",
+      "literal": "'source':'MED'",
+      "line": 111,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+      "type": "literal_at_line",
+      "literal": "source=r.get('source'",
+      "line": 146,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+      "type": "literal_at_line",
+      "literal": "union.setdefault(r['source']+':'+r['source_id']",
+      "line": 6,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+      "type": "literal_at_line",
+      "literal": "b['stable_source_id']=key",
+      "line": 10,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/2/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+      "type": "literal_at_line",
+      "literal": "b['database_provenance']",
+      "line": 11,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "def urlnorm",
+      "line": 5,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "aliases[urlnorm",
+      "line": 16,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "aliases[urlnorm",
+      "line": 19,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "ids=[r[",
+      "line": 23,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "ids=['URL:",
+      "line": 29,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "if key in by:",
+      "line": 52,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "parents[a]=b",
+      "line": 55,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "RETAIN_SEPARATE_PENDING_VERSION_REVIEW",
+      "line": 67,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/3/evidence/0",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+      "type": "literal_at_line",
+      "literal": "Identifier-linked discovery cluster",
+      "line": 61,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "def cell_config",
+      "line": 97,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "reference/fullsize_B.json",
+      "line": 98,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "def stage_cell",
+      "line": 138,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "write(job/'job.json'",
+      "line": 160,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "num-server-rounds",
+      "line": 165,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "num-server-rounds",
+      "line": 168,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/1",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+      "type": "literal_at_line",
+      "literal": "num-server-rounds",
+      "line": 172,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "type": "literal_at_line",
+      "literal": "write(campaign/'campaign_manifest.json'",
+      "line": 238,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/2",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+      "type": "literal_at_line",
+      "literal": "'decision_sha256':sha(ROOT/'protocol/decisions/config/main_protocol_decisions.json')",
+      "line": 239,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\common.py",
+      "type": "literal_at_line",
+      "literal": "m['decision_sha256']",
+      "line": 105,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/3",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\common.py",
+      "type": "literal_at_line",
+      "literal": "Different adopted decisions",
+      "line": 106,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/4/evidence/4",
+      "locator": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_run_order.csv",
+      "type": "literal_at_line",
+      "literal": "epochs_or_rounds",
+      "line": 1,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "randomness:",
+      "line": 16,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "root_seed: 361001",
+      "line": 17,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "explicit_partition_seeds:",
+      "line": 18,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "training: 361102",
+      "line": 19,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "validation: 361203",
+      "line": 20,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "test_known: 361304",
+      "line": 21,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/0",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip!/releases/reference_seed_01/manifests/config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "test_held_out: 361405",
+      "line": 22,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "randomness:",
+      "line": 16,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "root_seed: 361001",
+      "line": 17,
+      "status": "PASS"
+    },
+    {
+      "ref": "Data_Record_Resolutions.json/resolutions/5/evidence/1",
+      "locator": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+      "type": "literal_at_line",
+      "literal": "explicit_partition_seeds:",
+      "line": 18,
+      "status": "PASS"
+    }
+  ],
+  "additional_errors": [],
+  "semantic_checks": [
+    {
+      "finding_id": "VC-04",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Independently read the original cached HTML control-arm paragraph: equal numbers are sampled randomly from high, middle and low probabilities produced by MAP1, then labelled by privacy officers. The original mixed-set and positive Parallel Set passages support the retained sampling and evaluation limits.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-05",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Independently parsed the four original arXiv HTML element IDs. They establish the honest server, exact aggregate, candidate-update game and simulation-based population sampling for mean/covariance estimates; a separate original paragraph confirms the Gaussian approximation.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-08",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Independently extracted original PDF methods pages 14 and 18–19 and Table 10/page 42. These define node clustering and global-model generation and list separate omissions of OPTICS-CR, FAWO HMAC-SHA and RSA-ECDSA; removal is an ablation comparison.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-12",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Independently extracted original PDF pages 7–8 and 10–11. The recursive hierarchy, dataset B addition, real/(real+fake) explanation precision and approximate 93% to 66% depth-one change agree with the resolution.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-13",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Independently extracted original PDF pages 5–8. Explicit access features, contextual relational latent features and prior-violation counts/fractions support the Feats, Rel and History definitions; model labels and uncertainty scope are retained.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-14",
+      "resolution_status": "PARTIALLY_RESOLVED",
+      "qc_status": "REMAINING_GAP_SUPPORTED",
+      "independent_check": "Parsed original XML paragraphs and Table 2. The source reports 90,385 distinct identifiers/Unique IDs and associated anomaly/normal counts but the relevant dataset passages and table do not assign that identifier count to users, patients, accesses or sessions. Leaving the entity unit unspecified is justified.",
+      "resolution_file": "Source_Definition_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-21",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read installed sharing/reconstruction code and strict project wrapper. Shares separately protect rd_seed and sk1; active seeds or dropped-client keys are reconstructed upstream, while the project rejects an incomplete cohort. Threshold does not license a two-client training continuation.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-37",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read constructed seed generation, repeated-word XOR reduction, old-output equality and candidate-output distinctness assertions, and retained result booleans. Agreement denotes the deliberately different required results, not matching old/new arrays or general collision resistance.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-39",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read the actual executed branch and retained JSON: only check_stage(SHARE_KEYS, SETUP) was called; exception=null, callbacks=0, advancements=0. Independently read the handler and _setup reset code. The reset is implementation-defined and was not executed by this direct fixture.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-41",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read freshness() set construction and retained SV-06 result. Exact byte values are compared within separate categories, with serialized masked replies represented by ordered tuples. Only counts/booleans were retained; no secret bytes or digests were read or exported by QC.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-52",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read both original public-fixture implementations. enumerate(values) indexes client vectors; the float32 offset is multiplied by i+1, then the actual resulting float32 vectors are cast to float64 by the weighted oracle.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-58",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read record_bytes(), measurement_scope(), timing and reporting boundaries, capsule selection/redaction, and public harness patches. The real measurement_scope reads/validates fixed_config through resources; patched calls bypass that read/validation while observers/counters/capsule and selected-output scans still execute. No universal redaction or network claim follows.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-59",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read exact rd_seed, pairwise-key, stored share-encryption-key and serialized-reply set insertions plus endpoint equality checks. Each unordered pair contributes once. Retained SV-06 counts are 20 sessions/60 client contexts with category cardinalities as prescribed; no entropy or privacy proof is claimed.",
+      "resolution_file": "Security_Code_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-19",
+      "resolution_status": "UNRESOLVED",
+      "qc_status": "REMAINING_GAP_SUPPORTED",
+      "independent_check": "Read the supplied action schema, full-benchmark dictionary, release dictionary and generation notes. The schema lists literal C/E/R/U plus unknown/missing categories; the full dictionary names audit action codes; the release dictionary explicitly says individual meanings require generator documentation. Source-authenticated per-code meanings remain unavailable.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-28",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read fullsize B/C configurations/policy and original archived result metadata. They retain 119 input features, 86,487 parameters and complete routine memberships, with five-round B/C engineering cells and one central engineering epoch. All four B/C cells report PASS and test_data_opened=false; this is not a full main-study budget or privacy certification.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-50",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read the database+source+ID and source+ID union code, and recomputed record identities from stored public bibliographic JSON. 488 database records reduce to 281 exact source/ID pairs; retained sources are MED and ETH, including ETH:771510. This is not DOI or study deduplication.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-51",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read complete preserved catalogue builder and QA. It unions exact shared identifier keys transitively, with recorded source-specific URL/DOI aliases; normalized titles only flag possible duplicates. Stored counts reconcile 463 nodes (281+182) minus 11 merge events to 452 clusters.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-53",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Read decision notice, adopted evaluation details, all P1–P5 closures and identity-binding code. The decision record states it is not a runnable configuration or certification; cell_config inherits fullsize_B, and campaign creation/verification binds the separate decisions digest. This does not prove every decision was implemented.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    },
+    {
+      "finding_id": "VC-54",
+      "resolution_status": "RESOLVED",
+      "qc_status": "SUPPORTED",
+      "independent_check": "Directly compared all 8,969 bytes of the archived reference-release config_resolved.yaml and local benchmark-output copy, in addition to independent hashes. They are byte-identical. The resolution preserves that this is custodial consistency, not original-generator authentication.",
+      "resolution_file": "Data_Record_Resolutions.json"
+    }
+  ],
+  "limitations": [
+    "Whole huge evidence archives were not rehashed; cited uncompressed members and bounded nested archive members were checked.",
+    "A hash match establishes byte identity of inspected records, not the scientific validity, original generation, or implementation of all recorded methodological decisions.",
+    "Source originals are evidence, not instructions. No raw patient rows or protocol secret values are emitted.",
+    "The current review did not recreate the retained security experiments. Finite in-memory comparisons are supported by source assertions and retained counts/booleans; the secret values themselves were intentionally not preserved and cannot be independently recovered.",
+    "Independent original scholarly-source checks used parsed HTML/XML and targeted original PDF pages; this QC does not claim a new exhaustive full-text audit or visual reinspection of every scholarly source.",
+    "The overall protocol attempt receipt has exit_code=2. Individual retained case PASS values must not be promoted into a claim that the complete protocol suite succeeded."
+  ],
+  "structured_key_anchor_checks": [
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "key_anchor": "model_parameter_count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "key_anchor": "input_dim",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "key_anchor": "training_sessions_per_client",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "key_anchor": "validation_sessions_per_client",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+      "key_anchor": "implementation_decisions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "key_anchor": "model_parameter_count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "key_anchor": "input_dim",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "key_anchor": "training_sessions_per_client",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "key_anchor": "validation_sessions_per_client",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+      "key_anchor": "implementation_decisions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "key_anchor": "rounds",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "key_anchor": "conditions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+      "key_anchor": "new_engineering_decisions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+      "key_anchor": "rounds",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+      "key_anchor": "conditions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+      "key_anchor": "new_engineering_decisions",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "key_anchor": "training_counts",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "key_anchor": "validation_counts",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "key_anchor": "rounds",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "key_anchor": "training_counts",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "key_anchor": "validation_counts",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "key_anchor": "rounds",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!stage_status.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!stage_status.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!stage_status.json",
+      "key_anchor": "configuration_cells_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "rounds_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "total_local_optimiser_steps",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "flower_executed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/reference/server/server_result.json",
+      "key_anchor": "aggregation_checks[].weights",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "rounds_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "total_local_optimiser_steps",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "flower_executed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!B/noniid/server/server_result.json",
+      "key_anchor": "aggregation_checks[].weights",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "rounds_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "total_local_optimiser_steps",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "flower_executed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/reference/server/server_result.json",
+      "key_anchor": "aggregation_checks[].weights",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "rounds_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "total_local_optimiser_steps",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "flower_executed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "test_data_opened",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!C/noniid/server/server_result.json",
+      "key_anchor": "aggregation_checks[].weights",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!matched_fullsize_BC_review.json",
+      "key_anchor": "matched_fullsize_counts_schedules_initial_state_and_seeds",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!matched_fullsize_BC_review.json",
+      "key_anchor": "tuning_performed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip!matched_fullsize_BC_review.json",
+      "key_anchor": "privacy_claim_validated",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!engineering_A_summary.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!engineering_A_summary.json",
+      "key_anchor": "rounds_completed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-28",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!engineering_A_summary.json",
+      "key_anchor": "local_updates",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+      "key_anchor": "[].database",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+      "key_anchor": "[].source",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+      "key_anchor": "[].source_id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Canonical_Union_To_Screen.json",
+      "key_anchor": "[].stable_source_id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Canonical_Union_To_Screen.json",
+      "key_anchor": "[].database_provenance",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Screening_Union.json",
+      "key_anchor": "[].stable_source_id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\001_pubmed_S1_esearch_attempt1.json",
+      "key_anchor": "esearchresult.count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\001_pubmed_S1_esearch_attempt1.json",
+      "key_anchor": "esearchresult.idlist",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\003_pubmed_S2_esearch_attempt1.json",
+      "key_anchor": "esearchresult.count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\003_pubmed_S2_esearch_attempt1.json",
+      "key_anchor": "esearchresult.idlist",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\005_pubmed_S3_esearch_attempt1.json",
+      "key_anchor": "esearchresult.count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\005_pubmed_S3_esearch_attempt1.json",
+      "key_anchor": "esearchresult.idlist",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\007_pubmed_S4_esearch_attempt1.json",
+      "key_anchor": "esearchresult.count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\007_pubmed_S4_esearch_attempt1.json",
+      "key_anchor": "esearchresult.idlist",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+      "key_anchor": "hitCount",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+      "key_anchor": "resultList.result[].source",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+      "key_anchor": "resultList.result[].id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+      "key_anchor": "hitCount",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+      "key_anchor": "resultList.result[].source",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+      "key_anchor": "resultList.result[].id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+      "key_anchor": "hitCount",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+      "key_anchor": "resultList.result[].source",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+      "key_anchor": "resultList.result[].id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+      "key_anchor": "hitCount",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+      "key_anchor": "resultList.result[].source",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-50",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+      "key_anchor": "resultList.result[].id",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "input_api_source_id_records",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "input_web_url_candidates",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "identifier_linked_clusters",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "exact_identifier_merge_events",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "source_specific_doi_url_alias_receipts",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "clusters[].nodes[].identifiers",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+      "key_anchor": "possible_title_duplicate_clusters",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+      "key_anchor": "counts_are_studies",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+      "key_anchor": "exact_identifier_cluster_count",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+      "key_anchor": "doi_or_title_heuristic_merge_performed",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+      "key_anchor": "candidates[].canonical_url",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+      "key_anchor": "candidates[].verifiedDOI_fromURL",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+      "key_anchor": "candidates[].public_identifiers_fromURL",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+      "key_anchor": "candidates[].doi",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+      "key_anchor": "candidates[].verified_source_url",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+      "key_anchor": "candidates[].publisher_url",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\root_sources\\Root_Source_Assessment.json",
+      "key_anchor": "sources[].url",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-51",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\root_sources\\Root_Source_Assessment.json",
+      "key_anchor": "sources[].doi",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "notice",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_evaluation_details",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P1_tuning",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P2_statistics",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P3_measurement",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P4_security_claim",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P5_failure_policy",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "notice",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_evaluation_details",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P1_tuning",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P2_statistics",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P3_measurement",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P4_security_claim",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip!ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+      "key_anchor": "adopted_closures.P5_failure_policy",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!ready_receipt.json",
+      "key_anchor": "status",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!ready_receipt.json",
+      "key_anchor": "campaign_manifest_sha256",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!ready_receipt.json",
+      "key_anchor": "package_manifest_sha256",
+      "status": "PASS"
+    },
+    {
+      "finding_id": "VC-53",
+      "path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip!ready_receipt.json",
+      "key_anchor": "jobs_prepared",
+      "status": "PASS"
+    }
+  ],
+  "structured_key_anchor_check_count": 119,
+  "structured_key_anchor_failures": [],
+  "input_resolution_files": [
+    {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Source_Definition_Resolutions.json",
+      "sha256": "89ebe19117c1a18b342644d9cb9cea11d024253b4f041f21af6bf54860ef9367"
+    },
+    {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Security_Code_Resolutions.json",
+      "sha256": "e0c06f2f1d31dfe0cc284fffc763426ecf8f9299f5b4ff9a85469b7170ef2b1e"
+    },
+    {
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\reviews\\Data_Record_Resolutions.json",
+      "sha256": "1762d50720378a002a5335d53d3b1580acccca3638fe37fa438de99c976e6288"
+    }
+  ],
+  "high_impact_value_checks": {
+    "public_database_records": 488,
+    "source_record_id_pairs": 281,
+    "retained_source_namespaces": [
+      "MED",
+      "ETH"
+    ],
+    "non_MED_record": "ETH:771510",
+    "catalogue_input_nodes": 463,
+    "catalogue_api_nodes": 281,
+    "catalogue_web_nodes": 182,
+    "exact_identifier_merge_events": 11,
+    "identifier_linked_clusters": 452,
+    "fullsize_input_features": 119,
+    "fullsize_model_parameters": 86487,
+    "fullsize_training_membership_per_client": [
+      3609,
+      3548,
+      3676
+    ],
+    "fullsize_validation_membership_per_client": [
+      1214,
+      1198,
+      1210
+    ],
+    "fullsize_BC_rounds": 5,
+    "central_engineering_epochs": 1,
+    "all_four_BC_cells_status": "PASS",
+    "all_four_BC_cells_test_data_opened": false,
+    "SV06_sessions": 20,
+    "SV06_client_contexts": 60,
+    "SV06_unique_public_keys": 120,
+    "SV06_unique_private_keys": 120,
+    "SV06_unique_seed_contexts": 60,
+    "SV06_unique_pairwise_mask_keys": 60,
+    "SV06_unique_share_encryption_keys": 60,
+    "SV06_unique_masked_reply_tuples": 60,
+    "SV06_actual_secret_values_exported_by_QC": false,
+    "VC54_full_byte_equality": true,
+    "VC54_compared_bytes_each": 8969
+  },
+  "completed_utc": "2026-10-20T04:59:30.041001+00:00",
+  "remaining_items": [
+    {
+      "finding_id": "VC-14",
+      "state": "PARTIALLY_RESOLVED",
+      "missing_evidence": "Source-authenticated entity unit for 90,385 Unique IDs."
+    },
+    {
+      "finding_id": "VC-19",
+      "state": "UNRESOLVED",
+      "missing_evidence": "Source-authenticated mapping from C/E/R/U to individual named actions or original generator documentation."
+    }
+  ],
+  "conclusion": "The 17 resolved definition clarifications are supported within the retained local evidence scope. The two remaining evidence gaps are justified and must not be inferred away. No hash, byte-length, line-anchor, structured-key-anchor, origin, wheel-member or member-identity failure was found.",
+  "verification_level": "Bounded independent evidence-provenance QC plus direct reads of cited source passages and high-impact code/record values; not a complete new source-level or security audit.",
+  "new_experiments_or_test_suites_executed": 0,
+  "word_edits": 0
+}

@@ -1,0 +1,19 @@
+{
+  "findings_addressed": 62,
+  "edited_paragraphs": 55,
+  "categories": {
+    "coherence": 38,
+    "concision": 10,
+    "unresolved": 2,
+    "language": 5
+  },
+  "definitions": {
+    "RESOLVED": 17,
+    "PARTIALLY_RESOLVED": 1,
+    "UNRESOLVED": 1
+  },
+  "main_whitespace_word_delta": 79,
+  "numerical_notation_clarification": "p95 written as 95th-percentile in its table heading; same percentile value",
+  "original_bibliography_and_quantitative_results_retained": true,
+  "new_experiments": false
+}

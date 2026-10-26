@@ -1,0 +1,589 @@
+{
+  "status": "PASS",
+  "read_only": true,
+  "repository": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\study_online_availability_20261026\\repository",
+  "scope": "Prepared checkout links and release metadata; no remote publication/download verification claimed",
+  "markdown_files_checked": 39,
+  "relative_link_count": 59,
+  "active_navigation_failures": [],
+  "all_relative_link_failures": [],
+  "relative_link_checks": [
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 9,
+      "target": "../executed/EHR_FL_Main_Experiments_Package_v1_0_3/",
+      "repository_path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 9,
+      "target": "../executed/EHR_FL_Main_Experiments_Package_v1_0_3/PACKAGE_SHA256SUMS.txt",
+      "repository_path": "executed/EHR_FL_Main_Experiments_Package_v1_0_3/PACKAGE_SHA256SUMS.txt",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 10,
+      "target": "../results/tables/",
+      "repository_path": "results/tables",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 10,
+      "target": "../results/figures/",
+      "repository_path": "results/figures",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 10,
+      "target": "../analysis/final_score_audit/AUDITED_RESULTS.md",
+      "repository_path": "analysis/final_score_audit/AUDITED_RESULTS.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 11,
+      "target": "../supplementary/README.md",
+      "repository_path": "supplementary/README.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 12,
+      "target": "../analysis/final_score_audit/audit_scores.py",
+      "repository_path": "analysis/final_score_audit/audit_scores.py",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 13,
+      "target": "../inference/",
+      "repository_path": "inference",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 13,
+      "target": "user_guides/Session_Check_User_Guide_EN.pdf",
+      "repository_path": "docs/user_guides/Session_Check_User_Guide_EN.pdf",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 13,
+      "target": "user_guides/Session_Check_Test_Samples.zip",
+      "repository_path": "docs/user_guides/Session_Check_Test_Samples.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 31,
+      "target": "../analysis/final_score_audit/REPRODUCE_AUDIT.md",
+      "repository_path": "analysis/final_score_audit/REPRODUCE_AUDIT.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/AVAILABILITY.md",
+      "line": 37,
+      "target": "../inference/README.md",
+      "repository_path": "inference/README.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/DATA_ACCESS.md",
+      "line": 9,
+      "target": "AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "docs/REPRODUCIBILITY.md",
+      "line": 3,
+      "target": "AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "manuscript/README.md",
+      "line": 5,
+      "target": "Research_Thesis_v1_30_Online_Availability_Clean_20261026.docx",
+      "repository_path": "manuscript/Research_Thesis_v1_30_Online_Availability_Clean_20261026.docx",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "manuscript/README.md",
+      "line": 6,
+      "target": "Study_Appendices_v1_30_Online_Availability_EN.docx",
+      "repository_path": "manuscript/Study_Appendices_v1_30_Online_Availability_EN.docx",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 3,
+      "target": "docs/AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 7,
+      "target": "docs/AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 8,
+      "target": "supplementary/README.md",
+      "repository_path": "supplementary/README.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 9,
+      "target": "docs/original_handover_guide/SUPERVISOR_CODE_GUIDE.md",
+      "repository_path": "docs/original_handover_guide/SUPERVISOR_CODE_GUIDE.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 10,
+      "target": "inference/README.md",
+      "repository_path": "inference/README.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 11,
+      "target": "manuscript/README.md",
+      "repository_path": "manuscript/README.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 32,
+      "target": "docs/AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 40,
+      "target": "docs/DATA_ACCESS.md",
+      "repository_path": "docs/DATA_ACCESS.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 40,
+      "target": "docs/REPRODUCIBILITY.md",
+      "repository_path": "docs/REPRODUCIBILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "README.md",
+      "line": 40,
+      "target": "docs/CONTRIBUTIONS.md",
+      "repository_path": "docs/CONTRIBUTIONS.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 7,
+      "target": "Result_Traceability_Evidence.zip",
+      "repository_path": "supplementary/Result_Traceability_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 7,
+      "target": "README_Result_Traceability.md",
+      "repository_path": "supplementary/README_Result_Traceability.md",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 8,
+      "target": "ME06_Evidence.zip",
+      "repository_path": "supplementary/ME06_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 9,
+      "target": "Security_Validation_Evidence.zip",
+      "repository_path": "supplementary/Security_Validation_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 9,
+      "target": "SV05_Repair_Evidence.zip",
+      "repository_path": "supplementary/SV05_Repair_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 10,
+      "target": "Supplementary_Diagnostics.zip",
+      "repository_path": "supplementary/Supplementary_Diagnostics.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 11,
+      "target": "Literature_Refresh_ME04_ME05_20261011.zip",
+      "repository_path": "supplementary/Literature_Refresh_ME04_ME05_20261011.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 12,
+      "target": "Source_Access_Update.json",
+      "repository_path": "supplementary/Source_Access_Update.json",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 13,
+      "target": "Historical_Evidence_Companion.md",
+      "repository_path": "supplementary/Historical_Evidence_Companion.md",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 13,
+      "target": "Historical_Evidence_Companion_Files.zip",
+      "repository_path": "supplementary/Historical_Evidence_Companion_Files.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Evidence_Companion.md",
+      "line": 14,
+      "target": "Artifact_Manifest.json",
+      "repository_path": "supplementary/Artifact_Manifest.json",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 5,
+      "target": "Result_Traceability_Evidence.zip",
+      "repository_path": "supplementary/Result_Traceability_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 6,
+      "target": "worst_client_by_seed_reconstructed.csv",
+      "repository_path": "supplementary/worst_client_by_seed_reconstructed.csv",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 7,
+      "target": "scenario_error_by_seed_reconstructed.csv",
+      "repository_path": "supplementary/scenario_error_by_seed_reconstructed.csv",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 8,
+      "target": "Data_Provenance_and_Ethics_Requirements_AR.md",
+      "repository_path": "supplementary/Data_Provenance_and_Ethics_Requirements_AR.md",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 22,
+      "target": "ME06_Evidence.zip",
+      "repository_path": "supplementary/ME06_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 23,
+      "target": "Security_Validation_Evidence.zip",
+      "repository_path": "supplementary/Security_Validation_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 24,
+      "target": "SV05_Repair_Evidence.zip",
+      "repository_path": "supplementary/SV05_Repair_Evidence.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 25,
+      "target": "Literature_Refresh_ME04_ME05_20261011.zip",
+      "repository_path": "supplementary/Literature_Refresh_ME04_ME05_20261011.zip",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 9,
+      "target": "Result_Traceability_Evidence.zip",
+      "repository_path": "supplementary/Result_Traceability_Evidence.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 9,
+      "target": "README_Result_Traceability.md",
+      "repository_path": "supplementary/README_Result_Traceability.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 10,
+      "target": "ME06_Evidence.zip",
+      "repository_path": "supplementary/ME06_Evidence.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 11,
+      "target": "Security_Validation_Evidence.zip",
+      "repository_path": "supplementary/Security_Validation_Evidence.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 12,
+      "target": "SV05_Repair_Evidence.zip",
+      "repository_path": "supplementary/SV05_Repair_Evidence.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 13,
+      "target": "Supplementary_Diagnostics.zip",
+      "repository_path": "supplementary/Supplementary_Diagnostics.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 14,
+      "target": "Literature_Refresh_ME04_ME05_20261011.zip",
+      "repository_path": "supplementary/Literature_Refresh_ME04_ME05_20261011.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 14,
+      "target": "Source_Access_Update.json",
+      "repository_path": "supplementary/Source_Access_Update.json",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 15,
+      "target": "Artifact_Manifest.json",
+      "repository_path": "supplementary/Artifact_Manifest.json",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 32,
+      "target": "../docs/AVAILABILITY.md",
+      "repository_path": "docs/AVAILABILITY.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 32,
+      "target": "../evidence/ONLINE_RELEASE_ASSETS.json",
+      "repository_path": "evidence/ONLINE_RELEASE_ASSETS.json",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 36,
+      "target": "Evidence_Companion.md",
+      "repository_path": "supplementary/Evidence_Companion.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 36,
+      "target": "Historical_Evidence_Companion.md",
+      "repository_path": "supplementary/Historical_Evidence_Companion.md",
+      "active_navigation": true,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/README.md",
+      "line": 36,
+      "target": "Historical_Evidence_Companion_Files.zip",
+      "repository_path": "supplementary/Historical_Evidence_Companion_Files.zip",
+      "active_navigation": true,
+      "status": "PASS"
+    }
+  ],
+  "excluded_absolute_non_web": [],
+  "historical_three_links": [
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 6,
+      "target": "worst_client_by_seed_reconstructed.csv",
+      "repository_path": "supplementary/worst_client_by_seed_reconstructed.csv",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 7,
+      "target": "scenario_error_by_seed_reconstructed.csv",
+      "repository_path": "supplementary/scenario_error_by_seed_reconstructed.csv",
+      "active_navigation": false,
+      "status": "PASS"
+    },
+    {
+      "source": "supplementary/Historical_Evidence_Companion.md",
+      "line": 8,
+      "target": "Data_Provenance_and_Ethics_Requirements_AR.md",
+      "repository_path": "supplementary/Data_Provenance_and_Ethics_Requirements_AR.md",
+      "active_navigation": false,
+      "status": "PASS"
+    }
+  ],
+  "historical_three_links_all_resolve": true,
+  "release_assets": [
+    {
+      "name": "Study_Audit_Inputs_Original.zip",
+      "exists_locally": true,
+      "bytes": 23808063,
+      "manifest_bytes": 23808063,
+      "sha256_match": true,
+      "download_URL_matches_tag_and_name": true,
+      "inventory_readme_members": [
+        "PACKAGE_MANIFEST_audit_inputs.json",
+        "README_audit_inputs.md"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Study_Offline_Runtime_Linux_Python312.zip",
+      "exists_locally": true,
+      "bytes": 296675694,
+      "manifest_bytes": 296675694,
+      "sha256_match": true,
+      "download_URL_matches_tag_and_name": true,
+      "inventory_readme_members": [
+        "PACKAGE_MANIFEST_offline_runtime.json",
+        "README_offline_runtime.md"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Study_Replay_Controls_And_Records.zip",
+      "exists_locally": true,
+      "bytes": 170604,
+      "manifest_bytes": 170604,
+      "sha256_match": true,
+      "download_URL_matches_tag_and_name": true,
+      "inventory_readme_members": [
+        "PACKAGE_MANIFEST_replay_controls.json",
+        "README_replay_controls.md"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "Study_Replay_Inputs_And_Selected_Models.zip",
+      "exists_locally": true,
+      "bytes": 109981767,
+      "manifest_bytes": 109981767,
+      "sha256_match": true,
+      "download_URL_matches_tag_and_name": true,
+      "inventory_readme_members": [
+        "PACKAGE_MANIFEST_replay_inputs.json",
+        "README_replay_inputs.md",
+        "runtime/preprocessing_source/manifests/pilot/overfit_32_membership.csv",
+        "runtime/preprocessing_source/manifests/pilot/pilot_membership.csv",
+        "runtime/preprocessing_source/manifests/source_file_manifest.csv",
+        "runtime/preprocessing_source/PACKAGE_SHA256SUMS.txt",
+        "runtime/preprocessing_source/prepared_trainval/artefact_manifest.csv",
+        "runtime/preprocessing_source/prepared_trainval/session_manifest.csv",
+        "runtime/preprocessing_source/prepared_trainval/SHA256SUMS.txt",
+        "runtime/preprocessing_source/README.md",
+        "runtime/preprocessing_source/README_AR.md",
+        "runtime/source/PACKAGE_SHA256SUMS.txt",
+        "runtime/source/protocol/decisions/evidence/S02_source_file_manifest.csv",
+        "runtime/source/protocol/decisions/MANIFEST.json",
+        "runtime/source/protocol/decisions/README_AR.md",
+        "runtime/source/README.md",
+        "runtime/source/README_AR.md",
+        "runtime/source/reference/fullsize_manifests/C1_five_round_draws.csv",
+        "runtime/source/reference/fullsize_manifests/C2_five_round_draws.csv",
+        "runtime/source/reference/fullsize_manifests/C3_five_round_draws.csv",
+        "runtime/source/reference/inherited_docs/README.md",
+        "runtime/source/reference/inherited_docs/README_AR.md",
+        "runtime/source/validation_support/CHANGE_MANIFEST.json"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "access_and_completeness_misstatements": [],
+  "access_review": "Private GitHub permission and sign-in requirements are explicit. Snapshot/raw/fitted/model/runtime availability is distinguished from independent-host retraining; historical availability statements are dated. No promise of a public dataset licence is made."
+}

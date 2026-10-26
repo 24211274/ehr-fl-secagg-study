@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "source_unchanged": true,
+  "review_inputs_unchanged": true,
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_27_review_implementation_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_27_Review_Revised_Clean_20261025.docx",
+      "sha256": "c98329fe0b06945bbaf1dc7b028b7ea094a9f932cf7e111e5d2dd56f205e5384",
+      "status": "PASS",
+      "paragraphs": 2463,
+      "non_navigation_paragraphs": 2293,
+      "tables": 51,
+      "bibliography_entries": 42,
+      "unchanged_images": 7,
+      "native_math_objects": 7,
+      "verbatim_appendix_paragraphs": 22,
+      "highlight_runs": 0,
+      "highlight_colours": {},
+      "missing_field_targets": [],
+      "native_pages": 130,
+      "main_words": 18259,
+      "issues": []
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_27_review_implementation_20261025\\delivery\\Research_Thesis_Chapters_1_to_6_v1_27_Review_Revised_Highlighted_20261025.docx",
+      "sha256": "2535a25b434a7b9ee566f5335c8c93924497e7b5ae6f7c13495bfa1b5b371de8",
+      "status": "PASS",
+      "paragraphs": 2463,
+      "non_navigation_paragraphs": 2293,
+      "tables": 51,
+      "bibliography_entries": 42,
+      "unchanged_images": 7,
+      "native_math_objects": 7,
+      "verbatim_appendix_paragraphs": 22,
+      "highlight_runs": 2466,
+      "highlight_colours": {
+        "cyan": 1514,
+        "yellow": 22,
+        "green": 930
+      },
+      "missing_field_targets": [],
+      "native_pages": 130,
+      "main_words": 18259,
+      "issues": []
+    }
+  ],
+  "errors": []
+}

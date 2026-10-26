@@ -1,0 +1,885 @@
+{
+  "audit_date": "2026-10-17",
+  "coverage": {
+    "reference_inventory": 42,
+    "checking_level_counts": {
+      "FULL TEXT CHECKED — TARGETED CLAIMS ONLY": 32,
+      "EXCERPT CHECKED": 8,
+      "METADATA ONLY": 2
+    },
+    "exact_claim_matrix_rows": 52,
+    "claim_verdict_counts": {
+      "Needs Qualification": 12,
+      "Verified": 40
+    },
+    "fresh_original_PDF_materials": 20,
+    "fresh_PDF_targeted_full_text_claim_checks": 15,
+    "fresh_PDF_excerpt_checks": 5,
+    "PDF_preflight_PASS": 18,
+    "PDF_preflight_UNAVAILABLE": 2,
+    "fresh_full_web_article_representations": 18,
+    "fresh_full_web_article_targeted_checks": 15,
+    "fresh_documentation_checks": 2,
+    "abstract_only": 0,
+    "currently_unavailable_full_scholarly_sources_in_42_inventory": 0,
+    "metadata_or_code_identity_only": 2,
+    "scope_warning": "42 inventoried is not42 source-claim verifications.52 grouped claim-matrix rows are not a sentence-level census; repeated paragraph/table locations are grouped. Full original available means full representation obtained, not every sentence/table/proof checked."
+  },
+  "boundary": "Targeted source checks, not a complete sentence-level or full-source-coverage certification. Original source texts are not redistributed in this supplement.",
+  "sources": [
+    {
+      "source_id": "Abbasi2025",
+      "bibliography_exact": "Abbasi, N., Al-Mhiqani, M., Al-Aqrabil, H., & Aoudi, S. (2025). A privacy-aware federated learning approach for insider threat detection. In 2025 10th International Conference on Information Technology Trends (ITT) (pp. 100–105). IEEE. https://doi.org/10.1109/ITT69610.2025.11352913",
+      "canonical_identity_url": "https://doi.org/10.1109/ITT69610.2025.11352913",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1109/ITT69610.2025.11352913",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Complete six-page conference source; Algorithm 1, experiment settings, Table II, conclusion",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "dcad72de75e842fd7972cac659519961925a3b01e516c9bb10754642eff97f9e",
+        "fresh_text_sha256": "438abe03947dcfbc0247bd1c5210e5005d26651dc322934744f6c04eea5c5382",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 6,
+        "text_chars": 31580
+      }
+    },
+    {
+      "source_id": "Achterberg2024",
+      "bibliography_exact": "Achterberg, J. L., Haas, M. R., & Spruit, M. R. (2024). On the evaluation of synthetic longitudinal electronic health records. BMC Medical Research Methodology, 24, 181. https://doi.org/10.1186/s12874-024-02304-4",
+      "canonical_identity_url": "https://doi.org/10.1186/s12874-024-02304-4",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1186/s12874-024-02304-4",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "CC BY 4.0 indicated in original source",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Abstract/Methods/Results overview and discussion scope; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "c66b73bc0c8e061fb629558729ca0e3fb7e42b48aecf5fd206f0f5b00fba7fd9",
+        "fresh_text_sha256": "ee3518a1342c7076ed0ef3c97574dd3ad2bc402eb13db6e2f6df548999b16ae4",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 65565
+      }
+    },
+    {
+      "source_id": "Bell2020",
+      "bibliography_exact": "Bell, J. H., Bonawitz, K. A., Gascón, A., Lepoint, T., & Raykova, M. (2020). Secure single-server aggregation with (poly)logarithmic overhead. In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (pp. 1253–1269). https://doi.org/10.1145/3372297.3417885",
+      "canonical_identity_url": "https://doi.org/10.1145/3372297.3417885",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://eprint.iacr.org/2020/704.pdf",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "Prior IACR provenance receipt records CC BY4.0; receipt byte hash matches fresh source hash. Licence page not newly fetched.",
+      "version": "IACR ePrint2020/704 revised10November2020; published CCS2020 article identity matches. Prior retrieval-provenance receipt SHA matches freshly read bytes; historical URL/licence not newly fetched.",
+      "newly_read_original_scope_and_locators": "Sections 1, 3, 4.2, 5 and 7, theorem/graph assumptions; section anchors only",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "9e7f268f8ff6b5c4c5e49e1c029bb9eb8f328913bb48568955b68db44f5f2648",
+        "fresh_text_sha256": "03a2efd6fc3bdaf08d07c90372008681b7731db9ce3e1e2f48311f1e35cd9864",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 24,
+        "text_chars": 129756
+      }
+    },
+    {
+      "source_id": "Bonawitz2017",
+      "bibliography_exact": "Bonawitz, K. A., Ivanov, V., Kreuter, B., Marcedone, A., McMahan, H. B., Patel, S., Ramage, D., Segal, A., & Seth, K. (2017). Practical secure aggregation for privacy-preserving machine learning. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (pp. 1175–1191). Association for Computing Machinery. https://doi.org/10.1145/3133956.3133982",
+      "canonical_identity_url": "https://doi.org/10.1145/3133956.3133982",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://acmccs.github.io/papers/p1175-bonawitzA.pdf",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections 1.1–3, 7; Figures 7–9; Sections 8–9; PDF pp. 1–3 and 12–15",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "9ccfc6ea68563d680e7e756b5db817b37dbe2eba15273a52e46d031102bdedbd",
+        "fresh_text_sha256": "94bd9d293620f534052b03de11fb1d5f5707e6bdf4d011ab461fae47ee228365",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 17,
+        "text_chars": 94949
+      }
+    },
+    {
+      "source_id": "Boxwala2011",
+      "bibliography_exact": "Boxwala, A. A., Kim, J., Grillo, J. M., & Ohno-Machado, L. (2011). Using statistical and machine learning to help institutions detect suspicious access to electronic health records. Journal of the American Medical Informatics Association, 18(4), 498–505. https://doi.org/10.1136/amiajnl-2011-000217",
+      "canonical_identity_url": "https://doi.org/10.1136/amiajnl-2011-000217",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1136/amiajnl-2011-000217",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Methods, Results and Discussion; Tables 2–4; PDF pp. 3–7",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "52037c2e2f5ae94310fe84178e60beb5c1fd63355bc6d792cccc96447fd146ac",
+        "fresh_text_sha256": "c438a246b2b718df09974e327992a49f82fcac15a1c8e59d2de4653dbecabaca",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 8,
+        "text_chars": 46612
+      }
+    },
+    {
+      "source_id": "ChenMalin2011",
+      "bibliography_exact": "Chen, Y., & Malin, B. (2011). Detection of anomalous insiders in collaborative environments via relational analysis of access logs. In Proceedings of the First ACM Conference on Data and Application Security and Privacy (pp. 63–74). https://doi.org/10.1145/1943513.1943524",
+      "canonical_identity_url": "https://doi.org/10.1145/1943513.1943524",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1145/1943513.1943524",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Section 3.2 relational/SVD method and introduction; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "2b60b50ad00deb37705b76f2ed9385a3f775b893f1d9eaf91e9a35801f767f56",
+        "fresh_text_sha256": "aa6d2c88eefe79db7d8cd8778e7ba46333b1e0002a0b638dfe2c562b78adba32",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 12,
+        "text_chars": 59337
+      }
+    },
+    {
+      "source_id": "Davis2006",
+      "bibliography_exact": "Davis, J., & Goadrich, M. (2006). The relationship between precision-recall and ROC curves. In Proceedings of the 23rd International Conference on Machine Learning (pp. 233–240). https://doi.org/10.1145/1143844.1143874",
+      "canonical_identity_url": "https://doi.org/10.1145/1143844.1143874",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1145/1143844.1143874",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Introduction and ROC/PR discussion; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "94b4a112df164ef28f70a862198c7a7b3c85b1c87c799a51394d3631fa7f3908",
+        "fresh_text_sha256": "2bf1413d5c66806e64083cab1d66c2dca0388beeae61771b892babd8bb28b758",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 8,
+        "text_chars": 29285
+      }
+    },
+    {
+      "source_id": "Fabbri2011",
+      "bibliography_exact": "Fabbri, D., & LeFevre, K. (2011). Explanation-based auditing. Proceedings of the VLDB Endowment, 5(1), 1–12. https://doi.org/10.14778/2047485.2047486",
+      "canonical_identity_url": "https://doi.org/10.14778/2047485.2047486",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.14778/2047485.2047486",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Abstract; result passage preceding Table 1; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "9d8b7d75bd57f21fe2c4b2de481ef86435c79a2c423f61623fc7fdf59b466f47",
+        "fresh_text_sha256": "446a09547e5fd8b9e105fe072c557707ff85102e54f45c47755b5c6ce3502f87",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 12,
+        "text_chars": 78700
+      }
+    },
+    {
+      "source_id": "Flower122",
+      "bibliography_exact": "Flower Labs. (n.d.). Secure aggregation protocols (Flower 1.22.0 documentation) [Software documentation]. Retrieved September 11, 2026, from https://github.com/flwrlabs/flower/blob/v1.22.0/framework/docs/source/contributor-ref-secure-aggregation-protocols.rst",
+      "canonical_identity_url": "https://github.com/flwrlabs/flower/blob/v1.22.0/framework/docs/source/contributor-ref-secure-aggregation-protocols.rst",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://github.com/flwrlabs/flower/blob/v1.22.0/framework/docs/source/contributor-ref-secure-aggregation-protocols.rst",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Flower v1.22.0 version-pinned RST",
+      "newly_read_original_scope_and_locators": "Complete version-pinned secure-aggregation protocols RST",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "19e5408691e2d299b052317a19f1a3c5a4e7323cd4128681801bc3a7f5c77715",
+        "fresh_text_sha256": "8ccf780472bb44b15a185b7e913a7bec7ace449aac49733c4e0262387a43c621",
+        "extraction_type": "fresh read of cached original code/documentation/metadata",
+        "text_chars": 3530
+      }
+    },
+    {
+      "source_id": "Guan2025",
+      "bibliography_exact": "Guan, W., Cao, J., Zhao, H., Gu, Y., & Qian, S. (2025). FeadSeq: A personalized federated anomaly detection framework for discrete event sequences. ACM Transactions on Knowledge Discovery from Data, 19(6), 1–26. https://doi.org/10.1145/3742896",
+      "canonical_identity_url": "https://doi.org/10.1145/3742896",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://dl.acm.org/doi/10.1145/3742896",
+      "lawful_access_basis": "Public publisher or licensed published-article text",
+      "licence": "Public ACM full-text access and author/ACM permission notice observed; no specific Creative Commons licence established in retrieved text",
+      "version": "Published ACM TKDD 19(6), DOI10.1145/3742896; complete §§1–6, Tables1–6 and references; separate AI-generated summary excluded",
+      "newly_read_original_scope_and_locators": "Full publisher article §§4.1–4.5, 5.1–5.11, Table 1 and §6; AI-generated page summary excluded",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "24fad8d999913d4b498501ecebe13834cdc8f0397c2d5ba4da995478839f272f",
+        "fresh_text_sha256": "24fad8d999913d4b498501ecebe13834cdc8f0397c2d5ba4da995478839f272f",
+        "extraction_type": "Live public original full article represented as locally saved markdown; not a PDF hash"
+      }
+    },
+    {
+      "source_id": "Hatamizadeh2023",
+      "bibliography_exact": "Hatamizadeh, A., Yin, H., Molchanov, P., Myronenko, A., Li, W., Dogra, P., Feng, A., Flores, M. G., Kautz, J., Xu, D., & Roth, H. R. (2023). Do gradient inversion attacks make federated learning unsafe? IEEE Transactions on Medical Imaging, 42(7), 2044–2056. https://doi.org/10.1109/TMI.2023.3239391",
+      "canonical_identity_url": "https://doi.org/10.1109/TMI.2023.3239391",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1109/TMI.2023.3239391",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections II–III, Table I, figures on batch/iteration effects, study limitations; PDF pp. 1–2, 5–10",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "3ec872d6459ea0bc3824950d227c68c68435ddadb0e0978a2aaecc6d0ecb8663",
+        "fresh_text_sha256": "b970cd337847ab86f2ba2ac90c7b8461aa4eaf16350cb01f1d8090c684b081a8",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 13,
+        "text_chars": 67714
+      }
+    },
+    {
+      "source_id": "Hedda2017",
+      "bibliography_exact": "Hedda, M., Malin, B. A., Yan, C., & Fabbri, D. (2017). Evaluating the effectiveness of auditing rules for electronic health record systems. AMIA Annual Symposium Proceedings, 2017, 866–875. https://pubmed.ncbi.nlm.nih.gov/29854153/",
+      "canonical_identity_url": "https://pubmed.ncbi.nlm.nih.gov/29854153/",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://pubmed.ncbi.nlm.nih.gov/29854153/",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Methods, statistical analysis, results and discussion; original full HTML",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "3633843ddf9f0219136f235875ef2e169e178a8daaf5e8335dea21d177f70f59",
+        "fresh_text_sha256": "134e1935655ab2f3e44690d73bb03f949008741392cef80e4ebf00e878c98d95",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 30848
+      }
+    },
+    {
+      "source_id": "Hurst2022",
+      "bibliography_exact": "Hurst, W., Tekinerdogan, B., Alskaif, T., Boddy, A., & Shone, N. (2022). Securing electronic health records against insider-threats: A supervised machine learning approach. Smart Health, 26, 100354. https://doi.org/10.1016/j.smhl.2022.100354",
+      "canonical_identity_url": "https://doi.org/10.1016/j.smhl.2022.100354",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1016/j.smhl.2022.100354",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Methods, preprocessing and results; Table 10; PDF pp. 5–12",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "c7f92af5da83b641b217efe8f53bd91a4f5d3b6a7772c94802d3f4cf65e908d6",
+        "fresh_text_sha256": "cb5ec77690c36f2e42f2e20cac3f46947bd6bffb7484fda9e8bd3b274a317898",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 14,
+        "text_chars": 57531
+      }
+    },
+    {
+      "source_id": "Iqbal2026",
+      "bibliography_exact": "Iqbal, T., Raoof, I., Alkanan, M., & Gulzar, Y. (2026). Enhancing healthcare information security through VAE-driven anomaly detection in EHR access patterns. Scientific Reports, 16, 24085. https://doi.org/10.1038/s41598-026-55024-8",
+      "canonical_identity_url": "https://doi.org/10.1038/s41598-026-55024-8",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1038/s41598-026-55024-8",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Dataset generation, experimental setup, results/confusion counts, limitations; full original HTML",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "a31e515f73aeae4e61f9668258bfe4665f84b3790e83d24d60253ec03bfa1ba6",
+        "fresh_text_sha256": "b571da2feed23bbef68a27189bcce834fb123d2208a7f4a12962efe407047268",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 74549
+      }
+    },
+    {
+      "source_id": "Javed2025",
+      "bibliography_exact": "Javed, M. S., Hennache, A., Imran, M., & Khan, M. K. (2025). AI-driven blockchain and federated learning for secure electronic health records sharing. Electronics, 14(23), 4774. https://doi.org/10.3390/electronics14234774",
+      "canonical_identity_url": "https://doi.org/10.3390/electronics14234774",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://www.mdpi.com/2079-9292/14/23/4774",
+      "lawful_access_basis": "Public publisher or licensed published-article text",
+      "licence": "CC BY 4.0 indicated in original source",
+      "version": "Published Electronics14(23),4774 (2025); complete article body and references",
+      "newly_read_original_scope_and_locators": "Publisher full article, dataset/task and proposed-framework experimental sections",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "a1cefa354dcbe79f5e2be1674d87bcc667a1c100d7e537e8710aa8f573a5b41e",
+        "fresh_text_sha256": "a1cefa354dcbe79f5e2be1674d87bcc667a1c100d7e537e8710aa8f573a5b41e",
+        "extraction_type": "Live public original full article represented as locally saved markdown; not a PDF hash"
+      }
+    },
+    {
+      "source_id": "Kamatchi2025",
+      "bibliography_exact": "Kamatchi, K., & Uma, E. (2025). Securing the edge: Privacy-preserving federated learning for insider threats in IoT networks. The Journal of Supercomputing, 81(1), Article 246. https://doi.org/10.1007/s11227-024-06752-z",
+      "canonical_identity_url": "https://doi.org/10.1007/s11227-024-06752-z",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1007/s11227-024-06752-z",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections 4.5.1–4.5.3, Tables 10–11; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "fe860e2bd132095c03088980c34947cafc5893f1a64ba1699b9e882d9231d66a",
+        "fresh_text_sha256": "202778b7334f06176b31994306d0b7bfafaffecef6c867f73bd28f08065f98e9",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 49,
+        "text_chars": 123605
+      }
+    },
+    {
+      "source_id": "Kim2011",
+      "bibliography_exact": "Kim, J., Grillo, J. M., Boxwala, A. A., Jiang, X., Mandelbaum, R. B., Patel, B. A., Mikels, D., Vinterbo, S. A., & Ohno-Machado, L. (2011). Anomaly and signature filtering improve classifier performance for detection of suspicious access to EHRs. AMIA Annual Symposium Proceedings, 2011, 723–731. https://pubmed.ncbi.nlm.nih.gov/22195129/",
+      "canonical_identity_url": "https://pubmed.ncbi.nlm.nih.gov/22195129/",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://pubmed.ncbi.nlm.nih.gov/22195129/",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Methods, results and limitations; original complete HTML",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "6059563c14e0144cdec5252e32c079cab78f16a9bd654cf54fe2bcb4b0b80bed",
+        "fresh_text_sha256": "4f38ddb3004d6b4b6930ffdb518f44f2562b74f16ec0f89caf442f37965c54e9",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 26140
+      }
+    },
+    {
+      "source_id": "Lazzarini2023",
+      "bibliography_exact": "Lazzarini, R., Tianfield, H., & Charissis, V. (2023). Federated learning for IoT intrusion detection. AI, 4(3), 509–530. https://doi.org/10.3390/ai4030028",
+      "canonical_identity_url": "https://doi.org/10.3390/ai4030028",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.3390/ai4030028",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Experimental partition/setup passages, Tables 5–7 and adjacent interpretation",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "a0aca5150927c4c1657a26027248ee0693d9fd672f4c9cf397ec698825ed58bf",
+        "fresh_text_sha256": "13b4cab665776f5597653213a4ceb6cab039ca7219801c27072ed6f11dcad2d1",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 23,
+        "text_chars": 62685
+      }
+    },
+    {
+      "source_id": "Li2022",
+      "bibliography_exact": "Li, K. H., de Gusmão, P. P. B., Beutel, D. J., & Lane, N. D. (2022). Secure aggregation for federated learning in Flower. arXiv. https://doi.org/10.48550/arXiv.2205.06117",
+      "canonical_identity_url": "https://doi.org/10.48550/arXiv.2205.06117",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.48550/arXiv.2205.06117",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "arXiv version cited by report; peer-reviewed-version equivalence not asserted",
+      "newly_read_original_scope_and_locators": "Sections describing threat model/protocol/implementation and efficiency evaluation; PDF pp. 2, 4–6",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "c9d46edbead8e09d0d8a7b7dbf7bcc4bdb18df7888873dd229d2514f715c7457",
+        "fresh_text_sha256": "1ffb982848cf0433abd33a97c8847e1c667e6d581ded7b67ab4b00163915cec5",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 7,
+        "text_chars": 39949
+      }
+    },
+    {
+      "source_id": "Li2020",
+      "bibliography_exact": "Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V. (2020). Federated optimization in heterogeneous networks. Proceedings of Machine Learning and Systems, 2, 429–450. https://proceedings.mlsys.org/paper_files/paper/2020/file/1f5fe83998a09396ebe6477d9475ba0c-Paper.pdf",
+      "canonical_identity_url": "https://proceedings.mlsys.org/paper_files/paper/2020/file/1f5fe83998a09396ebe6477d9475ba0c-Paper.pdf",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://proceedings.mlsys.org/paper_files/paper/2020/file/1f5fe83998a09396ebe6477d9475ba0c-Paper.pdf",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections 1–3 and local-objective explanation; original PDF targeted reading",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "2c9e1c1ec91fc22dd8f04e52d9641a8797cdb82100936fceb63261f444194df8",
+        "fresh_text_sha256": "ca89c59aa4106dd383af32e01f2f7deb055df04e6e65de5b6a0b25132fa6e204",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 22,
+        "text_chars": 124570
+      }
+    },
+    {
+      "source_id": "Lytvyn2024",
+      "bibliography_exact": "Lytvyn, O., & Nguyen, G. (2024). Secure federated learning for multi-party network monitoring. IEEE Access, 12, 163262–163284. https://doi.org/10.1109/ACCESS.2024.3486810",
+      "canonical_identity_url": "https://doi.org/10.1109/ACCESS.2024.3486810",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://www.researchgate.net/publication/396453994_Secure_Federated_Learning_for_Multi-Party_Network_Monitoring",
+      "lawful_access_basis": "Public publisher or licensed published-article text",
+      "licence": "Published article text carries CC BY-NC-ND 4.0 notice; ResearchGate identifies same licence. No redistribution of full source in audit.",
+      "version": "Published IEEE Access 12 article, 163262–163284; publication 28 October 2024/current version 13 November 2024; full sections, references and biographies present; PDF URL returned 403, so no newly downloaded PDF hash",
+      "newly_read_original_scope_and_locators": "Full published article text, §§III-A.4, III-B, IV-A–IV-D and V; section anchors, no PDF-byte/page verification",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "ab0db7560e905b1e60c6baa8554304ad4c7691b62dd54ce7e6ab85ddcfeb4ae3",
+        "fresh_text_sha256": "ab0db7560e905b1e60c6baa8554304ad4c7691b62dd54ce7e6ab85ddcfeb4ae3",
+        "extraction_type": "Live public original full article represented as locally saved markdown; not a PDF hash"
+      }
+    },
+    {
+      "source_id": "Maghrabi2026",
+      "bibliography_exact": "Maghrabi, L. A., Ahmed, A. A., Mustafa, S. A., Hussein, A. H., & Al-Tarawni, M. A. M. (2026). Federated learning-based anomaly detection algorithm for privacy-preserving health information systems. Indian Journal of Information Sources and Services, 16(1), 260–268. https://doi.org/10.51983/ijiss-2026.16.1.27",
+      "canonical_identity_url": "https://doi.org/10.51983/ijiss-2026.16.1.27",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://ojs.trp.org.in/index.php/ijiss/article/download/5462/7946/12161",
+      "lawful_access_basis": "Public publisher or licensed published-article text",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections III–VII, architecture/results and future-work wording; complete publisher PDF",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "5f75342b10333e0d5c33535dae3f20ccf417809da86bf423487ee98d52a57ade",
+        "fresh_text_sha256": "8188473878bf8411bf187e6b7080e3518b4cccfdee00e83aa0242a7ed165a597",
+        "extraction_type": "New public publisher PDF; fresh extraction",
+        "page_count": 9
+      }
+    },
+    {
+      "source_id": "Malhotra2016",
+      "bibliography_exact": "Malhotra, P., Ramakrishnan, A., Anand, G., Vig, L., Agarwal, P., & Shroff, G. (2016). LSTM-based encoder-decoder for multi-sensor anomaly detection [Preprint]. arXiv. https://doi.org/10.48550/arXiv.1607.00148",
+      "canonical_identity_url": "https://doi.org/10.48550/arXiv.1607.00148",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.48550/arXiv.1607.00148",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "arXiv version cited by report; peer-reviewed-version equivalence not asserted",
+      "newly_read_original_scope_and_locators": "Original arXiv full text: model, anomaly-score/threshold procedure, datasets, results and discussion",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "28e683f1a0eb348ae2d4e486a884ce7ad8e719ccd8b3bd4dc3d0f63d9f0e83fa",
+        "fresh_text_sha256": "8e84fa42cc207067d4badf0cfa1941647bcd0ad28b7de510e94fbc31570286d2",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 20183
+      }
+    },
+    {
+      "source_id": "Martinez2025",
+      "bibliography_exact": "Martínez Llamas, J., Marcheschi, P., Dalmiani, S., Preuveneers, D., & Joosen, W. (2025). Federated learning for privacy-preserving anomaly detection in electronic health record access control. In 2025 IEEE 45th International Conference on Distributed Computing Systems Workshops (pp. 50–55). https://doi.org/10.1109/ICDCSW63273.2025.00015",
+      "canonical_identity_url": "https://doi.org/10.1109/ICDCSW63273.2025.00015",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://lirias.kuleuven.be/retrieve/851e94bb-a9c0-48a2-8059-d94b529d85c8",
+      "lawful_access_basis": "Institutional full-paper retrieval URL in prior receipt; matching fresh SHA-256 b31e24b596241bc8a5742eabab630837340afe1be459c19627e61e13faad52ab. Receipt used for provenance only.",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Complete six-page institutional/author conference PDF; §§III–VII, Table I and reconstruction/threshold results",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "b31e24b596241bc8a5742eabab630837340afe1be459c19627e61e13faad52ab",
+        "fresh_text_sha256": "d1696a3b4908de9f1b269e4507a3e8570217fd4991c27bdb3a275263d87c529b",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 6,
+        "text_chars": 29279
+      }
+    },
+    {
+      "source_id": "Matos2026",
+      "bibliography_exact": "Matos, M., Gomes, F., Nogueira, F., & Almeida, F. (2026). Energy-efficient meta-classifier model for log access anomaly detection in healthcare systems. International Journal of Intelligent Computing and Cybernetics, 19(1), 183–202. https://doi.org/10.1108/IJICC-08-2025-0548",
+      "canonical_identity_url": "https://doi.org/10.1108/IJICC-08-2025-0548",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://www.emerald.com/ijicc/article/19/1/183/1326168/Energy-efficient-meta-classifier-model-for-log",
+      "lawful_access_basis": "Public publisher or licensed published-article text",
+      "licence": "CC BY 4.0 indicated in original source",
+      "version": "Published IJICC19(1),183–202 (2026 issue); online publication December2025 is compatible with report year2026; complete article sections and reference list",
+      "newly_read_original_scope_and_locators": "Full publisher §§3.2–3.5, Table 2, Fig. 3 caption, Table 3 and §6.2",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "e29d512edf766c3d2e5656ebb63587a916ef0374bd034ccb412b9a37a69e5293",
+        "fresh_text_sha256": "e29d512edf766c3d2e5656ebb63587a916ef0374bd034ccb412b9a37a69e5293",
+        "extraction_type": "Live public original full article represented as locally saved markdown; not a PDF hash"
+      }
+    },
+    {
+      "source_id": "McMahan2017",
+      "bibliography_exact": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & Agüera y Arcas, B. (2017). Communication-efficient learning of deep networks from decentralized data. In A. Singh & J. Zhu (Eds.), Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (Vol. 54, pp. 1273–1282). PMLR. https://proceedings.mlr.press/v54/mcmahan17a.html",
+      "canonical_identity_url": "https://proceedings.mlr.press/v54/mcmahan17a.html",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Section 2/Algorithm 1 and Section 3 large-local-epoch discussion/figures; PDF pp. 4–7",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "a7a8e2e3e437855c1efb53fe8f35f645eae7735fe9b6ac1f656a62004dbf5146",
+        "fresh_text_sha256": "e11317cf7883a41453b0c4bd2175f3dccd2ebd50d801240567fbb9455b167e65",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 10,
+        "text_chars": 48658
+      }
+    },
+    {
+      "source_id": "Menon2014",
+      "bibliography_exact": "Menon, A. K., Jiang, X., Kim, J., Vaidya, J., & Ohno-Machado, L. (2014). Detecting inappropriate access to electronic health records using collaborative filtering. Machine Learning, 95(1), 87–101. https://doi.org/10.1007/s10994-013-5376-1",
+      "canonical_identity_url": "https://doi.org/10.1007/s10994-013-5376-1",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1007/s10994-013-5376-1",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections 2 and 4.1–4.2, Table 1; PDF pp. 1–3, 6–12",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "0eee8bed8f0635e2998225c97c05d5b68d8b4ab7849a075a088667636675d1b3",
+        "fresh_text_sha256": "5446d23011d5a27eeca316e9f1a475cf5e67c8fadad3741e98c871824384d980",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 15,
+        "text_chars": 46071
+      }
+    },
+    {
+      "source_id": "Mudliar",
+      "bibliography_exact": "Mudliar, K. (n.d.). Healthcare EHR access logs insider threat dataset [Data set]. Kaggle. https://www.kaggle.com/datasets/kashishmudliar/healthcare-ehr-access-logs-insider-threat-dataset",
+      "canonical_identity_url": "https://www.kaggle.com/datasets/kashishmudliar/healthcare-ehr-access-logs-insider-threat-dataset",
+      "checking_level": "METADATA ONLY",
+      "full_original_available": false,
+      "full_text_truncation_check": "Not applicable: metadata/code identity scope",
+      "lawful_access_url": "https://www.kaggle.com/datasets/kashishmudliar/healthcare-ehr-access-logs-insider-threat-dataset",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original cached Kaggle metadata response only",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "4b986e4a6451e42bb5818434d43ee3479577be63dd3a22d6146799fa523b82f3",
+        "fresh_text_sha256": "4b986e4a6451e42bb5818434d43ee3479577be63dd3a22d6146799fa523b82f3",
+        "extraction_type": "fresh read of cached original code/documentation/metadata",
+        "text_chars": 7727
+      }
+    },
+    {
+      "source_id": "Munusamy2026",
+      "bibliography_exact": "Munusamy S, & Jothi K R. (2026). A blockchain-based federated learning approach with secure third-party computation system for securing electronic health records [Preprint, version 1]. Research Square. https://doi.org/10.21203/rs.3.rs-8351477/v1",
+      "canonical_identity_url": "https://doi.org/10.21203/rs.3.rs-8351477/v1",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.21203/rs.3.rs-8351477/v1",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Research Square version1, explicitly a preprint",
+      "newly_read_original_scope_and_locators": "Dataset validation §4.3.1 and future-real-data statement; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "b70ac4d64147f8f5320dce6a34686c8b5b4d6c7e39115cb1a062460e14c5a8c2",
+        "fresh_text_sha256": "8799eca09c5f8ec38775edb82df957ea12ca0a9809e378b4858b184affa59aa3",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 50,
+        "text_chars": 115197
+      }
+    },
+    {
+      "source_id": "Ngo2024",
+      "bibliography_exact": "Ngo, K.-H., Östman, J., Durisi, G., & Graell i Amat, A. (2024). Secure aggregation is not private against membership inference attacks [Preprint]. arXiv. https://doi.org/10.48550/arXiv.2403.17775",
+      "canonical_identity_url": "https://doi.org/10.48550/arXiv.2403.17775",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.48550/arXiv.2403.17775",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "arXiv version cited by report; peer-reviewed-version equivalence not asserted",
+      "newly_read_original_scope_and_locators": "Original arXiv full-text attack/problem and assumptions/results discussion",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "f1836d197f84bdb978caef4b594476118a3749895fe11ae8c5b7a41a9e53c05a",
+        "fresh_text_sha256": "6bc66a45dbbdc194b0fe4b4499af2add73c64cc2efc2065928babbe9bd9703f5",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 59658
+      }
+    },
+    {
+      "source_id": "Qazi2026",
+      "bibliography_exact": "Qazi, A., Ali Khan Jadoon, A., & Arshad, S. (2026). APEW-Fed: Adaptive privacy-aware ensemble weighting for federated anomaly detection in enterprise resource planning systems. Scientific Reports, 16, 26173. https://doi.org/10.1038/s41598-026-60574-y",
+      "canonical_identity_url": "https://doi.org/10.1038/s41598-026-60574-y",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1038/s41598-026-60574-y",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full JATS: experimental setup, Tables 5–9, 13, 15 and 20, cross-domain/limitations",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "344e1db07d883439b05e438f641212bb679b8d739a9c2e52a1c52520cd51f4dd",
+        "fresh_text_sha256": "617829275b42e27268418e747d3de41160a9f65c22ccf5129577df68053e77f2",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 82689
+      }
+    },
+    {
+      "source_id": "Rule2020",
+      "bibliography_exact": "Rule, A., Chiang, M. F., & Hribar, M. R. (2020). Using electronic health record audit logs to study clinical activity: A systematic review of aims, measures, and methods. Journal of the American Medical Informatics Association, 27(3), 480–490. https://doi.org/10.1093/jamia/ocz196",
+      "canonical_identity_url": "https://doi.org/10.1093/jamia/ocz196",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1093/jamia/ocz196",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Conclusion and review limitations; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "2bdfb6a66880f68e82aae854180b6b6f236537ea1c716012dae6b060e27c1b39",
+        "fresh_text_sha256": "377d84eea4b88078617bfd86812e545350ee3c51e555ac679275a1f368dbcb57",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 41641
+      }
+    },
+    {
+      "source_id": "Saito2015",
+      "bibliography_exact": "Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. PLOS ONE, 10(3), e0118432. https://doi.org/10.1371/journal.pone.0118432",
+      "canonical_identity_url": "https://doi.org/10.1371/journal.pone.0118432",
+      "checking_level": "EXCERPT CHECKED",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1371/journal.pone.0118432",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "CC BY 4.0 indicated in original source",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Introduction and definitions of imbalance/ROC/PR baselines; excerpt check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "ad5f5f5882c558cf4eb460a2ff2e62042a5490df4dc8d73cbcfff2812d81e303",
+        "fresh_text_sha256": "aa4ab261487db7163132a4130c03c7b4070d6b97d69d23355c9ead8635548a7f",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 55358
+      }
+    },
+    {
+      "source_id": "FlowerCommit",
+      "bibliography_exact": "saurabhvmagdum. (2026, July 24). Flower secure-aggregation helper contribution (commit e87804ad00c46bff6dc3f058b73de81529e50bc0) [Computer software source code]. GitHub. https://github.com/flwrlabs/flower/commit/e87804ad00c46bff6dc3f058b73de81529e50bc0",
+      "canonical_identity_url": "https://github.com/flwrlabs/flower/commit/e87804ad00c46bff6dc3f058b73de81529e50bc0",
+      "checking_level": "METADATA ONLY",
+      "full_original_available": false,
+      "full_text_truncation_check": "Not applicable: metadata/code identity scope",
+      "lawful_access_url": "https://github.com/flwrlabs/flower/commit/e87804ad00c46bff6dc3f058b73de81529e50bc0",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Exact commit e87804ad00c46bff6dc3f058b73de81529e50bc0",
+      "newly_read_original_scope_and_locators": "Cached original commit JSON; metadata-only check",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "db1c3f6cc1400b50e6ce57e4114c38f1a584b9b4d5bd2bc18d43bca713b7707a",
+        "fresh_text_sha256": "1a6065ea7fab0538f0ca6fbf05d5d4bf2b9b74e32d24309c793641c86a2c3544",
+        "extraction_type": "fresh read of cached original code/documentation/metadata",
+        "text_chars": 611337
+      }
+    },
+    {
+      "source_id": "Sklearn180",
+      "bibliography_exact": "scikit-learn developers. (n.d.). average_precision_score (scikit-learn 1.8.0 documentation) [Software documentation]. Retrieved October 10, 2026, from https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.average_precision_score.html",
+      "canonical_identity_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.average_precision_score.html",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://scikit-learn.org/1.8/modules/generated/sklearn.metrics.average_precision_score.html",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Official scikit-learn1.8 versioned API documentation",
+      "newly_read_original_scope_and_locators": "Complete official versioned average_precision_score documentation",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "8d08937a13d8136ef0c097fbbd5145105d1985927980d5fbcd47573684f554b2",
+        "fresh_text_sha256": "02f216d7f8c223aae3c14652ea0097bc1f5b797f46d7203c18349f334b0b1003",
+        "extraction_type": "New official versioned documentation HTML; fresh extraction"
+      }
+    },
+    {
+      "source_id": "Segar2026",
+      "bibliography_exact": "Segar, N., & Vijayan, V. (2026). AI-accelerated blockchain architecture for efficient and secure electronic healthcare record exchange. Frontiers in Blockchain, 9, 1905158. https://doi.org/10.3389/fbloc.2026.1905158",
+      "canonical_identity_url": "https://doi.org/10.3389/fbloc.2026.1905158",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.3389/fbloc.2026.1905158",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full HTML methods/windows, statistical-testing/result sections, Tables 6–8 and limitations",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "4791799429c698c9b5d80cb54fdf76446553d8c38f3d11fb1f7edf264634e248",
+        "fresh_text_sha256": "48391188ad3b741ce2cdd5f7cd0d37d36adea3e1af7d2216a71c9d5a4943171b",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 106683
+      }
+    },
+    {
+      "source_id": "Senturk2025",
+      "bibliography_exact": "Senturk, S. N., Uslu, D., Ozdemir, E. F., Hassanpour, R. Z., Öztoprak, K., & Tuncel, Y. K. (2025). Explainable anomaly detection framework for electronic health record access logs. In 2025 IEEE International Conference on Big Data (pp. 3887–3895). https://doi.org/10.1109/BigData66926.2025.11400768",
+      "canonical_identity_url": "https://doi.org/10.1109/BigData66926.2025.11400768",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1109/BigData66926.2025.11400768",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Complete nine-page PDF scientific text; methods, classification reports/confusion counts; figures not freshly visually inspected",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "252307eb1875908cb1ce3b11509ff21ee3ea0297443ba48b6d1abfca3bb1f716",
+        "fresh_text_sha256": "fe3ec019014326d2c650abaa5ddf4d42b1984bb4a6c640e9b6938dc2a9a58612",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 9,
+        "text_chars": 46210
+      }
+    },
+    {
+      "source_id": "Shamim2026",
+      "bibliography_exact": "Shamim, S. M., Kodera, Y., Ali, M. A., & Nogami, Y. (2026). An explainable federated intrusion detection framework for SDN using distributed key generation and threshold homomorphic encryption. Sensors, 26(17), 5337. https://doi.org/10.3390/s26175337",
+      "canonical_identity_url": "https://doi.org/10.3390/s26175337",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.3390/s26175337",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full JATS proposed framework, experimental settings, crypto-cost/communication tables and §§7–7.5 limitations",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "efd45303170285d95bc0c4108f645c00d3c2b66e5a60b6dadd161db17cc52db5",
+        "fresh_text_sha256": "6bed43018bdde9e9b2a4ebabad8ed8c5360f45491530ae6c8f9e5360d5929fe3",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 141665
+      }
+    },
+    {
+      "source_id": "Sutradhar2026",
+      "bibliography_exact": "Sutradhar, S., Bose, R., Khan, A. A., Roy, S., Golder, S. S., Majumder, S., Prashar, D., & Shah, M. A. (2026). Leveraging blockchain for enhanced EHR access monitoring: Integrating context-aware and attribute-based tools for comprehensive data security. IET Blockchain, 6(1), e70035. https://doi.org/10.1049/blc2.70035",
+      "canonical_identity_url": "https://doi.org/10.1049/blc2.70035",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1049/blc2.70035",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Sections 6 and 8.2, Tables 5 and 8; section/table anchors only",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "307298ecc4ba608cc040c04bb92f22112083599ee40c6e37bbc4a4974b5000f6",
+        "fresh_text_sha256": "119e9024dbe4f51d28e280ba97733b43fdb274cf3f6e02ae92e9aeb90b505e86",
+        "extraction_type": "fresh PDF extraction; page anchors allowed only when preflight PASS",
+        "page_count": 21,
+        "text_chars": 87341
+      }
+    },
+    {
+      "source_id": "Tabassum2024",
+      "bibliography_exact": "Tabassum, M., Mahmood, S., Bukhari, A., Alshemaimri, B., Daud, A., & Khalique, F. (2024). Anomaly-based threat detection in smart health using machine learning. BMC Medical Informatics and Decision Making, 24, 347. https://doi.org/10.1186/s12911-024-02760-4",
+      "canonical_identity_url": "https://doi.org/10.1186/s12911-024-02760-4",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1186/s12911-024-02760-4",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full JATS dataset/label construction, results/discussion, Tables 2,3 and7",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "35d1ab250e90a94104ed264151ab2fc584d1db9ff78adb9312e7307a5e3c94de",
+        "fresh_text_sha256": "3e27d0234f1a49a762d2fdde5a065e21c9cb76f2717741767b3772ea85c6a858",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 67784
+      }
+    },
+    {
+      "source_id": "Tanvir2026",
+      "bibliography_exact": "Tanvir, M. I. M., Rabby, H. R., Arif, M. H., Nadia, N. Y., & Nur, K. (2026). Privacy-preserving multimodal federated learning pipeline for cyber-resilient healthcare systems. PLOS ONE, 21(4), e0343669. https://doi.org/10.1371/journal.pone.0343669",
+      "canonical_identity_url": "https://doi.org/10.1371/journal.pone.0343669",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.1371/journal.pone.0343669",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "CC BY 4.0 indicated in original source",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full JATS privacy-mechanism §4.2.6/Table 8 and adjacent latency Table 9",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "8fa6069932033fef1348e5cf4083416c7f9733b1f44d5be425b038efbb21f700",
+        "fresh_text_sha256": "99f866d058875159742671600d22e9a06a19a1a64f87816f8ff21d4e49bb5055",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 68847
+      }
+    },
+    {
+      "source_id": "Yeng2021",
+      "bibliography_exact": "Yeng, P. K., Nweke, L. O., Yang, B., Fauzi, M. A., & Snekkenes, E. A. (2021). Artificial intelligence-based framework for analyzing health care staff security practice: Mapping review and simulation study. JMIR Medical Informatics, 9(12), e19250. https://doi.org/10.2196/19250",
+      "canonical_identity_url": "https://doi.org/10.2196/19250",
+      "checking_level": "FULL TEXT CHECKED — TARGETED CLAIMS ONLY",
+      "full_original_available": true,
+      "full_text_truncation_check": "Original full body available; targeted reading only. No abstract-only substitution.",
+      "lawful_access_url": "https://doi.org/10.2196/19250",
+      "lawful_access_basis": "Existing user-local primary material read without bypass; canonical public reference shown, historical download chain not newly proved",
+      "licence": "NR in inspected representation; canonical identity alone does not establish redistribution permission",
+      "version": "Report-cited source version; original cached bytes freshly hashed/extracted; exact historical download URL not independently re-established",
+      "newly_read_original_scope_and_locators": "Original full JATS simulation/features/evaluation, Tables 9–10",
+      "not_checked": "Independent reproduction, every cited-source claim, every table cell, complete source bibliography and mathematical/security proof validity were not audited.",
+      "material_identities": {
+        "sha256": "1b7cb316d28818f6c746ad35c75d5c6e484f51fd9820f8764c828852d0079594",
+        "fresh_text_sha256": "99af2bdd7d9c7ab0da0c7a00adfa31c1d5e1236a31a6609b17d82b4822bc19d3",
+        "extraction_type": "fresh parse of cached original full-text HTML/XML; section/table anchors",
+        "text_chars": 76387
+      }
+    }
+  ]
+}

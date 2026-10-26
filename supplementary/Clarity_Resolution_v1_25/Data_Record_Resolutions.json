@@ -1,0 +1,1219 @@
+{
+  "schema_version": "1.0",
+  "scope": "Six DATA/RECORD clarity definitions assigned for v1.25",
+  "method": "Fresh static reads of retained code, original configuration members, raw execution reports and API exports; no Word edit.",
+  "input_paragraphs": {
+    "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Current_Paragraphs.json",
+    "sha256": "27a61d8e7e40c1466408cd6f0bbd4bbd6e49cff1e4aba39a5253596a6dc5dd56",
+    "bytes": 855275,
+    "key_anchors": [
+      "id=P0576",
+      "id=P0775",
+      "id=P1743",
+      "id=P1768",
+      "id=P1934",
+      "id=P1938"
+    ]
+  },
+  "verification_audit": {
+    "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_25_clarity_resolution_20261020\\evidence\\Data_Record_Evidence_Checks.json",
+    "sha256": "97fcd30711e306d72509a764914053110b1f171e91abf982b864ff96f2a53027",
+    "bytes": 2139,
+    "key_anchors": []
+  },
+  "status_counts": {
+    "UNRESOLVED": 1,
+    "RESOLVED": 5
+  },
+  "resolutions": [
+    {
+      "finding_id": "VC-19",
+      "paragraph_id": "P0576",
+      "status": "UNRESOLVED",
+      "conclusion": "The four symbols are literal categorical values supplied for action. The inspected schema and both supplied dictionaries do not map the individual symbols to named actions. The release dictionary explicitly says that their meanings require generator documentation.",
+      "limits_and_missing_evidence": [
+        "A source-authenticated code-to-action mapping or original executable generator remains missing.",
+        "A conventional CRUD or FHIR interpretation would be an inference and is not used."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\RNO\\Downloads\\review_FL\\encoding_schema_candidate.json",
+          "sha256": "d1e9974b377e0780eac5deabd375a83cdc0256051e77fa167a4bf7c593eabe37",
+          "bytes": 9027,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "\"name\": \"action\"",
+              "line_numbers": [
+                20
+              ],
+              "excerpts": [
+                "      \"name\": \"action\","
+              ]
+            },
+            {
+              "literal": "\"C\"",
+              "line_numbers": [
+                22
+              ],
+              "excerpts": [
+                "        \"C\","
+              ]
+            },
+            {
+              "literal": "\"E\"",
+              "line_numbers": [
+                23
+              ],
+              "excerpts": [
+                "        \"E\","
+              ]
+            },
+            {
+              "literal": "\"R\"",
+              "line_numbers": [
+                24
+              ],
+              "excerpts": [
+                "        \"R\","
+              ]
+            },
+            {
+              "literal": "\"U\"",
+              "line_numbers": [
+                25
+              ],
+              "excerpts": [
+                "        \"U\","
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\suite\\docs\\FULL_BENCHMARK_DATA_DICTIONARY.md",
+          "sha256": "c30870a5f5675af67b3d26a716dcfc950b5c6a6790db463d60f8dfc4be63639d",
+          "bytes": 6325,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "| `action` |",
+              "line_numbers": [
+                19
+              ],
+              "excerpts": [
+                "| `action` | categorical | Audit action code (`C`, `R`, `U`, or `E`). |"
+              ]
+            }
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip",
+          "member": "EHR_FL_Benchmark_Release_Candidate_v1_0/DATA_DICTIONARY.md",
+          "sha256": "a1794f810c225a676d0efb125eea1ab3d74694d3ab8f24d9cf96497b029bf911",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 16341,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "Code meanings and clinical semantics",
+              "line_numbers": [
+                3
+              ],
+              "excerpts": [
+                "This dictionary describes the supplied schema and observed representations. It does not substitute for the original generator source. Code meanings and clinical semantics that are not documented by the supplied materials have not been invented."
+              ]
+            },
+            {
+              "literal": "| `action` |",
+              "line_numbers": [
+                126
+              ],
+              "excerpts": [
+                "| `action` | Source action code. Meaning of each code requires generator documentation; codes are retained literally. | 0 | candidate categorical input; schema freeze required |"
+              ]
+            }
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\04_EHR_FL_Benchmark_Release_Candidate_v1_0.zip",
+          "member": "EHR_FL_Benchmark_Release_Candidate_v1_0/SOURCE_AND_GENERATION_NOTES.md",
+          "sha256": "5ef7e49509ed82509c93043dd2995292752e48cd16645531dc9c1679842c7877",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 2154,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "original generator code",
+              "line_numbers": [
+                9
+              ],
+              "excerpts": [
+                "The original generator code, original exact generation seed, dependency lockfile and generator configuration were not supplied. The preparation scripts can repeat packaging and structural auditing, but cannot regenerate the original synthetic CSVs from first principles. The original authoring/generation date is unknown. File-system copy timestamps are not acquisition or publication dates."
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\config\\encoding_schema.json",
+          "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+          "bytes": 9580,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "\"name\": \"action\"",
+              "line_numbers": [
+                20
+              ],
+              "excerpts": [
+                "      \"name\": \"action\","
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/config/encoding_schema.json",
+            "sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 9580,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        }
+      ],
+      "old_text": "Literal action code (C/E/R/U)",
+      "new_text": "Source action codes C/E/R/U (meanings not supplied)",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    },
+    {
+      "finding_id": "VC-28",
+      "paragraph_id": "P0775",
+      "status": "RESOLVED",
+      "conclusion": "Full-size refers to the complete unchanged model and complete routine development memberships, not to all benchmark partitions or a full main-study training budget. The original full-size B/C reports contain completed short engineering cells for both conditions and explicitly exclude test access. A separate full-size central engineering epoch is also recorded.",
+      "limits_and_missing_evidence": [
+        "This is a definition of the retained engineering check, not new scientific validation.",
+        "Non-IID training samples with replacement from the complete training membership; not every unique session must occur in every sampled round."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_B.json",
+          "sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+          "bytes": 4477,
+          "key_anchors": [
+            "model_parameter_count",
+            "input_dim",
+            "training_sessions_per_client",
+            "validation_sessions_per_client",
+            "implementation_decisions"
+          ],
+          "line_anchors": [
+            {
+              "literal": "All 10833 routine training sessions",
+              "line_numbers": [
+                101
+              ],
+              "excerpts": [
+                "    \"All 10833 routine training sessions and all 3622 routine validation sessions. Original per-client five-round manifests are retained byte for byte; no draws regenerated from scores.\","
+              ]
+            },
+            {
+              "literal": "Same original model",
+              "line_numbers": [
+                104
+              ],
+              "excerpts": [
+                "    \"Same original model, optimiser, dropout, gradient clipping, local epoch and per-client/round RNG mapping as the accepted patched smoke run. Fresh global state, fresh AdamW each fit.\","
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_B.json",
+            "sha256": "7525f0af8d340ac41b3a5bb40d53275d7e01eb8bcd2b3fc8aa2202bdaa2a6bba",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 4477,
+            "key_anchors": [
+              "model_parameter_count",
+              "input_dim",
+              "training_sessions_per_client",
+              "validation_sessions_per_client",
+              "implementation_decisions"
+            ]
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_C.json",
+          "sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+          "bytes": 3655,
+          "key_anchors": [
+            "rounds",
+            "conditions",
+            "new_engineering_decisions"
+          ],
+          "line_anchors": [
+            {
+              "literal": "Reuse full-size model/training configuration",
+              "line_numbers": [
+                38
+              ],
+              "excerpts": [
+                "    \"Reuse full-size model/training configuration and original full-size manifests without changing PRG/quantisation.\","
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_C.json",
+            "sha256": "63367f8b79861ddd05313b4507c11c76837087b4a8b77ede374b81a243aa78ba",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 3655,
+            "key_anchors": [
+              "rounds",
+              "conditions",
+              "new_engineering_decisions"
+            ]
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\reference\\fullsize_policy.json",
+          "sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+          "bytes": 1869,
+          "key_anchors": [
+            "training_counts",
+            "validation_counts",
+            "rounds",
+            "test_data_opened"
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/reference/fullsize_policy.json",
+            "sha256": "8b6108669648036c52b0a3e1776505744db8832af305098b09e85199aa0c8b74",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 1869,
+            "key_anchors": [
+              "training_counts",
+              "validation_counts",
+              "rounds",
+              "test_data_opened"
+            ]
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "stage_status.json",
+          "sha256": "8544f86783c48a8a58de219a9266d33c0124ed836c6fbfcfe37c9aaf0721c62f",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 788,
+          "key_anchors": [
+            "status",
+            "test_data_opened",
+            "configuration_cells_completed"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "B/reference/server/server_result.json",
+          "sha256": "8301aad52150fa00073c9fc073c03a98c6ea8a61fc0e57a2bbb4380992855b80",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 8251,
+          "key_anchors": [
+            "status",
+            "rounds_completed",
+            "total_local_optimiser_steps",
+            "flower_executed",
+            "test_data_opened",
+            "aggregation_checks[].weights"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "B/noniid/server/server_result.json",
+          "sha256": "fa228ece8c016e82ebead187a86adec7cc07cb92af5f6432a15b9e866fd5f0f9",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 8230,
+          "key_anchors": [
+            "status",
+            "rounds_completed",
+            "total_local_optimiser_steps",
+            "flower_executed",
+            "test_data_opened",
+            "aggregation_checks[].weights"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "C/reference/server/server_result.json",
+          "sha256": "b91238c06cdb54f8a025cc3fb326498c86ba8e74b4814bf51f11bafc7b569dce",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 8277,
+          "key_anchors": [
+            "status",
+            "rounds_completed",
+            "total_local_optimiser_steps",
+            "flower_executed",
+            "test_data_opened",
+            "aggregation_checks[].weights"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "C/noniid/server/server_result.json",
+          "sha256": "b137bc8a5e263d0fa73a939e2f7dd36f1f8f72a2ba08b31898c728451df0fb6b",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 8261,
+          "key_anchors": [
+            "status",
+            "rounds_completed",
+            "total_local_optimiser_steps",
+            "flower_executed",
+            "test_data_opened",
+            "aggregation_checks[].weights"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\EHR_FL_FullSize_BC_Pilot_v1_0\\EHR_FL_FullSize_BC_Pilot_Package_v1_0\\FullSize_BC_Report_20260908T102557Z_d05f791a.zip",
+          "member": "matched_fullsize_BC_review.json",
+          "sha256": "7a3e174e04158f337b5fb93a0b1bd00e00ee30f3d085169e9a81f3f70b8e59f6",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 828,
+          "key_anchors": [
+            "matched_fullsize_counts_schedules_initial_state_and_seeds",
+            "tuning_performed",
+            "privacy_claim_validated"
+          ]
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+          "nested_archive_member": "preparation/MAIN_PREPARATION_Original.zip",
+          "nested_archive_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+          "member": "engineering_A_summary.json",
+          "sha256": "c6e3105b5f3641c613bd796999f8d4d9ce92a8e4226e199d83d37d939902d95a",
+          "hash_scope": "exact uncompressed innermost member bytes",
+          "bytes": 847,
+          "key_anchors": [
+            "status",
+            "rounds_completed",
+            "local_updates"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+          "sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+          "bytes": 27940,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "Previously untested full-size A",
+              "line_numbers": [
+                200
+              ],
+              "excerpts": [
+                "            # Previously untested full-size A in the pinned environment: one fixed engineering epoch, not a main run."
+              ]
+            },
+            {
+              "literal": "FULLSIZE_A_ONE_EPOCH_COMPATIBILITY_PASS_NOT_MAIN",
+              "line_numbers": [
+                211
+              ],
+              "excerpts": [
+                "            print('FULLSIZE_A_ONE_EPOCH_COMPATIBILITY_PASS_NOT_MAIN',flush=True)"
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/campaign.py",
+            "sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 27940,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        }
+      ],
+      "old_text": "Before the accepted main runs, checks covered preprocessing, model learning, aggregation, full-size execution, timing and inference. Corrected experiment runs reused the fixed inputs, initial model states and sampling draws. Incomplete earlier blocks were excluded. Their records and code repairs were retained separately in the Evidence Companion.",
+      "new_text": "Before the accepted main runs, checks covered preprocessing, model learning, aggregation, timing and inference. The full-size engineering checks used the unchanged model and complete routine training and validation memberships. They excluded test data and used a shorter training budget than the accepted main runs. Corrected experiment runs reused the fixed inputs, initial model states and sampling draws. Incomplete earlier blocks were excluded. Their records and code repairs were retained separately in the Evidence Companion.",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    },
+    {
+      "finding_id": "VC-50",
+      "paragraph_id": "P1743",
+      "status": "RESOLVED",
+      "conclusion": "The unit is an exact (source namespace, source record ID) pair. The script first retains separate database records using database+source+ID, then merges the two databases using source+ID alone. Retained pairs are MED:PMID identifiers and an ETH:771510 record returned by Europe PMC. These are neither DOI-deduplicated articles nor independently verified unique studies.",
+      "limits_and_missing_evidence": [
+        "No expansion of the ETH namespace to an unverified document type is needed.",
+        "Final DOI/title and version reconciliation remains a separate operation."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\search_public_apis.py",
+          "sha256": "1164225db40a1ae8872aa2b1581b95e31fc7ce9c207ad31a5612b604587782a6",
+          "bytes": 15432,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "key=f'",
+              "line_numbers": [
+                92
+              ],
+              "excerpts": [
+                "    key=f'{db}:{record[\"source\"]}:{record[\"source_id\"]}'"
+              ]
+            },
+            {
+              "literal": "'source':'MED'",
+              "line_numbers": [
+                108,
+                111
+              ],
+              "excerpts": [
+                "        out.append({'source':'MED','source_id':pmid,'pmid':pmid,'pmcid':ids.get('pmc'),'doi':ids.get('doi'),'title':text(a.find('ArticleTitle')),'authors':authors,'journal':text(a.find('./Journal/Title')),'publication_date':text(pd),'publication_year':text(pd.find('Year')) if pd is not None else None,'article_dates':[{'type':n.get('DateType'),'date':text(n)} for n in a.findall('ArticleDate')],'languages':[text(n) for n in a.findall('Language')],'publication_types':[text(n) for n in a.findall('./PublicationTypeList/PublicationType')],'abstract_sections':abstracts,'abstract':'\\n'.join((n['label']+': ' if n['label'] else '')+n['text'] for n in abstracts),'source_url':f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/'})",
+                "        out.append({'source':'MED','source_id':pmid,'pmid':pmid,'doi':None,'title':text(pba.find('./BookDocument/ArticleTitle')),'abstract':text(pba.find('./BookDocument/Abstract')),'source_url':f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/','record_type':'PubmedBookArticle'})"
+              ]
+            },
+            {
+              "literal": "source=r.get('source'",
+              "line_numbers": [
+                146
+              ],
+              "excerpts": [
+                "        source=r.get('source','UNKNOWN'); rid=str(r.get('id','')); keys.append(source+':'+rid)"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\prepare_screening.py",
+          "sha256": "93f08fcbd1c983931550e12f32c3ada62cbc28906fbb10c33df206374a00e27e",
+          "bytes": 888,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "union.setdefault(r['source']+':'+r['source_id']",
+              "line_numbers": [
+                6
+              ],
+              "excerpts": [
+                "for r in rows:union.setdefault(r['source']+':'+r['source_id'],[]).append(r)"
+              ]
+            },
+            {
+              "literal": "b['stable_source_id']=key",
+              "line_numbers": [
+                10
+              ],
+              "excerpts": [
+                "    b['stable_source_id']=key;b['screening_index']=i"
+              ]
+            },
+            {
+              "literal": "b['database_provenance']",
+              "line_numbers": [
+                11
+              ],
+              "excerpts": [
+                "    b['database_provenance']=[{'database':r['database'],'record_id':r['record_id'],'search_ids':r['search_ids'],'source_url':r['source_url']} for r in rr]"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Normalized_Records.json",
+          "sha256": "8d417332ebc86712c92d924a075a690a50fe4c940959fa178e746f064aa51975",
+          "bytes": 2082345,
+          "key_anchors": [
+            "[].database",
+            "[].source",
+            "[].source_id"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Canonical_Union_To_Screen.json",
+          "sha256": "34fbf05662d4be6246695a1ac5bcee3f2600b7544daf4aff5ff9e9d61f64dbc5",
+          "bytes": 1342846,
+          "key_anchors": [
+            "[].stable_source_id",
+            "[].database_provenance"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\Screening_Union.json",
+          "sha256": "9250bf055dd5ff5f9602451697cc1c4bc4b3667f19fef46654598eb9ea6f1af8",
+          "bytes": 1646776,
+          "key_anchors": [
+            "[].stable_source_id"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\001_pubmed_S1_esearch_attempt1.json",
+          "sha256": "5632fb9e57da085e4c85e3bdb707fecd52133b7eaf868b9dc877981b0650a9f3",
+          "bytes": 2827,
+          "key_anchors": [
+            "esearchresult.count",
+            "esearchresult.idlist"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\002_pubmed_S1_efetch_00000_attempt1.xml",
+          "sha256": "80d29abcddd659eeb3894496ef39d6d1ecc9824bbb62f8f30e7580cd2c44e0a5",
+          "bytes": 2014084,
+          "key_anchors": [
+            "PubmedArticle/MedlineCitation/PMID",
+            "PubmedBookArticle/BookDocument/PMID"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\003_pubmed_S2_esearch_attempt1.json",
+          "sha256": "bf83ad8f6fe70cced2c827889d3c0cd7d43f36f5fa067cba9a197e01520e5d72",
+          "bytes": 1544,
+          "key_anchors": [
+            "esearchresult.count",
+            "esearchresult.idlist"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\004_pubmed_S2_efetch_00000_attempt1.xml",
+          "sha256": "45d9e9249d1ea0a874dab750b201d49d64672d3539445c9906ee99843aa83121",
+          "bytes": 63604,
+          "key_anchors": [
+            "PubmedArticle/MedlineCitation/PMID",
+            "PubmedBookArticle/BookDocument/PMID"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\005_pubmed_S3_esearch_attempt1.json",
+          "sha256": "7b0868ea66350ad524266bd9625f82e2b108d974bab487b11c2065ad6e8cf072",
+          "bytes": 2916,
+          "key_anchors": [
+            "esearchresult.count",
+            "esearchresult.idlist"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\006_pubmed_S3_efetch_00000_attempt1.xml",
+          "sha256": "51c62a027076557fb3e335e7458c9581fbfbba1ef456ed32e66a6ddc3b27be97",
+          "bytes": 3220149,
+          "key_anchors": [
+            "PubmedArticle/MedlineCitation/PMID",
+            "PubmedBookArticle/BookDocument/PMID"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\007_pubmed_S4_esearch_attempt1.json",
+          "sha256": "c7b6105768c3c266791ecaa9b922b6908bf5c41be8680637c63ca9d6c23aca0b",
+          "bytes": 817,
+          "key_anchors": [
+            "esearchresult.count",
+            "esearchresult.idlist"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\008_pubmed_S4_efetch_00000_attempt1.xml",
+          "sha256": "eb56cc57d5ec940893b68c7b1f0430c6ccbd19ed1ec92152feb2398637da18db",
+          "bytes": 228069,
+          "key_anchors": [
+            "PubmedArticle/MedlineCitation/PMID",
+            "PubmedBookArticle/BookDocument/PMID"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\009_epmc_S1_page001_attempt1.json",
+          "sha256": "0d1f114ad9020c9e68e90187733e86599be41c37e7bc176ceb910605fee19b69",
+          "bytes": 530457,
+          "key_anchors": [
+            "hitCount",
+            "resultList.result[].source",
+            "resultList.result[].id"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\010_epmc_S2_page001_attempt1.json",
+          "sha256": "48df66c02077ef85efb1d7fef23739e53ec98a9a4d88d5a0c540743e0cfa8e83",
+          "bytes": 16903,
+          "key_anchors": [
+            "hitCount",
+            "resultList.result[].source",
+            "resultList.result[].id"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\011_epmc_S3_page001_attempt1.json",
+          "sha256": "d155bf6d7294e35c8b35c604e6951f660604ba2e8c8d131a6e4dc7f4d79837f0",
+          "bytes": 844002,
+          "key_anchors": [
+            "hitCount",
+            "resultList.result[].source",
+            "resultList.result[].id"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\public_api\\raw\\012_epmc_S4_page001_attempt1.json",
+          "sha256": "0d4df9843f4baee5d175ba9415ca71cbd972122ad402898771646a345396c77f",
+          "bytes": 57460,
+          "key_anchors": [
+            "hitCount",
+            "resultList.result[].source",
+            "resultList.result[].id"
+          ]
+        }
+      ],
+      "old_text": "The targeted narrative search update on 11 October 2026 added to the historical searches. It used four query families in PubMed E-utilities and Europe PMC, web searches and citation chaining. Its identifiers were kept separate from the August records. The API queries returned 498 hits in total. Merging records within each database left 488 records representing 281 stable source identifiers, before final reconciliation by DOI or title. The returned API identifiers and request records were preserved. Only the top web-search results were retained, without a total-hit count for calculating coverage. The Evidence Companion records decisions about candidates, duplicates and levels of full-text access.",
+      "new_text": "The targeted narrative search update on 11 October 2026 added to the historical searches. It used four query families in PubMed E-utilities and Europe PMC, web searches and citation chaining. Its identifiers were kept separate from the August records. The API queries returned 498 hits in total. Merging records within each database left 488 records. Grouping these by source namespace and record ID yielded 281 distinct pairs: MED identifiers shared across PubMed and Europe PMC, plus an ETH identifier returned by Europe PMC. These pairs preceded final reconciliation by DOI or title. The returned API identifiers and request records were preserved. Only the top web-search results were retained, without a total-hit count for calculating coverage. The Evidence Companion records decisions about candidates, duplicates and levels of full-text access.",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [
+          "11",
+          "2026",
+          "498",
+          "488",
+          "281"
+        ],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    },
+    {
+      "finding_id": "VC-51",
+      "paragraph_id": "P1768",
+      "status": "RESOLVED",
+      "conclusion": "A cluster is a connected component under exact shared identifier strings. The catalogue code creates keys for source IDs, DOI, PMID/MED, PMCID/PMC, other supported indexed identifiers, and normalised URLs; explicitly documented URL-to-DOI aliases can add a shared DOI key. Matching is transitive through union-find. Titles are normalised only to flag possible duplicates, which remain separate.",
+      "limits_and_missing_evidence": [
+        "Different versions or alternate URLs can remain separate, and non-study/background pages remain discovery candidates.",
+        "The retained catalogue has 281 API nodes plus 182 web candidates, 11 merge events and 452 components. Counts do not establish unique studies.",
+        "Supported code paths include OpenAlex IDs, but the retained nodes contain no OpenAlex ID keys; no claim that such a key produced a merge is made."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\build_cross_channel_catalog.py",
+          "sha256": "916a6b25a5a58d7616055459e0653c5bcb6372b5acf22453b25129d46f4ed6e8",
+          "bytes": 6738,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "def urlnorm",
+              "line_numbers": [
+                5
+              ],
+              "excerpts": [
+                "def urlnorm(s):"
+              ]
+            },
+            {
+              "literal": "aliases[urlnorm",
+              "line_numbers": [
+                16,
+                19
+              ],
+              "excerpts": [
+                "        aliases[urlnorm(u)]=r['doi'].lower()",
+                "    aliases[urlnorm(r['url'])]=r['doi'].lower()"
+              ]
+            },
+            {
+              "literal": "ids=[r[",
+              "line_numbers": [
+                23
+              ],
+              "excerpts": [
+                "    ids=[r['stable_source_id'].upper(),'URL:'+urlnorm(r['source_url'])]"
+              ]
+            },
+            {
+              "literal": "ids=['URL:",
+              "line_numbers": [
+                29
+              ],
+              "excerpts": [
+                "    ids=['URL:'+urlnorm(r['canonical_url'])]+['DOI:'+d.lower() for d in r['verifiedDOI_fromURL']]"
+              ]
+            },
+            {
+              "literal": "if key in by:",
+              "line_numbers": [
+                52
+              ],
+              "excerpts": [
+                "        if key in by:"
+              ]
+            },
+            {
+              "literal": "parents[a]=b",
+              "line_numbers": [
+                55
+              ],
+              "excerpts": [
+                "                parents[a]=b; merges.append({'left':n['node_id'],'right':nodes[by[key]]['node_id'],'basis':key})"
+              ]
+            },
+            {
+              "literal": "RETAIN_SEPARATE_PENDING_VERSION_REVIEW",
+              "line_numbers": [
+                67
+              ],
+              "excerpts": [
+                "possible=[{'normalized_title':t,'catalog_ids':sorted(v),'action':'RETAIN_SEPARATE_PENDING_VERSION_REVIEW; NOT_AUTOMATICALLY_MERGED'} for t,v in titles.items() if len(v)>1]"
+              ]
+            },
+            {
+              "literal": "Identifier-linked discovery cluster",
+              "line_numbers": [
+                61
+              ],
+              "excerpts": [
+                "    rows.append({'catalog_id':f'CAT-{i:03}','nodes':ns,'node_count':len(ns),'channels':sorted(set(n['channel'] for n in ns)),'verified_identifier_dois':sorted(set(n['doi'].lower() for n in ns if n.get('doi'))),'decision_set':sorted(set(n['decision'] for n in ns)),'counting_boundary':'Identifier-linked discovery cluster; not certified unique underlying study.'})"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Candidate_Catalog.json",
+          "sha256": "eb328654717f66b489647df727e55a09a7ada53cf4df4dff72898ca6fe25ddae",
+          "bytes": 712159,
+          "key_anchors": [
+            "input_api_source_id_records",
+            "input_web_url_candidates",
+            "identifier_linked_clusters",
+            "exact_identifier_merge_events",
+            "source_specific_doi_url_alias_receipts",
+            "clusters[].nodes[].identifiers",
+            "possible_title_duplicate_clusters"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\Cross_Channel_Catalog_QA.json",
+          "sha256": "391f9ade3dda20c45ac23d6df4cb55089c3bebcd12352f94fa385d5a7b049272",
+          "bytes": 306,
+          "key_anchors": [
+            "counts_are_studies",
+            "exact_identifier_cluster_count",
+            "doi_or_title_heuristic_merge_performed"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\web\\Unified_Web_Screened_Union.json",
+          "sha256": "055f793cee0639203ade44008c64756144c4633ea0202def16fecac3e2715d3e",
+          "bytes": 198042,
+          "key_anchors": [
+            "candidates[].canonical_url",
+            "candidates[].verifiedDOI_fromURL",
+            "candidates[].public_identifiers_fromURL"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\challengers\\Normalized_Candidates.json",
+          "sha256": "0c845848c15209e546407a5c9355b21f9c5550627195b15c819ddcae1a9040f9",
+          "bytes": 24714,
+          "key_anchors": [
+            "candidates[].doi",
+            "candidates[].verified_source_url",
+            "candidates[].publisher_url"
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_literature_refresh_2026_10_11\\root_sources\\Root_Source_Assessment.json",
+          "sha256": "a900c80f5cc8e2679f8770c27d1365400ed70613f862413f0a23245d64106f4c",
+          "bytes": 3665,
+          "key_anchors": [
+            "sources[].url",
+            "sources[].doi"
+          ]
+        }
+      ],
+      "old_text": "The Evidence Companion preserves the 51 exact query strings, API requests and translations, candidate decisions and reasons, source-access and reading scopes, and identities of the raw responses. Across search channels, the catalogue contains 452 clusters of linked identifiers, not a verified count of unique studies. The August query tables and export-reconciliation checks remain separate from the update records.",
+      "new_text": "The Evidence Companion preserves the 51 exact query strings, API requests and translations, candidate decisions and reasons, source-access and reading scopes, and identities of the raw responses. Across search channels, the catalogue contains 452 groups formed by linking identical source identifiers, DOIs or normalised URLs, including documented URL-to-DOI links. Matching titles alone did not merge records, and the groups are not a verified count of unique studies. The August query tables and export-reconciliation checks remain separate from the update records.",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [
+          "51",
+          "452"
+        ],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    },
+    {
+      "finding_id": "VC-53",
+      "paragraph_id": "P1934",
+      "status": "RESOLVED",
+      "conclusion": "Adopted decisions denotes the separate main_protocol_decisions.json record, especially its adopted_evaluation_details and P1-P5 adopted_closures. These document no additional tuning; calibration on routine validation; conditional paired-seed statistics; cost and inference measurement boundaries; bounded security wording; and failure/retry handling. The campaign manifest hashes this record, while cell_config inherits runnable model/training settings from reference/fullsize_B.json and stage_cell seals job/app inputs.",
+      "limits_and_missing_evidence": [
+        "The decision record explicitly says it is not a runnable configuration or security certification.",
+        "The proposed wording says the decisions were documented and linked by identity; it does not claim that byte identity alone proves every methodological decision was implemented."
+      ],
+      "evidence": [
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_protocol_decisions.json",
+          "sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+          "bytes": 27769,
+          "key_anchors": [
+            "notice",
+            "adopted_evaluation_details",
+            "adopted_closures.P1_tuning",
+            "adopted_closures.P2_statistics",
+            "adopted_closures.P3_measurement",
+            "adopted_closures.P4_security_claim",
+            "adopted_closures.P5_failure_policy"
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_protocol_decisions.json",
+            "sha256": "f50fdbb0116c25ba7e35c223edff485f6a1c6cf7d59f141994edb07f55d92f6a",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 27769,
+            "key_anchors": [
+              "notice",
+              "adopted_evaluation_details",
+              "adopted_closures.P1_tuning",
+              "adopted_closures.P2_statistics",
+              "adopted_closures.P3_measurement",
+              "adopted_closures.P4_security_claim",
+              "adopted_closures.P5_failure_policy"
+            ]
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\design.py",
+          "sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+          "bytes": 11229,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "def cell_config",
+              "line_numbers": [
+                97
+              ],
+              "excerpts": [
+                "def cell_config(seed:int,condition:str,rounds:int,*,engineering:bool=False) -> dict:"
+              ]
+            },
+            {
+              "literal": "reference/fullsize_B.json",
+              "line_numbers": [
+                98
+              ],
+              "excerpts": [
+                "    d=read(ROOT/'reference/fullsize_B.json')"
+              ]
+            },
+            {
+              "literal": "def stage_cell",
+              "line_numbers": [
+                138
+              ],
+              "excerpts": [
+                "def stage_cell(campaign:Path,job:Path,conf:dict,draws_file:Path,expected_initial:str,configuration:str):"
+              ]
+            },
+            {
+              "literal": "write(job/'job.json'",
+              "line_numbers": [
+                160
+              ],
+              "excerpts": [
+                "    write(job/'job.json',{'configuration':configuration,'condition':conf['conditions'][0],'stage':conf['stage'],"
+              ]
+            },
+            {
+              "literal": "num-server-rounds",
+              "line_numbers": [
+                165,
+                168,
+                172
+              ],
+              "excerpts": [
+                "    # Existing generator sets num-server-rounds=6; bind the explicit runtime value here.",
+                "    text=(appdir/'pyproject.toml').read_text().replace('num-server-rounds = 6',f\"num-server-rounds = {conf['rounds']}\")",
+                "    assert tomllib.loads(text)['tool']['flwr']['app']['config']['num-server-rounds']==conf['rounds']"
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/design.py",
+            "sha256": "d8dfe13b0b721146bd876a450dc2af767a9aa70158692ce10ab53829103ebd03",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 11229,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\campaign.py",
+          "sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+          "bytes": 27940,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "write(campaign/'campaign_manifest.json'",
+              "line_numbers": [
+                238
+              ],
+              "excerpts": [
+                "        write(campaign/'campaign_manifest.json',{'version':'1.0.1','package_manifest_sha256':package_hash,"
+              ]
+            },
+            {
+              "literal": "'decision_sha256':sha(ROOT/'protocol/decisions/config/main_protocol_decisions.json')",
+              "line_numbers": [
+                239
+              ],
+              "excerpts": [
+                "            'decision_sha256':sha(ROOT/'protocol/decisions/config/main_protocol_decisions.json'),"
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/campaign.py",
+            "sha256": "0b4c20a53015380c09abbfcd1f02ed959ebc697de31497d33daa2700baaeaa09",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 27940,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\main_study\\common.py",
+          "sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+          "bytes": 5642,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "m['decision_sha256']",
+              "line_numbers": [
+                105
+              ],
+              "excerpts": [
+                "    if m['decision_sha256'] != sha(ROOT / 'protocol/decisions/config/main_protocol_decisions.json'):"
+              ]
+            },
+            {
+              "literal": "Different adopted decisions",
+              "line_numbers": [
+                106
+              ],
+              "excerpts": [
+                "        raise ValueError('Different adopted decisions')"
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/main_study/common.py",
+            "sha256": "83f6e47d3641811f51c882b812389748eecc2d065cbd9c092c38daa803b83a76",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 5642,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\ars_implementation_audit_v1_5_2026_10_10\\source_snapshot\\protocol\\decisions\\config\\main_run_order.csv",
+          "sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+          "bytes": 2531,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "epochs_or_rounds",
+              "line_numbers": [
+                1
+              ],
+              "excerpts": [
+                "execution_order,block_id,position_within_block,planned_run_id,configuration,condition,training_seed,epochs_or_rounds,status"
+              ]
+            }
+          ],
+          "supplied_archive_member": {
+            "archive_path": "C:\\Users\\RNO\\Downloads\\review_FL\\ehr-fl-secagg-study-main.zip",
+            "member": "ehr-fl-secagg-study-main/executed/EHR_FL_Main_Experiments_Package_v1_0_3/protocol/decisions/config/main_run_order.csv",
+            "sha256": "08c7cf6d7d7b7b82c81293626d07298a546ec1335c12f8df83b406e2e31258c5",
+            "hash_scope": "exact uncompressed member bytes",
+            "bytes": 2531,
+            "key_anchors": []
+          },
+          "snapshot_byte_identical_to_supplied_member": true
+        },
+        {
+          "archive_path": "C:\\Users\\RNO\\Downloads\\05_Accepted_Preparation_and_10_Training_Blocks.zip",
+          "nested_archive_member": "preparation/MAIN_PREPARATION_Original.zip",
+          "nested_archive_sha256": "71ab1333e5cc29ccc3e5bbe3e0c5567552235392a6048204d1035f3772dda1ad",
+          "member": "ready_receipt.json",
+          "sha256": "d852f2242293c32698e940f70aa54b95d87d52b68aaf6507e34b390e0d8273b3",
+          "hash_scope": "exact uncompressed innermost member bytes",
+          "bytes": 1409,
+          "key_anchors": [
+            "status",
+            "campaign_manifest_sha256",
+            "package_manifest_sha256",
+            "jobs_prepared"
+          ]
+        }
+      ],
+      "old_text": "Each run configuration fixed the reference settings, adopted decisions, run order, development inputs, initial states and sampling schedules. Every seed–condition combination used the same budget of 30 epochs or rounds in the staged job and application settings. The Evidence Companion identifies cell_config, stage_cell and the exact operational records. Runtime tokens and workspace paths were regenerated for execution, so their bytes were not expected to match the historical identifiers.",
+      "new_text": "The run configurations and their retained records fixed the reference settings, run order, development inputs, initial states and sampling schedules. The campaign manifest also recorded the identity of main_protocol_decisions.json, which documented decisions on tuning, calibration from routine validation, analysis of paired seeds, cost measurement, limits on security claims and failure handling. Every seed–condition combination used the same budget of 30 epochs or rounds in the staged job and application settings. The Evidence Companion identifies cell_config, stage_cell and the exact operational records. Runtime tokens and workspace paths were regenerated for execution, so their bytes were not expected to match the historical identifiers.",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [
+          "30"
+        ],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    },
+    {
+      "finding_id": "VC-54",
+      "paragraph_id": "P1938",
+      "status": "RESOLVED",
+      "conclusion": "The two records are the exact archived releases/reference_seed_01/manifests/config_resolved.yaml member and the local outputs/full/reference_seed_01/manifests/config_resolved.yaml file. A fresh read compares their complete bytes, not only the seed fields; both have the same SHA256 shown in the evidence.",
+      "limits_and_missing_evidence": [
+        "This is custodial record consistency only. It cannot authenticate the original generator, establish original partition construction, or prove that the source data were generated from these settings.",
+        "The existing uncertainty statements about unavailable original rules and same-host replay are retained verbatim."
+      ],
+      "evidence": [
+        {
+          "archive_path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark_Full_v2_Custodian_Ground_Truth.zip",
+          "member": "releases/reference_seed_01/manifests/config_resolved.yaml",
+          "sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+          "hash_scope": "exact uncompressed member bytes",
+          "bytes": 8969,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "randomness:",
+              "line_numbers": [
+                16
+              ],
+              "excerpts": [
+                "randomness:"
+              ]
+            },
+            {
+              "literal": "root_seed: 361001",
+              "line_numbers": [
+                17
+              ],
+              "excerpts": [
+                "  root_seed: 361001"
+              ]
+            },
+            {
+              "literal": "explicit_partition_seeds:",
+              "line_numbers": [
+                18
+              ],
+              "excerpts": [
+                "  explicit_partition_seeds:"
+              ]
+            },
+            {
+              "literal": "training: 361102",
+              "line_numbers": [
+                19
+              ],
+              "excerpts": [
+                "    training: 361102"
+              ]
+            },
+            {
+              "literal": "validation: 361203",
+              "line_numbers": [
+                20
+              ],
+              "excerpts": [
+                "    validation: 361203"
+              ]
+            },
+            {
+              "literal": "test_known: 361304",
+              "line_numbers": [
+                21
+              ],
+              "excerpts": [
+                "    test_known: 361304"
+              ]
+            },
+            {
+              "literal": "test_held_out: 361405",
+              "line_numbers": [
+                22
+              ],
+              "excerpts": [
+                "    test_held_out: 361405"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "C:\\Users\\RNO\\Downloads\\Primary_Synthetic_Benchmark\\outputs\\full\\reference_seed_01\\manifests\\config_resolved.yaml",
+          "sha256": "27dea75ffe33c4ee4398f34a3ce764593ed4c994219e0c67ed404a52d15b3a98",
+          "bytes": 8969,
+          "key_anchors": [],
+          "line_anchors": [
+            {
+              "literal": "randomness:",
+              "line_numbers": [
+                16
+              ],
+              "excerpts": [
+                "randomness:"
+              ]
+            },
+            {
+              "literal": "root_seed: 361001",
+              "line_numbers": [
+                17
+              ],
+              "excerpts": [
+                "  root_seed: 361001"
+              ]
+            },
+            {
+              "literal": "explicit_partition_seeds:",
+              "line_numbers": [
+                18
+              ],
+              "excerpts": [
+                "  explicit_partition_seeds:"
+              ]
+            }
+          ]
+        }
+      ],
+      "old_text": "The supplied custodial configuration matches the corresponding local record. It records root seed 361001 and partition seeds 361102, 361203, 361304 and 361405 for training, validation, test_known and test_held_out, respectively. This agreement does not authenticate the original generation or partition-construction process. Original rules for session construction, scenario authorisation and affected-event annotation remain unavailable. Same-host replay reproduced processing, training, calibration and inference from the supplied CSV snapshot, subject to the metadata exception in C.6. It did not regenerate the source data. Access conditions and redistribution permission were not established; the accompanying supplement excludes the raw dataset and learned weights.",
+      "new_text": "The reference-release manifests/config_resolved.yaml file in the supplied custodian archive matches the local benchmark-output copy byte for byte. It records root seed 361001 and partition seeds 361102, 361203, 361304 and 361405 for training, validation, test_known and test_held_out, respectively. This agreement does not authenticate the original generation or partition-construction process. Original rules for session construction, scenario authorisation and affected-event annotation remain unavailable. Same-host replay reproduced processing, training, calibration and inference from the supplied CSV snapshot, subject to the metadata exception in C.6. It did not regenerate the source data. Access conditions and redistribution permission were not established; the accompanying supplement excludes the raw dataset and learned weights.",
+      "validation": {
+        "full_current_paragraph_used": true,
+        "original_numeric_strings_in_original_order": [
+          "361001",
+          "361102",
+          "361203",
+          "361304",
+          "361405",
+          "6"
+        ],
+        "numeric_strings_and_order_preserved": true,
+        "no_author_query_placeholder": true,
+        "citations_and_existing_explicit_uncertainty_retained": true
+      }
+    }
+  ]
+}

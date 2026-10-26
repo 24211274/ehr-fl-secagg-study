@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE",
+  "version": "v1.26",
+  "source_version": "v1.25",
+  "source_unchanged": true,
+  "source_sha256": "064b267a7c62ccbc5f447bf6bc6c1248316e3310de307730e1ed3055351e40ed",
+  "screenshots_reviewed": 75,
+  "detector_identified_by_user": "GPTZero",
+  "edited_source_paragraphs": 43,
+  "prior_approved_proposals_applied": 16,
+  "paragraph_splits": [
+    "P2159",
+    "P2251"
+  ],
+  "categories": {
+    "coherence": 21,
+    "concision": 8,
+    "language": 14
+  },
+  "preserved": [
+    "Scientific claims and qualifications",
+    "Numerical findings and equation text",
+    "Citation scope and complete bibliography",
+    "Images and quantitative tables",
+    "Live links and field instructions",
+    "AI-assistance disclosure and formal declarations",
+    "RQs and objectives",
+    "Existing data, ethical and security limits"
+  ],
+  "source_resolution_gaps_retained": [
+    {
+      "id": "VC-14",
+      "physical_page": 37,
+      "printed_page": 23,
+      "required_evidence": "An original-source definition or author clarification identifying what the 90,385 Unique IDs in Tabassum et al. represent."
+    },
+    {
+      "id": "VC-19",
+      "physical_page": 43,
+      "printed_page": 29,
+      "required_evidence": "An authenticated original data dictionary or executable generator defining each C/E/R/U action code."
+    }
+  ],
+  "highlights": {
+    "yellow": "Language and grammar",
+    "cyan": "Cohesion definitions and paragraph breaks",
+    "green": "Concision"
+  },
+  "external_detector_scan": false,
+  "detector_score_improvement_claimed": false,
+  "new_experiments": false,
+  "new_source_coverage_audit": false,
+  "visual_records": [
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\reviews\\Visual_1.json",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\reviews\\Visual_2.json",
+    "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\reviews\\Visual_3.json"
+  ],
+  "outputs": [
+    {
+      "mode": "Clean",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_26_Scholarly_Flow_Clean_20261020.docx",
+      "sha256": "bcbc1831066e8d085fdff2b49c67258c44d04cc5c13a8169c885215d3653f5a9",
+      "pages": 124,
+      "main_words": 19366,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "all_pages_visually_inspected": true
+    },
+    {
+      "mode": "Highlighted",
+      "path": "C:\\Users\\RNO\\Desktop\\Coureses\\P1\\thesis_v1_26_scholarly_flow_20261020\\delivery\\Research_Thesis_Chapters_1_to_6_v1_26_Scholarly_Flow_Highlighted_20261020.docx",
+      "sha256": "f03dd67c59fc5d63a580209dea4d9251666e519dda4dda625a563fd86f7e5ef3",
+      "pages": 124,
+      "main_words": 19366,
+      "word_count_scope": "Chapters1–6 including headings and body notes; excludes front matter, table cells, captions, references and appendices",
+      "all_pages_visually_inspected": true
+    }
+  ]
+}

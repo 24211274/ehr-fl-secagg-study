@@ -1,0 +1,414 @@
+{
+  "review_type": "Fresh-reader clarity and scholarly-flow check",
+  "status": "pass",
+  "reviewer_scope": "Read all 43 integrated revised passages, their surrounding Reader_Copy context, the 16 prior approved proposals, and the retained P0485 and P0780 passages. This is a prose review, not source verification or empirical validation.",
+  "skills_applied": [
+    "humanizer",
+    "academic-humanizer"
+  ],
+  "source_sha256": {
+    "evidence\\Integrated_Changes.json": "c75a34fb5c94019a74b6926ca31eaa49f286f39cafd0ae296da6e2ecd09ec1ec",
+    "evidence\\Reader_Copy.json": "5a277ec888e9071fbb9dca0fde3cf965c4d304d04580fe26614a861ca097a0f8",
+    "evidence\\Prior_16_Approved_Proposals.json": "99bcf86696dedf04d24ad43c45d8d592e1e5e22e710087c7f55d8f9c3a04fbe2"
+  },
+  "reviewed_ids": [
+    "P0032",
+    "P0300",
+    "P0301",
+    "P0326",
+    "P0327",
+    "P0333",
+    "P0334",
+    "P0337",
+    "P0345",
+    "P0348",
+    "P0351",
+    "P0418",
+    "P0422",
+    "P0423",
+    "P0536",
+    "P0567",
+    "P0653",
+    "P0654",
+    "P0656",
+    "P0657",
+    "P0666",
+    "P0674",
+    "P0737",
+    "P0738",
+    "P0739",
+    "P0740",
+    "P0779",
+    "P0811",
+    "P0812",
+    "P0816",
+    "P0841",
+    "P0842",
+    "P1108",
+    "P1212",
+    "P1393",
+    "P1437",
+    "P1438",
+    "P1441",
+    "P1457",
+    "P1551",
+    "P1592",
+    "P2159",
+    "P2251"
+  ],
+  "reviewed_count": 43,
+  "reader_copy_matches_integrated_revisions": true,
+  "overall_readability_judgment": "The revised passages read as clear, connected technical prose suitable for a master's thesis. They state actors, comparisons and methodological boundaries more directly without replacing precise terms merely for variety. No integrated revision introduces a harder technical synonym or a material referential ambiguity. Some methods and validation passages remain dense because they carry distinct implementation details and limits; no further edit is needed merely to change their rhythm.",
+  "concrete_issues": [],
+  "required_changes": [],
+  "recommended_disposition": "Retain the 43 edits as integrated and proceed to the separate document build and layout checks.",
+  "retained_decisions": [
+    {
+      "id": "P0485",
+      "judgment": "Retain the explicit previous-studies referent.",
+      "exact_quote": "The previous studies discussed in this chapter leave one question unanswered:",
+      "reason": "This identifies whose gap is being discussed and connects naturally to the matched comparison question."
+    },
+    {
+      "id": "P0780",
+      "judgment": "Retain the short threshold-metric definitions.",
+      "exact_quote": "Precision was the proportion of alerts that were threats; recall was the proportion of threats detected. F1 combined both.",
+      "reason": "The compact definitions help a fresh reader distinguish alert quality from threat coverage. Their concise repeated form serves the explanation."
+    },
+    {
+      "id": "P0816",
+      "judgment": "Retain the plain description of score contributions.",
+      "exact_quote": "The group diagnostics split the adopted anomaly score into additive contributions.",
+      "reason": "The wording explains the operation directly without adding harder terminology."
+    }
+  ],
+  "prior_16_approved_edits": [
+    {
+      "proposal_id": "ROOT-01",
+      "paragraph_id": "P0032",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "FRONT-001",
+      "paragraph_id": "P0326",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "FRONT-002",
+      "paragraph_id": "P0333",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "FRONT-003",
+      "paragraph_id": "P0337",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "FRONT-004",
+      "paragraph_id": "P0418",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "FRONT-005",
+      "paragraph_id": "P0422",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR01",
+      "paragraph_id": "P0653",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR02",
+      "paragraph_id": "P0656",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR03",
+      "paragraph_id": "P0737",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR04",
+      "paragraph_id": "P0811",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR05",
+      "paragraph_id": "P1212",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "MR06",
+      "paragraph_id": "P1393",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "DA02",
+      "paragraph_id": "P1551",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "DA04",
+      "paragraph_id": "P1592",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "DA05",
+      "paragraph_id": "P2159",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    },
+    {
+      "proposal_id": "DA06",
+      "paragraph_id": "P2251",
+      "exact_approved_text_retained": true,
+      "reads_clearly_in_context": true
+    }
+  ],
+  "paragraph_split_checks": [
+    {
+      "id": "P2159",
+      "segments": 2,
+      "judgment": "Readable: summaries and metric boundaries are separated from reconstruction and traceability."
+    },
+    {
+      "id": "P2251",
+      "segments": 2,
+      "judgment": "Readable: harness paths are separated from SV-07 instrumentation and its limits."
+    }
+  ],
+  "per_passage_checks": [
+    {
+      "id": "P0032",
+      "judgment": "retain",
+      "note": "The joined opening makes the reason for secure aggregation immediate. The following abstract retains separate performance and security limits."
+    },
+    {
+      "id": "P0300",
+      "judgment": "retain",
+      "note": "The paragraph moves from update visibility to the practical comparison and then separates the evidence for protection and detection. The semicolon connects two distinct operations clearly."
+    },
+    {
+      "id": "P0301",
+      "judgment": "retain",
+      "note": "The first/then sequence remains easy to follow. The method names are repetitive because they identify the comparisons precisely; no further variation is needed."
+    },
+    {
+      "id": "P0326",
+      "judgment": "retain",
+      "note": "The verb clause makes the unestablished detection capability clearer. Previously unseen users and patients remain distinct limits."
+    },
+    {
+      "id": "P0327",
+      "judgment": "retain",
+      "note": "The development-data difference now connects directly to the false-alarm interpretation. The time periods and count remain easy to locate."
+    },
+    {
+      "id": "P0333",
+      "judgment": "retain",
+      "note": "Parentheses prevent the recall and F1 definitions from interrupting the comparison. The reference to the study and its figure is clear in context."
+    },
+    {
+      "id": "P0334",
+      "judgment": "retain",
+      "note": "The source study is the subject of a direct sentence, and the plain explanation of multivariate time series helps the reader. The detector-comparison limitation remains necessary."
+    },
+    {
+      "id": "P0337",
+      "judgment": "retain",
+      "note": "The local-epoch definition is short and readable. The Shakespeare/MNIST distinction prevents an overly general interpretation."
+    },
+    {
+      "id": "P0345",
+      "judgment": "retain",
+      "note": "Naming the server removes a possible pronoun ambiguity. The candidate-update explanation is technical but concrete and does not introduce heavier jargon."
+    },
+    {
+      "id": "P0348",
+      "judgment": "retain",
+      "note": "Those scenarios clearly refers to the supplied synthetic scenarios. The three questions are substantive distinct validity limits."
+    },
+    {
+      "id": "P0351",
+      "judgment": "retain",
+      "note": "The measures are introduced through the parts of the system they cover. The subsequent limits explain why deployment acceptability remains unmeasured."
+    },
+    {
+      "id": "P0418",
+      "judgment": "retain",
+      "note": "The final sentence now attaches differences to the detector and cost measurements clearly. Existing technical terms are appropriate to the study comparison."
+    },
+    {
+      "id": "P0422",
+      "judgment": "retain",
+      "note": "Removing components and measuring utility and cost is clearer than the previous nominal phrase. The final limitation still refers to the Qazi comparison."
+    },
+    {
+      "id": "P0423",
+      "judgment": "retain",
+      "note": "Removing the repeated summary leaves the matched comparison and its transfer limits intact. The vertical-partition explanation remains useful."
+    },
+    {
+      "id": "P0536",
+      "judgment": "retain",
+      "note": "The checking clause is clearly an action of the pipeline. Retaining supplied boundaries and not establishing clinical optimality are distinct points."
+    },
+    {
+      "id": "P0567",
+      "judgment": "retain",
+      "note": "The short file-hash definition is useful where the term appears. The stop condition and origin of contextual inputs remain explicit."
+    },
+    {
+      "id": "P0653",
+      "judgment": "retain",
+      "note": "Were encoded as identifies the operation accurately. The input/target distinction and the plain explanation of loss remain readable."
+    },
+    {
+      "id": "P0654",
+      "judgment": "retain",
+      "note": "The first sentence now states the scaling operation directly. Technical details about variance, arithmetic and plaintext preprocessing remain necessary methods information."
+    },
+    {
+      "id": "P0656",
+      "judgment": "retain",
+      "note": "Within each batch gives the padding rule an unambiguous scope. The subsequent sentences distinguish retained session data from identifiers."
+    },
+    {
+      "id": "P0657",
+      "judgment": "retain",
+      "note": "The paragraph clearly distinguishes resampling and dropout from generation of new sequences. The semicolon joins closely related training operations without overloading the sentence."
+    },
+    {
+      "id": "P0666",
+      "judgment": "retain",
+      "note": "Then makes the averaging sequence easier to follow. Repeated terms for loss families are precise and need no cosmetic synonyms."
+    },
+    {
+      "id": "P0674",
+      "judgment": "retain",
+      "note": "The first two sentences connect SecAgg+ to the unchanged training procedure and explain masking and quantisation. The final cost boundary is material and should remain."
+    },
+    {
+      "id": "P0737",
+      "judgment": "retain",
+      "note": "Tests, rather than vectors, now perform the checking. The weight and quantisation explanations remain technical but concrete."
+    },
+    {
+      "id": "P0738",
+      "judgment": "retain",
+      "note": "That protection has an explicit secure-aggregation referent. Listing excluded outputs prevents an unjustified privacy inference."
+    },
+    {
+      "id": "P0739",
+      "judgment": "retain",
+      "note": "The check inputs, tested code paths and limits can be followed in order. This remains a dense methods paragraph because it distinguishes several actual checks, not because new jargon was introduced."
+    },
+    {
+      "id": "P0740",
+      "judgment": "retain",
+      "note": "The validator and local-computation function are explicit actors. The aligned-list rule and bounded retesting scope remain clear."
+    },
+    {
+      "id": "P0779",
+      "judgment": "retain",
+      "note": "The raw-score sentence now states their uses directly. The short AP and AUROC explanations and the class-proportion boundary are useful."
+    },
+    {
+      "id": "P0811",
+      "judgment": "retain",
+      "note": "For each combination clarifies the unit of summary. The distinction between seeds and non-independent sessions, clients and rounds is clear."
+    },
+    {
+      "id": "P0812",
+      "judgment": "retain",
+      "note": "The opening directly states how approaches were compared. The symbols and interval scope are explained in the following sentences."
+    },
+    {
+      "id": "P0816",
+      "judgment": "retain",
+      "note": "The two score-arithmetic calculations are parallel and readable after the colon. Split into additive contributions is accessible and the causal-importance limit remains explicit."
+    },
+    {
+      "id": "P0841",
+      "judgment": "retain",
+      "note": "The two local reproducibility checks are introduced before their details. Starting from the raw snapshot and rebuilding Python are clearly related operations."
+    },
+    {
+      "id": "P0842",
+      "judgment": "retain",
+      "note": "Checkpoint and calibration conditions are attached to the replay sentence. Reusing the historical scaler representation remains explicitly disclosed."
+    },
+    {
+      "id": "P1108",
+      "judgment": "retain",
+      "note": "The example now starts with the interpretation problem and gives exact counts before the comparison. F1 and FPR retain distinct roles."
+    },
+    {
+      "id": "P1212",
+      "judgment": "retain",
+      "note": "Summarises decisions separately for the two groups accurately describes the displayed group analysis. The sentence no longer suggests that alert decisions define the groups."
+    },
+    {
+      "id": "P1393",
+      "judgment": "retain",
+      "note": "The sentence split separates the content definition from the counting rule. The exclusions still establish the measurement boundary."
+    },
+    {
+      "id": "P1437",
+      "judgment": "retain",
+      "note": "The revised opening connects predictive reproduction to 30 runs and 60 evaluations. The repeated-score-row limitation remains visible."
+    },
+    {
+      "id": "P1438",
+      "judgment": "retain",
+      "note": "During replay supplies the setting immediately. Those arrays has a clear antecedent. The distinction between matching predictions and metadata bytes remains clear."
+    },
+    {
+      "id": "P1441",
+      "judgment": "retain",
+      "note": "Execution covered the case records gives the result a grammatical subject. The count categories and trusted-host boundary remain distinct."
+    },
+    {
+      "id": "P1457",
+      "judgment": "retain",
+      "note": "The stage validator explicitly accepts SETUP. The difference between permitted restart and executed reset is a material limit, not an empty negative contrast."
+    },
+    {
+      "id": "P1551",
+      "judgment": "retain",
+      "note": "The AP ranking comparison has explicit sampling-condition names. P1548-P1549 establish the primary-test context, and the following sentences retain the limits on causal interpretation."
+    },
+    {
+      "id": "P1592",
+      "judgment": "retain",
+      "note": "The final sentence states two actual unmeasured outcomes in ordinary language. The surrounding prototype and clinical-review limits justify keeping the negative statements."
+    },
+    {
+      "id": "P2159",
+      "judgment": "retain",
+      "note": "The split separates the descriptive summaries from their reconstruction and traceability. The second paragraph has an independent subject and does not depend on a stranded pronoun."
+    },
+    {
+      "id": "P2251",
+      "judgment": "retain",
+      "note": "The split separates harness/code paths from SV-07 instrumentation. In SV-07 opens the new paragraph clearly; all substitution and complete-application limits remain together."
+    }
+  ],
+  "authorship_note": "The judgment concerns clarity, flow and fidelity to the supplied prose. It makes no authorship inference or detector-score prediction.",
+  "mutations": "Only this review JSON was written; no Word document or thesis text was edited."
+}
