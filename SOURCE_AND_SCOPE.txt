@@ -1,0 +1,16 @@
+SESSION CHECK PORTABLE — SOURCE AND SCOPE
+
+A standalone packaging of the retained project inference workflow.
+Model: C / Reference / training seed 11 / selected round30.
+The learned model, calibration, schema, scaler and seven scientific source files are byte-identical to the project originals.
+The adapter change resolves asset paths relative to runtime_config.json. Scientific computation is unchanged.
+The English interface and local HTTP server are copied unchanged from the tested Session Check application.
+No Flower service, training campaign, raw benchmark, training arrays or historical user records are included.
+The samples are hand-constructed synthetic functional examples with no verified threat ground truth.
+The installed PyTorch/NumPy and other packages retain their own notices and licenses.
+No broad dataset redistribution or clinical-validity claim is made by this packaging.
+
+Dependency sources:
+https://pytorch.org/get-started/previous-versions/#v2100
+https://download.pytorch.org/whl/cpu
+https://pypi.org/simple

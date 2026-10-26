@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "client": "C1",
+  "model": {
+    "configuration": "C",
+    "condition": "reference",
+    "seed": 11,
+    "checkpoint_sha256": "79d631dd38f0e1e8701dcea02e7a3ddb86492652d2844e5b6f7fcbb883bc54fc"
+  },
+  "synthetic": true,
+  "clinical_ground_truth_assigned": false,
+  "new_training": false,
+  "user_new_file_processed": false,
+  "samples": [
+    {
+      "file": "01_below_threshold.csv",
+      "expected": "Below threshold",
+      "score": 0.19823519885540009,
+      "threshold": 0.21659636572003307,
+      "event_count": 12
+    },
+    {
+      "file": "02_above_threshold.csv",
+      "expected": "Review recommended",
+      "score": 1.7077388763427734,
+      "threshold": 0.21659636572003307,
+      "event_count": 1
+    },
+    {
+      "file": "03_invalid_sequence.csv",
+      "expected": "Rejected",
+      "error": "sequence_position must be unique, contiguous and start at zero"
+    },
+    {
+      "file": "04_missing_columns.csv",
+      "expected": "Rejected",
+      "error": "Missing or duplicate CSV column names; use the supplied template"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "fitted": true,
+  "approved_schema_sha256": "4cca92b4ea5aa50474aeb305e127d6136e4f0920843b40e8ba51d4dbb2ff9792",
+  "features": [
+    "log1p_seconds_since_previous_event",
+    "log1p_seconds_since_session_start"
+  ],
+  "fit_partition": "training",
+  "training_sessions": 10833,
+  "training_events": 108005,
+  "dtype": "float64",
+  "ddof": 0,
+  "local_order": "lexicographic session_id, then sequence_position",
+  "client_merge_order": [
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "method": "client count/mean/M2, merged with fixed-order parallel variance formula",
+  "summary_privacy": "plaintext summaries; not SecAgg, not differential privacy",
+  "execution": "offline builder with client-separated calculations; no network protocol executed",
+  "reused_across": [
+    "A",
+    "B",
+    "C",
+    "reference",
+    "noniid"
+  ],
+  "schema_file_modified": false,
+  "count": 108005,
+  "mean": [
+    3.191652934214229,
+    4.690046981832751
+  ],
+  "M2": [
+    171344.3387380395,
+    351930.0601550312
+  ],
+  "variance": [
+    1.586448208305537,
+    3.2584608134348523
+  ],
+  "scale": [
+    1.259542856875278,
+    1.8051207199062484
+  ],
+  "constant_columns": [
+    false,
+    false
+  ],
+  "client_summaries": [
+    {
+      "client": "C1",
+      "hospital_id": "community_and_emergency_hospital",
+      "session_count": 3609,
+      "session_id_set_sha256": "8e003574d429e2f2ed7a78299682f5f37a3cbb44124b24fd4c9facbedc7836d2",
+      "count": 36000,
+      "mean": [
+        3.1893932566436285,
+        4.685658231415436
+      ],
+      "M2": [
+        56996.30222582648,
+        117150.35949127091
+      ]
+    },
+    {
+      "client": "C2",
+      "hospital_id": "large_tertiary_general_hospital",
+      "session_count": 3548,
+      "session_id_set_sha256": "b07402dd905e86d9e3322d00d8bbc9da153ecf158bad23f076f3c4478a5e9c0c",
+      "count": 36004,
+      "mean": [
+        3.2003313152920496,
+        4.719718448782938
+      ],
+      "M2": [
+        56638.81377790949,
+        116978.99276724822
+      ]
+    },
+    {
+      "client": "C3",
+      "hospital_id": "specialist_referral_hospital",
+      "session_count": 3676,
+      "session_id_set_sha256": "f088f6810aad39bcf871f98a20eed7e7cc460c162f4c8e289afcf8576383354a",
+      "count": 36001,
+      "mean": [
+        3.1852334447615958,
+        4.664761670839966
+      ],
+      "M2": [
+        57704.84370155174,
+        117745.299590386
+      ]
+    }
+  ]
+}

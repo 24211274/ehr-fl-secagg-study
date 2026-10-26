@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "fit_partition": "validation",
+  "clients": {
+    "C1": {
+      "sessions": 1214,
+      "median": 0.09700952842831612,
+      "scale": 0.029059616894079095,
+      "scale_method": "MAD",
+      "degenerate_scale_flag": false,
+      "thresholds": {
+        "0.99": 0.21659636572003307,
+        "0.98": 0.19538678973913193,
+        "0.995": 0.22973216392099852
+      },
+      "calibrated_thresholds": {
+        "0.99": 4.115224152045955,
+        "0.98": 3.3853598851421953,
+        "0.995": 4.567253449226465
+      },
+      "quantile_method": "linear",
+      "alert_operator": ">",
+      "fit_partition": "validation"
+    },
+    "C2": {
+      "sessions": 1198,
+      "median": 0.10008897632360458,
+      "scale": 0.031716239375057145,
+      "scale_method": "MAD",
+      "degenerate_scale_flag": false,
+      "thresholds": {
+        "0.99": 0.22253612235188477,
+        "0.98": 0.19945457339286796,
+        "0.995": 0.2893790774047376
+      },
+      "calibrated_thresholds": {
+        "0.99": 3.8607082189125257,
+        "0.98": 3.1329564610175145,
+        "0.995": 5.96823913587933
+      },
+      "quantile_method": "linear",
+      "alert_operator": ">",
+      "fit_partition": "validation"
+    },
+    "C3": {
+      "sessions": 1210,
+      "median": 0.09517714008688927,
+      "scale": 0.02863538576567177,
+      "scale_method": "MAD",
+      "degenerate_scale_flag": false,
+      "thresholds": {
+        "0.99": 0.20509986847639133,
+        "0.98": 0.18391247898340224,
+        "0.995": 0.2451275035738942
+      },
+      "calibrated_thresholds": {
+        "0.99": 3.8387025510680544,
+        "0.98": 3.0988001915758825,
+        "0.995": 5.236540716233902
+      },
+      "quantile_method": "linear",
+      "alert_operator": ">",
+      "fit_partition": "validation"
+    }
+  },
+  "test_data_used": false,
+  "primary_quantile": 0.99,
+  "nominal_FPR_guaranteed": false,
+  "selected_checkpoint_sha256": "79d631dd38f0e1e8701dcea02e7a3ddb86492652d2844e5b6f7fcbb883bc54fc",
+  "validation_scores_sha256": "ae13492f7bbe0198cb46575c2b0d51c896a4197ce8492e68d8d151cb1ddef0ae",
+  "configuration": "C",
+  "condition": "reference",
+  "training_seed": 11
+}
